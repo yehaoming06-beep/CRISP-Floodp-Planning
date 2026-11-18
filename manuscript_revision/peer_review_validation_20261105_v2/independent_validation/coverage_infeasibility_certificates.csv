@@ -1,0 +1,5 @@
+﻿frequency,scenario,coverage_k,resource,minimal_resource_required,resource_capacity,strict_shortfall,logic
+23,Severe,6,labour,408.0,400.0,8.0,sum_j min_i(resource_sji) * k > scenario capacity
+23,Extreme,6,labour,504.0,400.0,104.0,sum_j min_i(resource_sji) * k > scenario capacity
+60,Severe,6,labour,408.0,400.0,8.0,sum_j min_i(resource_sji) * k > scenario capacity
+60,Extreme,6,labour,504.0,400.0,104.0,sum_j min_i(resource_sji) * k > scenario capacity

@@ -1,0 +1,252 @@
+[
+  {
+    "table": 4,
+    "rows": [
+      [
+        "Scenario",
+        "Events",
+        "Conditional frequency",
+        "Centroid h",
+        "Mean R, mm/day",
+        "Mean W, mCD",
+        "Mean S, m"
+      ],
+      [
+        "Moderate",
+        "9",
+        "9/23 = 0.391304",
+        "0.169727",
+        "57.966667",
+        "2.710000",
+        "0.591111"
+      ],
+      [
+        "Severe",
+        "9",
+        "9/23 = 0.391304",
+        "0.325838",
+        "118.811111",
+        "3.010000",
+        "0.704444"
+      ],
+      [
+        "Extreme",
+        "5",
+        "5/23 = 0.217391",
+        "0.644543",
+        "220.680000",
+        "3.486000",
+        "1.474000"
+      ]
+    ]
+  },
+  {
+    "table": 6,
+    "rows": [
+      [
+        "Model specification",
+        "RP",
+        "WS",
+        "EV objective",
+        "EEV",
+        "VSS",
+        "EVPI"
+      ],
+      [
+        "Legacy abstract model without explicit pump stock",
+        "686.007826",
+        "686.007826",
+        "693.973261",
+        "686.007826",
+        "0.000000",
+        "0.000000"
+      ],
+      [
+        "Inventory baseline, N0 = 0 and at most two new pumps",
+        "616.082500",
+        "622.539022",
+        "621.392391",
+        "612.844674",
+        "3.237826",
+        "6.456522"
+      ]
+    ]
+  },
+  {
+    "table": 11,
+    "rows": [
+      [
+        "Dataset and processing",
+        "N",
+        "CRITIC R / W / S",
+        "M/S/E counts",
+        "M/S/E conditional frequency"
+      ],
+      [
+        "Original historical sample, frozen",
+        "23",
+        "0.434081 / 0.335229 / 0.230689",
+        "9/9/5",
+        "39.13% / 39.13% / 21.74%"
+      ],
+      [
+        "Original identities, new screening rules",
+        "23",
+        "0.434081 / 0.335229 / 0.230689",
+        "9/9/5",
+        "39.13% / 39.13% / 21.74%"
+      ],
+      [
+        "Reconstructed analyzable sample, full refit",
+        "60",
+        "0.487217 / 0.286080 / 0.226703",
+        "35/19/6",
+        "58.33% / 31.67% / 10.00%"
+      ],
+      [
+        "Same 60, frozen 23-event preprocessing and thresholds",
+        "60",
+        "0.434081 / 0.335229 / 0.230689 (fixed)",
+        "43/12/5",
+        "71.67% / 20.00% / 8.33%"
+      ]
+    ]
+  },
+  {
+    "table": 12,
+    "rows": [
+      [
+        "Scenario",
+        "Events",
+        "Conditional frequency",
+        "Centroid h",
+        "Mean R, mm/day",
+        "Mean W, mCD",
+        "Mean S, m"
+      ],
+      [
+        "Moderate",
+        "35",
+        "35/60 = 0.583333",
+        "0.186370",
+        "37.171429",
+        "2.515429",
+        "0.363429"
+      ],
+      [
+        "Severe",
+        "19",
+        "19/60 = 0.316667",
+        "0.358758",
+        "122.026316",
+        "2.788947",
+        "0.557895"
+      ],
+      [
+        "Extreme",
+        "6",
+        "6/60 = 0.100000",
+        "0.651715",
+        "222.316667",
+        "3.390000",
+        "1.321667"
+      ]
+    ]
+  },
+  {
+    "table": 14,
+    "rows": [
+      [
+        "Specification",
+        "Metric",
+        "Frozen 23",
+        "Reconstructed 60",
+        "Δ"
+      ],
+      [
+        "Legacy abstract",
+        "RP",
+        "686.007826",
+        "720.324917",
+        "+34.317091"
+      ],
+      [
+        "Legacy abstract",
+        "WS",
+        "686.007826",
+        "720.324917",
+        "+34.317091"
+      ],
+      [
+        "Legacy abstract",
+        "EV",
+        "693.973261",
+        "677.094000",
+        "−16.879261"
+      ],
+      [
+        "Legacy abstract",
+        "EEV",
+        "686.007826",
+        "720.324917",
+        "+34.317091"
+      ],
+      [
+        "Legacy abstract",
+        "VSS",
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      [
+        "Legacy abstract",
+        "EVPI",
+        "0.000000",
+        "0.000000",
+        "0.000000"
+      ],
+      [
+        "Mobile-pump inventory",
+        "RP",
+        "616.082500",
+        "634.516667",
+        "+18.434167"
+      ],
+      [
+        "Mobile-pump inventory",
+        "WS",
+        "622.539022",
+        "639.741667",
+        "+17.202645"
+      ],
+      [
+        "Mobile-pump inventory",
+        "EV",
+        "621.392391",
+        "601.907167",
+        "−19.485225"
+      ],
+      [
+        "Mobile-pump inventory",
+        "EEV",
+        "612.844674",
+        "600.203083",
+        "−12.641591"
+      ],
+      [
+        "Mobile-pump inventory",
+        "VSS",
+        "3.237826",
+        "34.313583",
+        "+31.075757"
+      ],
+      [
+        "Mobile-pump inventory",
+        "EVPI",
+        "6.456522",
+        "5.225000",
+        "−1.231522"
+      ]
+    ]
+  }
+]

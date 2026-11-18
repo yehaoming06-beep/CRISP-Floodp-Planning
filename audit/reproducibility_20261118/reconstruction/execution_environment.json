@@ -1,0 +1,18 @@
+{
+  "python_executable": "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz/bin/python",
+  "python_version": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "working_directory": "/Users/yehaoming/Desktop/CRISP-Floodp-Planning",
+  "command": [
+    "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz/bin/python",
+    "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/reconstruction/run_offline_reconstruction.py"
+  ],
+  "network": "No network calls in original reconstruct.py or hko_parse.py; archived source replay only",
+  "copied_inputs": 336,
+  "copied_bytes": 107131528,
+  "pdf_files_copied": 6,
+  "pdf_page_texts_copied": 15,
+  "images_copied": 0,
+  "portability_adaptation": "Import unchanged original reconstruct.py and hko_parse.py; rebind only OUT/SNAP/WEB to isolated stage. Source content and algorithm unchanged.",
+  "inherited_content_caveat": "Generated Tide_Table_Extraction.json includes historical visual_check text dated 2026-11-04. This run inherits those fields and historical extracted page text; no new PDF extraction, image inspection, live download, independent QC decision, or resolution of pending conflicts is claimed."
+}

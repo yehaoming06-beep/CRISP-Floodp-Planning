@@ -1,0 +1,1 @@
+First comparison-only attempt failed while parsing a Unicode minus sign in archived paper_text: ValueError: could not convert string to float: '−16.879261'. No model was run or changed. The parser now normalizes Unicode minus to ASCII minus; the original table reference is unchanged. The corrected 48-cell comparison passed.

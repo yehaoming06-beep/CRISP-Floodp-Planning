@@ -1,0 +1,3 @@
+dataset,model,id,experiment,factor,level,u_mode,rp,ws,ev,eev,vss,evpi,plan,new_pumps,capital_used_hkd,setup_used,baseline_policy_feasible,baseline_policy_value,regret,checks_passed
+reconstructed60,legacy,legacy_baseline,baseline,,,derived,720.3249166666668,720.3249166666667,677.094,720.3249166666668,0.0,-1.1368683772161603e-13,Tai O1/Drainage;Tai O1/Warning,0,,14000.0,True,720.3249166666668,0.0,True
+reconstructed60,mobile,mobile_baseline,baseline,,,derived,634.5166666666668,639.7416666666667,601.9071666666667,600.2030833333334,34.31358333333333,5.224999999999909,Tai O1/Barrier;Tai O1/Warning,0,0,13000.0,True,634.5166666666668,0.0,True

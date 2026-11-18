@@ -1,0 +1,39 @@
+{
+  "status": "OPTIMAL",
+  "status_code": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective": 566.2,
+  "solution": [
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    5.0,
+    0.0,
+    3.0,
+    0.0,
+    2.0
+  ],
+  "validation": {
+    "max_constraint_or_bound_violation": 0.0,
+    "max_integrality_error": 0.0,
+    "objective_reconstructed": 566.2
+  },
+  "primary_mip_dual_bound": 566.2,
+  "primary_mip_gap": 0.0,
+  "tag": "f23_mobile_A_enum_20_2_ev",
+  "saved_objective": 566.2,
+  "absolute_objective_error": 0.0,
+  "saved_solution_validation": {
+    "max_constraint_or_bound_violation": 0.0,
+    "max_integrality_error": 0.0,
+    "objective_reconstructed": 566.2
+  },
+  "all_y_and_n_fixed": true,
+  "log_multiobjective_solved": true,
+  "log_presolve_all_fixed": true
+}

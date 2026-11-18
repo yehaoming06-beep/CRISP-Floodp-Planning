@@ -1,0 +1,14 @@
+section,heading,line
+S1,Scope and evidence versions,5
+S2,EV conventions and complete baseline policy comparisons,25
+S3,Controlled model components,101
+S4,Hypothetical minimum geographic coverage,163
+S5,Frozen spatial heterogeneity,204
+S6,Frozen intervention subsets and one factor perturbations,214
+S7,Frozen joint parameter stress tests,230
+S8,Frozen legacy bounds and capacity grids,253
+S9,Detailed procurement and inventory sensitivity,275
+S10,Original event data and source ledger,323
+S11,Scenario dependent illustrative requirements,355
+S12,Reconstructed local warning frame and provenance,373
+S13,Verification scope and source-reading boundaries,398

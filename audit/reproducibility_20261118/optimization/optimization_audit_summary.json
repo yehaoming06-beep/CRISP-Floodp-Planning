@@ -1,0 +1,283 @@
+{
+  "status": "PASS",
+  "scope": "from-input reexecution plus independent core enumeration and independent 555 RP matrix verification",
+  "core_clean_environment": {
+    "status": "PASS",
+    "configurations": 4,
+    "metric_checks": 24,
+    "all_independent_enumeration_matches": true,
+    "max_abs_difference": 1.1368683772161603e-13,
+    "elapsed_seconds": 0.2950223330408335
+  },
+  "sweeps": {
+    "original23": {
+      "configurations": 555,
+      "design_counts": {
+        "legacy_baseline": 1,
+        "baseline": 1,
+        "legacy_capacity": 21,
+        "mobile_capacity": 21,
+        "spatial": 26,
+        "ablation": 8,
+        "oat": 56,
+        "joint": 400,
+        "fleet": 9,
+        "existing_stock": 5,
+        "purchase_price": 5,
+        "access": 2
+      },
+      "validation": {
+        "status": "COMPLETED",
+        "configurations": 555,
+        "solver_runs": 3875,
+        "all_optimal": true,
+        "all_feasibility_and_information_value_checks_passed": true,
+        "capacity_points_affected_by_U_fix": 5,
+        "baseline_legacy": {
+          "id": "legacy_baseline",
+          "experiment": "legacy_baseline",
+          "factor": "",
+          "level": "",
+          "u_mode": "derived",
+          "rp": 686.0078260869566,
+          "ws": 686.0078260869566,
+          "ev": 693.9732608695654,
+          "eev": 686.0078260869566,
+          "vss": 0.0,
+          "evpi": 0.0,
+          "plan": "Tai O1/Drainage;Tai O1/Warning",
+          "new_pumps": 0,
+          "capital_used_hkd": null,
+          "setup_used": 14000.0,
+          "baseline_policy_feasible": true,
+          "baseline_policy_value": 686.0078260869566,
+          "regret": 0.0,
+          "checks_passed": true
+        },
+        "baseline_mobile": {
+          "id": "mobile_baseline",
+          "experiment": "baseline",
+          "factor": "",
+          "level": "",
+          "u_mode": "derived",
+          "rp": 616.0825000000001,
+          "ws": 622.5390217391305,
+          "ev": 621.3923913043479,
+          "eev": 612.8446739130436,
+          "vss": 3.2378260869564883,
+          "evpi": 6.45652173913038,
+          "plan": "Tai O1/Barrier;Tai O1/Warning",
+          "new_pumps": 0,
+          "capital_used_hkd": 0,
+          "setup_used": 13000.0,
+          "baseline_policy_feasible": true,
+          "baseline_policy_value": 616.0825000000001,
+          "regret": 0.0,
+          "checks_passed": true
+        },
+        "all_first_stage_variables_fixed_in_EEV": true,
+        "input_code_hashes_stable_during_execution": true,
+        "elapsed_seconds": 21.286252375226468,
+        "empirical_validation": false
+      },
+      "independent": {
+        "status": "PASS",
+        "scipy_version": "1.18.1",
+        "independent_solver": "HiGHS via scipy.optimize.milp",
+        "independent_RP_optima_verified": 555,
+        "max_objective_difference": 3.5839774454871076e-06,
+        "all_saved_models_feasibility_and_objectives_reconstructed": true,
+        "EEV_readiness_and_procurement_fixed": true,
+        "repeated_run_configurations_matched": 555,
+        "input_and_source_hashes_checked": 6,
+        "unexpected_original_file_changes": [],
+        "current_source_hashes_match": true,
+        "elapsed_seconds": 19.751144958660007
+      },
+      "ev_ties": {
+        "status": "PASS",
+        "cases": 10,
+        "policies_enumerated": 1716,
+        "solver_runs": 1796,
+        "all_optimal": true,
+        "elapsed_seconds": 2.000262000132352
+      }
+    },
+    "reconstructed60": {
+      "configurations": 555,
+      "design_counts": {
+        "legacy_baseline": 1,
+        "baseline": 1,
+        "legacy_capacity": 21,
+        "mobile_capacity": 21,
+        "spatial": 26,
+        "ablation": 8,
+        "oat": 56,
+        "joint": 400,
+        "fleet": 9,
+        "existing_stock": 5,
+        "purchase_price": 5,
+        "access": 2
+      },
+      "validation": {
+        "status": "COMPLETED",
+        "N": 60,
+        "configurations": 555,
+        "verification_configurations": 2,
+        "solver_audit_rows": 3888,
+        "all_recorded_solver_statuses_optimal": true,
+        "all_existing_feasibility_and_information_value_checks_passed": true,
+        "frozen_baseline_max_errors": {
+          "mobile_baseline": {
+            "rp": 0.0,
+            "ws": 0.0,
+            "ev": 0.0,
+            "eev": 0.0,
+            "vss": 0.0,
+            "evpi": 0.0
+          },
+          "legacy_baseline": {
+            "rp": 0.0,
+            "ws": 0.0,
+            "ev": 0.0,
+            "eev": 0.0,
+            "vss": 0.0,
+            "evpi": 0.0
+          }
+        },
+        "baseline_legacy": {
+          "id": "legacy_baseline",
+          "experiment": "legacy_baseline",
+          "factor": "",
+          "level": "",
+          "u_mode": "derived",
+          "rp": 720.3249166666668,
+          "ws": 720.3249166666667,
+          "ev": 677.094,
+          "eev": 720.3249166666668,
+          "vss": 0.0,
+          "evpi": -1.1368683772161603e-13,
+          "plan": "Tai O1/Drainage;Tai O1/Warning",
+          "new_pumps": 0,
+          "capital_used_hkd": null,
+          "setup_used": 14000.0,
+          "baseline_policy_feasible": true,
+          "baseline_policy_value": 720.3249166666668,
+          "regret": 0.0,
+          "checks_passed": true
+        },
+        "baseline_mobile": {
+          "id": "mobile_baseline",
+          "experiment": "baseline",
+          "factor": "",
+          "level": "",
+          "u_mode": "derived",
+          "rp": 634.5166666666668,
+          "ws": 639.7416666666667,
+          "ev": 601.9071666666667,
+          "eev": 600.2030833333334,
+          "vss": 34.31358333333333,
+          "evpi": 5.224999999999909,
+          "plan": "Tai O1/Barrier;Tai O1/Warning",
+          "new_pumps": 0,
+          "capital_used_hkd": 0,
+          "setup_used": 13000.0,
+          "baseline_policy_feasible": true,
+          "baseline_policy_value": 634.5166666666668,
+          "regret": 0.0,
+          "checks_passed": true
+        },
+        "original23_policy_reconstructed_feasible": true,
+        "original23_policy_reconstructed_value": 634.5166666666668,
+        "original23_policy_reconstructed_regret": 0.0,
+        "plan_changes": 20,
+        "new_pump_changes": 18,
+        "max_abs_RP_change": 40.6076956521739,
+        "paired_joint_cases": 400,
+        "elapsed_seconds": 23.6971875410527,
+        "input_code_hashes_stable": true,
+        "empirical_recalibration": false,
+        "full_observation_to_decision_propagation": false,
+        "pending_candidate_identities": 3,
+        "remaining": "No evidence-based mapping from revised scenario representative R/W/S to costs, capacities and benefits; unresolved values/attribution in candidate audit; no annual probability model."
+      },
+      "independent": {
+        "status": "PASS",
+        "independent_solver": "HiGHS through scipy.optimize.milp",
+        "independent_RP_optima_verified": 555,
+        "max_objective_difference": 1.648215516070195e-06,
+        "all_saved_models_feasibility_and_objectives_reconstructed": true,
+        "EEV_readiness_and_procurement_fixed": true,
+        "repeated_run_configurations_matched": 555,
+        "current_source_hashes_match": true,
+        "independent_verifier_source_sha256": "7cfbea7b1365168bf07ca8b687004348027a7990f1e302fcde4c3b7c8ab481ab",
+        "elapsed_seconds": 16.535047250334173
+      },
+      "ev_ties": {
+        "status": "PASS",
+        "cases": 10,
+        "policies_enumerated": 1716,
+        "solver_runs": 1808,
+        "all_optimal": true,
+        "elapsed_seconds": 2.03396537527442
+      }
+    }
+  },
+  "paper_comparison": {
+    "status": "PASS",
+    "paper_cells_compared": 48,
+    "paper_failures": 0,
+    "max_abs_paper_rounding_error": 4.2028988644915444e-07,
+    "historical_configurations_compared": 1110,
+    "historical_failures": 0,
+    "max_abs_historical_metric_difference": 0.0,
+    "paper_sha256": "4e12f7849d0b2ca7dd0d156c987a9e90f8b651880c79b74e10f14bffbab4ca37"
+  },
+  "ev_ties_history_comparison": {
+    "status": "PASS",
+    "cases": 20,
+    "fields_compared": 240,
+    "failures": 0,
+    "max_numeric_error": 0.0
+  },
+  "integer_rounding_verification": {
+    "status": "PASS",
+    "configurations": 1110,
+    "failures": 0,
+    "max_raw_objective_abs_gap": 3.5839774454871076e-06,
+    "max_rounded_objective_abs_gap": 1.1368683772161603e-13,
+    "max_integrality_error": 6.339639677666042e-07,
+    "max_rounded_constraint_violation": 0.0,
+    "elapsed_seconds": 34.60451874975115,
+    "interpretation": "Raw solver floating point decision coordinates are within integer tolerances. Integer reconstruction is checked against every independently built inequality, then against the Gurobi RP objective."
+  },
+  "audit_code_sha256": {
+    "audit/reproducibility_20261118/optimization/compare_paper_and_history.py": "383dbc39fd2ceb3a7b8eb94c8eafa545d4667854e182d801aa5cb592eb6513b4",
+    "audit/reproducibility_20261118/optimization/finalize_optimization_audit.py": "af4eec4eaff4518c1c1fed6a1829c70ad7e899e5b7f346775c60216830491bff",
+    "audit/reproducibility_20261118/optimization/highs_rounding_builder_snapshot.py": "06e682f2c3e7ed832426ab800270f1c9e138cb13f7c308fb53bab4281edd71e3",
+    "audit/reproducibility_20261118/optimization/independent_enumeration.py": "a45443b0114c0dc7157eeb8832db2c23043ccba890ee86eff94da5e8a7a0b3f4",
+    "audit/reproducibility_20261118/optimization/run_core.py": "70f6f4b9bc7fb3f8f573c262fb7cd5e5f6df59fd4dfc650db636ed29a8cf0f85",
+    "audit/reproducibility_20261118/optimization/run_core_before_output_option.py": "83c5bf5e80d7f3246da1fc12a8c058025056b2c7a7506fa8211cada94db92965",
+    "audit/reproducibility_20261118/optimization/run_ev_ties60.py": "58fb353627e25ad3a1f5aa4ee100f9444c4f819f372ba99c779c7be7abeebf08",
+    "audit/reproducibility_20261118/optimization/run_frequency60_555.py": "a11a0d955a6298a112d12464384e5ffa09320118e14a265f057546d860800ae0",
+    "audit/reproducibility_20261118/optimization/verify_frequency60.py": "f0806f7aeddb0f7435e35bf3fc059acbd4c99ee3739f08da88162b0131266665",
+    "audit/reproducibility_20261118/optimization/verify_integer_rounding.py": "cadf2c67b3ad313605f873f75711bb185fcbc09108a3f745b94260253e13f0b2"
+  },
+  "failed_attempts": [
+    {
+      "log": "clean_environment_attempt01_console.log",
+      "stage": "new output-directory argument adaptation; before solving",
+      "reason": "wrapper looked for enumeration source under output directory",
+      "resolution": "source path anchored to script; clean environment rerun passed",
+      "scientific_parameter_change": false
+    }
+  ],
+  "limits": [
+    "Core coefficients remain illustrative and uncalibrated.",
+    "Reconstructed-60 changes frequencies only.",
+    "Three pending events remain unresolved.",
+    "Independent 555 checks optimize RP only; all other saved solution constraints/objectives and EV-to-EEV first-stage fixing are checked. Independent exhaustive proof of all six metrics is provided for the four core models.",
+    "Existing research environment reused for 555 and selected EV-tie grids; clean environment independently reran the four core models only.",
+    "Source reconstruction from archived official observations was not rerun by this optimization audit."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "registered_before_execution": "2026-11-04",
+  "fleet_capacity_grid_new_purchase_limits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    20
+  ],
+  "existing_stock_grid": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "purchase_price_multipliers": [
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2
+  ],
+  "joint_draws": 200,
+  "joint_seed": 20261103,
+  "joint_interpretation": "Paired hypothetical parameter stress tests, not confidence intervals or observed sampling uncertainty",
+  "legacy_capacity_cases": 21,
+  "previous_priority_cases": 491,
+  "hard_timeout_seconds": 1800,
+  "input_workbook": "01_Data/CRISP_Master_Data.xlsx",
+  "interpretation": "Conditional method-validation instance; original CU and score coefficients remain illustrative"
+}

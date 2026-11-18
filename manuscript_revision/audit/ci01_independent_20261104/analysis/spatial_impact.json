@@ -1,0 +1,206 @@
+{
+  "fits": {
+    "ShekPik_common59_spatial": {
+      "name": "ShekPik_common59_spatial",
+      "N": 59,
+      "minima": [
+        0.0,
+        1.71,
+        0.06
+      ],
+      "ranges": [
+        351.9,
+        2.2,
+        2.28
+      ],
+      "weights": [
+        0.4894164260344251,
+        0.2847285575297556,
+        0.22585501643581926
+      ],
+      "centroids": [
+        0.18434918701195316,
+        0.35867275355017214,
+        0.6516029634085061
+      ],
+      "thresholds": [
+        0.27151097028106264,
+        0.5051378584793391
+      ],
+      "kmeans_sse": 0.2579175041645945,
+      "exact_global_sse": 0.2579175041645949,
+      "exact_sse_match": true,
+      "counts": [
+        34,
+        19,
+        6
+      ],
+      "conditional_frequencies": [
+        0.576271186440678,
+        0.3220338983050847,
+        0.1016949152542373
+      ],
+      "representatives": [
+        [
+          36.63235294117647,
+          2.506176470588235,
+          0.36647058823529416
+        ],
+        [
+          122.02631578947368,
+          2.7889473684210526,
+          0.5578947368421052
+        ],
+        [
+          222.3166666666667,
+          3.39,
+          1.3216666666666665
+        ]
+      ]
+    },
+    "TaiO_common59_spatial": {
+      "name": "TaiO_common59_spatial",
+      "N": 59,
+      "minima": [
+        0.0,
+        1.85,
+        0.12
+      ],
+      "ranges": [
+        351.9,
+        2.02,
+        2.2199999999999998
+      ],
+      "weights": [
+        0.4657599383514492,
+        0.3144277001089063,
+        0.21981236153964445
+      ],
+      "centroids": [
+        0.2055629136809784,
+        0.42538442130826487,
+        0.7693478196007861
+      ],
+      "thresholds": [
+        0.31547366749462163,
+        0.5973661204545255
+      ],
+      "kmeans_sse": 0.24259888083213244,
+      "exact_global_sse": 0.24259888083213643,
+      "exact_sse_match": true,
+      "counts": [
+        41,
+        15,
+        3
+      ],
+      "conditional_frequencies": [
+        0.6949152542372882,
+        0.2542372881355932,
+        0.05084745762711865
+      ],
+      "representatives": [
+        [
+          45.41463414634146,
+          2.6046341463414637,
+          0.4026829268292683
+        ],
+        [
+          144.53333333333333,
+          2.999333333333334,
+          0.6773333333333333
+        ],
+        [
+          289.3,
+          3.393333333333333,
+          1.5966666666666667
+        ]
+      ]
+    },
+    "original23_TaiO_spatial": {
+      "name": "original23_TaiO_spatial",
+      "N": 23,
+      "minima": [
+        13.5,
+        2.48,
+        0.3
+      ],
+      "ranges": [
+        338.4,
+        1.3900000000000001,
+        2.04
+      ],
+      "weights": [
+        0.38083165643844874,
+        0.3920366220370695,
+        0.22713172152448186
+      ],
+      "centroids": [
+        0.17196747473516213,
+        0.38322405341966603,
+        0.8184690422359604
+      ],
+      "thresholds": [
+        0.2775957640774141,
+        0.6008465478278132
+      ],
+      "kmeans_sse": 0.13225182919475137,
+      "exact_global_sse": 0.1322518291947512,
+      "exact_sse_match": true,
+      "counts": [
+        10,
+        11,
+        2
+      ],
+      "conditional_frequencies": [
+        0.43478260869565216,
+        0.4782608695652174,
+        0.08695652173913043
+      ],
+      "representatives": [
+        [
+          59.470000000000006,
+          2.7779999999999996,
+          0.6249999999999999
+        ],
+        [
+          143.97272727272727,
+          3.1236363636363635,
+          0.7927272727272728
+        ],
+        [
+          258.0,
+          3.755,
+          1.95
+        ]
+      ]
+    }
+  },
+  "station_database_crosscheck_all_fields_match": false,
+  "candidate_rows_crosschecked": 63,
+  "warning_groups_crosschecked": 62,
+  "spatial_sample_N": 59,
+  "spatial_pending": [
+    {
+      "candidate_id": "TC2017_06",
+      "analysis_status": "PENDING_SOURCE_CONFLICT"
+    },
+    {
+      "candidate_id": "TC2018_03",
+      "analysis_status": "PENDING_TAIO_DATA"
+    },
+    {
+      "candidate_id": "TC2021_02_E",
+      "analysis_status": "PENDING_COMPOUND_ATTRIBUTION"
+    },
+    {
+      "candidate_id": "TC2021_02_W",
+      "analysis_status": "PENDING_COMPOUND_ATTRIBUTION"
+    }
+  ],
+  "original23_TaiO_data_available": 23,
+  "common_sample_class_changes": 10,
+  "common_sample_ARI": 0.5755728482662642,
+  "max_abs_W_difference_m": 0.18000000000000016,
+  "max_abs_S_difference_m": 0.55,
+  "scope": "supplemental fixed-station sensitivity after explicit source-conflict QC; not flood depth or empirical calibration"
+}

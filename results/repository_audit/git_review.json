@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-18",
+  "branch": "main",
+  "HEAD": "dd3277febe494e481114737e3a11efcf021aac1d",
+  "origin_main": "dd3277febe494e481114737e3a11efcf021aac1d",
+  "head_matches_origin_main": true,
+  "staged_paths": [],
+  "modified_tracked_files": [
+    ".gitignore",
+    "README.md"
+  ],
+  "untracked_file_count": 5225,
+  "git_candidate_count": 5227,
+  "candidate_by_top_level": {
+    ".gitignore": 1,
+    "02_Model": 3,
+    "03_Experiments": 32,
+    "04_Results": 675,
+    "05_Code": 15,
+    "README.md": 1,
+    "audit": 10,
+    "data": 1,
+    "manuscript_revision": 4478,
+    "requirements-lock.txt": 1,
+    "requirements.txt": 1,
+    "results": 5,
+    "src": 2,
+    "supplementary": 2
+  },
+  "candidate_files_over_50_MiB": [],
+  "diff_check_exit_code": 0,
+  "diff_check_output": "",
+  "commit_or_push_performed": false,
+  "note": "Includes candidate report paths; all files await author review. Raw inputs/native logs/third-party source works are ignored locally. No byte-size self-reference is used."
+}

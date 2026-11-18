@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "before_regular_files": 49895,
+  "before_bytes": 1156642943,
+  "after_regular_files": 12247,
+  "after_bytes": 409931259,
+  "scientific_working_files": 967,
+  "size_reduction_fraction": 0.6455853022915128,
+  "backup_bytes": 401602969,
+  "backup_sha256": "d2a29c286c74f8b38bc2b5ef5cdc716b6d753ca814f51d60718cbc897ba122f3",
+  "working_environments": 1,
+  "canonical_master": "01_Data/CRISP_Master_Data.xlsx",
+  "canonical_optimization_results": "04_Results/Optimization",
+  "original_paper": "06_Manuscript/Original_Draft_for_Revision.docx",
+  "current_executable_entry": "03_Experiments/Optimization/code/run_experiments.py",
+  "remaining_scientific_limits": "Operating and avoided-loss coefficients still illustrative; full manuscript and references require revision"
+}

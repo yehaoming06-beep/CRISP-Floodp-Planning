@@ -1,0 +1,28 @@
+{
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "executable": "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz/bin/python",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0",
+    "PyYAML": "6.0.3"
+  },
+  "environment_type": "Fresh isolated audit environment; no inherited system-site-packages",
+  "virtual_environment_prefix": "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz",
+  "base_prefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+  "include_system_site_packages": false,
+  "runner_sha256": "c0792c0c44cf7ea40e5fd21ad509e18817b6c72a5d3331b499a6ba7bf9cd9e4d",
+  "command": "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz/bin/python audit/reproducibility_20261118/scenarios/reproduce_scenarios.py --output audit/reproducibility_20261118/scenarios/clean_environment",
+  "configuration": {
+    "critic_ddof": 0,
+    "k": 3,
+    "random_state": 42,
+    "n_init": 50,
+    "max_iter": 300,
+    "algorithm": "lloyd",
+    "representative_statistic": "mean",
+    "independent_algorithm": "scalar CRITIC and exhaustive global one-dimensional three-segment SSE minimization"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-11-05T17:21:44.847417+08:00",
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "gurobi_version": [
+    13,
+    0,
+    2
+  ],
+  "code_sha256": "845efec32acb3240c10e3a656e71ab2da8392c58e1a69da1f67f686b7d03c4c0",
+  "assessment_sha256": "16d036d88eb917b1c0604cc72ec4db18b1b4f2ed148e5b5f93964d50f0efcb35",
+  "independent_pre_execution_review_sha256": "1f9377b68ddd247a2d364a18f2830c7abd9ac4ef1b2219ccf16a4b54c10e58a4",
+  "primary_workbook_settings": {
+    "existing_stock": 0,
+    "capital_budget_hkd": 2000000,
+    "purchase_price_hkd": 1000000,
+    "accessible_locations": [
+      "Tai O1",
+      "Tai O2"
+    ]
+  },
+  "solver_settings": {
+    "Seed": 0,
+    "Threads": 1,
+    "MIPGap": 0,
+    "MIPGapAbs": 0,
+    "FeasibilityTol": 1e-08,
+    "IntFeasTol": 1e-08,
+    "solve_timeout_s": 60,
+    "run_timeout_s": 1200
+  },
+  "experiment_scope": "8 EV specifications; 24 component cases; 8 coverage cases; full EV policy enumeration",
+  "empirical_calibration": false,
+  "old_files_protected": 21678
+}

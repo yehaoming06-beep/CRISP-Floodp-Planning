@@ -1,0 +1,11 @@
+{
+  "status": "EXECUTION_GATE_PASS",
+  "recorded_before_initialization": "2026-11-05T17:21:32.049065+08:00",
+  "sha256": {
+    "manuscript_revision/peer_review_validation_20261105_v2/assessment/Independent_Pre_Execution_Review.md": "1f9377b68ddd247a2d364a18f2830c7abd9ac4ef1b2219ccf16a4b54c10e58a4",
+    "manuscript_revision/peer_review_validation_20261105_v2/assessment/Decision_Before_Execution.md": "16d036d88eb917b1c0604cc72ec4db18b1b4f2ed148e5b5f93964d50f0efcb35",
+    "manuscript_revision/peer_review_validation_20261105_v2/code/run_validation.py": "845efec32acb3240c10e3a656e71ab2da8392c58e1a69da1f67f686b7d03c4c0",
+    "manuscript_revision/peer_review_validation_20261105_v2/code/finalize_artifacts.py": "d7075f0efb7e05d91fa5d38c9bf2b76357e8c384a0eb66ea20b9b8ac67f8e71a"
+  },
+  "prior_v1_results_used": false
+}

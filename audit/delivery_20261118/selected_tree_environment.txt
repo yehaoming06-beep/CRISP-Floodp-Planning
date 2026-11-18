@@ -1,0 +1,1 @@
+{"python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]", "prefix": "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv", "user_site_enabled": false}

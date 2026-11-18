@@ -1,0 +1,76 @@
+{
+  "status": "FAIL",
+  "scope": "Final selected scientific file tree exported without ignored materials; not an actual committed clone",
+  "exported_files": 3406,
+  "export_location": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-66xtkyiz/checkout",
+  "environment": "Reused the previously freshly installed isolated Python 3.12 environment; no new installation this pass",
+  "python": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+  "steps": [
+    {
+      "name": "environment",
+      "command": [
+        "python",
+        "-I",
+        "-c",
+        "import sys,site,json;print(json.dumps({\"python\":sys.version,\"prefix\":sys.prefix,\"user_site_enabled\":site.ENABLE_USER_SITE}))"
+      ],
+      "exit_code": 0,
+      "seconds": 0.045,
+      "log": "selected_tree_environment.txt"
+    },
+    {
+      "name": "pip_check",
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.262,
+      "log": "selected_tree_pip_check.txt"
+    },
+    {
+      "name": "all",
+      "command": [
+        "python",
+        "-I",
+        "src/reproduce_submission.py",
+        "all",
+        "--output",
+        "results/reproductions/delivery_selection_test"
+      ],
+      "exit_code": 0,
+      "seconds": 82.506,
+      "log": "selected_tree_all.txt"
+    },
+    {
+      "name": "paper48",
+      "command": [
+        "python",
+        "-I",
+        "audit/submission_20261118/check_fresh_core_tables.py",
+        "--core-metrics",
+        "results/reproductions/delivery_selection_test/core/core_metrics.csv",
+        "--output",
+        "results/reproductions/delivery_selection_test/paper48"
+      ],
+      "exit_code": 0,
+      "seconds": 0.048,
+      "log": "selected_tree_paper48.txt"
+    },
+    {
+      "name": "software_tests",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "05_Code/Scenario_Pipeline/tests"
+      ],
+      "exit_code": 4,
+      "seconds": 0.136,
+      "log": "selected_tree_software_tests.txt"
+    }
+  ]
+}

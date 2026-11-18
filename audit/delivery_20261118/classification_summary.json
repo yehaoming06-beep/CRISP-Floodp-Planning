@@ -1,0 +1,40 @@
+{
+  "scope": "Local file snapshot excludes .git, new results/reproductions and this classification archive; paths/hashes only, no sensitive file contents",
+  "initial_candidate_files": 29805,
+  "initial_candidate_bytes": 475299454,
+  "initial_candidate_classification": {
+    "1_repository_material": {
+      "files": 20101,
+      "bytes": 249604438
+    },
+    "2_optional_extended_audit": {
+      "files": 9652,
+      "bytes": 224113882
+    },
+    "4_exclude": {
+      "files": 52,
+      "bytes": 1593401
+    }
+  },
+  "all_local_snapshot": {
+    "4_exclude": {
+      "files": 488,
+      "bytes": 24648819
+    },
+    "1_repository_material": {
+      "files": 20124,
+      "bytes": 265123783
+    },
+    "3_third_party_hold": {
+      "files": 1670,
+      "bytes": 474238864
+    },
+    "2_optional_extended_audit": {
+      "files": 15896,
+      "bytes": 276152662
+    }
+  },
+  "raw_source_registered_records": 338,
+  "raw_source_registered_hashes_matched": 338,
+  "no_files_deleted": true
+}

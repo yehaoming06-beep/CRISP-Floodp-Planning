@@ -1,0 +1,9 @@
+﻿name,url,complete,total_bytes,path,sha256,download_log,retrieval_scope
+HKO_MWS202506,https://www.hko.gov.hk/en/publica/mws/files/mws202506.pdf,True,18767688,sources/pdf/HKO_MWS202506.pdf,af1b4c725fe0c58ac65fdfde261a417b00eb78f3b4d01c4c3f6a389fbf944214,logs/pdf_download.json,
+HKO_MWS202508,https://www.hko.gov.hk/en/publica/mws/files/mws202508.pdf,True,13419638,sources/pdf/HKO_MWS202508.pdf,224eba9f09ea0fe1f703d4815fe60562904438066ff7351ff63be6550ccf89da,logs/pdf_download.json,
+HKO_MWS202510,https://www.hko.gov.hk/en/publica/mws/files/mws202510.pdf,True,12386056,sources/pdf/HKO_MWS202510.pdf,618894e05503d94da25ba20568da180da2d3ef9264900ea5b94079ec02c6cf2f,logs/pdf_download.json,
+HKO_MWS202511,https://www.hko.gov.hk/en/publica/mws/files/mws202511.pdf,True,10536111,sources/pdf/HKO_MWS202511.pdf,a7ac319f884276954b9953486979aac4357d9161b6989563e23c453ab6e2a7cb,logs/pdf_download.json,
+HKO_MWS201709,https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf,True,11345671,sources/pdf/HKO_MWS201709.pdf,a972e1a4665f378d3b5d4accfdd3ed576430651247c26d937a2eff90e14c52b4,logs/pdf_download_201709_202409.json,
+HKO_MWS202409,https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf,True,37623864,sources/pdf/HKO_MWS202409.pdf,19b9a7d3edab199b5b7324a1f71ca9d6bf5f03fe651db1e750c81e4203c28d27,logs/pdf_download_201709_202409.json,
+HKO_MWS202507,https://www.hko.gov.hk/en/publica/mws/files/mws202507.pdf,True,,sources/prior_fix/sources/HKO_MWS202507.pdf,42f598310745d9ffa56c5f6a01a90f8e995d165b7cc9f3688a9394b134d7ab44,sources/prior_fix/range_download_log.json,reused complete earlier official snapshot; not downloaded again in this run
+HKO_MWS202509,https://www.hko.gov.hk/en/publica/mws/files/mws202509.pdf,True,,sources/prior_fix/sources/HKO_MWS202509.pdf,3b4e66b57b4387b723863ea6cf7936a7bf594bb2b7185d2e3b85b561f50a592b,sources/prior_fix/range_download_log.json,reused complete earlier official snapshot; not downloaded again in this run

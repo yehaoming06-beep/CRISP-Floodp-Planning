@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cases": 10,
+  "policies_enumerated": 1716,
+  "solver_runs": 1808,
+  "all_optimal": true,
+  "elapsed_seconds": 2.220061083091423
+}

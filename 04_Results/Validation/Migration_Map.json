@@ -1,0 +1,2150 @@
+[
+  {
+    "old": "01_Data/Processed_Data/CRISP_Master_data_Table.xlsx",
+    "new": "01_Data/CRISP_Master_Data.xlsx",
+    "source_sha256_before_reorganization": "73b165e91cdd3ca9a30ab0fdb031561f90e58e0b87bd3227b86968d6d9d71da6",
+    "current_sha256": "e6b93f8bb0e7b886226d27068e8cfeeebfaa92e668eb25f77ee3b1d35083794e"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/model_input.csv",
+    "new": "01_Data/Events/model_input.csv",
+    "source_sha256_before_reorganization": "094bea5ff6b2f5d8d71b60d8fb62772c2af05a2de83eba21fccbffe176fd544d",
+    "current_sha256": "094bea5ff6b2f5d8d71b60d8fb62772c2af05a2de83eba21fccbffe176fd544d"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/event_metadata.csv",
+    "new": "01_Data/Events/event_metadata.csv",
+    "source_sha256_before_reorganization": "44065007816175e2f1c85d7a30dc6c18b04c9412a423e666202b670a6bf58be9",
+    "current_sha256": "44065007816175e2f1c85d7a30dc6c18b04c9412a423e666202b670a6bf58be9"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/reference_events.csv",
+    "new": "01_Data/Events/reference_events.csv",
+    "source_sha256_before_reorganization": "a49e6167624156bb25826d54f53bc002242c66b0ec29beffbf0c49ce64adb91f",
+    "current_sha256": "a49e6167624156bb25826d54f53bc002242c66b0ec29beffbf0c49ce64adb91f"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/reference_indicators.csv",
+    "new": "01_Data/Events/reference_indicators.csv",
+    "source_sha256_before_reorganization": "cc60afcaf39ba77c89164e968220f26e46f78ddc75dce7cfad9339e9b486197f",
+    "current_sha256": "cc60afcaf39ba77c89164e968220f26e46f78ddc75dce7cfad9339e9b486197f"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/reference_scenarios.csv",
+    "new": "01_Data/Events/reference_scenarios.csv",
+    "source_sha256_before_reorganization": "eabdd9adc40a1ac79f84fd4c503bf14a63d3d02a425db93a7d94c800a79ee9c0",
+    "current_sha256": "eabdd9adc40a1ac79f84fd4c503bf14a63d3d02a425db93a7d94c800a79ee9c0"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/Table_X_CRITIC_Weights_of_Hazard_Indicators.xlsx",
+    "new": "01_Data/Events/Table_X_CRITIC_Weights_of_Hazard_Indicators.xlsx",
+    "source_sha256_before_reorganization": "419815b04796007390f4dac6381efa0f0a1be4a066075658febc00bd4a99db9f",
+    "current_sha256": "419815b04796007390f4dac6381efa0f0a1be4a066075658febc00bd4a99db9f"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/inputs/Table_X_Flood_Scenario_Classification.xlsx",
+    "new": "01_Data/Events/Table_X_Flood_Scenario_Classification.xlsx",
+    "source_sha256_before_reorganization": "4a83aacede099605e11a70ed331dc40324027b432b9526853ff3802d5638ad4e",
+    "current_sha256": "4a83aacede099605e11a70ed331dc40324027b432b9526853ff3802d5638ad4e"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2025.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2025.json",
+    "source_sha256_before_reorganization": "ad4543aead4f50fdf5e244e41d7941a548eac756c3f119c0b13f5ad3b6cae3cd",
+    "current_sha256": "ad4543aead4f50fdf5e244e41d7941a548eac756c3f119c0b13f5ad3b6cae3cd"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2024.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2024.json",
+    "source_sha256_before_reorganization": "9a7eb5a377e3864f059b388974cef950508e6ac3a926b84ce00e883bc2bfad44",
+    "current_sha256": "9a7eb5a377e3864f059b388974cef950508e6ac3a926b84ce00e883bc2bfad44"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2025.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2025.json",
+    "source_sha256_before_reorganization": "a11da317f5d2345624280337e03bc13a0e44f72385707ddca65302e1747822d2",
+    "current_sha256": "a11da317f5d2345624280337e03bc13a0e44f72385707ddca65302e1747822d2"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2024.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2024.json",
+    "source_sha256_before_reorganization": "3bb85124042fcffb077d5ad8d95bfcc1d64cfc859a547050588f56b842b1c207",
+    "current_sha256": "3bb85124042fcffb077d5ad8d95bfcc1d64cfc859a547050588f56b842b1c207"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2020.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2020.json",
+    "source_sha256_before_reorganization": "ac30ce9a6f958eacb7492d66f56afafcab854757edfedc521ff7180834aa28f8",
+    "current_sha256": "ac30ce9a6f958eacb7492d66f56afafcab854757edfedc521ff7180834aa28f8"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2023.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2023.json",
+    "source_sha256_before_reorganization": "29c46184dbbb314b0c177b3e8c10989755a5ccbb0f1b3c5c1c67a5f34a8f8117",
+    "current_sha256": "29c46184dbbb314b0c177b3e8c10989755a5ccbb0f1b3c5c1c67a5f34a8f8117"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2022.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2022.json",
+    "source_sha256_before_reorganization": "ce5af5dbe4d3c9e5c1c57dacc9b99bf1602a542a49247c6487624e3ef0f80233",
+    "current_sha256": "ce5af5dbe4d3c9e5c1c57dacc9b99bf1602a542a49247c6487624e3ef0f80233"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2018.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2018.json",
+    "source_sha256_before_reorganization": "94677834b57b96d85f5c56df43fdb9754af0fd3ee45cf1c9953cecc225496139",
+    "current_sha256": "94677834b57b96d85f5c56df43fdb9754af0fd3ee45cf1c9953cecc225496139"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2019.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2019.json",
+    "source_sha256_before_reorganization": "55f77acad671b51be0699d4091fd1f699bcb5cabfa0beea715dd5305c7c975de",
+    "current_sha256": "55f77acad671b51be0699d4091fd1f699bcb5cabfa0beea715dd5305c7c975de"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2017.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2017.json",
+    "source_sha256_before_reorganization": "1cc32001b18ce71b63fa56f7f24694e1af39c8925d1229b3abe2d56eb72d628c",
+    "current_sha256": "1cc32001b18ce71b63fa56f7f24694e1af39c8925d1229b3abe2d56eb72d628c"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2018.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2018.json",
+    "source_sha256_before_reorganization": "297a21e98a319348ff47cde5c900cbf2518fda53da974cd348855acee08f8dd1",
+    "current_sha256": "297a21e98a319348ff47cde5c900cbf2518fda53da974cd348855acee08f8dd1"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2019.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2019.json",
+    "source_sha256_before_reorganization": "c387c2c1f95eb0c8efb25e483a2a6438df810b389aac2b45e0645eb974c199c7",
+    "current_sha256": "c387c2c1f95eb0c8efb25e483a2a6438df810b389aac2b45e0645eb974c199c7"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2023.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2023.json",
+    "source_sha256_before_reorganization": "e73c6237963582b63e18b55fa74840eab0ee4e8a3849af869dfecab3df94175b",
+    "current_sha256": "e73c6237963582b63e18b55fa74840eab0ee4e8a3849af869dfecab3df94175b"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2022.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2022.json",
+    "source_sha256_before_reorganization": "5544498873c28591fb55ce074a5508ba8670005918dc667406692c7834a1900d",
+    "current_sha256": "5544498873c28591fb55ce074a5508ba8670005918dc667406692c7834a1900d"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2021.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2021.json",
+    "source_sha256_before_reorganization": "048f4ef978a9b31cb9f7354b27afc0a309ab38c185ccc65c3ddfa1f44acb6700",
+    "current_sha256": "048f4ef978a9b31cb9f7354b27afc0a309ab38c185ccc65c3ddfa1f44acb6700"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2018.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2018.json",
+    "source_sha256_before_reorganization": "76cacdac673516c2ad086979df26d46e5272893adfbb7322b2bef50824ae6dd5",
+    "current_sha256": "76cacdac673516c2ad086979df26d46e5272893adfbb7322b2bef50824ae6dd5"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2020.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2020.json",
+    "source_sha256_before_reorganization": "9f6923019bfa32c06a2e6b0a708d69fa227c59b0bbef43216ba498103f678df0",
+    "current_sha256": "9f6923019bfa32c06a2e6b0a708d69fa227c59b0bbef43216ba498103f678df0"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2021.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2021.json",
+    "source_sha256_before_reorganization": "b404fad77fd939e0b6d50cffd6a03a8cfd6097f03fe17a77f99e557c2b8ae752",
+    "current_sha256": "b404fad77fd939e0b6d50cffd6a03a8cfd6097f03fe17a77f99e557c2b8ae752"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2022.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2022.json",
+    "source_sha256_before_reorganization": "d59cf3346fd0ba520aa4cb198bff18fb3688f502db7567c750e54617706cfcae",
+    "current_sha256": "d59cf3346fd0ba520aa4cb198bff18fb3688f502db7567c750e54617706cfcae"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2017.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2017.json",
+    "source_sha256_before_reorganization": "347cc886f27a4497948b386c5626f82e77507b2312fdf70f7a7258165dc13946",
+    "current_sha256": "347cc886f27a4497948b386c5626f82e77507b2312fdf70f7a7258165dc13946"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2017.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2017.json",
+    "source_sha256_before_reorganization": "8a2dc3f6be848ec63e934756a42fb78f2cbd78c04918f9e604653908b1077796",
+    "current_sha256": "8a2dc3f6be848ec63e934756a42fb78f2cbd78c04918f9e604653908b1077796"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2023.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2023.json",
+    "source_sha256_before_reorganization": "8ed698426d93745a0add66ab527c4ca1edbd2119f40e1c31e0815c279df59a72",
+    "current_sha256": "8ed698426d93745a0add66ab527c4ca1edbd2119f40e1c31e0815c279df59a72"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_HKA_2020.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_HKA_2020.json",
+    "source_sha256_before_reorganization": "6fcfb681538e63195d0e63e4211036d04ff2076723719d0d5cdd394ac2c93636",
+    "current_sha256": "6fcfb681538e63195d0e63e4211036d04ff2076723719d0d5cdd394ac2c93636"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R12_2021.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R12_2021.json",
+    "source_sha256_before_reorganization": "25192d34eae255fec3ab87c07c4e2696367d2a04b0493b5fbb4187c5f0524427",
+    "current_sha256": "25192d34eae255fec3ab87c07c4e2696367d2a04b0493b5fbb4187c5f0524427"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2019.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2019.json",
+    "source_sha256_before_reorganization": "b3056504acc0e0ed7fb797417383b8a1781ca5c45681468b664ff0a16d28e93b",
+    "current_sha256": "b3056504acc0e0ed7fb797417383b8a1781ca5c45681468b664ff0a16d28e93b"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2024.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2024.json",
+    "source_sha256_before_reorganization": "63187d8bf536f9dfd072200863518f087e6bf8736117aaf6c099ed7ee058b1ae",
+    "current_sha256": "63187d8bf536f9dfd072200863518f087e6bf8736117aaf6c099ed7ee058b1ae"
+  },
+  {
+    "old": "05_Code/data_model_ps/data/sources/hko/r11_daily/daily_R11_2025.json",
+    "new": "01_Data/Sources/HKO/r11_daily/daily_R11_2025.json",
+    "source_sha256_before_reorganization": "b851d104802f364a6b035b506a7351c6cf9ee9016ba2fff40aaa12137894c8b1",
+    "current_sha256": "b851d104802f364a6b035b506a7351c6cf9ee9016ba2fff40aaa12137894c8b1"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_020.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_020.txt",
+    "source_sha256_before_reorganization": "7e331ec0ccc0ca652adaf1a29313474365b8cc779391de28b19c347ec1bc1d8a",
+    "current_sha256": "7e331ec0ccc0ca652adaf1a29313474365b8cc779391de28b19c347ec1bc1d8a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_034.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_034.txt",
+    "source_sha256_before_reorganization": "2be47a2e40c3bfc5e0e499b7d43352e103645dbc77fcdc0eab3aa13cf01f6f06",
+    "current_sha256": "2be47a2e40c3bfc5e0e499b7d43352e103645dbc77fcdc0eab3aa13cf01f6f06"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_008.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_008.txt",
+    "source_sha256_before_reorganization": "f67e3946a68dde40a4d32152f3638012f8e7cd0cd7af4978b2ea58c84876e388",
+    "current_sha256": "f67e3946a68dde40a4d32152f3638012f8e7cd0cd7af4978b2ea58c84876e388"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S06.txt",
+    "new": "01_Data/Sources/Calibration/S06.txt",
+    "source_sha256_before_reorganization": "6cd224e46a4b35a48c4bcb372b6941b792cf45a9f93c0e41e35eb5749fc560cc",
+    "current_sha256": "6cd224e46a4b35a48c4bcb372b6941b792cf45a9f93c0e41e35eb5749fc560cc"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_013.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_013.txt",
+    "source_sha256_before_reorganization": "193c52a495feb57f093aeb43c8a0ef7aa7a44db1e7230918d73bc3feb2d7f534",
+    "current_sha256": "193c52a495feb57f093aeb43c8a0ef7aa7a44db1e7230918d73bc3feb2d7f534"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_007.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_007.txt",
+    "source_sha256_before_reorganization": "c6d3b42ed55ef51ead7ed93ba98963dad2bb8231123d874c1a7e5bb3614313d7",
+    "current_sha256": "c6d3b42ed55ef51ead7ed93ba98963dad2bb8231123d874c1a7e5bb3614313d7"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_006.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_006.txt",
+    "source_sha256_before_reorganization": "ad1eedb610d2c275703b935e40d2cc3cd6524f84bbc31aa95c7fc9cd671c16d1",
+    "current_sha256": "ad1eedb610d2c275703b935e40d2cc3cd6524f84bbc31aa95c7fc9cd671c16d1"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S13.txt",
+    "new": "01_Data/Sources/Calibration/S13.txt",
+    "source_sha256_before_reorganization": "1d6b4f7ea842fc1cd89d97b8dfdea8f756c3bddf7f80e7431644906a5f29e3d3",
+    "current_sha256": "1d6b4f7ea842fc1cd89d97b8dfdea8f756c3bddf7f80e7431644906a5f29e3d3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_012.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_012.txt",
+    "source_sha256_before_reorganization": "b20fde8990cd633e7a33c6c5f659ab63070847ed87e41b153e6916501bef4b80",
+    "current_sha256": "b20fde8990cd633e7a33c6c5f659ab63070847ed87e41b153e6916501bef4b80"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S07.txt",
+    "new": "01_Data/Sources/Calibration/S07.txt",
+    "source_sha256_before_reorganization": "0141609f1b2316733782cef4948cbabf3222a88bbcdac102bece091bd56569a9",
+    "current_sha256": "0141609f1b2316733782cef4948cbabf3222a88bbcdac102bece091bd56569a9"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_009.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_009.txt",
+    "source_sha256_before_reorganization": "05f4866f83d5652e2e95ab35f03821fe9068521aef491ed05c641a861d765d21",
+    "current_sha256": "05f4866f83d5652e2e95ab35f03821fe9068521aef491ed05c641a861d765d21"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_035.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_035.txt",
+    "source_sha256_before_reorganization": "b3ce5cdcef3ccef9048daf602d3517caa07c178c9bc621b9784208d331bd284f",
+    "current_sha256": "b3ce5cdcef3ccef9048daf602d3517caa07c178c9bc621b9784208d331bd284f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_021.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_021.txt",
+    "source_sha256_before_reorganization": "5d7def8e4e99e6a8c111995ba59d6c907becaded48142f4883c9fe5d97034ecd",
+    "current_sha256": "5d7def8e4e99e6a8c111995ba59d6c907becaded48142f4883c9fe5d97034ecd"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_037.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_037.txt",
+    "source_sha256_before_reorganization": "cb9fe6f264f82bcb0bb6514a3646af6b5e26a40aa0ddd1c102869d0ef89b3d9f",
+    "current_sha256": "cb9fe6f264f82bcb0bb6514a3646af6b5e26a40aa0ddd1c102869d0ef89b3d9f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_023.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_023.txt",
+    "source_sha256_before_reorganization": "c66949a988c9b841c5cea924c1aec5aa4fe695bc475d5d5e11d2b288ea52b2f9",
+    "current_sha256": "c66949a988c9b841c5cea924c1aec5aa4fe695bc475d5d5e11d2b288ea52b2f9"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_004.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_004.txt",
+    "source_sha256_before_reorganization": "606ef37440c9a1a2045aaffad72fe3d0753693952ff1e341b8b18ca372440f49",
+    "current_sha256": "606ef37440c9a1a2045aaffad72fe3d0753693952ff1e341b8b18ca372440f49"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S05.txt",
+    "new": "01_Data/Sources/Calibration/S05.txt",
+    "source_sha256_before_reorganization": "ae933b55a0b9aebc5ffed3af811db615989e3bb8d5c79a4f5fee1a35eff99a1f",
+    "current_sha256": "ae933b55a0b9aebc5ffed3af811db615989e3bb8d5c79a4f5fee1a35eff99a1f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_010.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_010.txt",
+    "source_sha256_before_reorganization": "687740a010b8a26d11c1d26c200b7b88ae315ef684485e636403b6300533b77f",
+    "current_sha256": "687740a010b8a26d11c1d26c200b7b88ae315ef684485e636403b6300533b77f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_011.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_011.txt",
+    "source_sha256_before_reorganization": "62484b226de93bca140534f72baf07a4b76b85f9fc6f7437d6f087cfe87e886f",
+    "current_sha256": "62484b226de93bca140534f72baf07a4b76b85f9fc6f7437d6f087cfe87e886f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S04.txt",
+    "new": "01_Data/Sources/Calibration/S04.txt",
+    "source_sha256_before_reorganization": "fc277ec72a39546bea8821df772fef4b3860379da2ae87c6db0a9cb6fedc2aed",
+    "current_sha256": "fc277ec72a39546bea8821df772fef4b3860379da2ae87c6db0a9cb6fedc2aed"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_005.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_005.txt",
+    "source_sha256_before_reorganization": "42b3cfc5945fb91145382f72aeddc06b0281e8abda3b5ac875d566b4d2cc82d8",
+    "current_sha256": "42b3cfc5945fb91145382f72aeddc06b0281e8abda3b5ac875d566b4d2cc82d8"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_022.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_022.txt",
+    "source_sha256_before_reorganization": "5f0a31f4eea6b1ae3f3dc8b484e42a72934436be51a1c3f9077b8b4441615807",
+    "current_sha256": "5f0a31f4eea6b1ae3f3dc8b484e42a72934436be51a1c3f9077b8b4441615807"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_036.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_036.txt",
+    "source_sha256_before_reorganization": "baff76338df8df10ce2f9e6ac50e6a38fa2d9239263f44eeb25143b3fed27383",
+    "current_sha256": "baff76338df8df10ce2f9e6ac50e6a38fa2d9239263f44eeb25143b3fed27383"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S07.html",
+    "new": "01_Data/Sources/Calibration/S07.html",
+    "source_sha256_before_reorganization": "bfc9b53c0256726921ab62f031082f9acd8c8431e4fa5b0dd4562e70ca443f1d",
+    "current_sha256": "bfc9b53c0256726921ab62f031082f9acd8c8431e4fa5b0dd4562e70ca443f1d"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S06.html",
+    "new": "01_Data/Sources/Calibration/S06.html",
+    "source_sha256_before_reorganization": "815c094da67d0281e3968670917a9b6150f580bc97f541320d3a33aed2d52630",
+    "current_sha256": "815c094da67d0281e3968670917a9b6150f580bc97f541320d3a33aed2d52630"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_032.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_032.txt",
+    "source_sha256_before_reorganization": "6367af4f665885bbba6d89afca3ade8d9ee7cdd033b6a2158ccef197967e2f64",
+    "current_sha256": "6367af4f665885bbba6d89afca3ade8d9ee7cdd033b6a2158ccef197967e2f64"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_026.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_026.txt",
+    "source_sha256_before_reorganization": "c4622b5e8cc09ae829dbaa7c685762a15cc8ce269c6c73a1b2402212757c79b3",
+    "current_sha256": "c4622b5e8cc09ae829dbaa7c685762a15cc8ce269c6c73a1b2402212757c79b3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S14.txt",
+    "new": "01_Data/Sources/Calibration/S14.txt",
+    "source_sha256_before_reorganization": "a2465ddea018c7bf9609dae70085d4a4b4fab1daae8dcedbd71c347daa142adc",
+    "current_sha256": "a2465ddea018c7bf9609dae70085d4a4b4fab1daae8dcedbd71c347daa142adc"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_001.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_001.txt",
+    "source_sha256_before_reorganization": "d76a9077c309fb8f554df7033b1881817d29aefef9498a41e3192ca8ac8e0a96",
+    "current_sha256": "d76a9077c309fb8f554df7033b1881817d29aefef9498a41e3192ca8ac8e0a96"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_015.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_015.txt",
+    "source_sha256_before_reorganization": "68ccdaaa5d0a99d360b3a1a46fdc14040807bebe55f3e9b0b8f284ee5b118424",
+    "current_sha256": "68ccdaaa5d0a99d360b3a1a46fdc14040807bebe55f3e9b0b8f284ee5b118424"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_014.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_014.txt",
+    "source_sha256_before_reorganization": "2a22daa7444af216ab7dd730d7e6170e958de4a2fad5b50e95af412ba3df978b",
+    "current_sha256": "2a22daa7444af216ab7dd730d7e6170e958de4a2fad5b50e95af412ba3df978b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S01.txt",
+    "new": "01_Data/Sources/Calibration/S01.txt",
+    "source_sha256_before_reorganization": "4410403cb17d29070c3123c9bc813edb3bc7cddf8812fafdb066df4503a3788a",
+    "current_sha256": "4410403cb17d29070c3123c9bc813edb3bc7cddf8812fafdb066df4503a3788a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_027.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_027.txt",
+    "source_sha256_before_reorganization": "99975bb6f427484d998cb1f4d67c86e9b3dc70e2188d3afb7e2a4ec9f19401f4",
+    "current_sha256": "99975bb6f427484d998cb1f4d67c86e9b3dc70e2188d3afb7e2a4ec9f19401f4"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_033.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_033.txt",
+    "source_sha256_before_reorganization": "5d13e65f1641b19f4ef05c54ad45035bfb80bef4a601ec72631da7fe2e8c97d7",
+    "current_sha256": "5d13e65f1641b19f4ef05c54ad45035bfb80bef4a601ec72631da7fe2e8c97d7"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_019.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_019.txt",
+    "source_sha256_before_reorganization": "b4511fcc1e30b5b02618a40097357016f40a53b861ac8061cd71236d4fc76605",
+    "current_sha256": "b4511fcc1e30b5b02618a40097357016f40a53b861ac8061cd71236d4fc76605"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_025.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_025.txt",
+    "source_sha256_before_reorganization": "786a8366eeed9fff890a214c73d8197088a8f6fa6a125dc537d145a6506f070a",
+    "current_sha256": "786a8366eeed9fff890a214c73d8197088a8f6fa6a125dc537d145a6506f070a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_031.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_031.txt",
+    "source_sha256_before_reorganization": "9b2b56f8ddd7adf66044143531726b2feeaf3111700382ffef68ea5685f6351e",
+    "current_sha256": "9b2b56f8ddd7adf66044143531726b2feeaf3111700382ffef68ea5685f6351e"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S03.txt",
+    "new": "01_Data/Sources/Calibration/S03.txt",
+    "source_sha256_before_reorganization": "7f9fb4ed8e2ba373d468878935c97f69ace42def1a0e153cb358942f720dfbda",
+    "current_sha256": "7f9fb4ed8e2ba373d468878935c97f69ace42def1a0e153cb358942f720dfbda"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_016.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_016.txt",
+    "source_sha256_before_reorganization": "dc5c88e1ea3d1d2581b3ce63c6190661109b3f507fb8a4bba507a3ed2a76163f",
+    "current_sha256": "dc5c88e1ea3d1d2581b3ce63c6190661109b3f507fb8a4bba507a3ed2a76163f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S17.txt",
+    "new": "01_Data/Sources/Calibration/S17.txt",
+    "source_sha256_before_reorganization": "05e8184ba6ad9b22e98133a7f0cac9d5929cb5af385c6ba5325b702976ba1ea1",
+    "current_sha256": "05e8184ba6ad9b22e98133a7f0cac9d5929cb5af385c6ba5325b702976ba1ea1"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_002.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_002.txt",
+    "source_sha256_before_reorganization": "e57b9e7a22a5c7bb6698c537a02371587e9e7d3165002e47373a6dafec64ab3c",
+    "current_sha256": "e57b9e7a22a5c7bb6698c537a02371587e9e7d3165002e47373a6dafec64ab3c"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_003.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_003.txt",
+    "source_sha256_before_reorganization": "6e78acca88412ea80a64596666ca14717873d8cf1609a09ed3421ecb3a77b84b",
+    "current_sha256": "6e78acca88412ea80a64596666ca14717873d8cf1609a09ed3421ecb3a77b84b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_017.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_017.txt",
+    "source_sha256_before_reorganization": "ceff10376909fab4007239747b73884aff5026913f5467f7caca960112fd531b",
+    "current_sha256": "ceff10376909fab4007239747b73884aff5026913f5467f7caca960112fd531b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S02.txt",
+    "new": "01_Data/Sources/Calibration/S02.txt",
+    "source_sha256_before_reorganization": "7d6364080e3e467b97ebcff4ef3846298dbcd8f3c36c810e183206e17761d7dd",
+    "current_sha256": "7d6364080e3e467b97ebcff4ef3846298dbcd8f3c36c810e183206e17761d7dd"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_030.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_030.txt",
+    "source_sha256_before_reorganization": "afce62cb4520fa04f0ba7143beebd3a120b67e76c49406106a6958f0dd2e2a65",
+    "current_sha256": "afce62cb4520fa04f0ba7143beebd3a120b67e76c49406106a6958f0dd2e2a65"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_024.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_024.txt",
+    "source_sha256_before_reorganization": "9f2cae141c555d83c9cf0973ad13ea2a939a756f14e65b83214f8ce5c7c88484",
+    "current_sha256": "9f2cae141c555d83c9cf0973ad13ea2a939a756f14e65b83214f8ce5c7c88484"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_018.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_018.txt",
+    "source_sha256_before_reorganization": "d6e256252abeced14716ce121609c968eec05ee764f83a5c5bbc3fec50503368",
+    "current_sha256": "d6e256252abeced14716ce121609c968eec05ee764f83a5c5bbc3fec50503368"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_080.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_080.txt",
+    "source_sha256_before_reorganization": "2a3c4181d2394edd302927486a597e923709548c7a69dbc36c11b90297379fcb",
+    "current_sha256": "2a3c4181d2394edd302927486a597e923709548c7a69dbc36c11b90297379fcb"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_094.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_094.txt",
+    "source_sha256_before_reorganization": "0e25588a6e7fca057a7ae03670805bdda6e0ba86152b27cbedb8164498d771d2",
+    "current_sha256": "0e25588a6e7fca057a7ae03670805bdda6e0ba86152b27cbedb8164498d771d2"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_043.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_043.txt",
+    "source_sha256_before_reorganization": "9278a8ef59377fe8c52ee82824eef0fab791ae827120ebe2f53ce074e0dd7178",
+    "current_sha256": "9278a8ef59377fe8c52ee82824eef0fab791ae827120ebe2f53ce074e0dd7178"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_057.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_057.txt",
+    "source_sha256_before_reorganization": "cff286216f133092dc17046d2bebdf3b0ac65edf1c3b5c173c78a740e11e8334",
+    "current_sha256": "cff286216f133092dc17046d2bebdf3b0ac65edf1c3b5c173c78a740e11e8334"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10.pdf",
+    "new": "01_Data/Sources/Calibration/S10.pdf",
+    "source_sha256_before_reorganization": "ed446e6cc918b9d0ca0da5f984b73bb2fd08c008d6378e4170df3f0ccf480d22",
+    "current_sha256": "ed446e6cc918b9d0ca0da5f984b73bb2fd08c008d6378e4170df3f0ccf480d22"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S17.html",
+    "new": "01_Data/Sources/Calibration/S17.html",
+    "source_sha256_before_reorganization": "b88391db475ba9a48b788e1d6c09d4cda4585667f8ddc7d3b0645a675b7ad61b",
+    "current_sha256": "b88391db475ba9a48b788e1d6c09d4cda4585667f8ddc7d3b0645a675b7ad61b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_056.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_056.txt",
+    "source_sha256_before_reorganization": "0f46f5e387b5e602c3321c0a9047654935d1c3b9a5bdcf645638ce684c2ab238",
+    "current_sha256": "0f46f5e387b5e602c3321c0a9047654935d1c3b9a5bdcf645638ce684c2ab238"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_042.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_042.txt",
+    "source_sha256_before_reorganization": "26e77c56257be59e8577dea21561938b204719afeaf5c1ecec390bc21e7f009d",
+    "current_sha256": "26e77c56257be59e8577dea21561938b204719afeaf5c1ecec390bc21e7f009d"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S01.html",
+    "new": "01_Data/Sources/Calibration/S01.html",
+    "source_sha256_before_reorganization": "284853e39363640a2a979061053cc2bc4affe75a591ba604c14176fd993a52f2",
+    "current_sha256": "284853e39363640a2a979061053cc2bc4affe75a591ba604c14176fd993a52f2"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_095.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_095.txt",
+    "source_sha256_before_reorganization": "3b680e86374d1f634c49e85a7c8eb303f73ba98ea27bf94de57855acf74f4c8b",
+    "current_sha256": "3b680e86374d1f634c49e85a7c8eb303f73ba98ea27bf94de57855acf74f4c8b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_081.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_081.txt",
+    "source_sha256_before_reorganization": "36da486a972b0e268390d73fed5be0974efe1a944a3e8c5a608d47cb1bff065f",
+    "current_sha256": "36da486a972b0e268390d73fed5be0974efe1a944a3e8c5a608d47cb1bff065f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_097.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_097.txt",
+    "source_sha256_before_reorganization": "a11be03231ae64b1155014d53c7eec1475d8bdeb89ba388dbc7a716bd688da2c",
+    "current_sha256": "a11be03231ae64b1155014d53c7eec1475d8bdeb89ba388dbc7a716bd688da2c"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_083.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_083.txt",
+    "source_sha256_before_reorganization": "50eb9271cfd1b316a11c9e31d2cb3d583094819e72ca9c7736415b0eb21b3668",
+    "current_sha256": "50eb9271cfd1b316a11c9e31d2cb3d583094819e72ca9c7736415b0eb21b3668"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S16_page_074.txt",
+    "new": "01_Data/Sources/Calibration/S16_page_074.txt",
+    "source_sha256_before_reorganization": "6fe05459cf000b03056da9c807858ed35634b430ba12103438024f9de06601db",
+    "current_sha256": "6fe05459cf000b03056da9c807858ed35634b430ba12103438024f9de06601db"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_054.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_054.txt",
+    "source_sha256_before_reorganization": "f67e3946a68dde40a4d32152f3638012f8e7cd0cd7af4978b2ea58c84876e388",
+    "current_sha256": "f67e3946a68dde40a4d32152f3638012f8e7cd0cd7af4978b2ea58c84876e388"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_040.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_040.txt",
+    "source_sha256_before_reorganization": "f80002b05e70b2276b9f12a2495dd99ca51197f8ce57148050f564690522d49c",
+    "current_sha256": "f80002b05e70b2276b9f12a2495dd99ca51197f8ce57148050f564690522d49c"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_068.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_068.txt",
+    "source_sha256_before_reorganization": "3a479123b367caa12235f1413d823212c379d66b757fc267d6aa23eebed244b4",
+    "current_sha256": "3a479123b367caa12235f1413d823212c379d66b757fc267d6aa23eebed244b4"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12.pdf",
+    "new": "01_Data/Sources/Calibration/S12.pdf",
+    "source_sha256_before_reorganization": "8b8f24934ea3cc52f8cd4bc8047423d7c8a0fb4755232a1e6fbd056e26c8262c",
+    "current_sha256": "8b8f24934ea3cc52f8cd4bc8047423d7c8a0fb4755232a1e6fbd056e26c8262c"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_108.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_108.txt",
+    "source_sha256_before_reorganization": "c3d2dae360f5713cadffbec6dc59ef7b288fd18b400e20dde853a0fb4699dbfe",
+    "current_sha256": "c3d2dae360f5713cadffbec6dc59ef7b288fd18b400e20dde853a0fb4699dbfe"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_109.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_109.txt",
+    "source_sha256_before_reorganization": "4c4dcc0b50f44ec7c723bc4dfed3a882f60c463e9bf2a60a9d8f4f7ec19c8ad0",
+    "current_sha256": "4c4dcc0b50f44ec7c723bc4dfed3a882f60c463e9bf2a60a9d8f4f7ec19c8ad0"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_069.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_069.txt",
+    "source_sha256_before_reorganization": "6322efe31deccd5c8cd8fdd66733cd53f49fec41d484708ac07db5c5f98df360",
+    "current_sha256": "6322efe31deccd5c8cd8fdd66733cd53f49fec41d484708ac07db5c5f98df360"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_041.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_041.txt",
+    "source_sha256_before_reorganization": "38c439aec2ff2738f7c3e79bed35893302fc8e9087f0bed64babedc39f6c2595",
+    "current_sha256": "38c439aec2ff2738f7c3e79bed35893302fc8e9087f0bed64babedc39f6c2595"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_055.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_055.txt",
+    "source_sha256_before_reorganization": "3fcc199babeb6e8d3cea921dab95301040e923e3b271c14bc001f82953f1d600",
+    "current_sha256": "3fcc199babeb6e8d3cea921dab95301040e923e3b271c14bc001f82953f1d600"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_082.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_082.txt",
+    "source_sha256_before_reorganization": "5415abda637fc85f0f4ca5a0d016f47eb4301366edf61364653062f3f77dd7ea",
+    "current_sha256": "5415abda637fc85f0f4ca5a0d016f47eb4301366edf61364653062f3f77dd7ea"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_096.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_096.txt",
+    "source_sha256_before_reorganization": "632266ce7c0d4b669f6b05b03362dafd5ac707bee2b9a82feef579cbf38068eb",
+    "current_sha256": "632266ce7c0d4b669f6b05b03362dafd5ac707bee2b9a82feef579cbf38068eb"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_092.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_092.txt",
+    "source_sha256_before_reorganization": "075ebb6622577d5ed790c0c73ce8db274e957779d135009729bb241840fac16b",
+    "current_sha256": "075ebb6622577d5ed790c0c73ce8db274e957779d135009729bb241840fac16b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_086.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_086.txt",
+    "source_sha256_before_reorganization": "1a937662c7dbd82e88d17c129183789d8e007cb4086d902144cf78a3bb801a20",
+    "current_sha256": "1a937662c7dbd82e88d17c129183789d8e007cb4086d902144cf78a3bb801a20"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_079.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_079.txt",
+    "source_sha256_before_reorganization": "186a6fb5e7167cf3d5d6707420b316a23bc4eab944e0d4547aa22570a33e3f62",
+    "current_sha256": "186a6fb5e7167cf3d5d6707420b316a23bc4eab944e0d4547aa22570a33e3f62"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_051.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_051.txt",
+    "source_sha256_before_reorganization": "be20d0e34afab48989000c7bf6daea4c833ef7026266c85f2564cb8467067b05",
+    "current_sha256": "be20d0e34afab48989000c7bf6daea4c833ef7026266c85f2564cb8467067b05"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_045.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_045.txt",
+    "source_sha256_before_reorganization": "0167caa8d518e7474d3723e7cdfa54e7ba66ef1b65033b4de8cdc93a7582a87f",
+    "current_sha256": "0167caa8d518e7474d3723e7cdfa54e7ba66ef1b65033b4de8cdc93a7582a87f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S16.pdf",
+    "new": "01_Data/Sources/Calibration/S16.pdf",
+    "source_sha256_before_reorganization": "8ee57db64a208582c842e57f46480da5d2b777b133465debcf81749d6126ee1b",
+    "current_sha256": "8ee57db64a208582c842e57f46480da5d2b777b133465debcf81749d6126ee1b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_044.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_044.txt",
+    "source_sha256_before_reorganization": "234fd214f31265b168bdbe7ed45abf999c6f69b7ba61bb534f2c6fa79dbc136b",
+    "current_sha256": "234fd214f31265b168bdbe7ed45abf999c6f69b7ba61bb534f2c6fa79dbc136b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_050.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_050.txt",
+    "source_sha256_before_reorganization": "96f81c8c5e48c66cf63c9a2b5946315b326c33681ecbc7d2e76dd09997d2d020",
+    "current_sha256": "96f81c8c5e48c66cf63c9a2b5946315b326c33681ecbc7d2e76dd09997d2d020"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_078.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_078.txt",
+    "source_sha256_before_reorganization": "f2ab5516227475139f60426c3d440d0ff30f3d65109a39b108b0c2a9897e39c6",
+    "current_sha256": "f2ab5516227475139f60426c3d440d0ff30f3d65109a39b108b0c2a9897e39c6"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_087.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_087.txt",
+    "source_sha256_before_reorganization": "d3d2b7cf44028bf6c3881de1cfb32de3f937e02f654473716de1813ec1073b56",
+    "current_sha256": "d3d2b7cf44028bf6c3881de1cfb32de3f937e02f654473716de1813ec1073b56"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_093.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_093.txt",
+    "source_sha256_before_reorganization": "3cb682ccb1a8c699248f3a6b3768855e387d50e054998eb2eabcce733af75e2f",
+    "current_sha256": "3cb682ccb1a8c699248f3a6b3768855e387d50e054998eb2eabcce733af75e2f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_085.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_085.txt",
+    "source_sha256_before_reorganization": "ab4ef8da47934d40ff474437f2c7765ff38f7d889ce0bc6bb71bff4b442a1a48",
+    "current_sha256": "ab4ef8da47934d40ff474437f2c7765ff38f7d889ce0bc6bb71bff4b442a1a48"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_091.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_091.txt",
+    "source_sha256_before_reorganization": "25b98d144134d034a4bd79ee7f12e4d57832271095ce383f790795bb19bc83dc",
+    "current_sha256": "25b98d144134d034a4bd79ee7f12e4d57832271095ce383f790795bb19bc83dc"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_046.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_046.txt",
+    "source_sha256_before_reorganization": "850bfe7cc139068fdeb145f675d35bea2e662d003edfb58b5b74c5bceaa5648f",
+    "current_sha256": "850bfe7cc139068fdeb145f675d35bea2e662d003edfb58b5b74c5bceaa5648f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_052.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_052.txt",
+    "source_sha256_before_reorganization": "f67e3946a68dde40a4d32152f3638012f8e7cd0cd7af4978b2ea58c84876e388",
+    "current_sha256": "f67e3946a68dde40a4d32152f3638012f8e7cd0cd7af4978b2ea58c84876e388"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15.pdf",
+    "new": "01_Data/Sources/Calibration/S15.pdf",
+    "source_sha256_before_reorganization": "e4311ebee92e95a026c762f19c2614c2eee1cc352d51c6ad21f5f1b2710ef5d6",
+    "current_sha256": "e4311ebee92e95a026c762f19c2614c2eee1cc352d51c6ad21f5f1b2710ef5d6"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_053.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_053.txt",
+    "source_sha256_before_reorganization": "67349df9eb3fc912ac825fdec33e02c2b06b07fc926ec041aef5c5c6fae04248",
+    "current_sha256": "67349df9eb3fc912ac825fdec33e02c2b06b07fc926ec041aef5c5c6fae04248"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_047.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_047.txt",
+    "source_sha256_before_reorganization": "81e44a114b9a52f88da2dc68e150d081a5bcec00626b8947ed41727fa3065ba3",
+    "current_sha256": "81e44a114b9a52f88da2dc68e150d081a5bcec00626b8947ed41727fa3065ba3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_090.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_090.txt",
+    "source_sha256_before_reorganization": "ad8418952f22bbd6b6d22efe180a8cb41033f727abd8063b217e5920d2135519",
+    "current_sha256": "ad8418952f22bbd6b6d22efe180a8cb41033f727abd8063b217e5920d2135519"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_084.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_084.txt",
+    "source_sha256_before_reorganization": "c446dda7d6719cea286b82aca6f9fd215c080c4b69ce09f2973109468e155f14",
+    "current_sha256": "c446dda7d6719cea286b82aca6f9fd215c080c4b69ce09f2973109468e155f14"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S03.html",
+    "new": "01_Data/Sources/Calibration/S03.html",
+    "source_sha256_before_reorganization": "47ad6a79e444ce85f328e585d65c26b3651a2f7e00bfb5c744a7aaa46c2d8fdf",
+    "current_sha256": "47ad6a79e444ce85f328e585d65c26b3651a2f7e00bfb5c744a7aaa46c2d8fdf"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_089.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_089.txt",
+    "source_sha256_before_reorganization": "c9773df2577ea053e1cc443a8bb38f2f10eef9dd293d863a12baedff4920f978",
+    "current_sha256": "c9773df2577ea053e1cc443a8bb38f2f10eef9dd293d863a12baedff4920f978"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_062.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_062.txt",
+    "source_sha256_before_reorganization": "addf7d59de3fe7094d579fb950c98034148600ac29f39824a6fa7b4b9634b341",
+    "current_sha256": "addf7d59de3fe7094d579fb950c98034148600ac29f39824a6fa7b4b9634b341"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_076.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_076.txt",
+    "source_sha256_before_reorganization": "5a08e79e8e057f714b71b7544e425cdb30d5c93619538937d4110ebb5f006eb2",
+    "current_sha256": "5a08e79e8e057f714b71b7544e425cdb30d5c93619538937d4110ebb5f006eb2"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_102.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_102.txt",
+    "source_sha256_before_reorganization": "41e1d3331a1bf2dc46f513ea80042524cb05a4a51c47bd1161632f8167a8d69b",
+    "current_sha256": "41e1d3331a1bf2dc46f513ea80042524cb05a4a51c47bd1161632f8167a8d69b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_103.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_103.txt",
+    "source_sha256_before_reorganization": "3facd9403e07cc80fd3f396d7b29efae585d90dacbd64712f7cf9342d486452e",
+    "current_sha256": "3facd9403e07cc80fd3f396d7b29efae585d90dacbd64712f7cf9342d486452e"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_077.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_077.txt",
+    "source_sha256_before_reorganization": "84aa46f108432f8830a956c72dd4bb27b8b6a6771c853671cd607e254d83be90",
+    "current_sha256": "84aa46f108432f8830a956c72dd4bb27b8b6a6771c853671cd607e254d83be90"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_063.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_063.txt",
+    "source_sha256_before_reorganization": "7a431d3c07b6c0723c65ba7661c15d3b490b514f15da5d3cfdf2141ff3272078",
+    "current_sha256": "7a431d3c07b6c0723c65ba7661c15d3b490b514f15da5d3cfdf2141ff3272078"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_088.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_088.txt",
+    "source_sha256_before_reorganization": "965f9097e8c2b1559fabdff2031a15cfa91a8689302d14df3d380ea760316113",
+    "current_sha256": "965f9097e8c2b1559fabdff2031a15cfa91a8689302d14df3d380ea760316113"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_075.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_075.txt",
+    "source_sha256_before_reorganization": "e0bac1c9e0f5dfd9fced6e3a958633b6be0e8c40c28e2a971a09a44447e2e16f",
+    "current_sha256": "e0bac1c9e0f5dfd9fced6e3a958633b6be0e8c40c28e2a971a09a44447e2e16f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_061.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_061.txt",
+    "source_sha256_before_reorganization": "c41f9f7858b23f1c81a5e384f8832f3dabe24b57260fc556d2028aca9ce2425f",
+    "current_sha256": "c41f9f7858b23f1c81a5e384f8832f3dabe24b57260fc556d2028aca9ce2425f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_049.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_049.txt",
+    "source_sha256_before_reorganization": "83c7046c555142d666112f78fe4e478c7b77e6e74b05333d0f28bf6b37bcf108",
+    "current_sha256": "83c7046c555142d666112f78fe4e478c7b77e6e74b05333d0f28bf6b37bcf108"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_101.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_101.txt",
+    "source_sha256_before_reorganization": "65fdd6fc0b3e724d59cc6407d17d69bba35dda989b18d6e5ff913d759eaf0526",
+    "current_sha256": "65fdd6fc0b3e724d59cc6407d17d69bba35dda989b18d6e5ff913d759eaf0526"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/SSUG_21C.csv",
+    "new": "01_Data/Sources/Calibration/SSUG_21C.csv",
+    "source_sha256_before_reorganization": "d9e98dc6aa90296e0758b8c306fe2dd86039c040fe5880f704ff9a25fa40b637",
+    "current_sha256": "d9e98dc6aa90296e0758b8c306fe2dd86039c040fe5880f704ff9a25fa40b637"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S19.html",
+    "new": "01_Data/Sources/Calibration/S19.html",
+    "source_sha256_before_reorganization": "cba2730201974585184ead26971d0d788a4a74e9c9ed1f7d01b1606d17b2b0c4",
+    "current_sha256": "cba2730201974585184ead26971d0d788a4a74e9c9ed1f7d01b1606d17b2b0c4"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_100.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_100.txt",
+    "source_sha256_before_reorganization": "0a1dc34df1e305be47d93c422850ffc4f94ca79e776d9266d7831080416f935b",
+    "current_sha256": "0a1dc34df1e305be47d93c422850ffc4f94ca79e776d9266d7831080416f935b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_048.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_048.txt",
+    "source_sha256_before_reorganization": "f58107895ad553cea27568f7d5fdb87af2a99d6be0ef73dd4e86e128af9bd629",
+    "current_sha256": "f58107895ad553cea27568f7d5fdb87af2a99d6be0ef73dd4e86e128af9bd629"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_060.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_060.txt",
+    "source_sha256_before_reorganization": "b461fd024dfae125a12e2a365859001cff704a3796d425af7a5a58aacd99c014",
+    "current_sha256": "b461fd024dfae125a12e2a365859001cff704a3796d425af7a5a58aacd99c014"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_074.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_074.txt",
+    "source_sha256_before_reorganization": "de42d18493f354fda7ddec5a10f5786f4d23eda68895990dff150c6096848c66",
+    "current_sha256": "de42d18493f354fda7ddec5a10f5786f4d23eda68895990dff150c6096848c66"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_058.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_058.txt",
+    "source_sha256_before_reorganization": "e0d0917f45711d2b67587b4f5627b5731618f164f4fa6e684ac546895688537a",
+    "current_sha256": "e0d0917f45711d2b67587b4f5627b5731618f164f4fa6e684ac546895688537a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_070.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_070.txt",
+    "source_sha256_before_reorganization": "de97caaad77739f6f9b97549ab03c1fcef8fd6fc0b2c6b55dbcc51e2e4139cc3",
+    "current_sha256": "de97caaad77739f6f9b97549ab03c1fcef8fd6fc0b2c6b55dbcc51e2e4139cc3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_064.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_064.txt",
+    "source_sha256_before_reorganization": "b717a192161d588d5e36b9c97976a060615b306e6a1ab78a543d1fc5785975c6",
+    "current_sha256": "b717a192161d588d5e36b9c97976a060615b306e6a1ab78a543d1fc5785975c6"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_104.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_104.txt",
+    "source_sha256_before_reorganization": "19ba595b46c3f644665ee3ec26f2385bfcccc03cd9371cfb7286e27b1297024d",
+    "current_sha256": "19ba595b46c3f644665ee3ec26f2385bfcccc03cd9371cfb7286e27b1297024d"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_110.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_110.txt",
+    "source_sha256_before_reorganization": "50f4263038c0690455bd3eddf75444d71969f315876ca31d4c56a22fb9a16b80",
+    "current_sha256": "50f4263038c0690455bd3eddf75444d71969f315876ca31d4c56a22fb9a16b80"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_111.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_111.txt",
+    "source_sha256_before_reorganization": "412e458fd1034738bd8fb480a596d3bed9c6faf250d54f147f17860b82dea47e",
+    "current_sha256": "412e458fd1034738bd8fb480a596d3bed9c6faf250d54f147f17860b82dea47e"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_105.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_105.txt",
+    "source_sha256_before_reorganization": "392f6280628bd7cdec44f43cd0577d4983a7f8829a4f2faf8f3e79907970ecc0",
+    "current_sha256": "392f6280628bd7cdec44f43cd0577d4983a7f8829a4f2faf8f3e79907970ecc0"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S18.html",
+    "new": "01_Data/Sources/Calibration/S18.html",
+    "source_sha256_before_reorganization": "ec2cf467defd3a6b4ae4ab12878aded6fec464db397c70b7070cd234149c82d3",
+    "current_sha256": "ec2cf467defd3a6b4ae4ab12878aded6fec464db397c70b7070cd234149c82d3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_065.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_065.txt",
+    "source_sha256_before_reorganization": "3cf57dc61d3717bb478ecb6670954e72f497ca8d7325f1a12d8c4e112e339b24",
+    "current_sha256": "3cf57dc61d3717bb478ecb6670954e72f497ca8d7325f1a12d8c4e112e339b24"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_071.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_071.txt",
+    "source_sha256_before_reorganization": "167783884a7049dcc2ebcd8b53a7fd28035dba85ef85475586beab9b8be9d7e4",
+    "current_sha256": "167783884a7049dcc2ebcd8b53a7fd28035dba85ef85475586beab9b8be9d7e4"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_059.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_059.txt",
+    "source_sha256_before_reorganization": "e8aaadd749062e11d7665f91bde8e710f92fae5210124f2c0dc8079219104918",
+    "current_sha256": "e8aaadd749062e11d7665f91bde8e710f92fae5210124f2c0dc8079219104918"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S11.zip",
+    "new": "01_Data/Sources/Calibration/S11.zip",
+    "source_sha256_before_reorganization": "b2a2889c0d1e137b28e31138decfa7e4c8edc2018a516bf910e380632176447b",
+    "current_sha256": "b2a2889c0d1e137b28e31138decfa7e4c8edc2018a516bf910e380632176447b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_098.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_098.txt",
+    "source_sha256_before_reorganization": "1131d69ab272fb9ba1aa824ee7e20e20fa0dd70c7fd8a2a9733ad3ab1f375bc1",
+    "current_sha256": "1131d69ab272fb9ba1aa824ee7e20e20fa0dd70c7fd8a2a9733ad3ab1f375bc1"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S16_page_053.txt",
+    "new": "01_Data/Sources/Calibration/S16_page_053.txt",
+    "source_sha256_before_reorganization": "0cd49365c6971bbb908582bac23379401d13a9ea88629483d1e88abf495eef68",
+    "current_sha256": "0cd49365c6971bbb908582bac23379401d13a9ea88629483d1e88abf495eef68"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_067.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_067.txt",
+    "source_sha256_before_reorganization": "22fdd86f0213c34e3f6b382185d7d8721dcfef540d831a0c6c92e44b3fa4251f",
+    "current_sha256": "22fdd86f0213c34e3f6b382185d7d8721dcfef540d831a0c6c92e44b3fa4251f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_073.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_073.txt",
+    "source_sha256_before_reorganization": "f1d670e8eda98d6bdd15d3fd9d4c81970310756ee9d60539283b82bf92861351",
+    "current_sha256": "f1d670e8eda98d6bdd15d3fd9d4c81970310756ee9d60539283b82bf92861351"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_107.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_107.txt",
+    "source_sha256_before_reorganization": "ff6e9410244a4a28bfbc9cdd095d43d6854b477e8ecbfa926f118c28eec25c21",
+    "current_sha256": "ff6e9410244a4a28bfbc9cdd095d43d6854b477e8ecbfa926f118c28eec25c21"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_106.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_106.txt",
+    "source_sha256_before_reorganization": "db52cba9991b009d1130992452187e7dea61e7b9acf1e913469fad37282aa30d",
+    "current_sha256": "db52cba9991b009d1130992452187e7dea61e7b9acf1e913469fad37282aa30d"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_112.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_112.txt",
+    "source_sha256_before_reorganization": "744770e440d084a2735e952e9fdf8484c79aaa9568582acee8a22fc5554ecaf1",
+    "current_sha256": "744770e440d084a2735e952e9fdf8484c79aaa9568582acee8a22fc5554ecaf1"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S14.html",
+    "new": "01_Data/Sources/Calibration/S14.html",
+    "source_sha256_before_reorganization": "713c42d1e097ca7f08855606b1f1169c243cce61e5dfa88cd0e62774cf60edb4",
+    "current_sha256": "713c42d1e097ca7f08855606b1f1169c243cce61e5dfa88cd0e62774cf60edb4"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_072.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_072.txt",
+    "source_sha256_before_reorganization": "76e8829333332ebf48cf2006fd23f34cfcec35ba6f9a8daa6df9ef5516901df0",
+    "current_sha256": "76e8829333332ebf48cf2006fd23f34cfcec35ba6f9a8daa6df9ef5516901df0"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_066.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_066.txt",
+    "source_sha256_before_reorganization": "0847a171448151cc46dddc0af4a0fd8b834e694f3f0a58f2efd0c965e6ffc080",
+    "current_sha256": "0847a171448151cc46dddc0af4a0fd8b834e694f3f0a58f2efd0c965e6ffc080"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S02.html",
+    "new": "01_Data/Sources/Calibration/S02.html",
+    "source_sha256_before_reorganization": "ef8eeb01bcb3605a25f7bade1eaebf7524151a3486ab529dab7cd432a2744c3f",
+    "current_sha256": "ef8eeb01bcb3605a25f7bade1eaebf7524151a3486ab529dab7cd432a2744c3f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_099.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_099.txt",
+    "source_sha256_before_reorganization": "e9cd53a16eb4349f40f54e4951cc1bd3356c4965b670d2267e77349d7b7ac0b0",
+    "current_sha256": "e9cd53a16eb4349f40f54e4951cc1bd3356c4965b670d2267e77349d7b7ac0b0"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_001.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_001.txt",
+    "source_sha256_before_reorganization": "ebaa9a475c0e4f72da180262afbfb27f5f3b89195ef68ab9f7d74492aa57c39a",
+    "current_sha256": "ebaa9a475c0e4f72da180262afbfb27f5f3b89195ef68ab9f7d74492aa57c39a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_015.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_015.txt",
+    "source_sha256_before_reorganization": "142fa425e34be0a8bf0ad09830800590cbf6a1cb9948b1ab029b56c67c21c38b",
+    "current_sha256": "142fa425e34be0a8bf0ad09830800590cbf6a1cb9948b1ab029b56c67c21c38b"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_029.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_029.txt",
+    "source_sha256_before_reorganization": "160f58ba7371b73fee020f865e497c5bacca0f085538a66069ab41e099237ef3",
+    "current_sha256": "160f58ba7371b73fee020f865e497c5bacca0f085538a66069ab41e099237ef3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S09.html",
+    "new": "01_Data/Sources/Calibration/S09.html",
+    "source_sha256_before_reorganization": "44ed49f81873f07ffce975beee8ed370f53cf7a12bc50e8075d1bdc7af003fc0",
+    "current_sha256": "44ed49f81873f07ffce975beee8ed370f53cf7a12bc50e8075d1bdc7af003fc0"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15_page_015.txt",
+    "new": "01_Data/Sources/Calibration/S15_page_015.txt",
+    "source_sha256_before_reorganization": "94e64b81bf0f21576df027355a47959dc470136a05bee7468cc5df4f2cc01067",
+    "current_sha256": "94e64b81bf0f21576df027355a47959dc470136a05bee7468cc5df4f2cc01067"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15_page_014.txt",
+    "new": "01_Data/Sources/Calibration/S15_page_014.txt",
+    "source_sha256_before_reorganization": "98ac23a6a08722cfa078a50c6419db1ab1511f047d3703c54b8d74db0a4eea2f",
+    "current_sha256": "98ac23a6a08722cfa078a50c6419db1ab1511f047d3703c54b8d74db0a4eea2f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_028.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_028.txt",
+    "source_sha256_before_reorganization": "a13cbd43dc2efd986d11cb67ecc17a77ef2047ef23f27a763063ce4a29c80b0a",
+    "current_sha256": "a13cbd43dc2efd986d11cb67ecc17a77ef2047ef23f27a763063ce4a29c80b0a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_014.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_014.txt",
+    "source_sha256_before_reorganization": "08e6290d66e7d2bbab5169b061e380d92e6f8757183bbdb7ad3d7b6cbca28927",
+    "current_sha256": "08e6290d66e7d2bbab5169b061e380d92e6f8757183bbdb7ad3d7b6cbca28927"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S05.html",
+    "new": "01_Data/Sources/Calibration/S05.html",
+    "source_sha256_before_reorganization": "855252b8f7a82796d83b3e5827e9b8fee94491f8ce9b9ac53e4edaac40e24be2",
+    "current_sha256": "855252b8f7a82796d83b3e5827e9b8fee94491f8ce9b9ac53e4edaac40e24be2"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_016.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_016.txt",
+    "source_sha256_before_reorganization": "45e3f2c87d4586d7b657ca16b981834baae14f0186bbae763ec66c973c81b4ec",
+    "current_sha256": "45e3f2c87d4586d7b657ca16b981834baae14f0186bbae763ec66c973c81b4ec"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_002.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_002.txt",
+    "source_sha256_before_reorganization": "4fa62ce69d82137bd18072948a25bd746f44307b07bde0997c33d298471ec566",
+    "current_sha256": "4fa62ce69d82137bd18072948a25bd746f44307b07bde0997c33d298471ec566"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15_page_016.txt",
+    "new": "01_Data/Sources/Calibration/S15_page_016.txt",
+    "source_sha256_before_reorganization": "3a653da04911c4a681cfed4edfb4b26dcb03ac9f13d10af94bd2d98d10994ce7",
+    "current_sha256": "3a653da04911c4a681cfed4edfb4b26dcb03ac9f13d10af94bd2d98d10994ce7"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_019.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_019.txt",
+    "source_sha256_before_reorganization": "2fc711a4ee00f32186ab5e5c4ecee2bf69074004ba0e267e3f27aaeb5992009f",
+    "current_sha256": "2fc711a4ee00f32186ab5e5c4ecee2bf69074004ba0e267e3f27aaeb5992009f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S18.txt",
+    "new": "01_Data/Sources/Calibration/S18.txt",
+    "source_sha256_before_reorganization": "9883441c56e692f4cfa4149a4742a70a5e2c512a9dde15eb076918a8f6238878",
+    "current_sha256": "9883441c56e692f4cfa4149a4742a70a5e2c512a9dde15eb076918a8f6238878"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S13.html",
+    "new": "01_Data/Sources/Calibration/S13.html",
+    "source_sha256_before_reorganization": "29cadb99757d5ae073f0c253f2587de4550cbeda35c9ba1da411948bb25d7de1",
+    "current_sha256": "29cadb99757d5ae073f0c253f2587de4550cbeda35c9ba1da411948bb25d7de1"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S19.txt",
+    "new": "01_Data/Sources/Calibration/S19.txt",
+    "source_sha256_before_reorganization": "fb8cb1d8fdc872107ec2ebf13dff6dc738fa968513f850233746e7b73edf6ff0",
+    "current_sha256": "fb8cb1d8fdc872107ec2ebf13dff6dc738fa968513f850233746e7b73edf6ff0"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_018.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_018.txt",
+    "source_sha256_before_reorganization": "85ba9e0ff05998ae9a063a9d8283facf29ba1f81537b18ffdae2667b3c207c72",
+    "current_sha256": "85ba9e0ff05998ae9a063a9d8283facf29ba1f81537b18ffdae2667b3c207c72"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15_page_017.txt",
+    "new": "01_Data/Sources/Calibration/S15_page_017.txt",
+    "source_sha256_before_reorganization": "493f2b55b3c5af8281fa4761d83823ceeb9a127b1f152cec3987f838e7e13d33",
+    "current_sha256": "493f2b55b3c5af8281fa4761d83823ceeb9a127b1f152cec3987f838e7e13d33"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_003.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_003.txt",
+    "source_sha256_before_reorganization": "819b71b28c2dedc3acf0e927810633d724224d210ee9001dfec9a379057d307f",
+    "current_sha256": "819b71b28c2dedc3acf0e927810633d724224d210ee9001dfec9a379057d307f"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_017.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_017.txt",
+    "source_sha256_before_reorganization": "b7b8ad61af09f889130c350e5028ed01c4731d83193c55310fb8a2963eee1ba3",
+    "current_sha256": "b7b8ad61af09f889130c350e5028ed01c4731d83193c55310fb8a2963eee1ba3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_013.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_013.txt",
+    "source_sha256_before_reorganization": "026b888e6f7b7c7128482cc9f1595081f369cfca565c0f7695d9c8ab23365b54",
+    "current_sha256": "026b888e6f7b7c7128482cc9f1595081f369cfca565c0f7695d9c8ab23365b54"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_007.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_007.txt",
+    "source_sha256_before_reorganization": "ec6e37c0d7b394fd56459584d0d2e8d12338c05097cfeabe790620a1ba0d9aac",
+    "current_sha256": "ec6e37c0d7b394fd56459584d0d2e8d12338c05097cfeabe790620a1ba0d9aac"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15_page_013.txt",
+    "new": "01_Data/Sources/Calibration/S15_page_013.txt",
+    "source_sha256_before_reorganization": "62b446b9739bec7d112ee6ff6ea7b9c501aa3adb2c78bf18e1fe356d6a5004e3",
+    "current_sha256": "62b446b9739bec7d112ee6ff6ea7b9c501aa3adb2c78bf18e1fe356d6a5004e3"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_020.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_020.txt",
+    "source_sha256_before_reorganization": "712094710f7a50f2fa4b7a5535e7cfe8dcc7a18df816d64915f2d9454482b6a6",
+    "current_sha256": "712094710f7a50f2fa4b7a5535e7cfe8dcc7a18df816d64915f2d9454482b6a6"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S09.txt",
+    "new": "01_Data/Sources/Calibration/S09.txt",
+    "source_sha256_before_reorganization": "8c962428213b105c35e8182163a1ed590f27de148b1da7fa01be456018dfb066",
+    "current_sha256": "8c962428213b105c35e8182163a1ed590f27de148b1da7fa01be456018dfb066"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_008.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_008.txt",
+    "source_sha256_before_reorganization": "25572adbbbb294a8c7213fa0e802341be1476c6c2cdadef9e7bed7f26568eaa2",
+    "current_sha256": "25572adbbbb294a8c7213fa0e802341be1476c6c2cdadef9e7bed7f26568eaa2"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S20.osm",
+    "new": "01_Data/Sources/Calibration/S20.osm",
+    "source_sha256_before_reorganization": "581b12b1300156e2dfe20d54ec1cef4ca79bc11bcf59c66b23129bf25010d28a",
+    "current_sha256": "581b12b1300156e2dfe20d54ec1cef4ca79bc11bcf59c66b23129bf25010d28a"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_009.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_009.txt",
+    "source_sha256_before_reorganization": "1532834c14b31a57b43dde07dbb2402d6734e800dd1fd4337d4c6393a9752243",
+    "current_sha256": "1532834c14b31a57b43dde07dbb2402d6734e800dd1fd4337d4c6393a9752243"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S08.txt",
+    "new": "01_Data/Sources/Calibration/S08.txt",
+    "source_sha256_before_reorganization": "968517c9000fab885d1852d93ad7284c7d30dd142c84d9fa265eedf8e44c5f39",
+    "current_sha256": "968517c9000fab885d1852d93ad7284c7d30dd142c84d9fa265eedf8e44c5f39"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S10_page_021.txt",
+    "new": "01_Data/Sources/Calibration/S10_page_021.txt",
+    "source_sha256_before_reorganization": "24a72a2a1a54cee67213e2ddd5d734457573db99e72b71f6b6a967cdf54ff880",
+    "current_sha256": "24a72a2a1a54cee67213e2ddd5d734457573db99e72b71f6b6a967cdf54ff880"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S15_page_012.txt",
+    "new": "01_Data/Sources/Calibration/S15_page_012.txt",
+    "source_sha256_before_reorganization": "69667a71ce7ed25fe0b783878cf34fdbe32d2e212b5c8fd057c638a85490af35",
+    "current_sha256": "69667a71ce7ed25fe0b783878cf34fdbe32d2e212b5c8fd057c638a85490af35"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_006.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_006.txt",
+    "source_sha256_before_reorganization": "4dea87981f2abfd82c7a73bdaa7cbb15572c3cbd5d26769ff59287c1b706d545",
+    "current_sha256": "4dea87981f2abfd82c7a73bdaa7cbb15572c3cbd5d26769ff59287c1b706d545"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_012.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_012.txt",
+    "source_sha256_before_reorganization": "05b808fc99efc3797d72b0923b884c1306c31df72b058f7e679b9f0df365bece",
+    "current_sha256": "05b808fc99efc3797d72b0923b884c1306c31df72b058f7e679b9f0df365bece"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S04.html",
+    "new": "01_Data/Sources/Calibration/S04.html",
+    "source_sha256_before_reorganization": "ab4b8cbd1199eb24a0a162689bdb5f7e9e7d4b07ae447230ed27cb4d91034f28",
+    "current_sha256": "ab4b8cbd1199eb24a0a162689bdb5f7e9e7d4b07ae447230ed27cb4d91034f28"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_038.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_038.txt",
+    "source_sha256_before_reorganization": "25aa9ac3f9a8cf93f8d74d9f6add9c66b077ee9dde47e12eb23737d9bb14c2b2",
+    "current_sha256": "25aa9ac3f9a8cf93f8d74d9f6add9c66b077ee9dde47e12eb23737d9bb14c2b2"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_004.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_004.txt",
+    "source_sha256_before_reorganization": "4fa62ce69d82137bd18072948a25bd746f44307b07bde0997c33d298471ec566",
+    "current_sha256": "4fa62ce69d82137bd18072948a25bd746f44307b07bde0997c33d298471ec566"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_010.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_010.txt",
+    "source_sha256_before_reorganization": "a50b709edb0a11c90d1a272c8dd26413325dc2a1658d00f56570a803f3356310",
+    "current_sha256": "a50b709edb0a11c90d1a272c8dd26413325dc2a1658d00f56570a803f3356310"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_011.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_011.txt",
+    "source_sha256_before_reorganization": "d885bc706140cdfdc3299e35ff97dfd2cdbf51f796d7d166b20c466cacd080c6",
+    "current_sha256": "d885bc706140cdfdc3299e35ff97dfd2cdbf51f796d7d166b20c466cacd080c6"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_005.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_005.txt",
+    "source_sha256_before_reorganization": "44ed8531b0b422f98f4b76f1b06928ffbd82835012feea7796cbe600be2bc990",
+    "current_sha256": "44ed8531b0b422f98f4b76f1b06928ffbd82835012feea7796cbe600be2bc990"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S12_page_039.txt",
+    "new": "01_Data/Sources/Calibration/S12_page_039.txt",
+    "source_sha256_before_reorganization": "ca005bcc1240bc043aa4150bc7f09d3359a3c0bc22ff138146093095c7ee2d4c",
+    "current_sha256": "ca005bcc1240bc043aa4150bc7f09d3359a3c0bc22ff138146093095c7ee2d4c"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/sources/S08.html",
+    "new": "01_Data/Sources/Calibration/S08.html",
+    "source_sha256_before_reorganization": "2adb40ebc087424996f8bcdfc5213e1295c4125dae90f8e132767cb93a6c1fb3",
+    "current_sha256": "2adb40ebc087424996f8bcdfc5213e1295c4125dae90f8e132767cb93a6c1fb3"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/sources/census_service.json",
+    "new": "01_Data/Sources/Census/census_service.json",
+    "source_sha256_before_reorganization": "c6b27b455580aa735097921ed6399fa10f3f2e335d8cd315d52543149f51f0f9",
+    "current_sha256": "c6b27b455580aa735097921ed6399fa10f3f2e335d8cd315d52543149f51f0f9"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/sources/census_layer.json",
+    "new": "01_Data/Sources/Census/census_layer.json",
+    "source_sha256_before_reorganization": "022f4b8367b195b4b4f6bc22b8aa056d9528e230232d0d1e255b97a36ba8ea37",
+    "current_sha256": "022f4b8367b195b4b4f6bc22b8aa056d9528e230232d0d1e255b97a36ba8ea37"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/sources/tai_o_census_ssg.geojson",
+    "new": "01_Data/Sources/Census/tai_o_census_ssg.geojson",
+    "source_sha256_before_reorganization": "70096dba57bc796a33607014933b7ca440fdc0214ba09c2ff4e6b15421cc57a7",
+    "current_sha256": "70096dba57bc796a33607014933b7ca440fdc0214ba09c2ff4e6b15421cc57a7"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/evidence_facts.json",
+    "new": "01_Data/Evidence/evidence_facts.json",
+    "source_sha256_before_reorganization": "00f33128809004f238d80ce6d61fa1838cdb2162b5c782a9631fed2ff6d4544c",
+    "current_sha256": "00f33128809004f238d80ce6d61fa1838cdb2162b5c782a9631fed2ff6d4544c"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/current_parameters.json",
+    "new": "01_Data/Evidence/current_parameters.json",
+    "source_sha256_before_reorganization": "f82dee3d1282601671329d7830093e71f083530b30c2161490bf434838125ee9",
+    "current_sha256": "f82dee3d1282601671329d7830093e71f083530b30c2161490bf434838125ee9"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/parameter_families.json",
+    "new": "01_Data/Evidence/parameter_families.json",
+    "source_sha256_before_reorganization": "403d5dbd70bff0f08a074808dc7cefaccaa5e000f35ad324454a7f894498935d",
+    "current_sha256": "403d5dbd70bff0f08a074808dc7cefaccaa5e000f35ad324454a7f894498935d"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/S10_pdf_preflight.json",
+    "new": "01_Data/Evidence/S10_pdf_preflight.json",
+    "source_sha256_before_reorganization": "92c9f700895ce4d46c74f399b95e4df16ec4f0a22f080e50446b16294eadb39e",
+    "current_sha256": "92c9f700895ce4d46c74f399b95e4df16ec4f0a22f080e50446b16294eadb39e"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/S12_pdf_preflight.json",
+    "new": "01_Data/Evidence/S12_pdf_preflight.json",
+    "source_sha256_before_reorganization": "3e45e69f7f4f191ea47aef2facc72265dea06520c3c9b8a26421745f6a0b0221",
+    "current_sha256": "3e45e69f7f4f191ea47aef2facc72265dea06520c3c9b8a26421745f6a0b0221"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/S15_pdf_preflight.json",
+    "new": "01_Data/Evidence/S15_pdf_preflight.json",
+    "source_sha256_before_reorganization": "f22a3a57f65f6635e3f095af6c292d23610663a3df4ebdf2c1614176503ae3c9",
+    "current_sha256": "f22a3a57f65f6635e3f095af6c292d23610663a3df4ebdf2c1614176503ae3c9"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/S16_pdf_preflight.json",
+    "new": "01_Data/Evidence/S16_pdf_preflight.json",
+    "source_sha256_before_reorganization": "ffa5ffd55b0357f4cbe0b5503f85ff33cce5fe2a962a2508cbd1769db96de131",
+    "current_sha256": "ffa5ffd55b0357f4cbe0b5503f85ff33cce5fe2a962a2508cbd1769db96de131"
+  },
+  {
+    "old": "empirical_calibration/20261103_v1/data/census_ssg_2021_utf8.csv",
+    "new": "01_Data/Spatial/census_ssg_2021_utf8.csv",
+    "source_sha256_before_reorganization": "c2e5017a960dc020460e7e720ac51778d51bea8cad25ac28dced4a52d8b11e84",
+    "current_sha256": "c2e5017a960dc020460e7e720ac51778d51bea8cad25ac28dced4a52d8b11e84"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/data/tai_o_census_aligned_zones.geojson",
+    "new": "01_Data/Spatial/tai_o_census_aligned_zones.geojson",
+    "source_sha256_before_reorganization": "b5aa17cda7b36718f1a199162b75025704fb4fa6446dec50610a8c144d5eb61d",
+    "current_sha256": "b5aa17cda7b36718f1a199162b75025704fb4fa6446dec50610a8c144d5eb61d"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/data/zone_summary.json",
+    "new": "01_Data/Spatial/zone_summary.json",
+    "source_sha256_before_reorganization": "701d690bc7e20fa30e07926468d88b7b46933fca981b084ed12ccb2f68e2ccd9",
+    "current_sha256": "701d690bc7e20fa30e07926468d88b7b46933fca981b084ed12ccb2f68e2ccd9"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/data/census_units.csv",
+    "new": "01_Data/Spatial/census_units.csv",
+    "source_sha256_before_reorganization": "ad375f575a8948de3e22185f5dce90bf9ffc56776daaae722a0afceabed9600c",
+    "current_sha256": "ad375f575a8948de3e22185f5dce90bf9ffc56776daaae722a0afceabed9600c"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/data/census_units.json",
+    "new": "01_Data/Spatial/census_units.json",
+    "source_sha256_before_reorganization": "7d50a242f5004936954950a09107631162517615e057aea27876252e27445c93",
+    "current_sha256": "7d50a242f5004936954950a09107631162517615e057aea27876252e27445c93"
+  },
+  {
+    "old": "manuscript_revision/20261103_preflight/evidence/capacity_bounds/comparison.json",
+    "new": "01_Data/Controls/capacity_bound_reference.json",
+    "source_sha256_before_reorganization": "4b4d853374a39d19f8de34d81c7e5cfe205b36e67f541c12a1b9914b746e7739",
+    "current_sha256": "4b4d853374a39d19f8de34d81c7e5cfe205b36e67f541c12a1b9914b746e7739"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/results/verified_v2/independent_verification.json",
+    "new": "01_Data/Controls/pre_cleanup_independent_verification.json",
+    "source_sha256_before_reorganization": "4b33ed5736ca5e09946f53d377f5a66e7ccfb1d3f309f48ceb3d9d6ca51bfe2a",
+    "current_sha256": "4b33ed5736ca5e09946f53d377f5a66e7ccfb1d3f309f48ceb3d9d6ca51bfe2a"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/results/verified_v2/delivery_verification.json",
+    "new": "01_Data/Controls/pre_cleanup_delivery_verification.json",
+    "source_sha256_before_reorganization": "6ac800df24493e6eebe747cf0eaaf09c54cc0f532cf0820d72ee75d5e6fc6f8d",
+    "current_sha256": "6ac800df24493e6eebe747cf0eaaf09c54cc0f532cf0820d72ee75d5e6fc6f8d"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/results/verified_v2/report_verification.json",
+    "new": "01_Data/Controls/pre_cleanup_report_verification.json",
+    "source_sha256_before_reorganization": "7b0135b07e96b21976b7d5c193ebc551584edf6ac1c55d3f4202db1862283090",
+    "current_sha256": "7b0135b07e96b21976b7d5c193ebc551584edf6ac1c55d3f4202db1862283090"
+  },
+  {
+    "old": "02_Model/Step5_Stochastic_Model/two_stage_stochastic_MILP/crisp_mobile_pump_model.py",
+    "new": "02_Model/crisp_model.py",
+    "source_sha256_before_reorganization": "28847df00195f07be6ed0ad2a83d10a78faa0d3eb0be659ada5bffd0c61b773e",
+    "current_sha256": "fea431900f292f319c13dc18c8e3f17048da0c871d233ce6d52e46f964b4ca69"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/verify_results.py",
+    "new": "03_Experiments/Optimization/code/verify_results.py",
+    "source_sha256_before_reorganization": "1cdd9f6daa3e6d69002b0cbc709697cd3645278855802e45377826c48beb0198",
+    "current_sha256": "7cfbea7b1365168bf07ca8b687004348027a7990f1e302fcde4c3b7c8ab481ab"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/audit_ev_ties.py",
+    "new": "03_Experiments/Optimization/code/audit_ev_ties.py",
+    "source_sha256_before_reorganization": "b2b38a72930cfa81164bbd44b229b74a45ff2f026cf2a3602b6c337da4e8fc2b",
+    "current_sha256": "91052fc3768a2b464a5305fe1b1bfb83c15df48378431f44cf8c5b92dc07de61"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/gen_fig03_ablation.py",
+    "new": "03_Experiments/Optimization/code/gen_fig03_ablation.py",
+    "source_sha256_before_reorganization": "b5b8cae927ff3332735db5c4e2ad515adb2605f83c27066dd7028964b63744fe",
+    "current_sha256": "b5b8cae927ff3332735db5c4e2ad515adb2605f83c27066dd7028964b63744fe"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/test_mobile_model.py",
+    "new": "03_Experiments/Optimization/code/test_mobile_model.py",
+    "source_sha256_before_reorganization": "0ba8c419a60cf2f97d53fbbf71501770c7cba642388f364948bd2975a72ac339",
+    "current_sha256": "22cb48fe834008ea33c12b426cebddde4c9f6eb58807bd79dfde1392022a994e"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/build_report.py",
+    "new": "03_Experiments/Optimization/code/build_report.py",
+    "source_sha256_before_reorganization": "4aa3ff26940359915b7d15c0c5e5965229658655215071ec0db014cc6805f016",
+    "current_sha256": "0ece28b3c878da59bfdf7319de9f983c36f79c1eb8eaa56b02c6a765527d46de"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/gen_fig05_uncertainty.py",
+    "new": "03_Experiments/Optimization/code/gen_fig05_uncertainty.py",
+    "source_sha256_before_reorganization": "bccb5157081f582ee72f3d8c70d073ee63b7e7fb87135c18d2a2b1b9e68fa84b",
+    "current_sha256": "bccb5157081f582ee72f3d8c70d073ee63b7e7fb87135c18d2a2b1b9e68fa84b"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/gen_fig06_bounds.py",
+    "new": "03_Experiments/Optimization/code/gen_fig06_bounds.py",
+    "source_sha256_before_reorganization": "140c48388da0a6d89770e805c45d2683490bd30b777753fdce7dac39c60f9d0c",
+    "current_sha256": "140c48388da0a6d89770e805c45d2683490bd30b777753fdce7dac39c60f9d0c"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/gen_fig01_inventory.py",
+    "new": "03_Experiments/Optimization/code/gen_fig01_inventory.py",
+    "source_sha256_before_reorganization": "566c32b859a2e6f133b0447565ba07f06f3c4d2822dc2556cd6fd7232e687956",
+    "current_sha256": "566c32b859a2e6f133b0447565ba07f06f3c4d2822dc2556cd6fd7232e687956"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/build_workbook.mjs",
+    "new": "03_Experiments/Optimization/code/build_workbook.mjs",
+    "source_sha256_before_reorganization": "3de98b7988484a55bf57a3050d2408acdc4c3e3a40f903a5c64d8edd5a04264f",
+    "current_sha256": "74337a3dfad71c3a2d8f6b520f1de5f01e3f99d164063a2f6ac5a554b9e77bb3"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/paper_plot_style.py",
+    "new": "03_Experiments/Optimization/code/paper_plot_style.py",
+    "source_sha256_before_reorganization": "037c79dc22b5eee7192df73dbe5a386ce71265a4c1507d6158640087864e7a3a",
+    "current_sha256": "8a506a7bf2e88efd4eb9e2d6fe2a79226193a60a695b92b67ae792031a90ea91"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/gen_fig02_spatial.py",
+    "new": "03_Experiments/Optimization/code/gen_fig02_spatial.py",
+    "source_sha256_before_reorganization": "0065d73c8f00706032c7965483900580af32985103ccc8e11ff297d61a344de1",
+    "current_sha256": "0065d73c8f00706032c7965483900580af32985103ccc8e11ff297d61a344de1"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/gen_fig04_oat.py",
+    "new": "03_Experiments/Optimization/code/gen_fig04_oat.py",
+    "source_sha256_before_reorganization": "818aff3457963ca0795ec224d3ba632a514d5a60f9ab968cd6d3aa50c9dd0f53",
+    "current_sha256": "818aff3457963ca0795ec224d3ba632a514d5a60f9ab968cd6d3aa50c9dd0f53"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/code/run_experiments.py",
+    "new": "03_Experiments/Optimization/code/run_experiments.py",
+    "source_sha256_before_reorganization": "cfcecde1b05455687d098abbdb5f3ca95f49e73c31688def9bd7d91e9daa9da8",
+    "current_sha256": "d9e02f0eb386760871e3bf0b95046e046d073669355165ebe853b17808093ae7"
+  },
+  {
+    "old": "05_Code/data_model_ps/src/crisp_data_layer/config.py",
+    "new": "05_Code/Scenario_Pipeline/src/crisp_data_layer/config.py",
+    "source_sha256_before_reorganization": "d313908847dbbaa82e982b46b72d56dc35a6249a2655c0162924654fcd4530ff",
+    "current_sha256": "d313908847dbbaa82e982b46b72d56dc35a6249a2655c0162924654fcd4530ff"
+  },
+  {
+    "old": "05_Code/data_model_ps/src/crisp_data_layer/io.py",
+    "new": "05_Code/Scenario_Pipeline/src/crisp_data_layer/io.py",
+    "source_sha256_before_reorganization": "743125e472b2eb74aba26fded46e3e59a8227efe655052adc63e78249a9d4f9f",
+    "current_sha256": "743125e472b2eb74aba26fded46e3e59a8227efe655052adc63e78249a9d4f9f"
+  },
+  {
+    "old": "05_Code/data_model_ps/src/crisp_data_layer/__init__.py",
+    "new": "05_Code/Scenario_Pipeline/src/crisp_data_layer/__init__.py",
+    "source_sha256_before_reorganization": "9fca0e1ea91d7d9c17b070980a22507f67fdb1cb5234f42050a87307502abf36",
+    "current_sha256": "9fca0e1ea91d7d9c17b070980a22507f67fdb1cb5234f42050a87307502abf36"
+  },
+  {
+    "old": "05_Code/data_model_ps/src/crisp_data_layer/cli.py",
+    "new": "05_Code/Scenario_Pipeline/src/crisp_data_layer/cli.py",
+    "source_sha256_before_reorganization": "426ddb2a6f32b9a85b1b3706d656c04bc06a04c8abb31171bcabd001ab8f6047",
+    "current_sha256": "426ddb2a6f32b9a85b1b3706d656c04bc06a04c8abb31171bcabd001ab8f6047"
+  },
+  {
+    "old": "05_Code/data_model_ps/src/crisp_data_layer/pipeline.py",
+    "new": "05_Code/Scenario_Pipeline/src/crisp_data_layer/pipeline.py",
+    "source_sha256_before_reorganization": "0994fb6d7b59b5b31e0ee0b15fd1a0473140ad0580ea19daa9c83767e2962a0f",
+    "current_sha256": "0994fb6d7b59b5b31e0ee0b15fd1a0473140ad0580ea19daa9c83767e2962a0f"
+  },
+  {
+    "old": "05_Code/data_model_ps/src/crisp_data_layer/export_workbook.mjs",
+    "new": "05_Code/Scenario_Pipeline/src/crisp_data_layer/export_workbook.mjs",
+    "source_sha256_before_reorganization": "1ba831ca498e9a955ef9f85dcd2b6ec624bc1b22f40b9f700916dbe153ab57d8",
+    "current_sha256": "1ba831ca498e9a955ef9f85dcd2b6ec624bc1b22f40b9f700916dbe153ab57d8"
+  },
+  {
+    "old": "05_Code/data_model_ps/tests/conftest.py",
+    "new": "05_Code/Scenario_Pipeline/tests/conftest.py",
+    "source_sha256_before_reorganization": "51e5c0b3ed5e6586d75b2ded091b1af6da03e9a00ee83aa0968c6f3227df0c5b",
+    "current_sha256": "51e5c0b3ed5e6586d75b2ded091b1af6da03e9a00ee83aa0968c6f3227df0c5b"
+  },
+  {
+    "old": "05_Code/data_model_ps/tests/test_config.py",
+    "new": "05_Code/Scenario_Pipeline/tests/test_config.py",
+    "source_sha256_before_reorganization": "88e5f5c69a7d1beea8df9d68c043f4250c310c2d7e4c0cb6369164e2ea642eb6",
+    "current_sha256": "88e5f5c69a7d1beea8df9d68c043f4250c310c2d7e4c0cb6369164e2ea642eb6"
+  },
+  {
+    "old": "05_Code/data_model_ps/tests/test_pipeline.py",
+    "new": "05_Code/Scenario_Pipeline/tests/test_pipeline.py",
+    "source_sha256_before_reorganization": "69cf2473967e626e18f80d1a6aa02c716ea0ee245efa939ed05278bed7d70b92",
+    "current_sha256": "69cf2473967e626e18f80d1a6aa02c716ea0ee245efa939ed05278bed7d70b92"
+  },
+  {
+    "old": "05_Code/data_model_ps/examples/sample_events.csv",
+    "new": "05_Code/Scenario_Pipeline/examples/sample_events.csv",
+    "source_sha256_before_reorganization": "f1ef85d6a70a429aa3e8b128d6194781d54e63eba06d2752ac4c9c287db29a22",
+    "current_sha256": "f1ef85d6a70a429aa3e8b128d6194781d54e63eba06d2752ac4c9c287db29a22"
+  },
+  {
+    "old": "05_Code/data_model_ps/config/fallback.yaml",
+    "new": "05_Code/Scenario_Pipeline/config/fallback.yaml",
+    "source_sha256_before_reorganization": "c2f6290f747ac77a0b693a4aefd3583ecbc8d803dd53edab58ad362702948d6b",
+    "current_sha256": "afd9e4fa1c5229b76ba77873995f62914a582909402ab70d89a90ca772b586fd"
+  },
+  {
+    "old": "05_Code/data_model_ps/config/default.yaml",
+    "new": "05_Code/Scenario_Pipeline/config/default.yaml",
+    "source_sha256_before_reorganization": "ba0fc50a255e1e75ce18700904207dd61e3d07f7abd53e2fda05e60bdedb5673",
+    "current_sha256": "daee305c659f1b50d32ff9c075031b75e2b46dc35753c18c376187ba16d611f4"
+  },
+  {
+    "old": "05_Code/data_model_ps/pyproject.toml",
+    "new": "05_Code/Scenario_Pipeline/pyproject.toml",
+    "source_sha256_before_reorganization": "28caedf2ea9059a65ae9994959cff9da1f0423b14ab6f0f2995e3fb9c22e384c",
+    "current_sha256": "28caedf2ea9059a65ae9994959cff9da1f0423b14ab6f0f2995e3fb9c22e384c"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/event_projections.npz",
+    "new": "04_Results/Scenario_Stability/event_projections.npz",
+    "source_sha256_before_reorganization": "5b3e30cb542f87e90f89baf93abf072dc162461bf4295699c688f87c0eaef16b",
+    "current_sha256": "5b3e30cb542f87e90f89baf93abf072dc162461bf4295699c688f87c0eaef16b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/resample_indices.json",
+    "new": "04_Results/Scenario_Stability/resample_indices.json",
+    "source_sha256_before_reorganization": "878bffaf3967c1acf0ce09b3af7ad14fdc53c3dd0c354353b980aa08cf78bf28",
+    "current_sha256": "878bffaf3967c1acf0ce09b3af7ad14fdc53c3dd0c354353b980aa08cf78bf28"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/publication_table_cells.json",
+    "new": "04_Results/Scenario_Stability/publication_table_cells.json",
+    "source_sha256_before_reorganization": "5a5dd48fa856f1d7e6716fd22c76c2aec0c2c7379acdf3a6a29bd77134c5f6fe",
+    "current_sha256": "5a5dd48fa856f1d7e6716fd22c76c2aec0c2c7379acdf3a6a29bd77134c5f6fe"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/baseline_audit.json",
+    "new": "04_Results/Scenario_Stability/baseline_audit.json",
+    "source_sha256_before_reorganization": "82d46176112825ebbb9b0e0f87fd3e8b2f9bce52f14a3077a51e4cd3dd075841",
+    "current_sha256": "82d46176112825ebbb9b0e0f87fd3e8b2f9bce52f14a3077a51e4cd3dd075841"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/run_counts.json",
+    "new": "04_Results/Scenario_Stability/run_counts.json",
+    "source_sha256_before_reorganization": "e66ba07dd45e0a44ab66b6a08319b935d570c3f3cb40a3a17ee5b048c0e9ef7d",
+    "current_sha256": "e66ba07dd45e0a44ab66b6a08319b935d570c3f3cb40a3a17ee5b048c0e9ef7d"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/manifest.json",
+    "new": "04_Results/Scenario_Stability/manifest.json",
+    "source_sha256_before_reorganization": "afba155c2abea543cffd16c353e72f6a2000eb20fe718474b3386dd35686b0a5",
+    "current_sha256": "afba155c2abea543cffd16c353e72f6a2000eb20fe718474b3386dd35686b0a5"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/verification.json",
+    "new": "04_Results/Scenario_Stability/verification.json",
+    "source_sha256_before_reorganization": "6120c3e05b12735e904bcce75782506fc5f8b12e05506846941b0f1894000fa8",
+    "current_sha256": "6120c3e05b12735e904bcce75782506fc5f8b12e05506846941b0f1894000fa8"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/reproducibility.json",
+    "new": "04_Results/Scenario_Stability/reproducibility.json",
+    "source_sha256_before_reorganization": "36f52b16f6e04e54784e87c8b8232ec01f59b981bca00f5015b43a6a7fa64fe4",
+    "current_sha256": "36f52b16f6e04e54784e87c8b8232ec01f59b981bca00f5015b43a6a7fa64fe4"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/完整分析報告.md",
+    "new": "04_Results/Scenario_Stability/完整分析報告.md",
+    "source_sha256_before_reorganization": "c49650a806db81c0e1f9de414368c3bcb4b74cbabbb84fc5091e63dbaa186e30",
+    "current_sha256": "03717aef70b65d0a49fc473a62e4009ac7ebf7e1ad9942d8ec89f57856ad82b1"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T05_stability.csv",
+    "new": "04_Results/Scenario_Stability/tables/T05_stability.csv",
+    "source_sha256_before_reorganization": "8d0adf82b6050a10112aa40e7643acc65f7f03310ae5730bf80153912ae9e593",
+    "current_sha256": "8d0adf82b6050a10112aa40e7643acc65f7f03310ae5730bf80153912ae9e593"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/competing_partitions.csv",
+    "new": "04_Results/Scenario_Stability/tables/competing_partitions.csv",
+    "source_sha256_before_reorganization": "62de221e218cba5813b0b96ba8ae1524a9f56fa688ae88bf458a6b94fd7b8585",
+    "current_sha256": "62de221e218cba5813b0b96ba8ae1524a9f56fa688ae88bf458a6b94fd7b8585"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T01_year_counts.csv",
+    "new": "04_Results/Scenario_Stability/tables/T01_year_counts.csv",
+    "source_sha256_before_reorganization": "85a193c36b071628b6c7fb05cd22f22710750a44bb312c4923d4821e05428524",
+    "current_sha256": "85a193c36b071628b6c7fb05cd22f22710750a44bb312c4923d4821e05428524"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T04_weight_contrasts.csv",
+    "new": "04_Results/Scenario_Stability/tables/T04_weight_contrasts.csv",
+    "source_sha256_before_reorganization": "222e6674d819c88702d4a5a571e4e583378903691cdf6842d1430c4c7eb36ba7",
+    "current_sha256": "222e6674d819c88702d4a5a571e4e583378903691cdf6842d1430c4c7eb36ba7"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T14_bootstrap_k_preference.csv",
+    "new": "04_Results/Scenario_Stability/tables/T14_bootstrap_k_preference.csv",
+    "source_sha256_before_reorganization": "85957509322da0c7c65c45cf5666da01a859c30ee7568152d55a9fd885eb4fdf",
+    "current_sha256": "85957509322da0c7c65c45cf5666da01a859c30ee7568152d55a9fd885eb4fdf"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T09_representative_hazards.tex",
+    "new": "04_Results/Scenario_Stability/tables/T09_representative_hazards.tex",
+    "source_sha256_before_reorganization": "e3e0d07b14efb0f367547648915fc43e17645fd778ade3003bd26370f31717d0",
+    "current_sha256": "e3e0d07b14efb0f367547648915fc43e17645fd778ade3003bd26370f31717d0"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T10_all_event_stability.csv",
+    "new": "04_Results/Scenario_Stability/tables/T10_all_event_stability.csv",
+    "source_sha256_before_reorganization": "b93f68f246a5352099ff4acd6fcc6a14e7920e143ad76a662d9e32901d1e2bce",
+    "current_sha256": "b93f68f246a5352099ff4acd6fcc6a14e7920e143ad76a662d9e32901d1e2bce"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/year_bootstrap_coassignment.csv",
+    "new": "04_Results/Scenario_Stability/tables/year_bootstrap_coassignment.csv",
+    "source_sha256_before_reorganization": "fd1cb32259812b9c9d6162b9bb8468e81c3ab27e43971a406eadb41c5a874709",
+    "current_sha256": "fd1cb32259812b9c9d6162b9bb8468e81c3ab27e43971a406eadb41c5a874709"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/resample_summary.csv",
+    "new": "04_Results/Scenario_Stability/tables/resample_summary.csv",
+    "source_sha256_before_reorganization": "2b19527a34e7d1ef9e541cc41e7d83fe563707109ce235c10ebb24237f82e1e3",
+    "current_sha256": "2b19527a34e7d1ef9e541cc41e7d83fe563707109ce235c10ebb24237f82e1e3"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/baseline_events.csv",
+    "new": "04_Results/Scenario_Stability/tables/baseline_events.csv",
+    "source_sha256_before_reorganization": "0e238a10f77d565e3696138656a02def1e0d33e438e03a0b97ed41143c9d4590",
+    "current_sha256": "0e238a10f77d565e3696138656a02def1e0d33e438e03a0b97ed41143c9d4590"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/k_diagnostics.csv",
+    "new": "04_Results/Scenario_Stability/tables/k_diagnostics.csv",
+    "source_sha256_before_reorganization": "b903bfe0d2d8587af18b8a884e0246ee3c2286d66805389a1cdadb45195f25b2",
+    "current_sha256": "b903bfe0d2d8587af18b8a884e0246ee3c2286d66805389a1cdadb45195f25b2"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/subsample80_coassignment.csv",
+    "new": "04_Results/Scenario_Stability/tables/subsample80_coassignment.csv",
+    "source_sha256_before_reorganization": "864da1c78917f04cc8c666ed8b87502900ec5805d43764b1693c339fcced53df",
+    "current_sha256": "864da1c78917f04cc8c666ed8b87502900ec5805d43764b1693c339fcced53df"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T11_leave_one_event.csv",
+    "new": "04_Results/Scenario_Stability/tables/T11_leave_one_event.csv",
+    "source_sha256_before_reorganization": "6ee86f44134ac9f60072c116ed0afd3b56a2aa999a1b85a691da2206f63fcd2b",
+    "current_sha256": "6ee86f44134ac9f60072c116ed0afd3b56a2aa999a1b85a691da2206f63fcd2b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T06_global_optimum_audit.tex",
+    "new": "04_Results/Scenario_Stability/tables/T06_global_optimum_audit.tex",
+    "source_sha256_before_reorganization": "eb955075c3249c3e2f5d243e456dafec3f9f20388a59aa4a0f69fc137badf7b8",
+    "current_sha256": "eb955075c3249c3e2f5d243e456dafec3f9f20388a59aa4a0f69fc137badf7b8"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T13_k_diagnostics.csv",
+    "new": "04_Results/Scenario_Stability/tables/T13_k_diagnostics.csv",
+    "source_sha256_before_reorganization": "700988841bfd2443158f9d0daded6b58a855a00f9f7ad056f0402d14adf71888",
+    "current_sha256": "700988841bfd2443158f9d0daded6b58a855a00f9f7ad056f0402d14adf71888"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T02_baseline_critic.tex",
+    "new": "04_Results/Scenario_Stability/tables/T02_baseline_critic.tex",
+    "source_sha256_before_reorganization": "9d89b89795d21d2dd4b85162fbd0b2ba2f928c53f028cd95e7bc277f11663bdc",
+    "current_sha256": "9d89b89795d21d2dd4b85162fbd0b2ba2f928c53f028cd95e7bc277f11663bdc"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T12_leave_one_year.tex",
+    "new": "04_Results/Scenario_Stability/tables/T12_leave_one_year.tex",
+    "source_sha256_before_reorganization": "16e65924a44066e1a27cda6188538cc7012386bb8a0a355a65dfee01f04533cc",
+    "current_sha256": "16e65924a44066e1a27cda6188538cc7012386bb8a0a355a65dfee01f04533cc"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T03_weight_ranges.csv",
+    "new": "04_Results/Scenario_Stability/tables/T03_weight_ranges.csv",
+    "source_sha256_before_reorganization": "37b3741ab97f203b7c5862536ce20de49fb89747b07db81d809a074c4363da11",
+    "current_sha256": "37b3741ab97f203b7c5862536ce20de49fb89747b07db81d809a074c4363da11"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/failed_runs.csv",
+    "new": "04_Results/Scenario_Stability/tables/failed_runs.csv",
+    "source_sha256_before_reorganization": "503b4bb4969d4d91bc23f6d617d6ee75cddd1d3a7250e82dbd8192d4585bf181",
+    "current_sha256": "503b4bb4969d4d91bc23f6d617d6ee75cddd1d3a7250e82dbd8192d4585bf181"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T07_scenario_frequencies.tex",
+    "new": "04_Results/Scenario_Stability/tables/T07_scenario_frequencies.tex",
+    "source_sha256_before_reorganization": "ad1fcaac1bde800622668ba1dcd30ca080e086df338f3534765685ad7b5fb023",
+    "current_sha256": "ad1fcaac1bde800622668ba1dcd30ca080e086df338f3534765685ad7b5fb023"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/correlations.csv",
+    "new": "04_Results/Scenario_Stability/tables/correlations.csv",
+    "source_sha256_before_reorganization": "6177bece61c6b385949c3689cf9b1f8bdef1b0ca415dcc45b1000870f71229b9",
+    "current_sha256": "6177bece61c6b385949c3689cf9b1f8bdef1b0ca415dcc45b1000870f71229b9"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/initialization_runs.csv",
+    "new": "04_Results/Scenario_Stability/tables/initialization_runs.csv",
+    "source_sha256_before_reorganization": "bdc43fe8a412065384765a53231d20f9e2a3d80a86424cbda177306daa9fabed",
+    "current_sha256": "bdc43fe8a412065384765a53231d20f9e2a3d80a86424cbda177306daa9fabed"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/year_counts.csv",
+    "new": "04_Results/Scenario_Stability/tables/year_counts.csv",
+    "source_sha256_before_reorganization": "85a193c36b071628b6c7fb05cd22f22710750a44bb312c4923d4821e05428524",
+    "current_sha256": "85a193c36b071628b6c7fb05cd22f22710750a44bb312c4923d4821e05428524"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/resample_runs.csv",
+    "new": "04_Results/Scenario_Stability/tables/resample_runs.csv",
+    "source_sha256_before_reorganization": "a162075f54eb15867fcba08ede4f202ec7cc171e8865199ff851259fa2123cb1",
+    "current_sha256": "a162075f54eb15867fcba08ede4f202ec7cc171e8865199ff851259fa2123cb1"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/weight_rank_frequencies.csv",
+    "new": "04_Results/Scenario_Stability/tables/weight_rank_frequencies.csv",
+    "source_sha256_before_reorganization": "f06d46ee404ba5dbc84fbadcc8383dd5cfc11b2a893d0b86f61ce010d0990684",
+    "current_sha256": "f06d46ee404ba5dbc84fbadcc8383dd5cfc11b2a893d0b86f61ce010d0990684"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T08_centers_thresholds.csv",
+    "new": "04_Results/Scenario_Stability/tables/T08_centers_thresholds.csv",
+    "source_sha256_before_reorganization": "0165765193eed101d56b3673d65cea2164c63a856309666ea29ac2a9653acf8b",
+    "current_sha256": "0165765193eed101d56b3673d65cea2164c63a856309666ea29ac2a9653acf8b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/leave_one_event_coassignment.csv",
+    "new": "04_Results/Scenario_Stability/tables/leave_one_event_coassignment.csv",
+    "source_sha256_before_reorganization": "cf2a90dabf1eb3294c31400c96ca4646d2098f92651d2269753bbae279de0c83",
+    "current_sha256": "cf2a90dabf1eb3294c31400c96ca4646d2098f92651d2269753bbae279de0c83"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/event_membership_stability.csv",
+    "new": "04_Results/Scenario_Stability/tables/event_membership_stability.csv",
+    "source_sha256_before_reorganization": "809ef717125cee24354b96ab3acb5ab4c646511dc0ad1c5987a031fa7c42057e",
+    "current_sha256": "809ef717125cee24354b96ab3acb5ab4c646511dc0ad1c5987a031fa7c42057e"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T09_representative_hazards.csv",
+    "new": "04_Results/Scenario_Stability/tables/T09_representative_hazards.csv",
+    "source_sha256_before_reorganization": "bc0d6b54e668ada333f4b320fef9e3f1197f25ffb489e0bee435c660455f76cc",
+    "current_sha256": "bc0d6b54e668ada333f4b320fef9e3f1197f25ffb489e0bee435c660455f76cc"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T10_all_event_stability.tex",
+    "new": "04_Results/Scenario_Stability/tables/T10_all_event_stability.tex",
+    "source_sha256_before_reorganization": "284a3560fc9d9a84fa49155ee12862255de5a8e74c7de925cd3dcf7be36be03d",
+    "current_sha256": "284a3560fc9d9a84fa49155ee12862255de5a8e74c7de925cd3dcf7be36be03d"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T01_year_counts.tex",
+    "new": "04_Results/Scenario_Stability/tables/T01_year_counts.tex",
+    "source_sha256_before_reorganization": "2ed0b4f747716d1fd157b9314968ada12e3d5fd78eea623d2e805081b964a7f2",
+    "current_sha256": "2ed0b4f747716d1fd157b9314968ada12e3d5fd78eea623d2e805081b964a7f2"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T14_bootstrap_k_preference.tex",
+    "new": "04_Results/Scenario_Stability/tables/T14_bootstrap_k_preference.tex",
+    "source_sha256_before_reorganization": "75d44e314e56e97f35bd84c04331a2d86507d59101d29711e3fe3cbd5805a759",
+    "current_sha256": "75d44e314e56e97f35bd84c04331a2d86507d59101d29711e3fe3cbd5805a759"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T04_weight_contrasts.tex",
+    "new": "04_Results/Scenario_Stability/tables/T04_weight_contrasts.tex",
+    "source_sha256_before_reorganization": "1945a574d3d2b5556dbc99692725f511574a4426501a89517f9a21a80cc782d8",
+    "current_sha256": "1945a574d3d2b5556dbc99692725f511574a4426501a89517f9a21a80cc782d8"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/baseline_weights.csv",
+    "new": "04_Results/Scenario_Stability/tables/baseline_weights.csv",
+    "source_sha256_before_reorganization": "3f6e491705a64350b13ca2b2b32c014457b52b19a9d75bc4cbb3812faeed24bf",
+    "current_sha256": "3f6e491705a64350b13ca2b2b32c014457b52b19a9d75bc4cbb3812faeed24bf"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T05_stability.tex",
+    "new": "04_Results/Scenario_Stability/tables/T05_stability.tex",
+    "source_sha256_before_reorganization": "2e390fe75ffffce058847187618a0bb12a69ad0a2155eb7faec04268c85415a3",
+    "current_sha256": "2e390fe75ffffce058847187618a0bb12a69ad0a2155eb7faec04268c85415a3"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T08_centers_thresholds.tex",
+    "new": "04_Results/Scenario_Stability/tables/T08_centers_thresholds.tex",
+    "source_sha256_before_reorganization": "1fe0fc0aa2a0b9ac95b77000da30dcdc87b00a7d36349146809acc4a32c0630b",
+    "current_sha256": "1fe0fc0aa2a0b9ac95b77000da30dcdc87b00a7d36349146809acc4a32c0630b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T07_scenario_frequencies.csv",
+    "new": "04_Results/Scenario_Stability/tables/T07_scenario_frequencies.csv",
+    "source_sha256_before_reorganization": "20164ac7dde56103fe3351ae9a0c0d3081a1ad4d6c5790d51f610b37e85b83e9",
+    "current_sha256": "20164ac7dde56103fe3351ae9a0c0d3081a1ad4d6c5790d51f610b37e85b83e9"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/k_bootstrap_runs.csv",
+    "new": "04_Results/Scenario_Stability/tables/k_bootstrap_runs.csv",
+    "source_sha256_before_reorganization": "0c743378b3abc49d78c946fd4ee7df3601788851c8efdbd24a06d6f958fcb8f3",
+    "current_sha256": "0c743378b3abc49d78c946fd4ee7df3601788851c8efdbd24a06d6f958fcb8f3"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T03_weight_ranges.tex",
+    "new": "04_Results/Scenario_Stability/tables/T03_weight_ranges.tex",
+    "source_sha256_before_reorganization": "7aa725ce261de6bef1545cd631c4163905b9fa6e722ae1dc0e06289d3187da0e",
+    "current_sha256": "7aa725ce261de6bef1545cd631c4163905b9fa6e722ae1dc0e06289d3187da0e"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T12_leave_one_year.csv",
+    "new": "04_Results/Scenario_Stability/tables/T12_leave_one_year.csv",
+    "source_sha256_before_reorganization": "cd2d4d910b29a947032faf3d3ccaea6c731716eaa0a497f20be6a5dac8c93e44",
+    "current_sha256": "cd2d4d910b29a947032faf3d3ccaea6c731716eaa0a497f20be6a5dac8c93e44"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/leave_one_year_coassignment.csv",
+    "new": "04_Results/Scenario_Stability/tables/leave_one_year_coassignment.csv",
+    "source_sha256_before_reorganization": "52a61c4ced4c9c417837739e96dc8436f1eef6594c19990eba44cc37d8c117f6",
+    "current_sha256": "52a61c4ced4c9c417837739e96dc8436f1eef6594c19990eba44cc37d8c117f6"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/event_bootstrap_coassignment.csv",
+    "new": "04_Results/Scenario_Stability/tables/event_bootstrap_coassignment.csv",
+    "source_sha256_before_reorganization": "f52e85434d02520c98c37eda902f00de56e27ba62c610fb25efb5d8c93bcc43a",
+    "current_sha256": "f52e85434d02520c98c37eda902f00de56e27ba62c610fb25efb5d8c93bcc43a"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/baseline_scenarios.csv",
+    "new": "04_Results/Scenario_Stability/tables/baseline_scenarios.csv",
+    "source_sha256_before_reorganization": "2dc0be3be7a3b4d7e7b9bf4fdb57015a40146fcb6e06ce2ca0eacff9ba86a1b3",
+    "current_sha256": "2dc0be3be7a3b4d7e7b9bf4fdb57015a40146fcb6e06ce2ca0eacff9ba86a1b3"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/fixed_preprocess_coassignment.csv",
+    "new": "04_Results/Scenario_Stability/tables/fixed_preprocess_coassignment.csv",
+    "source_sha256_before_reorganization": "5f40445bddf511396d47639a0f7409c6020741cc9a47f4ffe0e8bcb06e11ee0a",
+    "current_sha256": "5f40445bddf511396d47639a0f7409c6020741cc9a47f4ffe0e8bcb06e11ee0a"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T13_k_diagnostics.tex",
+    "new": "04_Results/Scenario_Stability/tables/T13_k_diagnostics.tex",
+    "source_sha256_before_reorganization": "addacc700a1122c48241253e724c1abb470f2156830927a7904ae76bc537b2b5",
+    "current_sha256": "addacc700a1122c48241253e724c1abb470f2156830927a7904ae76bc537b2b5"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T02_baseline_critic.csv",
+    "new": "04_Results/Scenario_Stability/tables/T02_baseline_critic.csv",
+    "source_sha256_before_reorganization": "ea120a4cd5e80b98a64f8440e1874030f4ba106495a0f49a4137e24e7e9d3d70",
+    "current_sha256": "ea120a4cd5e80b98a64f8440e1874030f4ba106495a0f49a4137e24e7e9d3d70"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T06_global_optimum_audit.csv",
+    "new": "04_Results/Scenario_Stability/tables/T06_global_optimum_audit.csv",
+    "source_sha256_before_reorganization": "95435d4a45c2a958fbc911e5d03811fee3beebff9ca9d435e0c808cb78a5bb45",
+    "current_sha256": "95435d4a45c2a958fbc911e5d03811fee3beebff9ca9d435e0c808cb78a5bb45"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/tables/T11_leave_one_event.tex",
+    "new": "04_Results/Scenario_Stability/tables/T11_leave_one_event.tex",
+    "source_sha256_before_reorganization": "0af26e1c815d2f1ee24b27dc6b923176d7516f7bacffb48bcfc76ef61436888b",
+    "current_sha256": "0af26e1c815d2f1ee24b27dc6b923176d7516f7bacffb48bcfc76ef61436888b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/02_weight_ranges.png",
+    "new": "04_Results/Scenario_Stability/figures/02_weight_ranges.png",
+    "source_sha256_before_reorganization": "c8980259e5274a2d044c5a165ca586f7a3821831ad60ee3f1e978b14a903d7db",
+    "current_sha256": "c8980259e5274a2d044c5a165ca586f7a3821831ad60ee3f1e978b14a903d7db"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/10_representative_hazards.png",
+    "new": "04_Results/Scenario_Stability/figures/10_representative_hazards.png",
+    "source_sha256_before_reorganization": "e2a70545ddc30ebd8a297165853edad945e9c5210f8794326f4ba79071099ace",
+    "current_sha256": "e2a70545ddc30ebd8a297165853edad945e9c5210f8794326f4ba79071099ace"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/captions.json",
+    "new": "04_Results/Scenario_Stability/figures/captions.json",
+    "source_sha256_before_reorganization": "ab2dd3a770b3ea6631afb70b4ec4baed056ae39cc124666ca876feb2f102b386",
+    "current_sha256": "ab2dd3a770b3ea6631afb70b4ec4baed056ae39cc124666ca876feb2f102b386"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/03_partition_stability.pdf",
+    "new": "04_Results/Scenario_Stability/figures/03_partition_stability.pdf",
+    "source_sha256_before_reorganization": "516b39d34ee3ba2bd784dc71422791f1239c989d194ed71b25b84b8b458391fe",
+    "current_sha256": "516b39d34ee3ba2bd784dc71422791f1239c989d194ed71b25b84b8b458391fe"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/09_initialization_and_competitors.pdf",
+    "new": "04_Results/Scenario_Stability/figures/09_initialization_and_competitors.pdf",
+    "source_sha256_before_reorganization": "d7a068d557dfd0f4c642c89b4eb9062ca41e9d6b8013ee897908baf6fbdaf45b",
+    "current_sha256": "d7a068d557dfd0f4c642c89b4eb9062ca41e9d6b8013ee897908baf6fbdaf45b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/03_partition_stability.png",
+    "new": "04_Results/Scenario_Stability/figures/03_partition_stability.png",
+    "source_sha256_before_reorganization": "bdcb90f60b24f5647c0ccc69d25488752d35968dba58150aff3ad05af8e7bb2f",
+    "current_sha256": "bdcb90f60b24f5647c0ccc69d25488752d35968dba58150aff3ad05af8e7bb2f"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/09_initialization_and_competitors.png",
+    "new": "04_Results/Scenario_Stability/figures/09_initialization_and_competitors.png",
+    "source_sha256_before_reorganization": "7d72d94a9c566e3bdb871aa990905eee9f04f07a3382392f5fec15b31d2fcbd9",
+    "current_sha256": "7d72d94a9c566e3bdb871aa990905eee9f04f07a3382392f5fec15b31d2fcbd9"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/02_weight_ranges.pdf",
+    "new": "04_Results/Scenario_Stability/figures/02_weight_ranges.pdf",
+    "source_sha256_before_reorganization": "ac6cca0d880a0d5e25d1b302b11e1933c78a712a940e72e73a88214fb957b625",
+    "current_sha256": "ac6cca0d880a0d5e25d1b302b11e1933c78a712a940e72e73a88214fb957b625"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/10_representative_hazards.pdf",
+    "new": "04_Results/Scenario_Stability/figures/10_representative_hazards.pdf",
+    "source_sha256_before_reorganization": "e0e875e4efa05ab485e5ef50dafa6af605b0d2a0aed8f8d4d5b6376c76e503f7",
+    "current_sha256": "e0e875e4efa05ab485e5ef50dafa6af605b0d2a0aed8f8d4d5b6376c76e503f7"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/08_deletion_influence.png",
+    "new": "04_Results/Scenario_Stability/figures/08_deletion_influence.png",
+    "source_sha256_before_reorganization": "1d85d7ed63f9f7d406ffa55b259ce9eea785b2b52487c3603acefb9b00df763b",
+    "current_sha256": "1d85d7ed63f9f7d406ffa55b259ce9eea785b2b52487c3603acefb9b00df763b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/08_deletion_influence.pdf",
+    "new": "04_Results/Scenario_Stability/figures/08_deletion_influence.pdf",
+    "source_sha256_before_reorganization": "15883e5eddc577e1a024bc76cb0a26a1ce2dc7e8e3140259409e9c8e26be6132",
+    "current_sha256": "15883e5eddc577e1a024bc76cb0a26a1ce2dc7e8e3140259409e9c8e26be6132"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/07_k_diagnostics.png",
+    "new": "04_Results/Scenario_Stability/figures/07_k_diagnostics.png",
+    "source_sha256_before_reorganization": "cd16b9008bade4d7070c5ea916c697bfe8942a7160dbef1885b5a16173c422ce",
+    "current_sha256": "cd16b9008bade4d7070c5ea916c697bfe8942a7160dbef1885b5a16173c422ce"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/07_k_diagnostics.pdf",
+    "new": "04_Results/Scenario_Stability/figures/07_k_diagnostics.pdf",
+    "source_sha256_before_reorganization": "f7ea42775a96fa256468d6bd3d3934847431f44606d6efb633a2e7772a061427",
+    "current_sha256": "f7ea42775a96fa256468d6bd3d3934847431f44606d6efb633a2e7772a061427"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/latex_includes.tex",
+    "new": "04_Results/Scenario_Stability/figures/latex_includes.tex",
+    "source_sha256_before_reorganization": "fcb66b65a2a2a3aa165eaeb75b21c14625521c02b8181f3e76a5e07cf438ea47",
+    "current_sha256": "fcb66b65a2a2a3aa165eaeb75b21c14625521c02b8181f3e76a5e07cf438ea47"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/05_event_membership.pdf",
+    "new": "04_Results/Scenario_Stability/figures/05_event_membership.pdf",
+    "source_sha256_before_reorganization": "0183c23f76e3cd62c421fd9f9e66811953209d42dcc63a99997a963b0cab3c59",
+    "current_sha256": "0183c23f76e3cd62c421fd9f9e66811953209d42dcc63a99997a963b0cab3c59"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/05_event_membership.png",
+    "new": "04_Results/Scenario_Stability/figures/05_event_membership.png",
+    "source_sha256_before_reorganization": "fb457fbf8da4c259714cf1502b7b0d87c96e8a90e57ba010eb7bc56e1d4df2fc",
+    "current_sha256": "fb457fbf8da4c259714cf1502b7b0d87c96e8a90e57ba010eb7bc56e1d4df2fc"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/01_baseline_scores.png",
+    "new": "04_Results/Scenario_Stability/figures/01_baseline_scores.png",
+    "source_sha256_before_reorganization": "e0342c80eb8078a87afdd579eeb5793bdff5051b8b46b39b2d734e513dfa2434",
+    "current_sha256": "e0342c80eb8078a87afdd579eeb5793bdff5051b8b46b39b2d734e513dfa2434"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/01_baseline_scores.pdf",
+    "new": "04_Results/Scenario_Stability/figures/01_baseline_scores.pdf",
+    "source_sha256_before_reorganization": "68daed3d290206263b6078ece477b6c1689fc0709bf2f8a452d7555f5b9021d6",
+    "current_sha256": "68daed3d290206263b6078ece477b6c1689fc0709bf2f8a452d7555f5b9021d6"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/04_scenario_frequencies.png",
+    "new": "04_Results/Scenario_Stability/figures/04_scenario_frequencies.png",
+    "source_sha256_before_reorganization": "7ad7b0e1aaa380789088602ba3fafa19148eba3359fa012a5e8cf6982c891fd6",
+    "current_sha256": "7ad7b0e1aaa380789088602ba3fafa19148eba3359fa012a5e8cf6982c891fd6"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/06_coassignment.png",
+    "new": "04_Results/Scenario_Stability/figures/06_coassignment.png",
+    "source_sha256_before_reorganization": "92c06d4fe4e30e381ff65d2ef34520ed79dadf688c97df92b1a1c55592f51c92",
+    "current_sha256": "92c06d4fe4e30e381ff65d2ef34520ed79dadf688c97df92b1a1c55592f51c92"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/06_coassignment.pdf",
+    "new": "04_Results/Scenario_Stability/figures/06_coassignment.pdf",
+    "source_sha256_before_reorganization": "e31205aae2d4907b39abb53c8376bcb035218095d6da9b874a99a8129ca4428d",
+    "current_sha256": "e31205aae2d4907b39abb53c8376bcb035218095d6da9b874a99a8129ca4428d"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/results/figures/04_scenario_frequencies.pdf",
+    "new": "04_Results/Scenario_Stability/figures/04_scenario_frequencies.pdf",
+    "source_sha256_before_reorganization": "e20c25623604752097ad10c08f57900bcbf72913f2f6c0ddbf50089cf8fe7b4b",
+    "current_sha256": "e20c25623604752097ad10c08f57900bcbf72913f2f6c0ddbf50089cf8fe7b4b"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/分析方案.md",
+    "new": "03_Experiments/Scenario_Stability/分析方案.md",
+    "source_sha256_before_reorganization": "4ebfbc18afa4bb7e1167a4d7258c9e74c530198798c8761a7c374dcd55741c62",
+    "current_sha256": "4ebfbc18afa4bb7e1167a4d7258c9e74c530198798c8761a7c374dcd55741c62"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig01.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig01.py",
+    "source_sha256_before_reorganization": "79e377dbb209d3d56289154bf7e1374abfab6de13c2e29d7f1a3e0e3c32fb5f2",
+    "current_sha256": "1c4f1c56f3b98a84f3c3d7228b7be916c66fed72c330d8541909296038fec8c5"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/verify_results.py",
+    "new": "03_Experiments/Scenario_Stability/code/verify_results.py",
+    "source_sha256_before_reorganization": "6868f17224bbde0aa5bdaf381c38d6a30d7337b0c278007548d90be4108f0324",
+    "current_sha256": "2ae19d4c085c991fdffacd8d66a837cffa4894c8223a3e77f2f8972c88a01141"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig05.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig05.py",
+    "source_sha256_before_reorganization": "632c4fa0ef20be8e8686ba3ae7971821097c352b2ac07662dbd08ca5e20e7190",
+    "current_sha256": "7b8c5344594cec64b7164340dbb3ab9308d85f8681e9c49b80e947a28f36b1d4"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/run_analysis.py",
+    "new": "03_Experiments/Scenario_Stability/code/run_analysis.py",
+    "source_sha256_before_reorganization": "a6837d459645607b688ed78d66c557c077c8b03eff8178f7de77bd65284cf889",
+    "current_sha256": "45c69035a603c85a098adfee7cc0e5c9ab083fb2cc54f25fa5239368f834b88e"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig04.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig04.py",
+    "source_sha256_before_reorganization": "f223203e32bffdb1ac99c6a92c1b2bdce406d2c23cbd91bf783de8e4f6277d56",
+    "current_sha256": "7cf29a22439a681aed641fde2aaac89ff8485a2f9f84c3d48725bbe6276b1d21"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig10.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig10.py",
+    "source_sha256_before_reorganization": "d5157a8eab01def939135546c22adccaa1100e57f9ed3a2b69c776ee8264ea1c",
+    "current_sha256": "a18ca463d16bae3df11d80cb0ef3214011b284f35352f3c26b83a5ee9b99d4c8"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/plot_figures.py",
+    "new": "03_Experiments/Scenario_Stability/code/plot_figures.py",
+    "source_sha256_before_reorganization": "2baa62eff8f117033429bf97e2540239008bac5d43500bb50a8e23d8d5247019",
+    "current_sha256": "6654b38b5323038e1b5301497ab908480640be2fb563634bf65bdff5a73470b9"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/build_report.py",
+    "new": "03_Experiments/Scenario_Stability/code/build_report.py",
+    "source_sha256_before_reorganization": "b7daa2457414d9409729fcd77e5aee11b89e30abb2c5a7aeef1a410ef030dc88",
+    "current_sha256": "1f97ff8efab9de8f450ab18b3621dceb749d053998509cd44ed63fe33c376784"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/compare_runs.py",
+    "new": "03_Experiments/Scenario_Stability/code/compare_runs.py",
+    "source_sha256_before_reorganization": "c915e5461e5609af2f1c23af4e74dcb04943c4c91712137969e03542e250e562",
+    "current_sha256": "c915e5461e5609af2f1c23af4e74dcb04943c4c91712137969e03542e250e562"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig09.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig09.py",
+    "source_sha256_before_reorganization": "6b8a864a31e95c626dbf67d79d015ce47788f98c1d1edf133d7cdab0556cb089",
+    "current_sha256": "4e9cb97f8ef81f10262a19aa5138e332f23c16031a4240050947c40b23a7f830"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig08.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig08.py",
+    "source_sha256_before_reorganization": "b1d0731fc005c0de3eaff77a3b8722b1f6cfb9b90bdf5fbed48b4f67449df40a",
+    "current_sha256": "7cf8103446361e6c5666cdf24a6080c24a638667856021d40767f6bd2a848b1e"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig07.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig07.py",
+    "source_sha256_before_reorganization": "1ab0f5997caaae24ec996ac851684dccde97fb3fadedff17f8fea0d0709bbf1e",
+    "current_sha256": "d9a9bd3c84ff398695e80d46942b5ae2ca5b15ec9459f5c14efda59d6f00e7be"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig03.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig03.py",
+    "source_sha256_before_reorganization": "14f3bb7404949ba1f8d94088b2aa24fe50e64accb58dad992150a439d9453bbb",
+    "current_sha256": "6d6908e6c71abd647661c13519fad8bf694f1a85d9456a65214480e67434250a"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig02.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig02.py",
+    "source_sha256_before_reorganization": "48f8f44d5e0af879e7853e732c934b4f3df4eeab1300a40dde0538cdf967ca6f",
+    "current_sha256": "3e3d3b85886d3b1f0c0d6670d22b0211fa7cd7590fe68dcb7607be32d532f1f3"
+  },
+  {
+    "old": "experiments/20261103_scenario_stability/code/gen_fig06.py",
+    "new": "03_Experiments/Scenario_Stability/code/gen_fig06.py",
+    "source_sha256_before_reorganization": "6bedb93c2ff9a8dd197638294d940c281e4f945abe388327ddcb84519b18f41d",
+    "current_sha256": "d9f85ce0b5b232f9449f6dade39f6dbcc4dae437cd6277f2428cf91876abbb47"
+  },
+  {
+    "old": "Outline_Group_Climate.docx",
+    "new": "06_Manuscript/Original_Draft_for_Revision.docx",
+    "source_sha256_before_reorganization": "84e6b532fae4e552ae6a0942b7a1c571488e4e2eb41092dcc84fc87188cb66a1",
+    "current_sha256": "84e6b532fae4e552ae6a0942b7a1c571488e4e2eb41092dcc84fc87188cb66a1"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/outputs/case_study_v2/CRISP_Study_Area_and_Parameters_v2.docx",
+    "new": "06_Manuscript/Sections/Study_Area_and_Parameters.docx",
+    "source_sha256_before_reorganization": "32aa16c21dc41eabae57fddb1b86e0296fcd2ad706256c50c728a4e750d53091",
+    "current_sha256": "32aa16c21dc41eabae57fddb1b86e0296fcd2ad706256c50c728a4e750d53091"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/outputs/case_study_v2/Tai_O_Census_Aligned_Zones.pdf",
+    "new": "04_Results/Study_Area/Tai_O_Zones.pdf",
+    "source_sha256_before_reorganization": "75b6cd217fdd8fc1debafd77aeb04a361ea31f0dc8d56e0502ea35011256d066",
+    "current_sha256": "75b6cd217fdd8fc1debafd77aeb04a361ea31f0dc8d56e0502ea35011256d066"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/outputs/case_study_v2/Tai_O_Census_Aligned_Zones.png",
+    "new": "04_Results/Study_Area/Tai_O_Zones.png",
+    "source_sha256_before_reorganization": "038be20359f06787ef4dd6437714dbdd2de8d30c5b2bfc55991eb26d4c2b3965",
+    "current_sha256": "038be20359f06787ef4dd6437714dbdd2de8d30c5b2bfc55991eb26d4c2b3965"
+  },
+  {
+    "old": "experiments/20261104_mobile_inventory/outputs/model_revision_v2/figures/latex_includes.tex",
+    "new": "04_Results/Optimization/figures/latex_includes.tex",
+    "source_sha256_before_reorganization": "3fd6793e081106013cc755b050f068ff6de5914aa013bca5b20c77aece5b9ffb",
+    "current_sha256": "3fd6793e081106013cc755b050f068ff6de5914aa013bca5b20c77aece5b9ffb"
+  },
+  {
+    "old": "empirical_calibration/20261104_v2/code/build_census_zones.py",
+    "new": "05_Code/build_study_area.py",
+    "source_sha256_before_reorganization": "cee8549de46b522b968f79d4fe1c348f51f3d4563eb86d1ecc776ce02bd46424",
+    "current_sha256": "fe8620659ade2e44cdbcc625c8efc38d9e1486da6c264556c16004010fc75846"
+  }
+]

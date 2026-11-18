@@ -1,0 +1,44 @@
+[
+  {
+    "item": "原23事件同时期候选/排除清单",
+    "status": "UNRECOVERED_ORIGINAL_EVIDENCE",
+    "specified_filename": null,
+    "basis": "两目录文件盘点未定位；Final Paper P124/P208与Remaining_Research_Risks R01明确未恢复；现有2026 retrospective Screening_Protocol不是原始登记。",
+    "impact": "不阻止以冻结23向量计算；阻止证明原历史样本完整性/无偏性"
+  },
+  {
+    "item": "原23事件历史anchor规则版本",
+    "status": "UNRECOVERED_ORIGINAL_EVIDENCE",
+    "specified_filename": null,
+    "basis": "现有metadata提供日期但无同时期规则；新规则使五anchor变动而向量不变不能倒推原规则。",
+    "impact": "不阻止冻结向量复算；来源选择可重复性未闭合"
+  },
+  {
+    "item": "四个非R11站选择的同时期说明",
+    "status": "UNRECOVERED_ORIGINAL_EVIDENCE",
+    "specified_filename": null,
+    "basis": "Original_Four_Station_Choices.csv四行historical_reason均为UNRECOVERED；回溯QC相容不是原始原因。",
+    "impact": "不阻止冻结23复算；不能认证历史选择原因"
+  },
+  {
+    "item": "实地成本/资源/效益响应校准数据和关系",
+    "status": "NOT_SUPPLIED_EMPIRICAL_EVIDENCE",
+    "specified_filename": null,
+    "basis": "有01_Data/Sources/Calibration背景文献和参数审计，但parameter_families.json标为待校准；P209明确无经验映射。",
+    "impact": "不阻止示例模型复算；阻止实际损失/人口/操作政策收益结论"
+  },
+  {
+    "item": "完整63身份可归属无冲突的R/W/S输入",
+    "status": "UNRESOLVED_OBSERVATIONS_NOT_MISSING_ARCHIVES",
+    "specified_filename": null,
+    "basis": "TC2017_06官方数值矛盾；TC2021_02_E/W共享不可拆分摘要，model_eligible=False；原始档案存在。",
+    "impact": "不能生成完整63模型；不得把三条补成现有频率分布"
+  },
+  {
+    "item": "Node导出工具package.json/lock",
+    "status": "NOT_FOUND_IN_ACCESSIBLE_WORKSPACES",
+    "specified_filename": "package.json / package-lock.json / pnpm-lock.yaml / yarn.lock",
+    "basis": "已枚举全部27,543原始工作区文件；无这些名称；存在.mjs导出代码。",
+    "impact": "精确重装样式化Excel导出依赖未闭合，不属于核心数值输入缺失"
+  }
+]

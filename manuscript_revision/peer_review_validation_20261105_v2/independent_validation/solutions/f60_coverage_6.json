@@ -1,0 +1,17 @@
+{
+  "status": "INFEASIBLE",
+  "status_code": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "objective": null,
+  "solution": null,
+  "tag": "f60_coverage_6",
+  "saved_objective": null,
+  "absolute_objective_error": null,
+  "saved_solution_validation": {
+    "max_constraint_or_bound_violation": null,
+    "max_integrality_error": null
+  },
+  "all_y_and_n_fixed": false,
+  "log_multiobjective_solved": true,
+  "log_presolve_all_fixed": false
+}

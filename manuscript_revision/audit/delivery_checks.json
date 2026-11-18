@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "optimization_tables_reconciled": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+  ],
+  "population_scenario_and_parameter_tables_reconciled": [
+    "2",
+    "4",
+    "5",
+    "B1"
+  ],
+  "event_rows_reconciled": 23,
+  "references": 20,
+  "citation_order_and_orphans": "PASS",
+  "equation_groups": 18,
+  "native_Word_equation_objects": 19,
+  "tables": 13,
+  "figures": 7,
+  "figure_asset_hash_matches": 14,
+  "TODO_ids": [
+    "TODO-A1",
+    "TODO-A2",
+    "TODO-A3",
+    "TODO-A4",
+    "TODO-A5",
+    "TODO-A6",
+    "TODO-A7",
+    "TODO-D1",
+    "TODO-D2",
+    "TODO-P1"
+  ],
+  "all_TODOs_listed": true,
+  "Word_and_Markdown_hyperlinks_match": 66,
+  "DOI_parentheses_preserved": true,
+  "original_files_unchanged": 972,
+  "original_changes": [],
+  "DOCX_pages": 22,
+  "visually_reviewed_pages": 22,
+  "visual_findings": "No clipping, overlap, missing equation glyphs, broken tables or detached figure captions observed",
+  "artifacts": {
+    "Revised_Manuscript_EN.md": {
+      "bytes": 72622,
+      "sha256": "d727f1c2acf8376622dee8deb4f27261a2bfba4498003728581275c0be43f39f"
+    },
+    "Revised_Manuscript_EN.docx": {
+      "bytes": 1073193,
+      "sha256": "efdda932116ac8814a47387ebc01058c5cf1d9694be45f0ba5729f25db0e0684"
+    },
+    "Manuscript_Change_Log.md": {
+      "bytes": 10438,
+      "sha256": "e19e9eadb43a63f3b4839c169d39b3092fd929445fe3bb58dab1975a83caa4c8"
+    },
+    "Unresolved_Issues.md": {
+      "bytes": 5636,
+      "sha256": "9fa45945f86cc35f165fdaf087feb4b640d2b53d2661aa3fbd46f71878a8d64a"
+    }
+  }
+}

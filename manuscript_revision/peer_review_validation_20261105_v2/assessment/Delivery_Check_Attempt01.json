@@ -1,0 +1,9 @@
+{
+  "status": "CHECKER_PARSE_ERROR",
+  "scientific_solver_run_failed": false,
+  "exception": "AssertionError",
+  "location": "verify_delivery.py:35",
+  "reason": "Parser matched a later fixed-policy table sharing the same first-column labels; it must select the 11-column EV result table.",
+  "initial_checker_sha256": "6fffaae8cf7d5577c3c763cef5ca716e12a714c4aa8d32d821a52c38fa7b04d0",
+  "frozen_or_primary_results_modified": false
+}

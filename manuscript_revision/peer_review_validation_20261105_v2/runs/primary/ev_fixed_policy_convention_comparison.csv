@@ -1,0 +1,5 @@
+﻿frequency,model,paired_policy_count,policies_with_changed_ev_value,minimum_EV_B_minus_A,maximum_EV_B_minus_A,max_difference_mask,max_difference_n
+23,legacy,26,6,0.0,78.1370652173913,4,0
+23,mobile,78,35,0.0,78.1370652173913,4,0
+60,legacy,26,0,0.0,0.0,0,0
+60,mobile,78,0,0.0,0.0,0,0

@@ -1,0 +1,49 @@
+{
+  "candidate_warning_groups": 62,
+  "candidate_cyclones": 63,
+  "candidate_year_counts": {
+    "2017": 7,
+    "2018": 6,
+    "2019": 5,
+    "2020": 5,
+    "2021": 8,
+    "2022": 6,
+    "2023": 5,
+    "2024": 7,
+    "2025": 14
+  },
+  "screening_status_counts": {
+    "INCLUDE": 60,
+    "PENDING_DATA": 3
+  },
+  "rain_stations": {
+    "R11": 54,
+    "HKA": 4,
+    "R12": 2
+  },
+  "original23_anchor_changes": 5,
+  "original23_station_changes": 0,
+  "original23_R_changes": 0,
+  "original23_retained": 23,
+  "original23_vectors_exact": 23,
+  "overlap_pairs": 9,
+  "pending": [
+    {
+      "candidate_id": "TC2017_06",
+      "name": "Tropical Depression unnamed",
+      "reason": "PENDING_SOURCE_CONFLICT"
+    },
+    {
+      "candidate_id": "TC2021_02_E",
+      "name": "Tropical Depression E (5-6 July 2021)",
+      "reason": "PENDING_COMPOUND_ATTRIBUTION"
+    },
+    {
+      "candidate_id": "TC2021_02_W",
+      "name": "Tropical Depression W (5-8 July 2021)",
+      "reason": "PENDING_COMPOUND_ATTRIBUTION"
+    }
+  ],
+  "all_27_rain_json_match": true,
+  "protocol_sha256": "ef5df9a3df8ef2ddd993833b61d4407e9bd80d3f97afef93c08dcebf5d008c3a"
+}

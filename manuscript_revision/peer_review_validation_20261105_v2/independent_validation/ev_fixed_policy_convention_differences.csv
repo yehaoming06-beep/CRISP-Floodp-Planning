@@ -1,0 +1,5 @@
+﻿frequency,model,fixed_policy_count,A_B_different_value_policy_count,maximum_fixed_policy_value_difference
+23,legacy,26,6,78.1370652173913
+23,mobile,78,35,78.1370652173913
+60,legacy,26,0,0.0
+60,mobile,78,0,0.0

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "independent_formula_check": true,
+  "all_resample_rows_checked": 9032,
+  "all_quantile_rows_checked": 252,
+  "resample_indices_regenerated": true,
+  "production_spot_reruns": 49,
+  "exact_global_baseline_verified": true,
+  "failed_fits": 0,
+  "nonoptimal_lloyd_fits": 37,
+  "tolerance_numeric": 1e-12,
+  "representatives_tolerance": 1e-10
+}

@@ -1,0 +1,12 @@
+{
+  "probabilities": {
+    "Moderate": 0.5833333333333334,
+    "Severe": 0.31666666666666665,
+    "Extreme": 0.1
+  },
+  "N": 60,
+  "dataset": "reconstructed60_fresh_20261118",
+  "fresh_counts_source": "audit/reproducibility_20261118/scenarios/scenario_reproduction_summary.json",
+  "fresh_counts_sha256": "ff458a67768a8da51c2937f7ecb2dc2560456a43ac43b2e032dfce61b8961400",
+  "interpretation": "frequency-only sensitivity; coefficients held fixed"
+}

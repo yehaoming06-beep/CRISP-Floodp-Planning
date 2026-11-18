@@ -1,0 +1,9 @@
+{
+  "status": "CHECKER_PARSE_ERROR",
+  "scientific_solver_run_failed": false,
+  "exception": "ValueError",
+  "location": "verify_delivery.py:19",
+  "reason": "Report uses Unicode minus U+2212; number parser only accepted ASCII minus. Add display normalization before float conversion.",
+  "checker_sha256": "c415f6eab0170d27364f5080c13e385295a93de87be17d7e64752384f138dca9",
+  "frozen_or_primary_results_modified": false
+}

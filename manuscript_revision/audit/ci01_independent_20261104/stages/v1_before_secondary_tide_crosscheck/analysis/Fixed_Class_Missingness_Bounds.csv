@@ -1,0 +1,4 @@
+﻿scenario,known_count,pending_identities,total_candidate_identities,lower,upper,scope
+Moderate,36,2,63,0.5714285714285714,0.6031746031746031,fixed main61 class definitions only; component attribution unresolved; not refitted-model confidence intervals
+Severe,19,2,63,0.30158730158730157,0.3333333333333333,fixed main61 class definitions only; component attribution unresolved; not refitted-model confidence intervals
+Extreme,6,2,63,0.09523809523809523,0.12698412698412698,fixed main61 class definitions only; component attribution unresolved; not refitted-model confidence intervals

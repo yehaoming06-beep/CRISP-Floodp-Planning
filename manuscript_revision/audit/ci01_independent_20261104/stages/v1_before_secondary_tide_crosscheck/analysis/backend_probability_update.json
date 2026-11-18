@@ -1,0 +1,10 @@
+{
+  "probabilities": {
+    "Moderate": 0.5901639344262295,
+    "Severe": 0.3114754098360656,
+    "Extreme": 0.09836065573770492
+  },
+  "dataset": "reconstructed61_main",
+  "N": 61,
+  "interpretation": "conditional frequencies of v1 eligible, attributable, complete cases; scenario-specific resource/benefit coefficients held fixed; hypothetical optimization sensitivity only"
+}

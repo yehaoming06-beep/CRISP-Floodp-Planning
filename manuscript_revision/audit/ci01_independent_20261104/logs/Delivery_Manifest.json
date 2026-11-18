@@ -1,0 +1,120 @@
+{
+  "completed_utc": "2026-11-04T11:50:17.685136+00:00",
+  "required_deliverables": [
+    "Candidate_Event_Inventory.csv",
+    "Screening_Protocol.md",
+    "Inclusion_Exclusion_Audit.csv",
+    "Original23_vs_Reconstructed.csv",
+    "Scenario_Impact_Assessment.md",
+    "CI01_Resolution_Report.md"
+  ],
+  "CI01_status": "PARTIALLY_RESOLVED_NOT_FULLY_CLOSED",
+  "frozen_main_files_changed": false,
+  "artifacts": [
+    {
+      "path": "Candidate_Event_Inventory.csv",
+      "bytes": 34908,
+      "sha256": "23bd47594ca5f124761db2eaa7be50f16680237ad7f245b21c87b79921a59df9"
+    },
+    {
+      "path": "Screening_Protocol.md",
+      "bytes": 10013,
+      "sha256": "ef5df9a3df8ef2ddd993833b61d4407e9bd80d3f97afef93c08dcebf5d008c3a"
+    },
+    {
+      "path": "Inclusion_Exclusion_Audit.csv",
+      "bytes": 98663,
+      "sha256": "4532f66fea7b83624ed29d2a52cb7d3b895eb27e96419df8d0cbbf39851d16cf"
+    },
+    {
+      "path": "Original23_vs_Reconstructed.csv",
+      "bytes": 27916,
+      "sha256": "a1da075cf50d1a2ea93aa3684d203b7077d2a78873dd2eb3165259e812da74e7"
+    },
+    {
+      "path": "Scenario_Impact_Assessment.md",
+      "bytes": 13365,
+      "sha256": "9fd16131ecc121c22f1fd88a8b773c387b21c9bfee6cf07c4ec94248b72a3bbb"
+    },
+    {
+      "path": "CI01_Resolution_Report.md",
+      "bytes": 11731,
+      "sha256": "67a475e154b819d78ae78fb1d715e1dcff5302c2534fd37968b7456b87a812d1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5432,
+      "sha256": "ba540124f7c1344b0b6f7f37ed13ab3448cff2e9cc5cf14e4b1a460649661d89"
+    },
+    {
+      "path": "Source_Conflict_Adjudication.md",
+      "bytes": 3772,
+      "sha256": "fc120e3e1d92ec8b722df04e3a5e831a71370dd98e638ec257266fc134e46f6b"
+    },
+    {
+      "path": "TaiO_Spatial_Sensitivity_Addendum.md",
+      "bytes": 2830,
+      "sha256": "21978416d1c09623988a1d9476182670fdc17242ee835d68e6078438f35c386b"
+    },
+    {
+      "path": "logs/Final_Verification.json",
+      "bytes": 3197,
+      "sha256": "6636ae2352d0f17e6227788e6dadaa8e8e81de0f51f5813c41d16d0a2bcbc4c3"
+    },
+    {
+      "path": "code/assess_scenarios.py",
+      "bytes": 11126,
+      "sha256": "556aab86dfc32e671fb0982c49c2b3cd7d346e134fe074ba591efb4e14d785e0"
+    },
+    {
+      "path": "code/audit_backend_ev_ties.py",
+      "bytes": 841,
+      "sha256": "ad7dd73392ab42baeb0a66436a94ff8ffb35a3c312128913819633c10713389e"
+    },
+    {
+      "path": "code/collect_pdfs.py",
+      "bytes": 3688,
+      "sha256": "0e2afbe4e6c4bfffb99166a658abc77f9670e39c6735856b278d6525dc105e33"
+    },
+    {
+      "path": "code/collect_sources.py",
+      "bytes": 5271,
+      "sha256": "b7c8d48f938b1a120a62be5b90afa52fbfc7f5bfbb1e31929e6a2d1fd6014b8a"
+    },
+    {
+      "path": "code/extract_pdf_evidence.py",
+      "bytes": 2274,
+      "sha256": "224e4ad3c0bf674f153191a3b0e2b864789c25ed3617a5a01059759b8118bb39"
+    },
+    {
+      "path": "code/hko_parse.py",
+      "bytes": 2372,
+      "sha256": "8d84226f05bb28bfc1573d0e461b93e5065b445cdb41ea5852127bbf56a34487"
+    },
+    {
+      "path": "code/reconstruct.py",
+      "bytes": 20863,
+      "sha256": "f7157f2d6ff12f4e39305e50189b2fa08ba524e6476ecd3668ecd9ab00207af1"
+    },
+    {
+      "path": "code/run_backend.py",
+      "bytes": 9056,
+      "sha256": "dcccea702942e114134f5efbd936bb255498a7af0c706c602dbd210d9db33de1"
+    },
+    {
+      "path": "code/verify_delivery.py",
+      "bytes": 6586,
+      "sha256": "7f66672632e90422dced0e89171ffa8cb35e6a18345f0d42825e9f91337d5c3b"
+    },
+    {
+      "path": "code/verify_tides_and_spatial.py",
+      "bytes": 7253,
+      "sha256": "ad8d1a05bd78d70b84bf8a1ee0a4eca5ca8319db3ae48955e68ea7e2102cfd6a"
+    },
+    {
+      "path": "code/write_reports.py",
+      "bytes": 34456,
+      "sha256": "0e316d4475dce1c7d7d98ef2a8d13d43fe1c712def86751353a432dcd556fdcc"
+    }
+  ]
+}

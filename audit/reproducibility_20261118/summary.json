@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "status": "PASS_LOCAL_NUMERICAL_REPRODUCTION_WITH_EXPLICIT_LIMITS",
+  "paper_tables_compared": [
+    4,
+    6,
+    11,
+    12,
+    14
+  ],
+  "paper_comparison_items": 130,
+  "paper_comparison_failures": 0,
+  "original23_and_final60_core_reproduced_in_fresh_environment": true,
+  "reconstruction_outputs_identical": 11,
+  "sweeps_configurations": 1110,
+  "sweep_gurobi_main_records": [
+    3875,
+    3888
+  ],
+  "independent_sweep_RP_optima": 1110,
+  "s9_extra_gurobi_records": [
+    1796,
+    1808
+  ],
+  "s9_comparison_items": 240,
+  "v2_gurobi_records": 500,
+  "v2_highs_calls": 936,
+  "scenario_resampling_records": [
+    9032,
+    2009
+  ],
+  "non_global_lloyd_resamples": 37,
+  "software_tests_fresh_passed": 17,
+  "existing_scientific_files_preserved": true,
+  "navigation_readme_updated_with_new_audit": true,
+  "paper_sha256": "4e12f7849d0b2ca7dd0d156c987a9e90f8b651880c79b74e10f14bffbab4ca37",
+  "report_sha256": "e2bab985a3231152c5533e293eae3a67f0315489b6db91bc596eb111c34adf42",
+  "blocked": [
+    "Git-only checkout lacks scientific files and raw inputs",
+    "historical original23 screening/anchor/station-choice evidence not recovered",
+    "three pending identities remain unresolved",
+    "field calibration and score-to-loss/population mapping absent",
+    "Node styled-export dependency manifest/lock not found"
+  ],
+  "limits": [
+    "Full 555/sensitivity suites run in original environment; fresh environment reran core models and source reconstruction.",
+    "Independent all-six-metric exhaustive proof is for four core models; independent 555 optimum proof is RP-only.",
+    "Offline reconstruction inherits frozen manual QC and historical extracted PDF text; no new visual/source adjudication.",
+    "No empirical validation, historical paper edit, commit, push or public-setting change."
+  ]
+}

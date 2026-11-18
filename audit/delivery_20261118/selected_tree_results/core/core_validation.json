@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "configurations": 4,
+  "metric_checks": 24,
+  "all_independent_enumeration_matches": true,
+  "max_abs_difference": 1.1368683772161603e-13,
+  "elapsed_seconds": 0.2893637497909367
+}

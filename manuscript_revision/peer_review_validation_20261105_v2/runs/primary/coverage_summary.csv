@@ -1,0 +1,9 @@
+﻿frequency,minimum_packages_each_location_each_scenario,status,rp,delta_vs_no_coverage,n,plan,tag
+23,0,OPTIMAL,616.0825000000001,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f23_coverage_0
+23,1,OPTIMAL,601.8757608695653,-14.206739130434812,-0.0,Tai O1/Barrier;Tai O1/Warning;Tai O2/Warning,f23_coverage_1
+23,2,OPTIMAL,587.6690217391305,-28.413478260869624,-0.0,Tai O1/Barrier;Tai O1/Warning;Tai O2/Warning,f23_coverage_2
+23,6,INFEASIBLE,,,,,f23_coverage_6
+60,0,OPTIMAL,634.5166666666668,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f60_coverage_0
+60,1,OPTIMAL,620.8363333333334,-13.680333333333351,-0.0,Tai O1/Barrier;Tai O1/Warning;Tai O2/Warning,f60_coverage_1
+60,2,OPTIMAL,607.1560000000001,-27.360666666666702,-0.0,Tai O1/Barrier;Tai O1/Warning;Tai O2/Warning,f60_coverage_2
+60,6,INFEASIBLE,,,,,f60_coverage_6

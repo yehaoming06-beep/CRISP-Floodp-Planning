@@ -1,0 +1,64 @@
+{
+  "source_root": "/Users/yehaoming/Desktop/climate_Devin",
+  "repo_root": "/Users/yehaoming/Desktop/CRISP-Floodp-Planning",
+  "excluded_from_walk": [
+    ".venv",
+    ".git",
+    "__pycache__",
+    ".pytest_cache",
+    ".DS_Store"
+  ],
+  "source_files": 27543,
+  "repo_counterparts": 12916,
+  "source_only": 14627,
+  "source_repo_git_state": {
+    "TRACKED": 2,
+    "IGNORED": 18035,
+    "UNTRACKED": 5204,
+    "ABSENT_FROM_REPO": 4302
+  },
+  "tracked_repository_files": [
+    ".gitignore",
+    "README.md"
+  ],
+  "fingerprinted_files": 287,
+  "fingerprinted_equal": 287,
+  "fingerprinted_mismatch": [],
+  "supplement_sections": 13,
+  "supplement_table_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "supplement_figure_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "supplement_local_links": 64,
+  "supplement_missing_local_links": [],
+  "physically_present_source_counterparts_git_state": {
+    "TRACKED": 2,
+    "IGNORED": 7710,
+    "UNTRACKED": 5204
+  },
+  "source_only_git_ignore_state": {
+    "IGNORED": 10325,
+    "ABSENT_FROM_REPO": 4302
+  }
+}

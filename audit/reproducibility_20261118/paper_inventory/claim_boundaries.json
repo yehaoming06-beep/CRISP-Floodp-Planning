@@ -1,0 +1,222 @@
+{
+  "document_sha256": "4e12f7849d0b2ca7dd0d156c987a9e90f8b651880c79b74e10f14bffbab4ca37",
+  "locator": "direct-body paragraph index, including empty paragraphs; not pages",
+  "limits": "Text-scope audit only; numerical reproduction and empirical validity require independent evidence.",
+  "checks": [
+    {
+      "check": "conditional_method_validation",
+      "status": "PASS_TEXT_SCOPE",
+      "assessment_zh": "摘要、研究问题、方法、讨论与结论均限定为条件性方法验证；未发现将其表述为实地政策效果验证的自有研究断言。",
+      "paragraphs": [
+        {
+          "paragraph": 9,
+          "text": "Flood-response planning links pre-event readiness and equipment availability to adaptive deployment. CRISP provides an auditable conditional method-validation case for two Tai O sectors, using a two-stage stochastic model with shared mobile-pump stock and separate HKD procurement and illustrative CU readiness and operating budgets. The original 23-event computational reference remains frozen. A retrospective Hong Kong Observatory local-warning frame identifies 63 cyclone identities in 2017–2025, with 60 analyzable and three pending. Full refitting changes Moderate/Severe/Extreme counts from 9/9/5 to 35/19/6 and changes six original labels; a matched 59-identity tide-station comparison changes ten labels. A frequency-only replay retains the response coefficients and baseline readiness policy while RP changes from 616.082500 to 634.516667 model-score units. Under the 60-event frequencies, EV-optimal policies yield VSS of 8.019000–34.313583. Averaging scenario-derived deployment bounds and deriving bounds from averaged primitive resources produce identical baseline EV-optimal policy sets under both frequency vectors, although the definitions differ. Controlled comparisons distinguish finite-stock restrictions from shared-versus-replicated accounting; relaxing procurement integrality alone is structurally equivalent with integer deployment. A hypothetical one-unit minimum geographic deployment rule costs 14.206739 and 13.680333 score units under the respective frequencies. These results support reproducible formulation and sensitivity analysis, without establishing general methodological novelty, observed damage reduction or operational recommendations. CI-01 remains PARTIALLY RESOLVED and CI-06 OPEN because historical screening and source conflicts remain unresolved and response coefficients lack empirical calibration. Class frequencies are conditional sample proportions, not annual or future flood probabilities."
+        },
+        {
+          "paragraph": 14,
+          "text": "The research question is how inventory accounting, EV benchmark definitions, event-frame reconstruction and spatial proxies affect conditional planning comparisons under explicitly illustrative response coefficients. The case comprises two census-aligned Tai O sectors with 825 and 2,853 residents in 2021. Population provides geographic context; it does not calibrate the score or identify residents protected. The historically selected 23 records remain a frozen computational reference. A separately defined retrospective local-warning protocol supplies 63 candidate cyclone identities, including 60 analyzable records and three pending identities."
+        },
+        {
+          "paragraph": 33,
+          "text": "The formulation is a conditional method-validation instance supported by selected hazard observations, official census boundaries and an equipment purchase reference. Its CU costs, resource requirements and benefit scores remain illustrative. Drainage denotes preparation and deployment of mobile pumping equipment. One Drainage deployment unit represents one pump assigned simultaneously to a sector. The inherited Drainage coefficients have not been validated as per-pump operating requirements or hydraulic benefits."
+        },
+        {
+          "paragraph": 197,
+          "text": "CRISP makes a small planning case auditable by linking readiness and deployment to explicitly counted pump stock, fixing all first-stage decisions during EEV evaluation and reporting the complete audited EV-optimal policy range. These are applications of established stochastic-planning principles [3,4,27,28]. The direct mobile-pump and temporary-equipment precedents [29,30] further limit any claim that the underlying resource concepts are new. The contribution lies in the case's transparent constraints and sensitivity evidence."
+        },
+        {
+          "paragraph": 210,
+          "text": "The risk-neutral model has one response period, assumed access, no within-event relocation or pump failure, and no evolving forecast or climate process. Operational use would require compatible hydraulic, exposure, inventory, behavioural and economic evidence, with separately versioned calibration and affected computations. Those requirements limit policy claims. Their absence does not by itself invalidate the disclosed conditional mathematical case, but numerical verification alone cannot establish empirical adequacy, methodological novelty or journal acceptance."
+        },
+        {
+          "paragraph": 212,
+          "text": "CRISP presents an auditable conditional case linking readiness and pump procurement to scenario-dependent deployment under explicit shared stock. Its contribution is transparent inventory expression, scenario-source and spatial-proxy sensitivity, and parallel EV-convention and EV-policy analysis, rather than a first claim for two-stage planning, integer procurement or shared resources."
+        },
+        {
+          "paragraph": 215,
+          "text": "CI-01 remains PARTIALLY RESOLVED and CI-06 OPEN. Historical provenance, pending identities, source timing and spatial representativeness remain bounded evidence limits; response calibration remains necessary for operational or policy-benefit claims. The manuscript supports reproducible conditional method validation within those limits, with author declarations and archival access still requiring confirmation before submission."
+        }
+      ]
+    },
+    {
+      "check": "uncalibrated_cost_resource_benefit",
+      "status": "PASS_TEXT_SCOPE",
+      "assessment_zh": "成本/资源/收益、可调用库存、通行、泵性能和经济换算均明确未校准。泵的约百万HKD购置参考仅有文献支持，不等于所有成本校准。",
+      "paragraphs": [
+        {
+          "paragraph": 33,
+          "text": "The formulation is a conditional method-validation instance supported by selected hazard observations, official census boundaries and an equipment purchase reference. Its CU costs, resource requirements and benefit scores remain illustrative. Drainage denotes preparation and deployment of mobile pumping equipment. One Drainage deployment unit represents one pump assigned simultaneously to a sector. The inherited Drainage coefficients have not been validated as per-pump operating requirements or hydraulic benefits."
+        },
+        {
+          "paragraph": 51,
+          "text": "The p_s values supplied to optimization are relative class frequencies conditional on the stated event frame, analyzable records and fitted classification. They are not annual occurrence probabilities, return periods or future Tai O flood probabilities. Representative R/W/S values are separate within-class means, rather than a synchronized observed process. No empirically verified mapping converts R/W/S, those means or CRITIC scores into resource, cost or benefit coefficients. Accordingly, the frequency-only optimization comparison does not propagate the complete observation-to-decision chain."
+        },
+        {
+          "paragraph": 56,
+          "text": "CU denotes the original illustrative cost unit. HKD is an actual currency used only for the procurement constraint. There is no CU-to-HKD conversion. The equipment resource row is an abstract requirement inherited from the earlier model, while N0 + n counts physical pumps under the stated unit convention. A capacity of 60 equipment units therefore does not mean 60 available pumps. Labour coefficients are likewise uncalibrated resource units, with no verified conversion into staff-hours."
+        },
+        {
+          "paragraph": 130,
+          "text": "The original readiness budget is 20,000 CU. Each scenario has 30,000 CU of operating budget and abstract capacities of 400 labour units, 60 equipment units and 220 supply units. Sector-specific costs and resource requirements are equal in the baseline. The sector benefit modifiers are β1 = 1.1 and β2 = 0.9. Table 5 gives the component scores and readiness amounts, while Supplementary Section S11 lists the scenario-dependent requirements."
+        },
+        {
+          "paragraph": 133,
+          "text": "These inputs are retained modelling assumptions. The available records do not justify reclassifying them as expert-elicited estimates, measured staff-hours or calibrated avoided losses. In particular, the Drainage readiness amount is interpreted as a hypothetical local preparation expense, separate from purchase of pumps."
+        },
+        {
+          "paragraph": 134,
+          "text": "An official government report dated 12 August 2025 describes Long Xi Shui mobile pumping robots costing approximately HKD 1 million each, with maximum discharge of 800 m³/h and a refuelling interval of about eight hours [20]. The baseline uses that approximate purchase reference, a hypothetical HKD 2 million procurement envelope, zero assumed pre-existing available stock and assumed access to both sectors. Only the approximate purchase reference has direct documentary support. The budget, locally callable stock and access flags are comparison conditions, rather than observations of Tai O operations."
+        },
+        {
+          "paragraph": 135,
+          "text": "Maximum rated discharge does not establish effective flow at a particular head or outlet. The refuelling interval does not define the flood-response duration. Effective discharge, fuel consumption, crew requirement, transport feasibility and avoided-loss response remain unmeasured. Future work should collect the pump-operation data, requirements for resources, and hard data of intervention effects by site. Such data would allow cost and benefit coefficients to be introduced into the analysis under a consistent economic framework. If this calibration is not implemented, the model outputs should be seen as conditional planning comparisons and not as operational recommendations."
+        },
+        {
+          "paragraph": 209,
+          "text": "CI-06 remains OPEN. No empirical relationship maps R/W/S into resource requirements, CU costs, effectiveness or benefits. The approximate 2025 equipment purchase reference does not establish effective flow at local head/outlet conditions, callable stock, access, crew, transport, fuel use, maintenance or avoided losses. Census units are demographic boundaries, not measured inundation or exposed assets. Separate CU and HKD budgets do not establish a common monetary cost–benefit basis."
+        }
+      ]
+    },
+    {
+      "check": "frequency_only_sensitivity",
+      "status": "PASS_TEXT_SCOPE",
+      "assessment_zh": "60事件前端重新拟合；后端只替换条件频率，沿用原假设响应表。正文承认完整观测至决策的不确定性传播未完成。",
+      "paragraphs": [
+        {
+          "paragraph": 16,
+          "text": "The frozen mobile baseline has RP = 616.082500 and VSS = 3.237826. Replacing only the conditional frequency vector gives RP = 634.516667, while the same Barrier-and-Warning readiness in Tai O1 with no new pumps remains optimal. Under the new frequencies, four EV optima give VSS = 8.019000–34.313583. Because full refitting changes the physical indicator profiles behind the class names but leaves the optimization coefficients unchanged, this comparison is a partial frequency sensitivity, not a recalibrated hazard-to-response model or an observed policy gain."
+        },
+        {
+          "paragraph": 51,
+          "text": "The p_s values supplied to optimization are relative class frequencies conditional on the stated event frame, analyzable records and fitted classification. They are not annual occurrence probabilities, return periods or future Tai O flood probabilities. Representative R/W/S values are separate within-class means, rather than a synchronized observed process. No empirically verified mapping converts R/W/S, those means or CRITIC scores into resource, cost or benefit coefficients. Accordingly, the frequency-only optimization comparison does not propagate the complete observation-to-decision chain."
+        },
+        {
+          "paragraph": 99,
+          "text": "The existing 555-configuration replay replaces (9/23, 9/23, 5/23) with (35/60, 19/60, 6/60). Each paired configuration retains all other inputs and prescribed perturbations; probability perturbations use the respective base vector and are renormalized. A later field-by-field chain audit confirms that probabilities are the only changed top-level baseline input field. Because refitting changes class membership and representative R/W/S while leaving response coefficients unchanged, the replay attaches new label frequencies to the old illustrative response tables. It is explicitly a partial frequency sensitivity, not a physical-state-matched comparison or a fully recalibrated 60-event decision model."
+        },
+        {
+          "paragraph": 138,
+          "text": "The frozen reference retains 9/23, 9/23 and 5/23 before explicitly stated perturbations. Reconstructed-frequency results use 35/60, 19/60 and 6/60 with unchanged illustrative response tables. Convention A remains the main reporting definition; the targeted A/B comparison and controlled component/coverage results are integrated from the completed supplementary review."
+        },
+        {
+          "paragraph": 191,
+          "text": "Source: CI-01 backend_probability60/Original555_vs_Reconstructed.csv, summary.csv, inputs.json and validation.json. Full-precision numbers are used before rounding. Only the base conditional frequency vector changes within paired configurations; the hypothetical perturbations and other inputs remain fixed."
+        },
+        {
+          "paragraph": 193,
+          "text": "Across the 555 paired configurations, returned readiness-plan strings differ in 20 and procurement counts in 18. These are comparisons of selected solutions, not evidence of unique optimal policies or counts of necessary operational changes. RP, VSS and EVPI shifts are consequences of conditional weighting and optimization with stipulated scores. They are not observed avoided losses, annual benefits, HKD welfare changes or proof that the larger sample produces a better real policy. Updated class-representative R/W/S values do not enter the resource, cost or benefit tables. Full observation-to-decision uncertainty propagation remains unperformed."
+        },
+        {
+          "paragraph": 206,
+          "text": "The backend replay is narrower than the frontend reconstruction. New class frequencies are attached to unchanged illustrative response tables even though the class representatives differ after refitting. Its +18.434167 mobile-baseline RP change occurs with the old first-stage policy still optimal and zero regret. This is a change in conditional score weighting, not an observed gain from adopting a new policy. Neither frequency vector estimates annual occurrence, a return period, future Tai O flood probability or a climate trend. Full observation-to-decision propagation remains unperformed."
+        },
+        {
+          "paragraph": 213,
+          "text": "The original 23-event reference remains frozen. The retrospective local-warning frame has 63 identities, 60 analyzable and three pending. Full refitting changes class counts from 9/9/5 to 35/19/6 and six old labels; changing tide station on common identities changes ten. Frequency-only replacement changes mobile RP from 616.082500 to 634.516667 without changing the baseline readiness policy or its zero procurement. These conditional score changes do not estimate real damage reduction."
+        }
+      ]
+    },
+    {
+      "check": "three_pending_unresolved",
+      "status": "PASS_TEXT_SCOPE",
+      "assessment_zh": "63身份=60可分析+3pending；2017数值冲突与2021双气旋归属未解决；Yagi日期冲突另行保留。",
+      "paragraphs": [
+        {
+          "paragraph": 9,
+          "text": "Flood-response planning links pre-event readiness and equipment availability to adaptive deployment. CRISP provides an auditable conditional method-validation case for two Tai O sectors, using a two-stage stochastic model with shared mobile-pump stock and separate HKD procurement and illustrative CU readiness and operating budgets. The original 23-event computational reference remains frozen. A retrospective Hong Kong Observatory local-warning frame identifies 63 cyclone identities in 2017–2025, with 60 analyzable and three pending. Full refitting changes Moderate/Severe/Extreme counts from 9/9/5 to 35/19/6 and changes six original labels; a matched 59-identity tide-station comparison changes ten labels. A frequency-only replay retains the response coefficients and baseline readiness policy while RP changes from 616.082500 to 634.516667 model-score units. Under the 60-event frequencies, EV-optimal policies yield VSS of 8.019000–34.313583. Averaging scenario-derived deployment bounds and deriving bounds from averaged primitive resources produce identical baseline EV-optimal policy sets under both frequency vectors, although the definitions differ. Controlled comparisons distinguish finite-stock restrictions from shared-versus-replicated accounting; relaxing procurement integrality alone is structurally equivalent with integer deployment. A hypothetical one-unit minimum geographic deployment rule costs 14.206739 and 13.680333 score units under the respective frequencies. These results support reproducible formulation and sensitivity analysis, without establishing general methodological novelty, observed damage reduction or operational recommendations. CI-01 remains PARTIALLY RESOLVED and CI-06 OPEN because historical screening and source conflicts remain unresolved and response coefficients lack empirical calibration. Class frequencies are conditional sample proportions, not annual or future flood probabilities."
+        },
+        {
+          "paragraph": 14,
+          "text": "The research question is how inventory accounting, EV benchmark definitions, event-frame reconstruction and spatial proxies affect conditional planning comparisons under explicitly illustrative response coefficients. The case comprises two census-aligned Tai O sectors with 825 and 2,853 residents in 2021. Population provides geographic context; it does not calibrate the score or identify residents protected. The historically selected 23 records remain a frozen computational reference. A separately defined retrospective local-warning protocol supplies 63 candidate cyclone identities, including 60 analyzable records and three pending identities."
+        },
+        {
+          "paragraph": 117,
+          "text": "Sixty candidates are included in numerical analysis: all original 23 identities and 37 additional identities. Three remain pending, with zero substantive entity exclusions. TC2017_06, an unnamed September 2017 depression, has Shek Pik W/S = 2.23 mCD/0.26 m in the annual and monthly tables but 2.48 mCD/0.29 m in storm-surge database record 354 [22,24]. No authoritative correction resolving the difference was found. TC2021_02_E and TC2021_02_W are distinct depressions with a common warning and inseparable event summary [23]; copying that summary into two analyzable observations would duplicate unresolved attribution."
+        },
+        {
+          "paragraph": 118,
+          "text": "Yagi (TC2024_03/E018) remains in the 60 for extrema-only analysis: sources agree on W = 2.52 mCD and S = 0.57 m, but the annual/monthly table gives the surge peak as 5 September 2024 at 01:10 and database record 393 gives 6 September at 01:10 [22,25]. Its peak date remains unresolved and is unavailable for synchronization or hourly validation. A retained stricter 59-record sensitivity omits this date-conflict record; it is distinct from the common-59 spatial comparison, which omits Bebinca instead."
+        },
+        {
+          "paragraph": 181,
+          "text": "Existing CI-01 sensitivity results also retain the pending items visibly. Omitting Yagi as well as the three pending identities gives a stricter 59-record numerical subset with counts 34/19/6; treating the unresolved 2021 shared warning as one combined observation gives 61 units and counts 36/19/6, but changes the analysis unit and does not resolve attribution to the two cyclone identities. The final main analysis remains the 60-identity dataset. With its class definitions artificially fixed, assigning the three pending identities gives Extreme fractions between 6/63 and 9/63; this is only an arithmetic missingness bound, not a refitted-model interval or a confidence interval. Existing overlap-episode and year-block resampling (1,000 fits each) give projection-ARI medians 0.717193 and 0.762460; nine leave-one-year-out fits give median 0.972553. These conditional diagnostics do not fill the unresolved records or extend the warning frame to all floods."
+        },
+        {
+          "paragraph": 204,
+          "text": "Reconstruction strengthens traceability within an HKO local-warning frame; it does not recover the old selection procedure. The 60 complete cases depend on record availability and attribution, and their three pending counterparts remain in the 63-candidate ledger. Resolving them could change ranges, weights, centroids and all labels. The post-access retrospective protocol and amendments are disclosed analytical choices, not prospective preregistration or blinded independent-team validation."
+        },
+        {
+          "paragraph": 208,
+          "text": "CI-01 remains PARTIALLY RESOLVED / NOT FULLY CLOSED. The historical candidate/exclusion register, anchor rules and four station-substitution decisions are unrecovered. TC2017_06 remains pending because official W/S values conflict; two distinct 2021 depressions remain pending because the shared summary cannot be attributed separately. Yagi is included for agreed numerical extrema only, with an unresolved 5-versus-6 September 2024 surge-peak date. Annual/monthly corroboration is not independent instrument calibration or an authoritative resolution of a conflicting database record. Joint monsoon/cyclone rises and nonsynchronous W/S extrema retain their source qualifications."
+        },
+        {
+          "paragraph": 213,
+          "text": "The original 23-event reference remains frozen. The retrospective local-warning frame has 63 identities, 60 analyzable and three pending. Full refitting changes class counts from 9/9/5 to 35/19/6 and six old labels; changing tide station on common identities changes ten. Frequency-only replacement changes mobile RP from 616.082500 to 634.516667 without changing the baseline readiness policy or its zero procurement. These conditional score changes do not estimate real damage reduction."
+        },
+        {
+          "paragraph": 215,
+          "text": "CI-01 remains PARTIALLY RESOLVED and CI-06 OPEN. Historical provenance, pending identities, source timing and spatial representativeness remain bounded evidence limits; response calibration remains necessary for operational or policy-benefit claims. The manuscript supports reproducible conditional method validation within those limits, with author declarations and archival access still requiring confirmation before submission."
+        }
+      ]
+    },
+    {
+      "check": "scores_not_losses_or_population",
+      "status": "PASS_TEXT_SCOPE",
+      "assessment_zh": "模型分数不是实际经济损失、受保护居民或等同服务量；CU与HKD不合并，人口仅提供地理背景。",
+      "paragraphs": [
+        {
+          "paragraph": 9,
+          "text": "Flood-response planning links pre-event readiness and equipment availability to adaptive deployment. CRISP provides an auditable conditional method-validation case for two Tai O sectors, using a two-stage stochastic model with shared mobile-pump stock and separate HKD procurement and illustrative CU readiness and operating budgets. The original 23-event computational reference remains frozen. A retrospective Hong Kong Observatory local-warning frame identifies 63 cyclone identities in 2017–2025, with 60 analyzable and three pending. Full refitting changes Moderate/Severe/Extreme counts from 9/9/5 to 35/19/6 and changes six original labels; a matched 59-identity tide-station comparison changes ten labels. A frequency-only replay retains the response coefficients and baseline readiness policy while RP changes from 616.082500 to 634.516667 model-score units. Under the 60-event frequencies, EV-optimal policies yield VSS of 8.019000–34.313583. Averaging scenario-derived deployment bounds and deriving bounds from averaged primitive resources produce identical baseline EV-optimal policy sets under both frequency vectors, although the definitions differ. Controlled comparisons distinguish finite-stock restrictions from shared-versus-replicated accounting; relaxing procurement integrality alone is structurally equivalent with integer deployment. A hypothetical one-unit minimum geographic deployment rule costs 14.206739 and 13.680333 score units under the respective frequencies. These results support reproducible formulation and sensitivity analysis, without establishing general methodological novelty, observed damage reduction or operational recommendations. CI-01 remains PARTIALLY RESOLVED and CI-06 OPEN because historical screening and source conflicts remain unresolved and response coefficients lack empirical calibration. Class frequencies are conditional sample proportions, not annual or future flood probabilities."
+        },
+        {
+          "paragraph": 14,
+          "text": "The research question is how inventory accounting, EV benchmark definitions, event-frame reconstruction and spatial proxies affect conditional planning comparisons under explicitly illustrative response coefficients. The case comprises two census-aligned Tai O sectors with 825 and 2,853 residents in 2021. Population provides geographic context; it does not calibrate the score or identify residents protected. The historically selected 23 records remain a frozen computational reference. A separately defined retrospective local-warning protocol supplies 63 candidate cyclone identities, including 60 analyzable records and three pending identities."
+        },
+        {
+          "paragraph": 51,
+          "text": "The p_s values supplied to optimization are relative class frequencies conditional on the stated event frame, analyzable records and fitted classification. They are not annual occurrence probabilities, return periods or future Tai O flood probabilities. Representative R/W/S values are separate within-class means, rather than a synchronized observed process. No empirically verified mapping converts R/W/S, those means or CRITIC scores into resource, cost or benefit coefficients. Accordingly, the frequency-only optimization comparison does not propagate the complete observation-to-decision chain."
+        },
+        {
+          "paragraph": 56,
+          "text": "CU denotes the original illustrative cost unit. HKD is an actual currency used only for the procurement constraint. There is no CU-to-HKD conversion. The equipment resource row is an abstract requirement inherited from the earlier model, while N0 + n counts physical pumps under the stated unit convention. A capacity of 60 equipment units therefore does not mean 60 available pumps. Labour coefficients are likewise uncalibrated resource units, with no verified conversion into staff-hours."
+        },
+        {
+          "paragraph": 59,
+          "text": "The preference weights are 0.5, 0.3 and 0.2. Census population is contextual and does not determine β. Additive scores assume constant marginal contributions within each configuration. They contain no empirically estimated saturation, joint protection or avoided-loss mechanism."
+        },
+        {
+          "paragraph": 76,
+          "text": "Procurement expense is constrained rather than subtracted from the score objective. After maximizing the primary score, the implementation successively minimizes new procurement, readiness expense and a fixed binary encoding of the six readiness decisions. The pair order is Tai O1 followed by Tai O2, with Drainage, Barrier and Warning in each sector. This supplies a reproducible choice among primary optima. It does not establish lifecycle economic efficiency."
+        },
+        {
+          "paragraph": 104,
+          "text": "This hypothetical minimum geographic coverage assumption counts abstract deployment units: a pump, barrier package and warning package each count as one, despite unlike service meanings. It constrains actual deployment, not readiness alone, and has no population or measured protection interpretation. The completed design uses k = 0 and 1, a k = 2 intensity check and a k = 6 infeasibility control under both frequency vectors. These eight RP specifications do not evaluate WS, EV, EEV or VSS; baseline benchmark results cannot be transferred to these altered feasible sets."
+        },
+        {
+          "paragraph": 111,
+          "text": "Figure 1 shows the retained boundaries. Resident population is a demographic context measure, distinct from flood-exposed population or expected intervention benefit. In particular, the larger Tai O2 count does not validate either sector's β value. Using a 2021 population snapshot alongside hazard records from 2017–2025 is an explicit temporal simplification. Census polygons are also distinct from contemporary coastlines and inundation footprints."
+        },
+        {
+          "paragraph": 168,
+          "text": "Table 10. Hypothetical minimum geographic deployment. Opportunity cost is RP(k = 0) − RP(k). Scores are not protected population or homogeneous service units."
+        },
+        {
+          "paragraph": 193,
+          "text": "Across the 555 paired configurations, returned readiness-plan strings differ in 20 and procurement counts in 18. These are comparisons of selected solutions, not evidence of unique optimal policies or counts of necessary operational changes. RP, VSS and EVPI shifts are consequences of conditional weighting and optimization with stipulated scores. They are not observed avoided losses, annual benefits, HKD welfare changes or proof that the larger sample produces a better real policy. Updated class-representative R/W/S values do not enter the resource, cost or benefit tables. Full observation-to-decision uncertainty propagation remains unperformed."
+        },
+        {
+          "paragraph": 201,
+          "text": "The unconstrained baseline concentrates deployment in Tai O1 because its stipulated benefit modifier is higher at equal resource costs. The census populations do not support that preference. The hypothetical minimum geographic coverage rule shows that serving both sectors with at least one abstract deployment unit is feasible, with model-score opportunity costs of 14.206739 and 13.680333 under the two frequency vectors. Summing unlike pumps and response packages supplies no validated protection metric, so this is an assumption comparison, not evidence that fairness has been achieved or a monetary cost of equity."
+        },
+        {
+          "paragraph": 209,
+          "text": "CI-06 remains OPEN. No empirical relationship maps R/W/S into resource requirements, CU costs, effectiveness or benefits. The approximate 2025 equipment purchase reference does not establish effective flow at local head/outlet conditions, callable stock, access, crew, transport, fuel use, maintenance or avoided losses. Census units are demographic boundaries, not measured inundation or exposed assets. Separate CU and HKD budgets do not establish a common monetary cost–benefit basis."
+        },
+        {
+          "paragraph": 213,
+          "text": "The original 23-event reference remains frozen. The retrospective local-warning frame has 63 identities, 60 analyzable and three pending. Full refitting changes class counts from 9/9/5 to 35/19/6 and six old labels; changing tide station on common identities changes ten. Frequency-only replacement changes mobile RP from 616.082500 to 634.516667 without changing the baseline readiness policy or its zero procurement. These conditional score changes do not estimate real damage reduction."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+parameter,value,detail
+tau_1,0.269218649535581,(mu_1 + mu_2) / 2
+tau_2,0.503470086028886,(mu_2 + mu_3) / 2
+mu_1,0.18219377856837668,Moderate center
+mu_2,0.3562435205027853,Severe center
+mu_3,0.6506966515549867,Extreme center
+random_state,42.0,K-means seed
+n_init,50.0,K-means initializations
+clean_event_count,58.0,N
+w_rainfall,0.4882389024033482,CRITIC weight
+w_sea_level,0.2808574333685066,CRITIC weight
+w_storm_surge,0.23090366422814518,CRITIC weight

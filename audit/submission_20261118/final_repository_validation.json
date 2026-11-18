@@ -1,0 +1,21 @@
+{
+  "status": "PASS_PACKAGE_CHECKS_WITH_RELEASE_BLOCKERS",
+  "errors": [],
+  "navigation_links_checked": 138,
+  "supplement_candidate_links": 32,
+  "scientific_files_identical_to_tested_candidate": 64,
+  "text_files_scanned": 28723,
+  "binary_files_not_text_scanned": 1082,
+  "execution_log_files_scanned": 19744,
+  "scan_scope": "Recognizable tokens/private keys/cookie headers; not an exhaustive secret detector",
+  "repository_audit": "PASS",
+  "staged_files": [],
+  "git_index_unchanged": true,
+  "head_unchanged": true,
+  "release_ready": false,
+  "release_blockers": [
+    "Scientific candidates uncommitted; real clone is incomplete",
+    "Distribution terms/notices and raw-archive access unresolved",
+    "A real clone of the selected future commit still needs verification"
+  ]
+}

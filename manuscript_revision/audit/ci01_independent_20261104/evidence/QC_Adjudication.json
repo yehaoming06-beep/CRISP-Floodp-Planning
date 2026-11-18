@@ -1,0 +1,19 @@
+{
+  "schema": "ci01_qc_adjudication_v1.1",
+  "researcher_new_interpretation": true,
+  "not_HKO_rule": true,
+  "TC2017_06": {
+    "code": "PENDING_SOURCE_CONFLICT",
+    "numeric_conflict": true,
+    "time_conflict": true,
+    "model_eligible": false,
+    "reason": "annual and monthly 2.23/0.26 vs official database2.48/0.29; precedence unresolved"
+  },
+  "TC2024_03": {
+    "code": "PEAK_TIME_CONFLICT_UNRESOLVED",
+    "numeric_conflict": false,
+    "time_conflict": true,
+    "model_eligible": true,
+    "reason": "W/S values match; S date5Sep in annual/monthly vs6Sep in official database; no synchronous/chronological validation"
+  }
+}

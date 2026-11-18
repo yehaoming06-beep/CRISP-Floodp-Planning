@@ -1,0 +1,16 @@
+{
+  "historical_inventory_rows": 27549,
+  "current_independent_walk_rows": 27543,
+  "excluded_historical_paths": [
+    ".DS_Store",
+    "06_Manuscript/.DS_Store",
+    "manuscript_revision/.DS_Store",
+    "manuscript_revision/audit/.DS_Store",
+    "manuscript_revision/audit/ci01_integration_20261105/before/06_Manuscript/.DS_Store",
+    "manuscript_revision/peer_review_validation_20261105_v2/.DS_Store"
+  ],
+  "new_paths": [],
+  "same_relative_path_counterparts": 12916,
+  "historical_import_manifest_rows": 12914,
+  "explanation_zh": "本次walk明确排除6个.DS_Store；同路径counterpart还包含有意改写的.gitignore/README，二者不作为原文逐字导入。旧27549/12914/14635与本次27543/12916/14627口径相差8，不代表原始科学材料增减。"
+}

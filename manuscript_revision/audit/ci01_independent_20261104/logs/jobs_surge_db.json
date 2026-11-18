@@ -1,0 +1,22 @@
+[
+  [
+    "HKO_ssdb_year.js",
+    "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_year.js"
+  ],
+  [
+    "HKO_ssdb_storm_name.js",
+    "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_storm_name.js"
+  ],
+  [
+    "HKO_ssdb_station.js",
+    "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_station.js"
+  ],
+  [
+    "HKO_ssdb_track.js",
+    "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_track.js"
+  ],
+  [
+    "HKO_ssdb_storm.js",
+    "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_storm.js"
+  ]
+]

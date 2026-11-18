@@ -1,0 +1,257 @@
+{
+  "status": "PASS_WITH_EXPLICIT_UNRESOLVED_CI01_ITEMS",
+  "verification_timestamp_utc": "2026-11-05T03:22:15.109260+00:00",
+  "scope": "Independent arithmetic and cross-file verification of existing outputs only; no optimization, new experiment, or empirical calibration performed.",
+  "candidate_rows": 63,
+  "warning_groups": 62,
+  "analyzable": 60,
+  "pending": 3,
+  "entity_exclusions": 0,
+  "original23_RWS_unchanged": true,
+  "original23_anchor_changes": 5,
+  "fits": {
+    "original23_frozen": {
+      "N": 23,
+      "weights": [
+        0.4340813251811206,
+        0.3352294655633418,
+        0.23068920925553776
+      ],
+      "counts": [
+        9,
+        9,
+        5
+      ],
+      "conditional_frequencies": [
+        0.391304347826087,
+        0.391304347826087,
+        0.21739130434782608
+      ],
+      "independent_exhaustive_SSE": 0.14697273325203475,
+      "partitions": 231,
+      "max_weight_error": 1.1102230246251565e-16,
+      "label_match": true
+    },
+    "reconstructed60_adjudicated": {
+      "N": 60,
+      "weights": [
+        0.48721699591759315,
+        0.28608032271153494,
+        0.226702681370872
+      ],
+      "counts": [
+        35,
+        19,
+        6
+      ],
+      "conditional_frequencies": [
+        0.5833333333333334,
+        0.31666666666666665,
+        0.1
+      ],
+      "independent_exhaustive_SSE": 0.26049402599804616,
+      "partitions": 1711,
+      "max_weight_error": 1.1102230246251565e-16,
+      "label_match": true
+    },
+    "ShekPik_common59_spatial": {
+      "N": 59,
+      "weights": [
+        0.48941642603442514,
+        0.2847285575297556,
+        0.22585501643581918
+      ],
+      "counts": [
+        34,
+        19,
+        6
+      ],
+      "conditional_frequencies": [
+        0.576271186440678,
+        0.3220338983050847,
+        0.1016949152542373
+      ],
+      "independent_exhaustive_SSE": 0.2579175041645989,
+      "partitions": 1653,
+      "max_weight_error": 8.326672684688674e-17,
+      "label_match": true
+    },
+    "TaiO_common59_spatial": {
+      "N": 59,
+      "weights": [
+        0.4657599383514492,
+        0.3144277001089063,
+        0.21981236153964445
+      ],
+      "counts": [
+        41,
+        15,
+        3
+      ],
+      "conditional_frequencies": [
+        0.6949152542372882,
+        0.2542372881355932,
+        0.05084745762711865
+      ],
+      "independent_exhaustive_SSE": 0.242598880832136,
+      "partitions": 1653,
+      "max_weight_error": 0.0,
+      "label_match": true
+    }
+  },
+  "original23_label_migration_matrix_MSE": [
+    [
+      4,
+      5,
+      0
+    ],
+    [
+      0,
+      8,
+      1
+    ],
+    [
+      0,
+      0,
+      5
+    ]
+  ],
+  "original23_ARI": 0.37513956084852995,
+  "old_preprocessing_projection_counts": [
+    43,
+    12,
+    5
+  ],
+  "old_projection_vs_full_refit_ARI": 0.5714507295703284,
+  "spatial_label_changes": 10,
+  "spatial_ARI": 0.5755728482662642,
+  "spatial_identity_and_rainfall_match": true,
+  "max_station_differences_m": {
+    "maximum_sea_level_mCD": 0.18000000000000016,
+    "maximum_storm_surge_m": 0.55
+  },
+  "existing_stability_rows_verified": 2009,
+  "existing_stability_ARI_medians": {
+    "leave_one_year_out": 0.9725533523288946,
+    "overlap_episode_bootstrap": 0.7171930208989564,
+    "year_block_bootstrap": 0.7624595312074622
+  },
+  "annual_flow": {
+    "2017": {
+      "warning_groups": 7,
+      "identities": 7,
+      "historical_sample": 5,
+      "analyzable": 6,
+      "pending": 1
+    },
+    "2018": {
+      "warning_groups": 6,
+      "identities": 6,
+      "historical_sample": 1,
+      "analyzable": 6,
+      "pending": 0
+    },
+    "2019": {
+      "warning_groups": 5,
+      "identities": 5,
+      "historical_sample": 1,
+      "analyzable": 5,
+      "pending": 0
+    },
+    "2020": {
+      "warning_groups": 5,
+      "identities": 5,
+      "historical_sample": 2,
+      "analyzable": 5,
+      "pending": 0
+    },
+    "2021": {
+      "warning_groups": 7,
+      "identities": 8,
+      "historical_sample": 2,
+      "analyzable": 6,
+      "pending": 2
+    },
+    "2022": {
+      "warning_groups": 6,
+      "identities": 6,
+      "historical_sample": 3,
+      "analyzable": 6,
+      "pending": 0
+    },
+    "2023": {
+      "warning_groups": 5,
+      "identities": 5,
+      "historical_sample": 3,
+      "analyzable": 5,
+      "pending": 0
+    },
+    "2024": {
+      "warning_groups": 7,
+      "identities": 7,
+      "historical_sample": 3,
+      "analyzable": 7,
+      "pending": 0
+    },
+    "2025": {
+      "warning_groups": 14,
+      "identities": 14,
+      "historical_sample": 3,
+      "analyzable": 14,
+      "pending": 0
+    }
+  },
+  "changed_backend_input_keys": [
+    "probabilities"
+  ],
+  "backend_configurations": 555,
+  "solver_rows": 3888,
+  "all_recorded_solver_rows_optimal_and_valid": true,
+  "all_555_saved_parameter_packages_differ_only_in_probabilities": true,
+  "backend_summary_replay_byte_identical": true,
+  "backend_summary_sha256": "fecf0ca2681ded84890957794f0db058a9589966ae6d6b92c0a0bada91695162",
+  "returned_plan_changes": 20,
+  "returned_new_pump_count_changes": 18,
+  "EV_tie_cases": 10,
+  "feasible_policies_enumerated": 1716,
+  "mobile_EV_optimal_policies": [
+    {
+      "case": "mobile_baseline",
+      "y_mask": "5",
+      "new_pumps": "1",
+      "setup_used": "14000.0",
+      "plan": "Tai O1/Drainage;Tai O1/Warning",
+      "ev": "601.9071666666667",
+      "eev": "600.2030833333334"
+    },
+    {
+      "case": "mobile_baseline",
+      "y_mask": "5",
+      "new_pumps": "2",
+      "setup_used": "14000.0",
+      "plan": "Tai O1/Drainage;Tai O1/Warning",
+      "ev": "601.9071666666667",
+      "eev": "626.4976666666668"
+    },
+    {
+      "case": "mobile_baseline",
+      "y_mask": "37",
+      "new_pumps": "1",
+      "setup_used": "19500.0",
+      "plan": "Tai O1/Drainage;Tai O1/Warning;Tai O2/Warning",
+      "ev": "601.9071666666667",
+      "eev": "600.2030833333334"
+    },
+    {
+      "case": "mobile_baseline",
+      "y_mask": "37",
+      "new_pumps": "2",
+      "setup_used": "19500.0",
+      "plan": "Tai O1/Drainage;Tai O1/Warning;Tai O2/Warning",
+      "ev": "601.9071666666667",
+      "eev": "626.4976666666668"
+    }
+  ],
+  "log_version_note": "logs/final_backend_run.log retains obsolete new61 and pending-two labels; final inputs.json, validation.json and CSV outputs identify N=60 with three pending identities.",
+  "CI01_fully_closed": false
+}

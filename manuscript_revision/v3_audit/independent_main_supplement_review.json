@@ -1,0 +1,36 @@
+{
+  "status": "PASS within read-only review scope",
+  "scope": "main manuscript and supplementary mathematics, reported numbers and cross-reference structure; no optimization",
+  "main_sha256": "fb80121530ef3eaf0bc41530279f8ab0478cf6c19779e08dde3d80091d18a181",
+  "supplement_sha256": "b5913966d2061b1e681ee72ffb553fc348a4088b9fedc8730c3d11abf7113641",
+  "source_numeric_checks": [
+    "main Table 7 independently reconstructed scores/resources",
+    "main Table 8 against ev_summary",
+    "main Table 9 against component_summary",
+    "main Table 10 against coverage_summary including infeasible blanks",
+    "main Table 12 against reconstructed60 scenario_summary",
+    "main Table 14 values/differences against ev_summary"
+  ],
+  "structural_checks": {
+    "main": {
+      "tables": 14,
+      "figures": 2,
+      "equation_groups": 20,
+      "local_links": "all exist"
+    },
+    "supplement": {
+      "tables": 16,
+      "figures": 5,
+      "equation_groups": 4,
+      "local_links": "all exist"
+    }
+  },
+  "citation_closure": "references 1-30 all cited, no orphan numeric citation",
+  "mathematical_review": [
+    "A/B bounds and feasible-set containment valid for positive-resource integer-deployment formulation",
+    "shared versus replicated witness satisfies primitive rows and violates shared total",
+    "continuous-n to integer-n projection argument valid under current procurement occurrence",
+    "coverage k6 labour certificate 504>400 valid"
+  ],
+  "evidence_scope": "No fatal unresolved mathematical error identified in the conditional illustrative model; CI01 partial and CI06 open remain. Numerical agreement does not establish operational validity, general novelty or journal acceptance."
+}

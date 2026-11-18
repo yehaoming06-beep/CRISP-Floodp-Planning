@@ -1,0 +1,28 @@
+{
+  "base_sha256": "fc5d62ea3037ac2ed39936dca76523605031f2972ff772a682decb09beb1833d",
+  "v2_sha256": "d245173c74145e3fc64afdf6c6a7f3d5974e092db42c499a74ec8fc668b050d1",
+  "changes": [
+    "Abstract: integrated evidence and bounded inference",
+    "Introduction and contributions: retrospective comparison",
+    "Methodology: historical sample and retrospective screening",
+    "Equation 5: dataset-specific denominator",
+    "Methodology: frequency and calibration boundary",
+    "Design: distinguish frozen suite",
+    "Design: bound legacy resampling",
+    "Methodology: comparison and verification design",
+    "Study data: candidate flow and unresolved evidence",
+    "Study sources: integrate new corroboration without erasing conflicts",
+    "Results: distinguish evidence versions",
+    "Results label: ### 5.2 Frozen-sample inventory baseline and adaptive deployment",
+    "Results label: ### 5.4 Hypothetical sector heterogeneity under frozen frequencies",
+    "Results: integrate Tables 12\u201317",
+    "Discussion: selection, spatial, frequency, parameters and remaining risks",
+    "Conclusion: supported changes and nonclosure",
+    "Data availability: preserve both chains",
+    "Reference 19: qualify numerical corroboration",
+    "References: add official reconstruction sources",
+    "Appendix A: timing and historical anchors",
+    "Discussion: identify frozen baseline",
+    "Discussion: identify ablation frequency basis"
+  ]
+}

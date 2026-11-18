@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "markdown_sha256": "d245173c74145e3fc64afdf6c6a7f3d5974e092db42c499a74ec8fc668b050d1",
+  "docx_sha256": "28f6f9748bc2b57024eb804b17148d7baedc32a0b5dfe767178d65baba7956e9",
+  "expected_blocks": 262,
+  "actual_blocks": 262,
+  "prose_table_mismatches": [],
+  "markdown_equation_tags": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+  ],
+  "native_equation_objects": 19,
+  "figures": 7,
+  "figure_alts_match": true,
+  "tables": 20
+}

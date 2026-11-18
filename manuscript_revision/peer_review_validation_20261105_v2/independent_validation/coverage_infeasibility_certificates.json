@@ -1,0 +1,42 @@
+[
+  {
+    "frequency": "23",
+    "scenario": "Severe",
+    "coverage_k": 6,
+    "resource": "labour",
+    "minimal_resource_required": 408.0,
+    "resource_capacity": 400.0,
+    "strict_shortfall": 8.0,
+    "logic": "sum_j min_i(resource_sji) * k > scenario capacity"
+  },
+  {
+    "frequency": "23",
+    "scenario": "Extreme",
+    "coverage_k": 6,
+    "resource": "labour",
+    "minimal_resource_required": 504.0,
+    "resource_capacity": 400.0,
+    "strict_shortfall": 104.0,
+    "logic": "sum_j min_i(resource_sji) * k > scenario capacity"
+  },
+  {
+    "frequency": "60",
+    "scenario": "Severe",
+    "coverage_k": 6,
+    "resource": "labour",
+    "minimal_resource_required": 408.0,
+    "resource_capacity": 400.0,
+    "strict_shortfall": 8.0,
+    "logic": "sum_j min_i(resource_sji) * k > scenario capacity"
+  },
+  {
+    "frequency": "60",
+    "scenario": "Extreme",
+    "coverage_k": 6,
+    "resource": "labour",
+    "minimal_resource_required": 504.0,
+    "resource_capacity": 400.0,
+    "strict_shortfall": 104.0,
+    "logic": "sum_j min_i(resource_sji) * k > scenario capacity"
+  }
+]

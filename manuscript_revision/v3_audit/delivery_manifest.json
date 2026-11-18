@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "requested_outputs": {
+    "Revised_Manuscript_EN_v3.md": {
+      "bytes": 85290,
+      "sha256": "75f67b754b2ccea7ae772c935380ed511f651fab0b11ec0bf2ff00e5803b0adc"
+    },
+    "Revised_Manuscript_EN_v3.docx": {
+      "bytes": 1077874,
+      "sha256": "2d1e13ebf6c20400476b2668b41d443e40615d077c1f6296e07e147f4cf620f2"
+    },
+    "Supplementary_Methods_and_Results.md": {
+      "bytes": 57280,
+      "sha256": "b5913966d2061b1e681ee72ffb553fc348a4088b9fedc8730c3d11abf7113641"
+    },
+    "Final_Submission_Readiness.md": {
+      "bytes": 15725,
+      "sha256": "0971ee2a06c570af6aaa5c8dba19128f6932380398e832d1518e2c236dc02cc9"
+    },
+    "V3_Change_Log.md": {
+      "bytes": 10080,
+      "sha256": "964e691fd52f8c05b6f763b4ec7cacc1ba823d87d9c2340b6d4947755b0e5560"
+    },
+    "Remaining_Submission_Blockers.md": {
+      "bytes": 9571,
+      "sha256": "c4e9701ee61d42610197fc667865d4a5a509780ec2039f524e385a1d0cf7580e"
+    }
+  },
+  "broken_local_links": [],
+  "scientific_inputs_changed": false,
+  "new_experiments": 0,
+  "artifact_checks": "word_sync_verification.json, candidate_validation.json, visual_qa_final.json",
+  "author_confirmation_pending": true,
+  "CI01": "PARTIALLY RESOLVED / NOT FULLY CLOSED",
+  "CI06": "OPEN"
+}

@@ -1,0 +1,7 @@
+Running scenarios
+Running core
+Running suite23
+Running verify23
+Running suite60
+Running verify60
+PASS: all; records: /private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/execution.json

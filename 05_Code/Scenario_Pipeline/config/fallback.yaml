@@ -1,0 +1,29 @@
+input:
+  path: ../../../01_Data/Events/model_input.csv
+
+columns:
+  event_id: event_id
+  # Explicit fallback definitions; these do not overwrite the frozen primary fields.
+  rainfall: event_window_max_daily_rainfall_mm
+  sea_level: maximum_sea_level_mCD
+  storm_surge: maximum_storm_surge_m
+
+cleaning:
+  missing_strategy: drop
+  duplicate_event_id: error
+
+critic:
+  standard_deviation_ddof: 0
+
+kmeans:
+  k: 3
+  random_state: 42
+  n_init: 50
+  max_iter: 300
+
+scenarios:
+  representative_statistic: mean
+
+output:
+  directory: ../../../04_Results/Scenario_Baseline
+  excel_filename: crisp_fallback_RWS_results.xlsx

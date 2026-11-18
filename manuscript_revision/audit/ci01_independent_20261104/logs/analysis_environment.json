@@ -1,0 +1,15 @@
+{
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "executable": "/Users/yehaoming/Desktop/climate_Devin/.venv/bin/python",
+  "seed": 20261104,
+  "bootstrap_counts": {
+    "overlap_episode": 1000,
+    "year_block": 1000,
+    "leave_one_year_out": 9
+  },
+  "main_pipeline": "snapshot of existing implementation",
+  "exact_audit": "one-dimensional global nonempty contiguous three segments"
+}

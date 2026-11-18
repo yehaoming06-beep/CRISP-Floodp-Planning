@@ -1,0 +1,46 @@
+{
+  "baseline": {
+    "id": "mobile_baseline",
+    "experiment": "baseline",
+    "factor": "",
+    "level": "",
+    "u_mode": "derived",
+    "rp": 616.0825000000001,
+    "ws": 622.5390217391305,
+    "ev": 621.3923913043479,
+    "eev": 612.8446739130436,
+    "vss": 3.2378260869564883,
+    "evpi": 6.45652173913038,
+    "plan": "Tai O1/Barrier;Tai O1/Warning",
+    "new_pumps": 0,
+    "capital_used_hkd": 0,
+    "setup_used": 13000.0,
+    "baseline_policy_feasible": true,
+    "baseline_policy_value": 616.0825000000001,
+    "regret": 0.0,
+    "checks_passed": true
+  },
+  "experiment_counts": {
+    "ablation": 8,
+    "access": 2,
+    "existing_stock": 5,
+    "fleet": 9,
+    "joint": 400,
+    "legacy_capacity": 21,
+    "legacy_baseline": 1,
+    "mobile_capacity": 21,
+    "baseline": 1,
+    "oat": 56,
+    "purchase_price": 5,
+    "spatial": 26
+  },
+  "weights": [
+    0.4340813251811205,
+    0.3352294655633418,
+    0.23068920925553768
+  ],
+  "thresholds": [
+    0.24778239176443145,
+    0.48519085974711007
+  ]
+}

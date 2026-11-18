@@ -1,0 +1,186 @@
+
+Gurobi 13.0.2 (mac64[arm]) logging started Wed Nov 18 09:33:50 2026
+
+Set parameter LogFile to value "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/optimization/core/original23/logs/mobile_baseline_rp.log"
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 27.0.0 26A434)
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  60
+FeasibilityTol  1e-08
+IntFeasTol  1e-08
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 35 rows, 25 columns and 124 nonzeros (Max)
+Model fingerprint: 0xcbd10c72
+Model has 18 linear objective coefficients
+Variable types: 0 continuous, 25 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+06]
+  Objective range  [1e+00, 8e+03]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [6e+01, 2e+06]
+
+
+---------------------------------------------------------------------------
+Multi-objectives: starting optimization (max) with 4 objectives... 
+---------------------------------------------------------------------------
+
+Multi-objectives: applying initial presolve...
+---------------------------------------------------------------------------
+
+Presolve removed 5 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 30 rows, 25 columns, 99 nonzeros
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 1 (benefit) ...
+---------------------------------------------------------------------------
+
+Found heuristic solution: objective -0.0000000
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 30 rows, 24 columns, 96 nonzeros
+Variable types: 0 continuous, 24 integer (6 binary)
+
+Root relaxation: objective 6.778636e+02, 14 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  677.86360    0    8   -0.00000  677.86360      -     -    0s
+H    0     0                     568.0950000  677.86360  19.3%     -    0s
+H    0     0                     614.1754348  677.86360  10.4%     -    0s
+H    0     0                     616.0825000  677.86360  10.0%     -    0s
+     0     0  650.73348    0   11  616.08250  650.73348  5.62%     -    0s
+     0     0  647.20313    0   11  616.08250  647.20313  5.05%     -    0s
+     0     0  645.63567    0   13  616.08250  645.63567  4.80%     -    0s
+     0     0  643.68474    0   19  616.08250  643.68474  4.48%     -    0s
+     0     0  642.79577    0   20  616.08250  642.79577  4.34%     -    0s
+     0     0  642.58631    0   20  616.08250  642.58631  4.30%     -    0s
+     0     0  636.57540    0   23  616.08250  636.57540  3.33%     -    0s
+     0     0  631.47779    0   22  616.08250  631.47779  2.50%     -    0s
+     0     0  631.02557    0   22  616.08250  631.02557  2.43%     -    0s
+     0     0  630.94515    0   23  616.08250  630.94515  2.41%     -    0s
+     0     0  630.92535    0   22  616.08250  630.92535  2.41%     -    0s
+     0     0  627.09872    0   21  616.08250  627.09872  1.79%     -    0s
+     0     0  625.96636    0    7  616.08250  625.96636  1.60%     -    0s
+     0     0  625.95283    0   15  616.08250  625.95283  1.60%     -    0s
+     0     0  625.27163    0   22  616.08250  625.27163  1.49%     -    0s
+     0     0  624.82583    0   22  616.08250  624.82583  1.42%     -    0s
+     0     0  624.77531    0   22  616.08250  624.77531  1.41%     -    0s
+     0     0  624.18167    0   24  616.08250  624.18167  1.31%     -    0s
+     0     0  623.79652    0   24  616.08250  623.79652  1.25%     -    0s
+     0     0  623.33240    0   23  616.08250  623.33240  1.18%     -    0s
+     0     0  623.28215    0   24  616.08250  623.28215  1.17%     -    0s
+     0     0  620.07155    0   21  616.08250  620.07155  0.65%     -    0s
+     0     0  619.67920    0   19  616.08250  619.67920  0.58%     -    0s
+     0     0  619.36550    0   20  616.08250  619.36550  0.53%     -    0s
+     0     0  619.36067    0   21  616.08250  619.36067  0.53%     -    0s
+     0     0  617.04700    0   11  616.08250  617.04700  0.16%     -    0s
+     0     0     cutoff    0       616.08250  616.08250  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+  MIR: 15
+  StrongCG: 2
+  Flow cover: 1
+
+Explored 1 nodes (184 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 4: 616.083 614.175 568.095 -0 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 6.160825000000e+02, best bound 6.160825000000e+02, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 2 (minimum_procuremen) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -2
+
+Presolve time: 0.00s
+Presolved: 31 rows, 25 columns, 117 nonzeros
+Variable types: 0 continuous, 25 integer (6 binary)
+
+Root relaxation: objective -0.000000e+00, 29 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   -0.00000    0    3   -2.00000   -0.00000   100%     -    0s
+H    0     0                      -0.0000000   -0.00000  0.00%     -    0s
+     0     0   -0.00000    0    3   -0.00000   -0.00000  0.00%     -    0s
+
+Explored 1 nodes (29 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 2: -0 -2 
+No other solutions better than -0
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 3 (minimum_readiness_) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -13000
+
+Presolve removed 12 rows and 9 columns
+Presolve time: 0.00s
+Presolved: 20 rows, 16 columns, 64 nonzeros
+Variable types: 0 continuous, 16 integer (4 binary)
+
+Root relaxation: objective -8.697574e+03, 25 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -8697.5744    0    8 -13000.000 -8697.5744  33.1%     -    0s
+     0     0     cutoff    0      -13000.000 -13000.000  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+  MIR: 3
+  StrongCG: 1
+  Flow cover: 1
+
+Explored 1 nodes (32 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -13000 
+No other solutions better than -13000
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -1.300000000000e+04, best bound -1.300000000000e+04, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 4 (deterministic_read) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -6
+
+Presolve removed 29 rows and 21 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 4 columns, 10 nonzeros
+Variable types: 0 continuous, 4 integer (0 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -6 
+No other solutions better than -6
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -6.000000000000e+00, best bound -6.000000000000e+00, gap 0.0000%
+
+---------------------------------------------------------------------------
+Multi-objectives: solved in 0.01 seconds (0.01 work units), solution count 5
+

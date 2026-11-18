@@ -1,0 +1,56 @@
+[
+  {
+    "path": "01_Data/Events/model_input.csv",
+    "sha256": "094bea5ff6b2f5d8d71b60d8fb62772c2af05a2de83eba21fccbffe176fd544d",
+    "bytes": 576,
+    "git_status": "ignored_local",
+    "original_workspace_present": true,
+    "original_workspace_sha256": "094bea5ff6b2f5d8d71b60d8fb62772c2af05a2de83eba21fccbffe176fd544d",
+    "byte_identical_to_original": true
+  },
+  {
+    "path": "manuscript_revision/audit/ci01_independent_20261104/analysis/reconstructed_model_input.csv",
+    "sha256": "7c01d508a17dcb9643a3fd8b9e4f679898b25820fccdbd43b50f0c8f377340e0",
+    "bytes": 1647,
+    "git_status": "untracked_local",
+    "original_workspace_present": true,
+    "original_workspace_sha256": "7c01d508a17dcb9643a3fd8b9e4f679898b25820fccdbd43b50f0c8f377340e0",
+    "byte_identical_to_original": true
+  },
+  {
+    "path": "05_Code/Scenario_Pipeline/config/fallback.yaml",
+    "sha256": "afd9e4fa1c5229b76ba77873995f62914a582909402ab70d89a90ca772b586fd",
+    "bytes": 611,
+    "git_status": "untracked_local",
+    "original_workspace_present": true,
+    "original_workspace_sha256": "afd9e4fa1c5229b76ba77873995f62914a582909402ab70d89a90ca772b586fd",
+    "byte_identical_to_original": true
+  },
+  {
+    "path": "manuscript_revision/audit/ci01_independent_20261104/Inclusion_Exclusion_Audit.csv",
+    "sha256": "4532f66fea7b83624ed29d2a52cb7d3b895eb27e96419df8d0cbbf39851d16cf",
+    "bytes": 98663,
+    "git_status": "untracked_local",
+    "original_workspace_present": true,
+    "original_workspace_sha256": "4532f66fea7b83624ed29d2a52cb7d3b895eb27e96419df8d0cbbf39851d16cf",
+    "byte_identical_to_original": true
+  },
+  {
+    "path": "05_Code/Scenario_Pipeline/src/crisp_data_layer/pipeline.py",
+    "sha256": "0994fb6d7b59b5b31e0ee0b15fd1a0473140ad0580ea19daa9c83767e2962a0f",
+    "bytes": 10617,
+    "git_status": "untracked_local",
+    "original_workspace_present": true,
+    "original_workspace_sha256": "0994fb6d7b59b5b31e0ee0b15fd1a0473140ad0580ea19daa9c83767e2962a0f",
+    "byte_identical_to_original": true
+  },
+  {
+    "path": "manuscript_revision/CRISP_Merged_Manuscript.docx",
+    "sha256": "4e12f7849d0b2ca7dd0d156c987a9e90f8b651880c79b74e10f14bffbab4ca37",
+    "bytes": 4439330,
+    "git_status": "ignored_local",
+    "original_workspace_present": true,
+    "original_workspace_sha256": "4e12f7849d0b2ca7dd0d156c987a9e90f8b651880c79b74e10f14bffbab4ca37",
+    "byte_identical_to_original": true
+  }
+]

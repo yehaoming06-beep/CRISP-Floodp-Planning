@@ -1,0 +1,7 @@
+Running scenarios
+Running core
+Running suite23
+Running verify23
+Running suite60
+Running verify60
+PASS: all; records: /private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/candidate-final/results/reproductions/submission_clean_final/execution.json

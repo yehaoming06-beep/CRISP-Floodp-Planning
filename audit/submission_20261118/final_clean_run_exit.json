@@ -1,0 +1,18 @@
+{
+  "exit_code": 0,
+  "candidate": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/candidate-final",
+  "environment_keys": [
+    "CRISP_ACCESS_LOG",
+    "HOME",
+    "LANG",
+    "MPLCONFIGDIR",
+    "PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "PYTHONNOUSERSITE",
+    "TMPDIR",
+    "XDG_CACHE_HOME"
+  ],
+  "home_initially_empty": true,
+  "gurobi_license_environment_supplied": false,
+  "corrected_entry_points": true
+}

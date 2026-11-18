@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "render": "render_v3_delivery",
+  "page_count": 23,
+  "docx_sha256": "2d1e13ebf6c20400476b2668b41d443e40615d077c1f6296e07e147f4cf620f2",
+  "changed_pages_reinspected": [
+    4,
+    5,
+    7,
+    14,
+    15
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "status": "PASS",
+      "final_page_sha256": "60f18a5b53ae7c240593b1cf9cce4e9a7d9cdf6d35abf39ee2fb3792780da054",
+      "original_detail_inspected": true,
+      "initial_reviewer": "literature",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 2,
+      "status": "PASS",
+      "final_page_sha256": "2b888d27a9c3defe154f4a1727c961a32f100c3c24b0ad7b8515a611d4960447",
+      "original_detail_inspected": true,
+      "initial_reviewer": "literature",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 3,
+      "status": "PASS",
+      "final_page_sha256": "22732b290c2e2ecc88e00379f801c7a07d7293308ff5689d1751212d21f8169c",
+      "original_detail_inspected": true,
+      "initial_reviewer": "literature",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 4,
+      "status": "PASS",
+      "final_page_sha256": "66826935c9c227fbaa554589a4a3003076ee823b3d26c4dad30cd8778a257c0f",
+      "original_detail_inspected": true,
+      "initial_reviewer": "literature",
+      "unchanged_from_initial": false,
+      "final_reinspection": "root original-detail inspection after math/header corrections"
+    },
+    {
+      "page": 5,
+      "status": "PASS",
+      "final_page_sha256": "c6989bc23941779ae3eba5070729207219085f79dd4258d35543419d59ab0dd1",
+      "original_detail_inspected": true,
+      "initial_reviewer": "literature",
+      "unchanged_from_initial": false,
+      "final_reinspection": "root original-detail inspection after math/header corrections"
+    },
+    {
+      "page": 6,
+      "status": "PASS",
+      "final_page_sha256": "d433bed05d608aa379576ed6fdf869fa62d524285c21463c98dcaf05778cc570",
+      "original_detail_inspected": true,
+      "initial_reviewer": "literature",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 7,
+      "status": "PASS",
+      "final_page_sha256": "27fdc1d43818724cc481b780467a9485f861914fe75721ab12724c333592cb99",
+      "original_detail_inspected": true,
+      "initial_reviewer": "root",
+      "unchanged_from_initial": false,
+      "final_reinspection": "root original-detail inspection after math/header corrections"
+    },
+    {
+      "page": 8,
+      "status": "PASS",
+      "final_page_sha256": "aecb274ed90546bdeb1cb9c075146f6aaaa673bd586f6333482ea084950e533a",
+      "original_detail_inspected": true,
+      "initial_reviewer": "root",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 9,
+      "status": "PASS",
+      "final_page_sha256": "ed175a249240175b3d3381dddbb0c6e02b1781a15ec31170c8905142b5b3a503",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 10,
+      "status": "PASS",
+      "final_page_sha256": "122ad24e960f5b95a25fbe72b695e11b3a05452c5d5a50d4a9a1983f59b38237",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 11,
+      "status": "PASS",
+      "final_page_sha256": "463af60a79159e670b53d206235e8230011b47c198c31edc6074d114c2aefd06",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 12,
+      "status": "PASS",
+      "final_page_sha256": "b602837ca18918e4b331c3478988999dcd34d6d2fcfe435e2c59345a0b9ae3a9",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 13,
+      "status": "PASS",
+      "final_page_sha256": "29288733670e3bc13f03912328060bab28335e34c93891400f30d87eda1c3ba4",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 14,
+      "status": "PASS",
+      "final_page_sha256": "c1e5251dc66868aebbe88a2b3adc29728e4f832cc04757980ebf30ddfc9c192a",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": false,
+      "final_reinspection": "root original-detail inspection after math/header corrections"
+    },
+    {
+      "page": 15,
+      "status": "PASS",
+      "final_page_sha256": "d3e5fd8f093aebe060488302e6c491c9d7c352f87a46c62a194c9fcbcb6bad3a",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": false,
+      "final_reinspection": "root original-detail inspection after math/header corrections"
+    },
+    {
+      "page": 16,
+      "status": "PASS",
+      "final_page_sha256": "c1880ad9e2e0072d9964582eff0abd85e95c72b0e570e52199d8e79015c22300",
+      "original_detail_inspected": true,
+      "initial_reviewer": "results_supplement",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 17,
+      "status": "PASS",
+      "final_page_sha256": "5c24ad19fdc832c4c4df94fdc732756c468f204331e9ac27fa5d67f920dbfe90",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 18,
+      "status": "PASS",
+      "final_page_sha256": "9a88e333d9c6cf5866e7cd8586a93b2fdd5d390dd16b3987f48ec3407e6399bc",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 19,
+      "status": "PASS",
+      "final_page_sha256": "26d202337a11f76ab9af35f41f8934f29f535009e2c10f1e435be09c6ebbc396",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 20,
+      "status": "PASS",
+      "final_page_sha256": "dc3d0f32ac098f2e31ad6270db0282338f1923750dfa94443280013bce6c6a56",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 21,
+      "status": "PASS",
+      "final_page_sha256": "016bbd4372e8fb2451490eed8a6bffbe6568bc68d366bd61465cd5751ac5a13e",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 22,
+      "status": "PASS",
+      "final_page_sha256": "6a44d404be72cf5939c9627ec82378d2783fe1052347168dc278266d129ab7f9",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    },
+    {
+      "page": 23,
+      "status": "PASS",
+      "final_page_sha256": "6c9a2ce2dad979a6b8be3c8240875ec48bf61922eae8f3839263508fb1d80d78",
+      "original_detail_inspected": true,
+      "initial_reviewer": "readiness_audit",
+      "unchanged_from_initial": true,
+      "final_reinspection": "prior full-detail inspection applies to byte-identical final image"
+    }
+  ],
+  "finding": "No missing glyphs, clipped equations/numeric entries, overlaps or broken table headers remain. Figures/captions stay paired; continued table headers repeat.",
+  "scope": "Document appearance only; does not certify empirical evidence or journal acceptability."
+}

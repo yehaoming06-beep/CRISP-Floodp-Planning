@@ -1,0 +1,218 @@
+{
+  "scope": "Git tracked + untracked, excluding ignored files; snapshot while submission packaging proceeds",
+  "date": "2026-11-18",
+  "candidate_count": 20809,
+  "candidate_bytes": 349564454,
+  "files_above_50MiB": [],
+  "files_above_100MiB": [],
+  "top30": [
+    {
+      "path": "audit/reproducibility_20261118/file_inventory_after.csv",
+      "bytes": 8799624
+    },
+    {
+      "path": "audit/reproducibility_20261118/file_inventory_before.csv",
+      "bytes": 8799624
+    },
+    {
+      "path": "04_Results/Scenario_Stability/tables/resample_runs.csv",
+      "bytes": 6338731
+    },
+    {
+      "path": "audit/reproducibility_20261118/scenarios/stability/tables/resample_runs.csv",
+      "bytes": 6338731
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/tables/resample_runs.csv",
+      "bytes": 6338731
+    },
+    {
+      "path": "audit/source_inventory.csv",
+      "bytes": 5764600
+    },
+    {
+      "path": "manuscript_revision/v3_audit/frozen_manifest_before.json",
+      "bytes": 4925123
+    },
+    {
+      "path": "audit/submission_20261118/tested_candidate_manifest.json",
+      "bytes": 4831191
+    },
+    {
+      "path": "manuscript_revision/peer_review_validation_20261105_v2/frozen_manifest_before.json",
+      "bytes": 3907778
+    },
+    {
+      "path": "audit/import_manifest.csv",
+      "bytes": 3842119
+    },
+    {
+      "path": "audit/reproducibility_20261118/evidence_manifest.json",
+      "bytes": 3740598
+    },
+    {
+      "path": "audit/reproducibility_20261118/paper_inventory/source_to_repository_inventory.csv",
+      "bytes": 3652599
+    },
+    {
+      "path": "audit/reproducibility_20261118/preservation_after.json",
+      "bytes": 3218638
+    },
+    {
+      "path": "audit/reproducibility_20261118/preservation_before.json",
+      "bytes": 3218542
+    },
+    {
+      "path": "04_Results/Scenario_Stability/resample_indices.json",
+      "bytes": 2729236
+    },
+    {
+      "path": "audit/reproducibility_20261118/scenarios/stability/resample_indices.json",
+      "bytes": 2729236
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/resample_indices.json",
+      "bytes": 2729236
+    },
+    {
+      "path": "audit/reproducibility_20261118/paper_inventory/original_only_files.csv",
+      "bytes": 1982830
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/stages/v1_before_secondary_tide_crosscheck/analysis/stability_resample_indices.json",
+      "bytes": 1229366
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/analysis/stability_resample_indices.json",
+      "bytes": 1207819
+    },
+    {
+      "path": "04_Results/Scenario_Stability/event_projections.npz",
+      "bytes": 1111297
+    },
+    {
+      "path": "audit/reproducibility_20261118/scenarios/stability/event_projections.npz",
+      "bytes": 1111297
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/event_projections.npz",
+      "bytes": 1111297
+    },
+    {
+      "path": "audit/git_change_list.csv",
+      "bytes": 709785
+    },
+    {
+      "path": "audit/submission_20261118/evidence_trace.json",
+      "bytes": 600949
+    },
+    {
+      "path": "04_Results/Optimization/report_data.json",
+      "bytes": 546422
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/report_data.json",
+      "bytes": 546422
+    },
+    {
+      "path": "manuscript_revision/peer_review_validation_20261105_v2/Artifact_Manifest.json",
+      "bytes": 534671
+    },
+    {
+      "path": "audit/reproducibility_20261118/scenarios/stability60/fresh_resample_indices.json",
+      "bytes": 465652
+    },
+    {
+      "path": "manuscript_revision/audit/ci01_independent_20261104/analysis/stability_runs.csv",
+      "bytes": 409427
+    }
+  ],
+  "extensions": {
+    ".xlsx": 3,
+    ".json": 5114,
+    ".csv": 362,
+    ".md": 103,
+    ".py": 130,
+    ".mjs": 4,
+    ".pdf": 38,
+    ".png": 38,
+    ".tex": 32,
+    ".npz": 1003,
+    ".yaml": 4,
+    ".toml": 2,
+    ".txt": 17,
+    ".log": 11957,
+    ".lp": 1000,
+    ".ilp": 4,
+    ".sol": 996,
+    ".jsonl": 1,
+    "": 1
+  },
+  "tracked": [
+    ".gitignore",
+    "README.md"
+  ],
+  "status": [
+    " M .gitignore",
+    " M README.md",
+    "?? 01_Data/",
+    "?? 02_Model/",
+    "?? 03_Experiments/",
+    "?? 04_Results/",
+    "?? 05_Code/",
+    "?? REPRODUCIBILITY_AUDIT.md",
+    "?? THIRD_PARTY_NOTICES.md",
+    "?? audit/",
+    "?? data/",
+    "?? manuscript_revision/",
+    "?? requirements-lock.txt",
+    "?? requirements.txt",
+    "?? results/",
+    "?? src/",
+    "?? supplementary/"
+  ],
+  "sensitive_scan": {
+    "text_files_scanned": 19727,
+    "binary_files_not_decoded": 1082,
+    "large_text_not_scanned": [],
+    "categories": {
+      "private_key": {
+        "files": 0,
+        "matches": 0
+      },
+      "github_token": {
+        "files": 0,
+        "matches": 0
+      },
+      "openai_style_key": {
+        "files": 0,
+        "matches": 0
+      },
+      "aws_access_id": {
+        "files": 0,
+        "matches": 0
+      },
+      "secret_assignment": {
+        "files": 0,
+        "matches": 0
+      },
+      "license_credential_assignment": {
+        "files": 0,
+        "matches": 0
+      },
+      "cookie_header": {
+        "files": 1,
+        "matches": 1
+      },
+      "email": {
+        "files": 12,
+        "matches": 48
+      },
+      "local_path": {
+        "files": 10212,
+        "matches": 11356
+      }
+    },
+    "limitations": "Pattern scan, not a guarantee. Binary artifacts not exhaustively scanned; six minimum input files inspected separately. No matched values stored."
+  }
+}

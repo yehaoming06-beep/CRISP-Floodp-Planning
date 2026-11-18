@@ -1,0 +1,19 @@
+# Versions transcribed from the original requirements-lock.txt.
+# Corroborated by recorded environment and local distribution metadata;
+# fresh isolated installation and core reruns passed on 2026-11-18; see audit.
+# Gurobi requires a suitable license. Node workbook formatting is separate.
+gurobipy==13.0.2
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+openpyxl==3.1.5
+PyYAML==6.0.3
+pytest==8.4.2
+threadpoolctl==3.7.0
+shapely==2.2.0
+pyproj==3.8.0
+pypdf==6.15.0
+reportlab==4.5.1
+Markdown==3.11.2

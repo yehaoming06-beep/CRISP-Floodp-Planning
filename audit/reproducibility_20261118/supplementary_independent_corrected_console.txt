@@ -1,0 +1,11 @@
+Independently verified 50/500 saved specifications
+Independently verified 100/500 saved specifications
+Independently verified 150/500 saved specifications
+Independently verified 200/500 saved specifications
+Independently verified 250/500 saved specifications
+Independently verified 300/500 saved specifications
+Independently verified 350/500 saved specifications
+Independently verified 400/500 saved specifications
+Independently verified 450/500 saved specifications
+Independently verified 500/500 saved specifications
+{"status": "PASS", "new_primary_validation": {"status": "PASS", "solves": 500, "optimal": 498, "infeasible_expected": 2, "ev_specs": 8, "enumerated_policies": 416, "all_primary_ev_optima": 20, "component_cases": 24, "coverage_cases": 8, "frozen_baseline_metrics_matched": 24, "old_files_unchanged": true, "elapsed_seconds": 3.4192968332208693, "empirical_validation": false}, "independent_milp_calls": 936, "new_specifications_checked": 500, "independent_optimal": 498, "independent_infeasible": 2, "max_primary_objective_error": 1.3073986337985843e-11, "max_saved_feasibility_violation": 0, "max_saved_integrality_error": 0, "ev_specifications": 8, "ev_fixed_policy_trials": 416, "ev_optimal_policies": 20, "component_cases": 24, "coverage_cases": 8, "resource_infeasibility_certificates": 4, "elapsed_seconds": 6.535462458152324, "scope": "New Gurobi primary solves plus independent raw-JSON matrix/HiGHS re-solves; no field validation; historical fixed-output report finalizer and report-witness recheck not executed.", "adaptation": "Unchanged original primary CLI; independent verifier imported and PRIMARY/OUT rebound, then BASE rebound after raw_sources() solely for artifact relative-path serialization; main report-evidence check not invoked because original finalize_artifacts.py is fixed to historical primary."}

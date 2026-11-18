@@ -1,0 +1,10 @@
+HiGHS verified 100/555 RP optima
+HiGHS verified 200/555 RP optima
+HiGHS verified 300/555 RP optima
+HiGHS verified 400/555 RP optima
+HiGHS verified 500/555 RP optima
+{"status": "PASS", "scipy_version": "1.18.1", "independent_solver": "HiGHS via scipy.optimize.milp", "independent_RP_optima_verified": 555, "max_objective_difference": 3.5839774454871076e-06, "all_saved_models_feasibility_and_objectives_reconstructed": true, "EEV_readiness_and_procurement_fixed": true, "repeated_run_configurations_matched": 555, "input_and_source_hashes_checked": 6, "unexpected_original_file_changes": [], "current_source_hashes_match": true, "elapsed_seconds": 19.751144958660007}
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

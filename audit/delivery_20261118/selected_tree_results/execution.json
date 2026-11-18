@@ -1,0 +1,184 @@
+{
+  "started_utc": "2026-11-18T02:18:13.933374+00:00",
+  "target": "all",
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "executable": "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "steps": [
+    {
+      "name": "scenarios",
+      "command": [
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+        "src/submission/scenarios.py",
+        "--output",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/scenarios"
+      ],
+      "started_utc": "2026-11-18T02:18:13.947060+00:00",
+      "log": "scenarios.txt",
+      "exit_code": 0,
+      "ended_utc": "2026-11-18T02:18:15.288211+00:00"
+    },
+    {
+      "name": "core",
+      "command": [
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+        "audit/reproducibility_20261118/optimization/run_core.py",
+        "--counts-file",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/scenarios/scenario_reproduction_summary.json",
+        "--output",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/core"
+      ],
+      "started_utc": "2026-11-18T02:18:15.288821+00:00",
+      "log": "core.txt",
+      "exit_code": 0,
+      "ended_utc": "2026-11-18T02:18:15.943949+00:00"
+    },
+    {
+      "name": "suite23",
+      "command": [
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+        "03_Experiments/Optimization/code/run_experiments.py",
+        "--run-id",
+        "submission23",
+        "--output",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/suite23"
+      ],
+      "started_utc": "2026-11-18T02:18:15.944373+00:00",
+      "log": "suite23.txt",
+      "exit_code": 0,
+      "ended_utc": "2026-11-18T02:18:37.435382+00:00"
+    },
+    {
+      "name": "verify23",
+      "command": [
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+        "03_Experiments/Optimization/code/verify_results.py",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/suite23"
+      ],
+      "started_utc": "2026-11-18T02:18:37.435815+00:00",
+      "log": "verify23.txt",
+      "exit_code": 0,
+      "ended_utc": "2026-11-18T02:18:56.716183+00:00"
+    },
+    {
+      "name": "suite60",
+      "command": [
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+        "src/submission/suite60.py",
+        "--counts-file",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/scenarios/scenario_reproduction_summary.json",
+        "--output",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/suite60"
+      ],
+      "started_utc": "2026-11-18T02:18:56.716600+00:00",
+      "log": "suite60.txt",
+      "exit_code": 0,
+      "ended_utc": "2026-11-18T02:19:19.265699+00:00"
+    },
+    {
+      "name": "verify60",
+      "command": [
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+        "src/submission/verify60.py",
+        "/private/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout/results/reproductions/delivery_selection_test/suite60"
+      ],
+      "started_utc": "2026-11-18T02:19:19.266127+00:00",
+      "log": "verify60.txt",
+      "exit_code": 0,
+      "ended_utc": "2026-11-18T02:19:35.532761+00:00"
+    }
+  ],
+  "packages": {
+    "gurobipy": "13.0.2",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "openpyxl": "3.1.5"
+  },
+  "scope": "Frozen experiments only; no source re-adjudication or empirical calibration",
+  "status": "PASS",
+  "historical_comparisons": [
+    {
+      "suite": "suite23",
+      "field": "rp",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "ws",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "ev",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "eev",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "vss",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "evpi",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "new_pumps",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite23",
+      "field": "setup_used",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "rp",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "ws",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "ev",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "eev",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "vss",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "evpi",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "new_pumps",
+      "max_abs_error": 0.0
+    },
+    {
+      "suite": "suite60",
+      "field": "setup_used",
+      "max_abs_error": 0.0
+    }
+  ],
+  "ended_utc": "2026-11-18T02:19:35.724058+00:00"
+}

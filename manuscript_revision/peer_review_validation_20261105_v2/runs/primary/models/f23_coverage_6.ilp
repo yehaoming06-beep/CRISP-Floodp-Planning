@@ -1,0 +1,30 @@
+\ Model f23_coverage_6_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize multi-objectives
+  benefit: Priority=4 Weight=1 AbsTol=1e-08 RelTol=0
+  
+  minimum_procurement: Priority=3 Weight=1 AbsTol=1e-08 RelTol=0
+   - new_pumps
+  minimum_readiness: Priority=2 Weight=1 AbsTol=1e-08 RelTol=0
+  
+  minimum_mask: Priority=1 Weight=1 AbsTol=1e-08 RelTol=0
+  
+Subject To
+ labour_capacity_Extreme: 42 deploy_12 + 54 deploy_13 + 68 deploy_14
+   + 42 deploy_15 + 54 deploy_16 + 68 deploy_17 <= 400
+ supply_capacity_Extreme: 27 deploy_12 + 45 deploy_13 + 15 deploy_14
+   + 27 deploy_15 + 45 deploy_16 + 15 deploy_17 <= 220
+ shared_Extreme: deploy_12 + deploy_15 - new_pumps <= 0
+ coverage_Extreme_Tai_O1: deploy_12 + deploy_13 + deploy_14 >= 6
+ coverage_Extreme_Tai_O2: deploy_15 + deploy_16 + deploy_17 >= 6
+Bounds
+ deploy_12 free
+ deploy_13 free
+ deploy_14 free
+ deploy_15 free
+ deploy_16 free
+ deploy_17 free
+ -infinity <= new_pumps <= 2
+Generals
+ deploy_12 deploy_13 deploy_14 deploy_15 deploy_16 deploy_17 new_pumps
+End

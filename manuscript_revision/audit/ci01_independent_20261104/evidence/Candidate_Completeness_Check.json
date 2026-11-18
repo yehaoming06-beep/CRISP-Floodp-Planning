@@ -1,0 +1,520 @@
+[
+  {
+    "year": 2017,
+    "database_segments": 33,
+    "comparison_segments": 33,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2017_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2018,
+    "database_segments": 23,
+    "comparison_segments": 23,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2018_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2019,
+    "database_segments": 11,
+    "comparison_segments": 11,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2019_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2020,
+    "database_segments": 17,
+    "comparison_segments": 17,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2020_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2021,
+    "database_segments": 17,
+    "comparison_segments": 17,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2021_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2022,
+    "database_segments": 22,
+    "comparison_segments": 22,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2022_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2023,
+    "database_segments": 23,
+    "comparison_segments": 23,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2023_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2024,
+    "database_segments": 20,
+    "comparison_segments": 20,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_2024_table43.html"
+    ],
+    "monthly_checks": []
+  },
+  {
+    "year": 2025,
+    "database_segments": 37,
+    "comparison_segments": 37,
+    "exact_segment_match": true,
+    "database_only": [],
+    "comparison_only": [],
+    "comparison_sources": [
+      "sources/web/HKO_mws202501.htm",
+      "sources/web/HKO_mws202502.htm",
+      "sources/web/HKO_mws202503.htm",
+      "sources/web/HKO_mws202504.htm",
+      "sources/web/HKO_mws202505.htm",
+      "sources/web/HKO_mws202506.htm",
+      "sources/web/HKO_mws202507.htm",
+      "sources/web/HKO_mws202508.htm",
+      "sources/web/HKO_mws202509.htm",
+      "sources/web/HKO_mws202510.htm",
+      "sources/web/HKO_mws202511.htm",
+      "sources/web/HKO_mws202512.htm"
+    ],
+    "monthly_checks": [
+      {
+        "month": 1,
+        "warning_segments": 0,
+        "table_rows": [],
+        "source": "sources/web/HKO_mws202501.htm",
+        "sha256": "61d07a0c9a926ce8d0a710586497a9b919f39aa03c02112cc71f9006bdbb5d26",
+        "status": "NO_TC_ROWS_IN_COMPLETE_MONTHLY_WARNING_PAGE"
+      },
+      {
+        "month": 2,
+        "warning_segments": 0,
+        "table_rows": [],
+        "source": "sources/web/HKO_mws202502.htm",
+        "sha256": "d7d02e1b929f26bb20d9a0f7ff587c5ce3909a96827bce2b63aa84841407664e",
+        "status": "NO_TC_ROWS_IN_COMPLETE_MONTHLY_WARNING_PAGE"
+      },
+      {
+        "month": 3,
+        "warning_segments": 0,
+        "table_rows": [],
+        "source": "sources/web/HKO_mws202503.htm",
+        "sha256": "8ecd5476a5cdc348059e85d4f9cbf57e31603f35054e7e8dc1002d5ae1d5b135",
+        "status": "NO_TC_ROWS_IN_COMPLETE_MONTHLY_WARNING_PAGE"
+      },
+      {
+        "month": 4,
+        "warning_segments": 0,
+        "table_rows": [],
+        "source": "sources/web/HKO_mws202504.htm",
+        "sha256": "19d78f5ce0f4eac169fe5dab33317100e332d78d424e57aec5cc8fdfe36b1062",
+        "status": "NO_TC_ROWS_IN_COMPLETE_MONTHLY_WARNING_PAGE"
+      },
+      {
+        "month": 5,
+        "warning_segments": 0,
+        "table_rows": [],
+        "source": "sources/web/HKO_mws202505.htm",
+        "sha256": "17ec1157ef41fafd02fe6a40813e98fbb9c8e4a4d4f4542faec821e1a98cd9bc",
+        "status": "NO_TC_ROWS_IN_COMPLETE_MONTHLY_WARNING_PAGE"
+      },
+      {
+        "month": 6,
+        "warning_segments": 3,
+        "table_rows": [
+          [
+            "WUTIP",
+            "1",
+            "11 / 6",
+            "0040",
+            "14 / 6",
+            "1220"
+          ],
+          [
+            "WUTIP",
+            "3",
+            "14 / 6",
+            "1220",
+            "15 / 6",
+            "1540"
+          ],
+          [
+            "no name",
+            "1",
+            "25 / 6",
+            "1420",
+            "26 / 6",
+            "1420"
+          ]
+        ],
+        "source": "sources/web/HKO_mws202506.htm",
+        "sha256": "8d32acb0e436d438cd3739596670d9a816c5ae68bc7508acd7dde2a2fc9f3ca5",
+        "status": "EXPLICIT_ROWS"
+      },
+      {
+        "month": 7,
+        "warning_segments": 9,
+        "table_rows": [
+          [
+            "DANAS",
+            "1",
+            "4 / 7",
+            "1220",
+            "6 / 7",
+            "1420"
+          ],
+          [
+            "WIPHA",
+            "1",
+            "19 / 7",
+            "0220",
+            "19 / 7",
+            "1420"
+          ],
+          [
+            "WIPHA",
+            "3",
+            "19 / 7",
+            "1420",
+            "20 / 7",
+            "0020"
+          ],
+          [
+            "WIPHA",
+            "8 NE",
+            "20 / 7",
+            "0020",
+            "20 / 7",
+            "0720"
+          ],
+          [
+            "WIPHA",
+            "9",
+            "20 / 7",
+            "0720",
+            "20 / 7",
+            "0920"
+          ],
+          [
+            "WIPHA",
+            "10",
+            "20 / 7",
+            "0920",
+            "20 / 7",
+            "1610"
+          ],
+          [
+            "WIPHA",
+            "8 SE",
+            "20 / 7",
+            "1610",
+            "20 / 7",
+            "1940"
+          ],
+          [
+            "WIPHA",
+            "3",
+            "20 / 7",
+            "1940",
+            "21 / 7",
+            "0320"
+          ],
+          [
+            "WIPHA",
+            "1",
+            "21 / 7",
+            "0320",
+            "21 / 7",
+            "0510"
+          ]
+        ],
+        "source": "sources/web/HKO_mws202507.htm",
+        "sha256": "d73425d1a7762879fcf375f9ed97b49627d90619b332edff0ce74bb4a2109c20",
+        "status": "EXPLICIT_ROWS"
+      },
+      {
+        "month": 8,
+        "warning_segments": 4,
+        "table_rows": [
+          [
+            "PODUL",
+            "1",
+            "13 / 8",
+            "0840",
+            "14 / 8",
+            "1220"
+          ],
+          [
+            "no name",
+            "1",
+            "16 / 8",
+            "2220",
+            "17 / 8",
+            "2020"
+          ],
+          [
+            "KAJIKI",
+            "1",
+            "22 / 8",
+            "2140",
+            "24 / 8",
+            "1210"
+          ],
+          [
+            "NONGFA",
+            "1",
+            "28 / 8",
+            "1910",
+            "29 / 8",
+            "1810"
+          ]
+        ],
+        "source": "sources/web/HKO_mws202508.htm",
+        "sha256": "f220a6f2d6f3084dd8f861e5b422ed0f3d459d7757b3718f91eaf60f73a32e12",
+        "status": "EXPLICIT_ROWS"
+      },
+      {
+        "month": 9,
+        "warning_segments": 16,
+        "table_rows": [
+          [
+            "TAPAH",
+            "1",
+            "5 / 9",
+            "2220",
+            "7 / 9",
+            "0240"
+          ],
+          [
+            "TAPAH",
+            "3",
+            "7 / 9",
+            "0240",
+            "7 / 9",
+            "2120"
+          ],
+          [
+            "TAPAH",
+            "8 SE",
+            "7 / 9",
+            "2120",
+            "8 / 9",
+            "1310"
+          ],
+          [
+            "TAPAH",
+            "3",
+            "8 / 9",
+            "1310",
+            "8 / 9",
+            "1940"
+          ],
+          [
+            "TAPAH",
+            "1",
+            "8 / 9",
+            "1940",
+            "9 / 9",
+            "0420"
+          ],
+          [
+            "MITAG",
+            "1",
+            "17 / 9",
+            "2120",
+            "19 / 9",
+            "0920"
+          ],
+          [
+            "MITAG",
+            "3",
+            "19 / 9",
+            "0920",
+            "20 / 9",
+            "0920"
+          ],
+          [
+            "MITAG",
+            "1",
+            "20 / 9",
+            "0920",
+            "20 / 9",
+            "1040"
+          ],
+          [
+            "RAGASA",
+            "1",
+            "22 / 9",
+            "1220",
+            "22 / 9",
+            "2140"
+          ],
+          [
+            "RAGASA",
+            "3",
+            "22 / 9",
+            "2140",
+            "23 / 9",
+            "1420"
+          ],
+          [
+            "RAGASA",
+            "8 NW",
+            "23 / 9",
+            "1420",
+            "24 / 9",
+            "0140"
+          ],
+          [
+            "RAGASA",
+            "9",
+            "24 / 9",
+            "0140",
+            "24 / 9",
+            "0240"
+          ],
+          [
+            "RAGASA",
+            "10",
+            "24 / 9",
+            "0240",
+            "24 / 9",
+            "1320"
+          ],
+          [
+            "RAGASA",
+            "8 SE",
+            "24 / 9",
+            "1320",
+            "24 / 9",
+            "2020"
+          ],
+          [
+            "RAGASA",
+            "3",
+            "24 / 9",
+            "2020",
+            "25 / 9",
+            "0820"
+          ],
+          [
+            "RAGASA",
+            "1",
+            "25 / 9",
+            "0820",
+            "25 / 9",
+            "1120"
+          ]
+        ],
+        "source": "sources/web/HKO_mws202509.htm",
+        "sha256": "e9d882031c6ca25a1d7c2f166463220c8d571aa2b77675d1d9e4e6a700435a3b",
+        "status": "EXPLICIT_ROWS"
+      },
+      {
+        "month": 10,
+        "warning_segments": 4,
+        "table_rows": [
+          [
+            "MATMO",
+            "1",
+            "3 / 10",
+            "1940",
+            "4 / 10",
+            "1220"
+          ],
+          [
+            "MATMO",
+            "3",
+            "4 / 10",
+            "1220",
+            "5 / 10",
+            "1540"
+          ],
+          [
+            "MATMO",
+            "1",
+            "5 / 10",
+            "1540",
+            "5 / 10",
+            "2220"
+          ],
+          [
+            "FENGSHEN",
+            "3",
+            "20 / 10",
+            "1720",
+            "21 / 10",
+            "1820"
+          ]
+        ],
+        "source": "sources/web/HKO_mws202510.htm",
+        "sha256": "48c8d7a6eed014781239d5c8816e2660911328ae22a32026e38f55a827c4de53",
+        "status": "EXPLICIT_ROWS"
+      },
+      {
+        "month": 11,
+        "warning_segments": 1,
+        "table_rows": [
+          [
+            "FUNG-WONG",
+            "1",
+            "10 / 11",
+            "1220",
+            "11 / 11",
+            "2140"
+          ]
+        ],
+        "source": "sources/web/HKO_mws202511.htm",
+        "sha256": "725b9a9a051dd68a73c1c9c273fee3f4daade5cc85cfd7b20cf720010e3ff1ec",
+        "status": "EXPLICIT_ROWS"
+      },
+      {
+        "month": 12,
+        "warning_segments": 0,
+        "table_rows": [],
+        "source": "sources/web/HKO_mws202512.htm",
+        "sha256": "25e161f5b0e726f98c2d6d2111e55675bdaff8f1fd33506d55a6b10b6ec8edec",
+        "status": "NO_TC_ROWS_IN_COMPLETE_MONTHLY_WARNING_PAGE"
+      }
+    ]
+  }
+]

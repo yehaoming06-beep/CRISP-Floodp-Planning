@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-18",
+  "scope": "Read-only inspection; numerical candidate inclusion is not redistribution clearance",
+  "status": "NO_SENSITIVE_CONTENT_DETECTED_RIGHTS_CONDITIONAL",
+  "files": [
+    {
+      "path": "01_Data/CRISP_Master_Data.xlsx",
+      "bytes": 20379,
+      "sha256": "e6b93f8bb0e7b886226d27068e8cfeeebfaa92e668eb25f77ee3b1d35083794e"
+    },
+    {
+      "path": "01_Data/Events/model_input.csv",
+      "bytes": 576,
+      "sha256": "094bea5ff6b2f5d8d71b60d8fb62772c2af05a2de83eba21fccbffe176fd544d"
+    },
+    {
+      "path": "01_Data/Events/event_metadata.csv",
+      "bytes": 12840,
+      "sha256": "a6c3361f9bd29c46fca2219640a742e0c6fc5d16b2e9c657342604ef9f15e274"
+    },
+    {
+      "path": "01_Data/Controls/capacity_bound_reference.json",
+      "bytes": 12708,
+      "sha256": "4b4d853374a39d19f8de34d81c7e5cfe205b36e67f541c12a1b9914b746e7739"
+    },
+    {
+      "path": "01_Data/Controls/pre_cleanup_metrics.json",
+      "bytes": 177153,
+      "sha256": "e0dd9b1ba75eb0027d2dcb70a9d63e94410d1de3ff04556c27e43f8901765585"
+    },
+    {
+      "path": "01_Data/Controls/pre_cleanup_report_verification.json",
+      "bytes": 183,
+      "sha256": "7b0135b07e96b21976b7d5c193ebc551584edf6ac1c55d3f4202db1862283090"
+    }
+  ],
+  "workbook": {
+    "sheets": 8,
+    "shared_strings": 70,
+    "max_string_chars": 188,
+    "external_links": 0,
+    "credential_or_email_pattern_matches": 0
+  },
+  "event_input_rows": 23,
+  "event_metadata_rows": 23,
+  "remarks": [
+    "Workbook contains model coefficients, assumptions, guidance and source/status labels, not long source-report extracts.",
+    "Event metadata contains public event names/dates, station names, HKO source URLs, numerical observations and author quality notes; no participant/person data detected.",
+    "Control JSON files contain historical computed model outputs and numerical checks; no local absolute path or credential detected.",
+    "HKO-derived numerical observations remain subject to the applicable source conditions and release assessment."
+  ]
+}

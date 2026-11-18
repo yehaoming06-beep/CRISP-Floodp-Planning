@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "audit_type": "read-only arithmetic consistency, no optimization",
+  "EV_rows": 8,
+  "component_rows": 24,
+  "coverage_rows": 8,
+  "checks": [
+    "A/B baseline numeric equality",
+    "component domain labels and paired zero objective differences",
+    "coverage signed differences and missing infeasible objectives"
+  ],
+  "source_hashes": {
+    "runs/primary/ev_summary.csv": "c695c12d7b9675a8a2dcd401a7d93161880cd9283ffdc18033e5e61ff730c8d8",
+    "runs/primary/component_summary.csv": "4774568bccf8ea7c9749d55568aad5458ee6025d31f6d76a2dba6fd0464ea275",
+    "runs/primary/coverage_summary.csv": "b87141ee5d737e91cb873187435940dca6b159c5077ce33b8926fb660a844499"
+  }
+}

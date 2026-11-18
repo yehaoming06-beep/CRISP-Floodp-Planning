@@ -1,0 +1,32 @@
+{
+  "event_bootstrap": {
+    "attempted": 3000,
+    "successful": 3000,
+    "failed": 0
+  },
+  "fixed_preprocess": {
+    "attempted": 3000,
+    "successful": 3000,
+    "failed": 0
+  },
+  "year_bootstrap": {
+    "attempted": 2000,
+    "successful": 2000,
+    "failed": 0
+  },
+  "subsample80": {
+    "attempted": 1000,
+    "successful": 1000,
+    "failed": 0
+  },
+  "leave_one_event": {
+    "attempted": 23,
+    "successful": 23,
+    "failed": 0
+  },
+  "leave_one_year": {
+    "attempted": 9,
+    "successful": 9,
+    "failed": 0
+  }
+}

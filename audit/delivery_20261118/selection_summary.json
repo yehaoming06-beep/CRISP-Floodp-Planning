@@ -1,0 +1,77 @@
+{
+  "status": "REVIEWED_UNSTAGED_SELECTION",
+  "initial_candidate_files": 29805,
+  "initial_candidate_bytes": 475299454,
+  "selected_files": 3438,
+  "modified_tracked_files": 2,
+  "untracked_selected_files": 3436,
+  "selected_bytes_total_including_inventory_files": 67846002,
+  "selected_payload_bytes_excluding_self_inventory": 67182785,
+  "self_reference_convention": "submission_files.tsv and selection_summary.json list themselves without own hash/size; total byte count includes both via size fixed point",
+  "root_groups": {
+    "root_documents": {
+      "files": 8,
+      "bytes": 64012
+    },
+    "01_Data": {
+      "files": 6,
+      "bytes": 223839
+    },
+    "02_Model": {
+      "files": 3,
+      "bytes": 28265
+    },
+    "03_Experiments": {
+      "files": 32,
+      "bytes": 131829
+    },
+    "04_Results": {
+      "files": 122,
+      "bytes": 14299467
+    },
+    "05_Code": {
+      "files": 15,
+      "bytes": 47630
+    },
+    "audit": {
+      "files": 371,
+      "bytes": 18915072
+    },
+    "data": {
+      "files": 8,
+      "bytes": 216966
+    },
+    "manuscript_revision": {
+      "files": 2849,
+      "bytes": 18532360
+    },
+    "results": {
+      "files": 13,
+      "bytes": 15265434
+    },
+    "src": {
+      "files": 8,
+      "bytes": 59787
+    },
+    "supplementary": {
+      "files": 3,
+      "bytes": 61341
+    }
+  },
+  "archives": 3,
+  "archive_members": 16717,
+  "source_records_with_official_url_and_sha": 338,
+  "package_validation": "PASS",
+  "selected_scientific_tree_execution": "PASS_EXPORTED_SELECTED_TREE",
+  "s1_s13_alignment": "98 checks and 768 numeric comparisons; source hashes unchanged; 32 links selected",
+  "new_execution_paper_comparisons": 130,
+  "existing_tests_passed": 17,
+  "commit_readiness": "READY_FOR_USER_REVIEW_AND_CONFIRMATION",
+  "push_readiness": "REQUIRES_USER_CONFIRMATION_AND_GITHUB_AUTHENTICATION",
+  "release_readiness": "NOT_YET_COMMITTED_PUSHED_OR_ACTUAL_CLONE_VERIFIED",
+  "remote_authentication": "GitHub connector 404; HTTPS ls-remote unable to obtain username; no push attempted",
+  "no_files_deleted": true,
+  "final_paper_unchanged": true,
+  "real_staged_files": 0,
+  "head": "dd3277febe494e481114737e3a11efcf021aac1d"
+}

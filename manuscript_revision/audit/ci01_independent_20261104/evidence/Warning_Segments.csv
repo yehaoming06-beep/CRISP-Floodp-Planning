@@ -1,0 +1,204 @@
+﻿warning_group_id,type_code,name,signal,level,begin,end,source_url,raw_line_number,raw_line
+201701,STS,MERBOK,1,1,2017-06-11 19:40,2017-06-12 10:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2128,201701	STS	MERBOK	1	X	1940	11	6	2017	X	1040	12	6	2017	X	1500
+201701,STS,MERBOK,3,3,2017-06-12 10:40,2017-06-12 17:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2129,201701	STS	MERBOK	3	X	1040	12	6	2017	X	1720	12	6	2017	X	0640
+201701,STS,MERBOK,8 NE,8,2017-06-12 17:20,2017-06-12 20:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2130,201701	STS	MERBOK	8	NE	1720	12	6	2017	X	2020	12	6	2017	X	0300
+201701,STS,MERBOK,8 NW,8,2017-06-12 20:20,2017-06-13 00:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2131,201701	STS	MERBOK	8	NW	2020	12	6	2017	X	010	13	6	2017	X	0350
+201701,STS,MERBOK,8 SW,8,2017-06-13 00:10,2017-06-13 04:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2132,201701	STS	MERBOK	8	SW	010	13	6	2017	X	440	13	6	2017	X	0430
+201701,STS,MERBOK,3,3,2017-06-13 04:40,2017-06-13 11:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2133,201701	STS	MERBOK	3	X	440	13	6	2017	X	1110	13	6	2017	X	0630
+201702,TS,ROKE,1,1,2017-07-22 15:40,2017-07-23 03:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2135,201702	TS	ROKE	1	X	1540	22	7	2017	X	340	23	7	2017	X	1200
+201702,TS,ROKE,3,3,2017-07-23 03:40,2017-07-23 09:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2136,201702	TS	ROKE	3	X	340	23	7	2017	X	920	23	7	2017	X	0540
+201702,TS,ROKE,8 NW,8,2017-07-23 09:20,2017-07-23 13:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2137,201702	TS	ROKE	8	NW	920	23	7	2017	X	1320	23	7	2017	X	0400
+201702,TS,ROKE,3,3,2017-07-23 13:20,2017-07-23 15:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2138,201702	TS	ROKE	3	X	1320	23	7	2017	X	1510	23	7	2017	X	0150
+201702,TS,ROKE,1,1,2017-07-23 15:10,2017-07-23 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2139,201702	TS	ROKE	1	X	1510	23	7	2017	X	1940	23	7	2017	X	0430
+201703,SuperT,HATO,1,1,2017-08-22 08:40,2017-08-22 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2141,201703	SuperT	HATO	1	X	840	22	8	2017	X	1820	22	8	2017	X	0940
+201703,SuperT,HATO,3,3,2017-08-22 18:20,2017-08-23 05:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2142,201703	SuperT	HATO	3	X	1820	22	8	2017	X	520	23	8	2017	X	1100
+201703,SuperT,HATO,8 NE,8,2017-08-23 05:20,2017-08-23 08:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2143,201703	SuperT	HATO	8	NE	520	23	8	2017	X	810	23	8	2017	X	0250
+201703,SuperT,HATO,9,9,2017-08-23 08:10,2017-08-23 09:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2144,201703	SuperT	HATO	9	X	810	23	8	2017	X	910	23	8	2017	X	0100
+201703,SuperT,HATO,10,10,2017-08-23 09:10,2017-08-23 14:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2145,201703	SuperT	HATO	10	X	910	23	8	2017	X	1410	23	8	2017	X	0500
+201703,SuperT,HATO,8 SE,8,2017-08-23 14:10,2017-08-23 17:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2146,201703	SuperT	HATO	8	SE	1410	23	8	2017	X	1710	23	8	2017	X	0300
+201703,SuperT,HATO,3,3,2017-08-23 17:10,2017-08-23 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2147,201703	SuperT	HATO	3	X	1710	23	8	2017	X	1820	23	8	2017	X	0110
+201703,SuperT,HATO,1,1,2017-08-23 18:20,2017-08-23 20:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2148,201703	SuperT	HATO	1	X	1820	23	8	2017	X	2040	23	8	2017	X	0220
+201704,STS,PAKHAR,1,1,2017-08-26 09:40,2017-08-26 20:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2149,201704	STS	PAKHAR	1	X	940	26	8	2017	X	2040	26	8	2017	X	1100
+201704,STS,PAKHAR,3,3,2017-08-26 20:40,2017-08-27 05:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2150,201704	STS	PAKHAR	3	X	2040	26	8	2017	X	510	27	8	2017	X	0830
+201704,STS,PAKHAR,8 SE,8,2017-08-27 05:10,2017-08-27 13:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2151,201704	STS	PAKHAR	8	SE	510	27	8	2017	X	1340	27	8	2017	X	0830
+201704,STS,PAKHAR,3,3,2017-08-27 13:40,2017-08-27 17:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2152,201704	STS	PAKHAR	3	X	1340	27	8	2017	X	1740	27	8	2017	X	0400
+201704,STS,PAKHAR,1,1,2017-08-27 17:40,2017-08-27 22:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2153,201704	STS	PAKHAR	1	X	1740	27	8	2017	X	2210	27	8	2017	X	0430
+201705,STS,MAWAR,1,1,2017-09-02 02:20,2017-09-03 22:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2155,201705	STS	MAWAR	1	X	220	2	9	2017	X	2240	3	9	2017	X	4420
+201705,STS,MAWAR,3,3,2017-09-03 22:40,2017-09-04 10:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2156,201705	STS	MAWAR	3	X	2240	3	9	2017	X	1020	4	9	2017	X	1140
+201705,STS,MAWAR,1,1,2017-09-04 10:20,2017-09-04 14:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2157,201705	STS	MAWAR	1	X	1020	4	9	2017	X	1410	4	9	2017	X	0350
+201706,TD,NIL,1,1,2017-09-23 23:10,2017-09-24 19:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2159,201706	TD	NIL	1	X	2310	23	9	2017	X	1920	24	9	2017	X	2010
+201707,ST,KHANUN,1,1,2017-10-14 10:40,2017-10-14 19:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2163,201707	ST	KHANUN	1	X	1040	14	10	2017	X	1910	14	10	2017	X	0830
+201707,ST,KHANUN,3,3,2017-10-14 19:10,2017-10-15 08:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2164,201707	ST	KHANUN	3	X	1910	14	10	2017	X	840	15	10	2017	X	1330
+201707,ST,KHANUN,8 NE,8,2017-10-15 08:40,2017-10-15 19:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2165,201707	ST	KHANUN	8	NE	840	15	10	2017	X	1920	15	10	2017	X	1040
+201707,ST,KHANUN,3,3,2017-10-15 19:20,2017-10-15 22:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2166,201707	ST	KHANUN	3	X	1920	15	10	2017	X	2240	15	10	2017	X	0320
+201707,ST,KHANUN,1,1,2017-10-15 22:40,2017-10-16 02:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2167,201707	ST	KHANUN	1	X	2240	15	10	2017	X	220	16	10	2017	X	0340
+201801,TS,EWINIAR,1,1,2018-06-05 11:20,2018-06-07 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2188,201801	TS	EWINIAR	1	X	1120	5	6	2018	X	1240	7	6	2018	X	4920
+201801,TS,EWINIAR,3,3,2018-06-07 12:40,2018-06-08 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2189,201801	TS	EWINIAR	3	X	1240	7	6	2018	X	1540	8	6	2018	X	2700
+201801,TS,EWINIAR,1,1,2018-06-08 15:40,2018-06-08 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2190,201801	TS	EWINIAR	1	X	1540	8	6	2018	X	1820	8	6	2018	X	0240
+201802,TS,SON-TINH,1,1,2018-07-17 02:40,2018-07-17 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2192,201802	TS	SON-TINH	1	X	240	17	7	2018	X	1620	17	7	2018	X	1340
+201802,TS,SON-TINH,3,3,2018-07-17 16:20,2018-07-18 09:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2193,201802	TS	SON-TINH	3	X	1620	17	7	2018	X	940	18	7	2018	X	1720
+201802,TS,SON-TINH,1,1,2018-07-23 15:40,2018-07-24 10:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2194,201802	TS	SON-TINH	1	X	1540	23	7	2018	X	1040	24	7	2018	X	1900
+201803,STS,BEBINCA,1,1,2018-08-09 17:15,2018-08-14 05:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2196,201803	STS	BEBINCA	1	X	1715	9	8	2018	X	520	14	8	2018	X	10805
+201803,STS,BEBINCA,3,3,2018-08-14 05:20,2018-08-15 02:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2197,201803	STS	BEBINCA	3	X	520	14	8	2018	X	220	15	8	2018	X	2100
+201803,STS,BEBINCA,1,1,2018-08-15 02:20,2018-08-15 05:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2198,201803	STS	BEBINCA	1	X	220	15	8	2018	X	520	15	8	2018	X	0300
+201804,TS,BARIJAT,1,1,2018-09-11 10:40,2018-09-12 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2199,201804	TS	BARIJAT	1	X	1040	11	9	2018	X	1220	12	9	2018	X	2540
+201804,TS,BARIJAT,3,3,2018-09-12 12:20,2018-09-13 04:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2200,201804	TS	BARIJAT	3	X	1220	12	9	2018	X	410	13	9	2018	X	1550
+201804,TS,BARIJAT,1,1,2018-09-13 04:10,2018-09-13 07:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2201,201804	TS	BARIJAT	1	X	410	13	9	2018	X	740	13	9	2018	X	0330
+201805,SuperT,MANGKHUT,1,1,2018-09-14 22:20,2018-09-15 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2202,201805	SuperT	MANGKHUT	1	X	2220	14	9	2018	X	1620	15	9	2018	X	1800
+201805,SuperT,MANGKHUT,3,3,2018-09-15 16:20,2018-09-16 01:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2203,201805	SuperT	MANGKHUT	3	X	1620	15	9	2018	X	110	16	9	2018	X	0850
+201805,SuperT,MANGKHUT,8 NE,8,2018-09-16 01:10,2018-09-16 07:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2204,201805	SuperT	MANGKHUT	8	NE	110	16	9	2018	X	740	16	9	2018	X	0630
+201805,SuperT,MANGKHUT,9,9,2018-09-16 07:40,2018-09-16 09:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2205,201805	SuperT	MANGKHUT	9	X	740	16	9	2018	X	940	16	9	2018	X	0200
+201805,SuperT,MANGKHUT,10,10,2018-09-16 09:40,2018-09-16 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2206,201805	SuperT	MANGKHUT	10	X	940	16	9	2018	X	1940	16	9	2018	X	1000
+201805,SuperT,MANGKHUT,8 SE,8,2018-09-16 19:40,2018-09-17 05:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2207,201805	SuperT	MANGKHUT	8	SE	1940	16	9	2018	X	520	17	9	2018	X	0940
+201805,SuperT,MANGKHUT,3,3,2018-09-17 05:20,2018-09-17 14:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2208,201805	SuperT	MANGKHUT	3	X	520	17	9	2018	X	1440	17	9	2018	X	0920
+201805,SuperT,MANGKHUT,1,1,2018-09-17 14:40,2018-09-17 19:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2209,201805	SuperT	MANGKHUT	1	X	1440	17	9	2018	X	1910	17	9	2018	X	0430
+201806,SuperT,YUTU,1,1,2018-10-31 08:40,2018-11-01 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2211,201806	SuperT	YUTU	1	X	840	31	10	2018	X	1240	1	11	2018	X	2800
+201806,SuperT,YUTU,3,3,2018-11-01 12:40,2018-11-02 02:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2212,201806	SuperT	YUTU	3	X	1240	1	11	2018	X	210	2	11	2018	X	1330
+201806,SuperT,YUTU,1,1,2018-11-02 02:10,2018-11-02 08:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2213,201806	SuperT	YUTU	1	X	210	2	11	2018	X	810	2	11	2018	X	0600
+201901,TD,MUN,1,1,2019-07-02 16:15,2019-07-03 05:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2226,201901	TD	MUN	1	X	1615	2	7	2019	X	540	3	7	2019	X	1325
+201902,TS,WIPHA,1,1,2019-07-30 15:40,2019-07-30 21:15,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2227,201902	TS	WIPHA	1	X	1540	30	7	2019	X	2115	30	7	2019	X	0535
+201902,TS,WIPHA,3,3,2019-07-30 21:15,2019-07-31 13:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2228,201902	TS	WIPHA	3	X	2115	30	7	2019	X	1340	31	7	2019	X	1625
+201902,TS,WIPHA,8 NE,8,2019-07-31 13:40,2019-07-31 23:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2229,201902	TS	WIPHA	8	NE	1340	31	7	2019	X	2340	31	7	2019	X	1000
+201902,TS,WIPHA,3,3,2019-07-31 23:40,2019-08-01 19:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2230,201902	TS	WIPHA	3	X	2340	31	7	2019	X	1920	1	8	2019	X	1940
+201902,TS,WIPHA,1,1,2019-08-01 19:20,2019-08-02 08:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2231,201902	TS	WIPHA	1	X	1920	1	8	2019	X	840	2	8	2019	X	1320
+201903,STS,BAILU,1,1,2019-08-24 14:40,2019-08-25 19:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2232,201903	STS	BAILU	1	X	1440	24	8	2019	X	1920	25	8	2019	X	2840
+201904,TS,PODUL,1,1,2019-08-28 14:40,2019-08-29 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2233,201904	TS	PODUL	1	X	1440	28	8	2019	X	1220	29	8	2019	X	2140
+201905,TD,KAJIKI,1,1,2019-09-01 08:40,2019-09-01 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2234,201905	TD	KAJIKI	1	X	840	1	9	2019	X	1620	1	9	2019	X	0740
+201905,TD,KAJIKI,3,3,2019-09-01 16:20,2019-09-02 10:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2235,201905	TD	KAJIKI	3	X	1620	1	9	2019	X	1040	2	9	2019	X	1820
+201905,TD,KAJIKI,1,1,2019-09-02 10:40,2019-09-03 09:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2236,201905	TD	KAJIKI	1	X	1040	2	9	2019	X	920	3	9	2019	X	2240
+202001,TS,NURI,1,1,2020-06-12 20:20,2020-06-13 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2255,202001	TS	NURI	1	X	2020	12	6	2020	X	1540	13	6	2020	X	1920
+202001,TS,NURI,3,3,2020-06-13 15:40,2020-06-14 10:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2256,202001	TS	NURI	3	X	1540	13	6	2020	X	1040	14	6	2020	X	1900
+202001,TS,NURI,1,1,2020-06-14 10:40,2020-06-14 13:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2257,202001	TS	NURI	1	X	1040	14	6	2020	X	1320	14	6	2020	X	0240
+202002,TS,SINLAKU,3,3,2020-07-31 20:40,2020-08-01 21:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2259,202002	TS	SINLAKU	3	X	2040	31	7	2020	X	2110	1	8	2020	X	2430
+202002,TS,SINLAKU,1,1,2020-08-01 21:10,2020-08-01 23:15,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2260,202002	TS	SINLAKU	1	X	2110	1	8	2020	X	2315	1	8	2020	X	0205
+202003,T,HIGOS,1,1,2020-08-18 03:40,2020-08-18 14:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2261,202003	T	HIGOS	1	X	340	18	8	2020	X	1420	18	8	2020	X	1040
+202003,T,HIGOS,3,3,2020-08-18 14:20,2020-08-18 22:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2262,202003	T	HIGOS	3	X	1420	18	8	2020	X	2240	18	8	2020	X	0820
+202003,T,HIGOS,8 NE,8,2020-08-18 22:40,2020-08-19 01:30,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2263,202003	T	HIGOS	8	NE	2240	18	8	2020	X	130	19	8	2020	X	0250
+202003,T,HIGOS,9,9,2020-08-19 01:30,2020-08-19 07:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2264,202003	T	HIGOS	9	X	130	19	8	2020	X	740	19	8	2020	X	0610
+202003,T,HIGOS,8 SE,8,2020-08-19 07:40,2020-08-19 11:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2265,202003	T	HIGOS	8	SE	740	19	8	2020	X	1110	19	8	2020	X	0330
+202003,T,HIGOS,3,3,2020-08-19 11:10,2020-08-19 13:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2266,202003	T	HIGOS	3	X	1110	19	8	2020	X	1320	19	8	2020	X	0210
+202004,TS,NANGKA,1,1,2020-10-11 20:40,2020-10-12 17:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2270,202004	TS	NANGKA	1	X	2040	11	10	2020	X	1710	12	10	2020	X	2030
+202004,TS,NANGKA,3,3,2020-10-12 17:10,2020-10-13 05:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2271,202004	TS	NANGKA	3	X	1710	12	10	2020	X	540	13	10	2020	X	1230
+202004,TS,NANGKA,8 NE,8,2020-10-13 05:40,2020-10-13 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2272,202004	TS	NANGKA	8	NE	540	13	10	2020	X	1940	13	10	2020	X	1400
+202004,TS,NANGKA,3,3,2020-10-13 19:40,2020-10-14 02:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2273,202004	TS	NANGKA	3	X	1940	13	10	2020	X	240	14	10	2020	X	0700
+202005,T,SAUDEL,1,1,2020-10-22 17:40,2020-10-23 00:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2276,202005	T	SAUDEL	1	X	1740	22	10	2020	X	020	23	10	2020	X	0640
+202005,T,SAUDEL,3,3,2020-10-23 00:20,2020-10-24 09:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2277,202005	T	SAUDEL	3	X	020	23	10	2020	X	910	24	10	2020	X	3250
+202101,TS,KOGUMA,1,1,2021-06-11 16:15,2021-06-12 14:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2289,202101	TS	KOGUMA	1	X	1615	11	6	2021	X	1410	12	6	2021	X	2155
+202102,TD/TD,no name(E)(5-6Jul2021)/ no name(W)(5-8Jul2021),1,1,2021-07-06 04:15,2021-07-07 14:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2290,202102	TD/TD	no name(E)(5-6Jul2021)/ no name(W)(5-8Jul2021)	1	X	415	6	7	2021	X	1410	7	7	2021	X	3355
+202103,T,CEMPAKA,1,1,2021-07-18 21:40,2021-07-19 16:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2291,202103	T	CEMPAKA	1	X	2140	18	7	2021	X	1610	19	7	2021	X	1830
+202103,T,CEMPAKA,3,3,2021-07-19 16:10,2021-07-20 13:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2292,202103	T	CEMPAKA	3	X	1610	19	7	2021	X	1320	20	7	2021	X	2110
+202103,T,CEMPAKA,1,1,2021-07-20 13:20,2021-07-20 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2293,202103	T	CEMPAKA	1	X	1320	20	7	2021	X	1940	20	7	2021	X	0620
+202104,TS,LUPIT,1,1,2021-08-02 21:40,2021-08-03 16:25,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2294,202104	TS	LUPIT	1	X	2140	2	8	2021	X	1625	3	8	2021	X	1845
+202104,TS,LUPIT,3,3,2021-08-03 16:25,2021-08-04 04:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2295,202104	TS	LUPIT	3	X	1625	3	8	2021	X	420	4	8	2021	X	1155
+202104,TS,LUPIT,1,1,2021-08-04 04:20,2021-08-04 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2296,202104	TS	LUPIT	1	X	420	4	8	2021	X	1820	4	8	2021	X	1400
+202105,TS,LIONROCK,3,3,2021-10-08 04:40,2021-10-09 06:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2299,202105	TS	LIONROCK	3	X	440	8	10	2021	X	640	9	10	2021	X	2600
+202105,TS,LIONROCK,8 SE,8,2021-10-09 06:40,2021-10-10 04:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2300,202105	TS	LIONROCK	8	SE	640	9	10	2021	X	440	10	10	2021	X	2200
+202105,TS,LIONROCK,3,3,2021-10-10 04:40,2021-10-10 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2301,202105	TS	LIONROCK	3	X	440	10	10	2021	X	1240	10	10	2021	X	800
+202105,TS,LIONROCK,1,1,2021-10-10 12:40,2021-10-10 14:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2302,202105	TS	LIONROCK	1	X	1240	10	10	2021	X	1420	10	10	2021	X	140
+202106,T,KOMPASU,3,3,2021-10-12 00:40,2021-10-12 17:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2304,202106	T	KOMPASU	3	X	040	12	10	2021	X	1720	12	10	2021	X	1640
+202106,T,KOMPASU,8 NE,8,2021-10-12 17:20,2021-10-13 16:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2305,202106	T	KOMPASU	8	NE	1720	12	10	2021	X	1640	13	10	2021	X	2320
+202106,T,KOMPASU,3,3,2021-10-13 16:40,2021-10-14 04:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2306,202106	T	KOMPASU	3	X	1640	13	10	2021	X	440	14	10	2021	X	1200
+202106,T,KOMPASU,1,1,2021-10-14 04:40,2021-10-14 06:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2307,202106	T	KOMPASU	1	X	440	14	10	2021	X	620	14	10	2021	X	140
+202107,SuperT,RAI,1,1,2021-12-20 11:20,2021-12-21 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2312,202107	SuperT	RAI	1	X	1120	20	12	2021	X	1220	21	12	2021	X	2500
+202201,T,CHABA,1,1,2022-06-29 21:10,2022-06-30 22:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2321,202201	T	CHABA	1	X	2110	29	6	2022	X	2240	30	6	2022	X	2530
+202201,T,CHABA,3,3,2022-06-30 22:40,2022-07-01 19:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2322,202201	T	CHABA	3	X	2240	30	6	2022	X	1910	1	7	2022	X	2030
+202201,T,CHABA,8 SE,8,2022-07-01 19:10,2022-07-02 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2323,202201	T	CHABA	8	SE	1910	1	7	2022	X	1620	2	7	2022	X	2110
+202201,T,CHABA,3,3,2022-07-02 16:20,2022-07-03 14:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2324,202201	T	CHABA	3	X	1620	2	7	2022	X	1410	3	7	2022	X	2150
+202201,T,CHABA,1,1,2022-07-03 14:10,2022-07-03 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2325,202201	T	CHABA	1	X	1410	3	7	2022	X	1940	3	7	2022	X	0530
+202202,TD,NIL,1,1,2022-08-03 22:10,2022-08-04 14:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2327,202202	TD	NIL	1	X	2210	3	8	2022	X	1440	4	8	2022	X	1630
+202203,TS,MULAN,1,1,2022-08-09 03:40,2022-08-09 11:25,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2328,202203	TS	MULAN	1	X	340	9	8	2022	X	1125	9	8	2022	X	0745
+202203,TS,MULAN,3,3,2022-08-09 11:25,2022-08-10 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2329,202203	TS	MULAN	3	X	1125	9	8	2022	X	1820	10	8	2022	X	3055
+202204,T,MA-ON,1,1,2022-08-23 21:10,2022-08-24 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2332,202204	T	MA-ON	1	X	2110	23	8	2022	X	1240	24	8	2022	X	1530
+202204,T,MA-ON,3,3,2022-08-24 12:40,2022-08-24 19:25,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2333,202204	T	MA-ON	3	X	1240	24	8	2022	X	1925	24	8	2022	X	0645
+202204,T,MA-ON,8 NE,8,2022-08-24 19:25,2022-08-25 01:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2334,202204	T	MA-ON	8	NE	1925	24	8	2022	X	140	25	8	2022	X	0615
+202204,T,MA-ON,8 SE,8,2022-08-25 01:40,2022-08-25 09:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2335,202204	T	MA-ON	8	SE	140	25	8	2022	X	920	25	8	2022	X	0740
+202204,T,MA-ON,3,3,2022-08-25 09:20,2022-08-25 14:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2336,202204	T	MA-ON	3	X	920	25	8	2022	X	1410	25	8	2022	X	0450
+202204,T,MA-ON,1,1,2022-08-25 14:10,2022-08-25 16:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2337,202204	T	MA-ON	1	X	1410	25	8	2022	X	1610	25	8	2022	X	0200
+202205,T,NESAT,1,1,2022-10-16 21:20,2022-10-17 11:30,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2341,202205	T	NESAT	1	X	2120	16	10	2022	X	1130	17	10	2022	X	1410
+202205,T,NESAT,3,3,2022-10-17 11:30,2022-10-18 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2342,202205	T	NESAT	3	X	1130	17	10	2022	X	1540	18	10	2022	X	2810
+202206,STS,NALGAE,1,1,2022-10-30 22:10,2022-10-31 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2347,202206	STS	NALGAE	1	X	2210	30	10	2022	X	1620	31	10	2022	X	1810
+202206,STS,NALGAE,3,3,2022-10-31 16:20,2022-11-02 13:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2348,202206	STS	NALGAE	3	X	1620	31	10	2022	X	1340	2	11	2022	X	4520
+202206,STS,NALGAE,8 NW,8,2022-11-02 13:40,2022-11-02 20:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2349,202206	STS	NALGAE	8	NW	1340	2	11	2022	X	2040	2	11	2022	X	0700
+202206,STS,NALGAE,8 NE,8,2022-11-02 20:40,2022-11-03 02:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2350,202206	STS	NALGAE	8	NE	2040	2	11	2022	X	240	3	11	2022	X	0600
+202206,STS,NALGAE,8 SE,8,2022-11-03 02:40,2022-11-03 05:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2351,202206	STS	NALGAE	8	SE	240	3	11	2022	X	520	3	11	2022	X	0240
+202206,STS,NALGAE,3,3,2022-11-03 05:20,2022-11-03 06:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2352,202206	STS	NALGAE	3	X	520	3	11	2022	X	620	3	11	2022	X	0100
+202301,T,TALIM,1,1,2023-07-15 04:40,2023-07-16 05:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2366,202301	T	TALIM	1	X	440	15	7	2023	X	540	16	7	2023	X	2500
+202301,T,TALIM,3,3,2023-07-16 05:40,2023-07-17 00:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2367,202301	T	TALIM	3	X	540	16	7	2023	X	040	17	7	2023	X	1900
+202301,T,TALIM,8 NE,8,2023-07-17 00:40,2023-07-17 06:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2368,202301	T	TALIM	8	NE	040	17	7	2023	X	640	17	7	2023	X	0600
+202301,T,TALIM,8 SE,8,2023-07-17 06:40,2023-07-17 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2369,202301	T	TALIM	8	SE	640	17	7	2023	X	1620	17	7	2023	X	0940
+202301,T,TALIM,3,3,2023-07-17 16:20,2023-07-18 02:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2370,202301	T	TALIM	3	X	1620	17	7	2023	X	240	18	7	2023	X	1020
+202301,T,TALIM,1,1,2023-07-18 02:40,2023-07-18 08:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2371,202301	T	TALIM	1	X	240	18	7	2023	X	840	18	7	2023	X	0600
+202302,SuperT,DOKSURI,1,1,2023-07-26 20:40,2023-07-28 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2373,202302	SuperT	DOKSURI	1	X	2040	26	7	2023	X	1240	28	7	2023	X	4000
+202303,SuperT,SAOLA,1,1,2023-08-30 17:40,2023-08-31 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2374,202303	SuperT	SAOLA	1	X	1740	30	8	2023	X	1540	31	8	2023	X	2200
+202303,SuperT,SAOLA,3,3,2023-08-31 15:40,2023-09-01 02:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2375,202303	SuperT	SAOLA	3	X	1540	31	8	2023	X	240	1	9	2023	X	1100
+202303,SuperT,SAOLA,8 NW,8,2023-09-01 02:40,2023-09-01 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2376,202303	SuperT	SAOLA	8	NW	240	1	9	2023	X	1820	1	9	2023	X	1540
+202303,SuperT,SAOLA,9,9,2023-09-01 18:20,2023-09-01 20:15,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2377,202303	SuperT	SAOLA	9	X	1820	1	9	2023	X	2015	1	9	2023	X	0155
+202303,SuperT,SAOLA,10,10,2023-09-01 20:15,2023-09-02 03:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2378,202303	SuperT	SAOLA	10	X	2015	1	9	2023	X	340	2	9	2023	X	0725
+202303,SuperT,SAOLA,8 SE,8,2023-09-02 03:40,2023-09-02 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2379,202303	SuperT	SAOLA	8	SE	340	2	9	2023	X	1620	2	9	2023	X	1240
+202303,SuperT,SAOLA,3,3,2023-09-02 16:20,2023-09-02 20:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2380,202303	SuperT	SAOLA	3	X	1620	2	9	2023	X	2020	2	9	2023	X	0400
+202303,SuperT,SAOLA,1,1,2023-09-02 20:20,2023-09-02 23:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2381,202303	SuperT	SAOLA	1	X	2020	2	9	2023	X	2340	2	9	2023	X	0320
+202304,ST,HAIKUI,1,1,2023-09-04 04:40,2023-09-05 21:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2382,202304	ST	HAIKUI	1	X	440	4	9	2023	X	2140	5	9	2023	X	4100
+202305,ST,KOINU,1,1,2023-10-04 21:40,2023-10-06 17:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2383,202305	ST	KOINU	1	X	2140	4	10	2023	X	1740	6	10	2023	X	4400
+202305,ST,KOINU,3,3,2023-10-06 17:40,2023-10-08 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2384,202305	ST	KOINU	3	X	1740	6	10	2023	X	1240	8	10	2023	X	4300
+202305,ST,KOINU,8 NE,8,2023-10-08 12:40,2023-10-08 19:00,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2385,202305	ST	KOINU	8	NE	1240	8	10	2023	X	1900	8	10	2023	X	0620
+202305,ST,KOINU,9,9,2023-10-08 19:00,2023-10-08 23:50,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2386,202305	ST	KOINU	9	X	1900	8	10	2023	X	2350	8	10	2023	X	0450
+202305,ST,KOINU,8 NE,8,2023-10-08 23:50,2023-10-09 11:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2387,202305	ST	KOINU	8	NE	2350	8	10	2023	X	1140	9	10	2023	X	1150
+202305,ST,KOINU,3,3,2023-10-09 11:40,2023-10-09 14:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2388,202305	ST	KOINU	3	X	1140	9	10	2023	X	1440	9	10	2023	X	0300
+202305,ST,KOINU,1,1,2023-10-09 14:40,2023-10-09 16:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2389,202305	ST	KOINU	1	X	1440	9	10	2023	X	1620	9	10	2023	X	0140
+202401,TS,MALIKSI,1,1,2024-05-30 17:40,2024-05-31 16:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2404,202401	TS	MALIKSI	1	X	1740	30	5	2024	X	1640	31	5	2024	X	2300
+202401,TS,MALIKSI,3,3,2024-05-31 16:40,2024-06-01 16:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2405,202401	TS	MALIKSI	3	X	1640	31	5	2024	X	1640	1	6	2024	X	2400
+202401,TS,MALIKSI,1,1,2024-06-01 16:40,2024-06-01 17:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2406,202401	TS	MALIKSI	1	X	1640	1	6	2024	X	1740	1	6	2024	X	0100
+202402,STS,PRAPIROON,1,1,2024-07-20 22:40,2024-07-22 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2408,202402	STS	PRAPIROON	1	X	2240	20	7	2024	X	1220	22	7	2024	X	3740
+202403,SuperT,YAGI,1,1,2024-09-03 17:40,2024-09-04 18:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2410,202403	SuperT	YAGI	1	X	1740	3	9	2024	X	1840	4	9	2024	X	2500
+202403,SuperT,YAGI,3,3,2024-09-04 18:40,2024-09-05 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2411,202403	SuperT	YAGI	3	X	1840	4	9	2024	X	1820	5	9	2024	X	2340
+202403,SuperT,YAGI,8 NE,8,2024-09-05 18:20,2024-09-06 12:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2412,202403	SuperT	YAGI	8	NE	1820	5	9	2024	X	1240	6	9	2024	X	1820
+202403,SuperT,YAGI,3,3,2024-09-06 12:40,2024-09-07 04:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2413,202403	SuperT	YAGI	3	X	1240	6	9	2024	X	420	7	9	2024	X	1540
+202404,T,TRAMI,1,1,2024-10-25 01:40,2024-10-26 10:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2418,202404	T	TRAMI	1	X	140	25	10	2024	X	1040	26	10	2024	X	3300
+202404,T,TRAMI,3,3,2024-10-26 10:40,2024-10-26 22:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2419,202404	T	TRAMI	3	X	1040	26	10	2024	X	2220	26	10	2024	X	1140
+202404,T,TRAMI,1,1,2024-10-26 22:20,2024-10-27 00:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2420,202404	T	TRAMI	1	X	2220	26	10	2024	X	020	27	10	2024	X	0200
+202405,SuperT,YINXING,1,1,2024-11-08 12:40,2024-11-09 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2421,202405	SuperT	YINXING	1	X	1240	8	11	2024	X	1540	9	11	2024	X	2700
+202405,SuperT,YINXING,3,3,2024-11-09 15:40,2024-11-10 10:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2422,202405	SuperT	YINXING	3	X	1540	9	11	2024	X	1020	10	11	2024	X	1840
+202405,SuperT,YINXING,1,1,2024-11-10 10:20,2024-11-10 15:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2423,202405	SuperT	YINXING	1	X	1020	10	11	2024	X	1520	10	11	2024	X	0500
+202406,T,TORAJI,1,1,2024-11-11 22:20,2024-11-13 14:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2424,202406	T	TORAJI	1	X	2220	11	11	2024	X	1440	13	11	2024	X	4020
+202406,T,TORAJI,3,3,2024-11-13 14:40,2024-11-13 23:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2425,202406	T	TORAJI	3	X	1440	13	11	2024	X	2310	13	11	2024	X	0830
+202406,T,TORAJI,8 NE,8,2024-11-13 23:10,2024-11-14 10:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2426,202406	T	TORAJI	8	NE	2310	13	11	2024	X	1020	14	11	2024	X	1110
+202406,T,TORAJI,3,3,2024-11-14 10:20,2024-11-14 22:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2427,202406	T	TORAJI	3	X	1020	14	11	2024	X	2220	14	11	2024	X	1200
+202406,T,TORAJI,1,1,2024-11-14 22:20,2024-11-15 01:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2428,202406	T	TORAJI	1	X	2220	14	11	2024	X	120	15	11	2024	X	0300
+202407,SuperT,MAN-YI,1,1,2024-11-18 06:40,2024-11-19 22:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2429,202407	SuperT	MAN-YI	1	X	640	18	11	2024	X	2210	19	11	2024	X	3930
+202501,STS,WUTIP,1,1,2025-06-11 00:40,2025-06-14 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2437,202501	STS	WUTIP	1	X	040	11	6	2025	X	1220	14	6	2025	X	8340
+202501,STS,WUTIP,3,3,2025-06-14 12:20,2025-06-15 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2438,202501	STS	WUTIP	3	X	1220	14	6	2025	X	1540	15	6	2025	X	2720
+202502,TS,NIL,1,1,2025-06-25 14:20,2025-06-26 14:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2440,202502	TS	NIL	1	X	1420	25	6	2025	X	1420	26	6	2025	X	2400
+202503,ST,DANAS,1,1,2025-07-04 12:20,2025-07-06 14:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2441,202503	ST	DANAS	1	X	1220	4	7	2025	X	1420	6	7	2025	X	5000
+202504,T,WIPHA,1,1,2025-07-19 02:20,2025-07-19 14:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2442,202504	T	WIPHA	1	X	220	19	7	2025	X	1420	19	7	2025	X	1200
+202504,T,WIPHA,3,3,2025-07-19 14:20,2025-07-20 00:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2443,202504	T	WIPHA	3	X	1420	19	7	2025	X	020	20	7	2025	X	1000
+202504,T,WIPHA,8 NE,8,2025-07-20 00:20,2025-07-20 07:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2444,202504	T	WIPHA	8	NE	020	20	7	2025	X	720	20	7	2025	X	0700
+202504,T,WIPHA,9,9,2025-07-20 07:20,2025-07-20 09:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2445,202504	T	WIPHA	9	X	720	20	7	2025	X	920	20	7	2025	X	0200
+202504,T,WIPHA,10,10,2025-07-20 09:20,2025-07-20 16:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2446,202504	T	WIPHA	10	X	920	20	7	2025	X	1610	20	7	2025	X	0650
+202504,T,WIPHA,8 SE,8,2025-07-20 16:10,2025-07-20 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2447,202504	T	WIPHA	8	SE	1610	20	7	2025	X	1940	20	7	2025	X	0330
+202504,T,WIPHA,3,3,2025-07-20 19:40,2025-07-21 03:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2448,202504	T	WIPHA	3	X	1940	20	7	2025	X	320	21	7	2025	X	0740
+202504,T,WIPHA,1,1,2025-07-21 03:20,2025-07-21 05:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2449,202504	T	WIPHA	1	X	320	21	7	2025	X	510	21	7	2025	X	0150
+202505,ST,PODUL,1,1,2025-08-13 08:40,2025-08-14 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2450,202505	ST	PODUL	1	X	840	13	8	2025	X	1220	14	8	2025	X	2740
+202506,TD,NIL,1,1,2025-08-16 22:20,2025-08-17 20:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2451,202506	TD	NIL	1	X	2220	16	8	2025	X	2020	17	8	2025	X	2200
+202507,ST,KAJIKI,1,1,2025-08-22 21:40,2025-08-24 12:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2453,202507	ST	KAJIKI	1	X	2140	22	8	2025	X	1210	24	8	2025	X	3830
+202508,TS,NONGFA,1,1,2025-08-28 19:10,2025-08-29 18:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2455,202508	TS	NONGFA	1	X	1910	28	8	2025	X	1810	29	8	2025	X	2300
+202509,STS,TAPAH,1,1,2025-09-05 22:20,2025-09-07 02:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2457,202509	STS	TAPAH	1	X	2220	5	9	2025	X	240	7	9	2025	X	2820
+202509,STS,TAPAH,3,3,2025-09-07 02:40,2025-09-07 21:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2458,202509	STS	TAPAH	3	X	240	7	9	2025	X	2120	7	9	2025	X	1840
+202509,STS,TAPAH,8 SE,8,2025-09-07 21:20,2025-09-08 13:10,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2459,202509	STS	TAPAH	8	SE	2120	7	9	2025	X	1310	8	9	2025	X	1550
+202509,STS,TAPAH,3,3,2025-09-08 13:10,2025-09-08 19:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2460,202509	STS	TAPAH	3	X	1310	8	9	2025	X	1940	8	9	2025	X	0630
+202509,STS,TAPAH,1,1,2025-09-08 19:40,2025-09-09 04:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2461,202509	STS	TAPAH	1	X	1940	8	9	2025	X	420	9	9	2025	X	0840
+202510,STS,MITAG,1,1,2025-09-17 21:20,2025-09-19 09:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2462,202510	STS	MITAG	1	X	2120	17	9	2025	X	920	19	9	2025	X	3600
+202510,STS,MITAG,3,3,2025-09-19 09:20,2025-09-20 09:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2463,202510	STS	MITAG	3	X	920	19	9	2025	X	920	20	9	2025	X	2400
+202510,STS,MITAG,1,1,2025-09-20 09:20,2025-09-20 10:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2464,202510	STS	MITAG	1	X	920	20	9	2025	X	1040	20	9	2025	X	0120
+202511,SuperT,RAGASA,1,1,2025-09-22 12:20,2025-09-22 21:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2465,202511	SuperT	RAGASA	1	X	1220	22	9	2025	X	2140	22	9	2025	X	0920
+202511,SuperT,RAGASA,3,3,2025-09-22 21:40,2025-09-23 14:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2466,202511	SuperT	RAGASA	3	X	2140	22	9	2025	X	1420	23	9	2025	X	1640
+202511,SuperT,RAGASA,8 NW,8,2025-09-23 14:20,2025-09-24 01:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2467,202511	SuperT	RAGASA	8	NW	1420	23	9	2025	X	140	24	9	2025	X	1120
+202511,SuperT,RAGASA,9,9,2025-09-24 01:40,2025-09-24 02:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2468,202511	SuperT	RAGASA	9	X	140	24	9	2025	X	240	24	9	2025	X	0100
+202511,SuperT,RAGASA,10,10,2025-09-24 02:40,2025-09-24 13:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2469,202511	SuperT	RAGASA	10	X	240	24	9	2025	X	1320	24	9	2025	X	1040
+202511,SuperT,RAGASA,8 SE,8,2025-09-24 13:20,2025-09-24 20:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2470,202511	SuperT	RAGASA	8	SE	1320	24	9	2025	X	2020	24	9	2025	X	0700
+202511,SuperT,RAGASA,3,3,2025-09-24 20:20,2025-09-25 08:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2471,202511	SuperT	RAGASA	3	X	2020	24	9	2025	X	820	25	9	2025	X	1200
+202511,SuperT,RAGASA,1,1,2025-09-25 08:20,2025-09-25 11:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2472,202511	SuperT	RAGASA	1	X	820	25	9	2025	X	1120	25	9	2025	X	0300
+202512,T,MATMO,1,1,2025-10-03 19:40,2025-10-04 12:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2475,202512	T	MATMO	1	X	1940	3	10	2025	X	1220	4	10	2025	X	1640
+202512,T,MATMO,3,3,2025-10-04 12:20,2025-10-05 15:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2476,202512	T	MATMO	3	X	1220	4	10	2025	X	1540	5	10	2025	X	2720
+202512,T,MATMO,1,1,2025-10-05 15:40,2025-10-05 22:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2477,202512	T	MATMO	1	X	1540	5	10	2025	X	2220	5	10	2025	X	0640
+202513,STS,FENGSHEN,3,3,2025-10-20 17:20,2025-10-21 18:20,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2479,202513	STS	FENGSHEN	3	X	1720	20	10	2025	X	1820	21	10	2025	X	2500
+202514,SuperT,FUNG-WONG,1,1,2025-11-10 12:20,2025-11-11 21:40,https://www.hko.gov.hk/dps/wxinfo/climat/warndb/tc.dat,2483,202514	SuperT	FUNG-WONG	1	X	1220	10	11	2025	X	2140	11	11	2025	X	3320

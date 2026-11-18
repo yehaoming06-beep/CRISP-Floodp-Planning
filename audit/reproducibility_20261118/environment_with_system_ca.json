@@ -1,0 +1,53 @@
+{
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "executable": "/Users/yehaoming/Desktop/climate_Devin/.venv/bin/python",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "original_pyvenv_cfg": "home = /Library/Frameworks/Python.framework/Versions/3.12/bin\ninclude-system-site-packages = true\nversion = 3.12.8\nexecutable = /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12\ncommand = /Library/Frameworks/Python.framework/Versions/3.12/bin/python3 -m venv --system-site-packages /Users/yehaoming/Desktop/climate_Devin/.venv\n",
+  "existing_versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "gurobipy": "13.0.2",
+    "openpyxl": "3.1.5",
+    "pytest": "8.4.2"
+  },
+  "fresh_environment": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz",
+  "system_site_packages_requested": false,
+  "requirements": "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/requirements.txt",
+  "command": [
+    "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--disable-pip-version-check",
+    "--retries",
+    "0",
+    "--timeout",
+    "30",
+    "-r",
+    "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/requirements.txt"
+  ],
+  "install_exit_code": 1,
+  "status": "PASS_INSTALL",
+  "scope": "Fresh dependency installation attempt only; numerical reruns otherwise use the original working environment.",
+  "system_ca_retry": {
+    "command": [
+      "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-repro-20261118-bk2m6vpz/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--disable-pip-version-check",
+      "--retries",
+      "0",
+      "--timeout",
+      "30",
+      "-r",
+      "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/requirements.txt",
+      "--cert",
+      "/etc/ssl/cert.pem"
+    ],
+    "exit_code": 0,
+    "certificate_verification_disabled": false
+  }
+}

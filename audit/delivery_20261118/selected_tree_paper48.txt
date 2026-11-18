@@ -1,0 +1,1 @@
+{"status": "PASS", "paper_cells": 48, "max_abs_error": 4.2028988644915444e-07, "core_metrics_sha256": "607d2c99b46cb752b18f3a34e5c809c7c3cdce0145b0f77b16ac0cfa53ef01d7", "paper_reference_sha256": "08b0cb322f93925030fc8a03f2e9ff20a06646aacfb4fed225282542cc068966", "reference_role": "Paper comparison only; not used to construct scientific inputs"}

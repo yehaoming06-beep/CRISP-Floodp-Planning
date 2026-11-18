@@ -1,0 +1,30 @@
+input:
+  path: ../examples/sample_events.csv
+
+columns:
+  event_id: event_id
+  rainfall: rainfall_intensity
+  sea_level: maximum_sea_level
+  flood_depth: maximum_flood_depth
+
+cleaning:
+  # drop: remove rows missing any of R, W, F; median: impute each missing value.
+  missing_strategy: drop
+  # Duplicate event IDs are rejected by default to preserve one row per event.
+  duplicate_event_id: error
+
+critic:
+  standard_deviation_ddof: 0
+
+kmeans:
+  k: 3
+  random_state: 42
+  n_init: 50
+  max_iter: 300
+
+scenarios:
+  representative_statistic: mean
+
+output:
+  directory: ../../../04_Results/Examples
+  excel_filename: crisp_data_layer_results.xlsx

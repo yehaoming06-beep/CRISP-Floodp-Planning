@@ -1,0 +1,19 @@
+﻿u_mode,plan,new_pumps,count,frequency
+derived,Tai O1/Barrier;Tai O1/Warning,0,76,0.38
+derived,Tai O1/Drainage;Tai O1/Warning,2,60,0.3
+derived,Tai O1/Drainage;Tai O1/Barrier;Tai O1/Warning,2,29,0.145
+derived,Tai O2/Barrier;Tai O2/Warning,0,16,0.08
+derived,Tai O2/Drainage;Tai O2/Warning,2,14,0.07
+derived,Tai O2/Drainage;Tai O2/Barrier;Tai O2/Warning,2,5,0.025
+availability,Tai O1/Barrier;Tai O1/Warning,0,67,0.335
+availability,Tai O1/Drainage;Tai O1/Warning,2,42,0.21
+availability,Tai O1/Drainage;Tai O1/Barrier;Tai O1/Warning,2,29,0.145
+availability,Tai O1/Drainage;Tai O1/Warning;Tai O2/Warning,2,17,0.085
+availability,Tai O2/Barrier;Tai O2/Warning,0,12,0.06
+availability,Tai O2/Drainage;Tai O2/Warning,2,9,0.045
+availability,Tai O1/Barrier;Tai O1/Warning;Tai O2/Warning,0,5,0.025
+availability,Tai O1/Barrier;Tai O1/Warning;Tai O2/Barrier,0,5,0.025
+availability,Tai O2/Drainage;Tai O2/Barrier;Tai O2/Warning,2,5,0.025
+availability,Tai O1/Warning;Tai O2/Drainage;Tai O2/Warning,2,4,0.02
+availability,Tai O1/Barrier;Tai O2/Barrier;Tai O2/Warning,0,3,0.015
+availability,Tai O1/Warning;Tai O2/Barrier;Tai O2/Warning,0,2,0.01

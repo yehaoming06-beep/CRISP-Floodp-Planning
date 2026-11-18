@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Restore exact archives into an independent directory containing only the selected files; repeat restoration skips unchanged files",
+  "selected_files_tested": 3436,
+  "restored_member_checks_each_pass": 16717,
+  "passes": [
+    {
+      "status": "PASS_SELECTED_TREE_AND_EVIDENCE",
+      "selected_files": 3436,
+      "archives": 3,
+      "archive_members_verified": 16717,
+      "supplement_sections": 13,
+      "supplement_local_links": 32,
+      "restored_evidence": true,
+      "scope": "Package/hash/count/link checks; not a scientific rerun or rights guarantee"
+    },
+    {
+      "status": "PASS_SELECTED_TREE_AND_EVIDENCE",
+      "selected_files": 3436,
+      "archives": 3,
+      "archive_members_verified": 16717,
+      "supplement_sections": 13,
+      "supplement_local_links": 32,
+      "restored_evidence": true,
+      "scope": "Package/hash/count/link checks; not a scientific rerun or rights guarantee"
+    }
+  ],
+  "original_research_files_modified": false,
+  "temp_export": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-restore-o03_gol8/checkout"
+}

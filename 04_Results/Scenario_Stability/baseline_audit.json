@@ -1,0 +1,38 @@
+{
+  "n": 23,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "year_blocks": 9,
+  "max_abs_weight_error": 5.551115123125783e-17,
+  "max_abs_H_error": 1.1102230246251565e-16,
+  "stored_label_matches": 23,
+  "max_abs_center_error": 5.551115123125783e-17,
+  "exact_global_sse": 0.14697273325203242,
+  "kmeans_sse": 0.14697273325203244,
+  "global_label_ARI": 1.0,
+  "ddof_weight_max_abs_change": 5.551115123125783e-17,
+  "ddof_std_ratio": 1.0224747162910903,
+  "thresholds": [
+    0.24778239176443145,
+    0.48519085974711007
+  ],
+  "rainfall_station_counts": {
+    "Ngong Ping Fresh Water Reservoir (R11)": 19,
+    "Hong Kong International Airport (HKA)": 3,
+    "Discovery Bay (R12)": 1
+  },
+  "missing_numeric": 0,
+  "duplicate_vectors": 0,
+  "production_weights_max_abs_error": 2.7755575615628914e-17,
+  "production_H_max_abs_error": 1.1102230246251565e-16,
+  "production_labels_match": true
+}

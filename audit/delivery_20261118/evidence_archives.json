@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "results/evidence/clean_run_20261118.tar.gz",
+    "bytes": 7081333,
+    "sha256": "bff3263f5115ba3a5c56d5ff0979304b895c07c3e189f9413c0fd2267746ee51",
+    "members": 8964,
+    "uncompressed_bytes": 113762550,
+    "member_manifest": "results/evidence/clean_run_20261118.members.json"
+  },
+  {
+    "archive": "results/evidence/frozen_solutions_and_ev_ties_20261118.tar.gz",
+    "bytes": 4176097,
+    "sha256": "4b1635dabf02343d06a25a9808e47170684c9603257d648ca0b4aab3df07cd03",
+    "members": 4716,
+    "uncompressed_bytes": 78853192,
+    "member_manifest": "results/evidence/frozen_solutions_and_ev_ties_20261118.members.json"
+  },
+  {
+    "archive": "results/evidence/supplementary_rerun_20261118.tar.gz",
+    "bytes": 462659,
+    "sha256": "54ff6b07d223c5df4c29c156347f2c94ddda102e14678d3acb3ab2095289ef4d",
+    "members": 3037,
+    "uncompressed_bytes": 7915208,
+    "member_manifest": "results/evidence/supplementary_rerun_20261118.members.json"
+  }
+]

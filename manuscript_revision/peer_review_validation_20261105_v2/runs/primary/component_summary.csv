@@ -1,0 +1,25 @@
+﻿frequency,capital_budget_hkd,case,status,rp,comparison_reference,delta_vs_reference,n,plan,tag
+23,2000000,F0_no_stock,OPTIMAL,686.0078260869566,previous_chain_case,,0.0,Tai O1/Drainage;Tai O1/Warning,f23_budget2000000_F0_no_stock
+23,2000000,F1_replicated_continuous,OPTIMAL,616.0825000000001,previous_chain_case,-69.92532608695649,-0.0,Tai O1/Barrier;Tai O1/Warning,f23_budget2000000_F1_replicated_continuous
+23,2000000,F2_shared_continuous,OPTIMAL,616.0825000000001,previous_chain_case,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f23_budget2000000_F2_shared_continuous
+23,2000000,F3_shared_integer,OPTIMAL,616.0825000000001,previous_chain_case,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f23_budget2000000_F3_shared_integer
+23,2000000,A1_access_O1_only,OPTIMAL,616.0825000000001,F3_shared_integer,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f23_budget2000000_A1_access_O1_only
+23,2000000,A2_access_O2_only,OPTIMAL,616.0825000000001,F3_shared_integer,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f23_budget2000000_A2_access_O2_only
+23,6500000,F0_no_stock,OPTIMAL,686.0078260869566,previous_chain_case,,0.0,Tai O1/Drainage;Tai O1/Warning,f23_budget6500000_F0_no_stock
+23,6500000,F1_replicated_continuous,OPTIMAL,686.0078260869566,previous_chain_case,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f23_budget6500000_F1_replicated_continuous
+23,6500000,F2_shared_continuous,OPTIMAL,686.0078260869566,previous_chain_case,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f23_budget6500000_F2_shared_continuous
+23,6500000,F3_shared_integer,OPTIMAL,686.0078260869566,previous_chain_case,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f23_budget6500000_F3_shared_integer
+23,6500000,A1_access_O1_only,OPTIMAL,686.0078260869566,F3_shared_integer,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f23_budget6500000_A1_access_O1_only
+23,6500000,A2_access_O2_only,OPTIMAL,632.748695652174,F3_shared_integer,-53.259130434782605,6.0,Tai O1/Warning;Tai O2/Drainage,f23_budget6500000_A2_access_O2_only
+60,2000000,F0_no_stock,OPTIMAL,720.3249166666668,previous_chain_case,,0.0,Tai O1/Drainage;Tai O1/Warning,f60_budget2000000_F0_no_stock
+60,2000000,F1_replicated_continuous,OPTIMAL,634.5166666666668,previous_chain_case,-85.80825000000004,-0.0,Tai O1/Barrier;Tai O1/Warning,f60_budget2000000_F1_replicated_continuous
+60,2000000,F2_shared_continuous,OPTIMAL,634.5166666666668,previous_chain_case,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f60_budget2000000_F2_shared_continuous
+60,2000000,F3_shared_integer,OPTIMAL,634.5166666666668,previous_chain_case,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f60_budget2000000_F3_shared_integer
+60,2000000,A1_access_O1_only,OPTIMAL,634.5166666666668,F3_shared_integer,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f60_budget2000000_A1_access_O1_only
+60,2000000,A2_access_O2_only,OPTIMAL,634.5166666666668,F3_shared_integer,0.0,-0.0,Tai O1/Barrier;Tai O1/Warning,f60_budget2000000_A2_access_O2_only
+60,6500000,F0_no_stock,OPTIMAL,720.3249166666668,previous_chain_case,,0.0,Tai O1/Drainage;Tai O1/Warning,f60_budget6500000_F0_no_stock
+60,6500000,F1_replicated_continuous,OPTIMAL,720.3249166666668,previous_chain_case,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f60_budget6500000_F1_replicated_continuous
+60,6500000,F2_shared_continuous,OPTIMAL,720.3249166666668,previous_chain_case,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f60_budget6500000_F2_shared_continuous
+60,6500000,F3_shared_integer,OPTIMAL,720.3249166666668,previous_chain_case,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f60_budget6500000_F3_shared_integer
+60,6500000,A1_access_O1_only,OPTIMAL,720.3249166666668,F3_shared_integer,0.0,6.0,Tai O1/Drainage;Tai O1/Warning,f60_budget6500000_A1_access_O1_only
+60,6500000,A2_access_O2_only,OPTIMAL,659.3597500000001,F3_shared_integer,-60.96516666666673,6.0,Tai O1/Warning;Tai O2/Drainage,f60_budget6500000_A2_access_O2_only

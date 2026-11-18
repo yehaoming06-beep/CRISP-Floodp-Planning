@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files_by_run_type": {
+    "main": 3875,
+    "EV_policy_audit": 1796
+  },
+  "all_original_log_bytes_preserved": true
+}

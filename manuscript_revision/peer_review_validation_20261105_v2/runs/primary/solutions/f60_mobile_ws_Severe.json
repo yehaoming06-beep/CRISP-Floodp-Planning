@@ -1,0 +1,160 @@
+{
+  "tag": "f60_mobile_ws_Severe",
+  "parameter_id": "3650bf6f1864112c5515",
+  "config": {
+    "stock": "shared",
+    "integer_n": true,
+    "existing_stock": 0,
+    "capital_budget_hkd": 2000000,
+    "purchase_price_hkd": 1000000,
+    "accessible_locations": [
+      "Tai O1",
+      "Tai O2"
+    ],
+    "coverage_each_location_each_scenario": 0
+  },
+  "fixed_policy": null,
+  "status_code": 2,
+  "status": "OPTIMAL",
+  "runtime_seconds": 0.0032949447631835938,
+  "node_count": 3.0,
+  "solution_count": 4,
+  "objective": 632.5,
+  "primary_value_from_solver": 632.5,
+  "policy": {
+    "y": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "n": 2.0
+  },
+  "plan": "Tai O1/Drainage;Tai O1/Warning",
+  "x": [
+    {
+      "scenario": "Severe",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "x": 2
+    },
+    {
+      "scenario": "Severe",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "x": 0
+    },
+    {
+      "scenario": "Severe",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "x": 6
+    },
+    {
+      "scenario": "Severe",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "x": 0
+    },
+    {
+      "scenario": "Severe",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "x": 0
+    },
+    {
+      "scenario": "Severe",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "x": 0
+    }
+  ],
+  "residuals": [
+    {
+      "constraint": "readiness",
+      "lhs": 14000.0,
+      "rhs": 20000.0,
+      "slack": 6000.0
+    },
+    {
+      "constraint": "capital",
+      "lhs": 2000000.0,
+      "rhs": 2000000,
+      "slack": 0.0
+    },
+    {
+      "constraint": "Severe/operating_budget",
+      "lhs": 16400.0,
+      "rhs": 30000.0,
+      "slack": 13600.0
+    },
+    {
+      "constraint": "Severe/labour_capacity",
+      "lhs": 392.0,
+      "rhs": 400.0,
+      "slack": 8.0
+    },
+    {
+      "constraint": "Severe/equipment_capacity",
+      "lhs": 38.0,
+      "rhs": 60.0,
+      "slack": 22.0
+    },
+    {
+      "constraint": "Severe/supply_capacity",
+      "lhs": 116.0,
+      "rhs": 220.0,
+      "slack": 104.0
+    },
+    {
+      "constraint": "link/Severe/Tai O1/Drainage",
+      "lhs": 2,
+      "rhs": 6,
+      "slack": 4
+    },
+    {
+      "constraint": "link/Severe/Tai O1/Barrier",
+      "lhs": 0,
+      "rhs": 0,
+      "slack": 0
+    },
+    {
+      "constraint": "link/Severe/Tai O1/Warning",
+      "lhs": 6,
+      "rhs": 7,
+      "slack": 1
+    },
+    {
+      "constraint": "link/Severe/Tai O2/Drainage",
+      "lhs": 0,
+      "rhs": 0,
+      "slack": 0
+    },
+    {
+      "constraint": "link/Severe/Tai O2/Barrier",
+      "lhs": 0,
+      "rhs": 0,
+      "slack": 0
+    },
+    {
+      "constraint": "link/Severe/Tai O2/Warning",
+      "lhs": 0,
+      "rhs": 0,
+      "slack": 0
+    },
+    {
+      "constraint": "shared/Severe",
+      "lhs": 2,
+      "rhs": 2.0,
+      "slack": 0.0
+    }
+  ],
+  "validation": {
+    "max_constraint_violation": 0,
+    "max_integrality_error": 0.0,
+    "objective_reconstruction_error": 0.0,
+    "fixed_stage_preserved": true
+  }
+}

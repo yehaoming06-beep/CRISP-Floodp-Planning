@@ -1,0 +1,349 @@
+{
+  "probabilities": {
+    "EV": 1.0
+  },
+  "setup_budget": 20000.0,
+  "operating_budget": {
+    "EV": 30000.0
+  },
+  "labour_capacity": {
+    "EV": 400.0
+  },
+  "equipment_capacity": {
+    "EV": 60.0
+  },
+  "supply_capacity": {
+    "EV": 220.0
+  },
+  "benefit_weights": {
+    "w_L": 0.5,
+    "w_P": 0.3,
+    "w_R": 0.2
+  },
+  "setup_cost": [
+    {
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 8500.0
+    },
+    {
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 7500.0
+    },
+    {
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 5500.0
+    },
+    {
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 8500.0
+    },
+    {
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 7500.0
+    },
+    {
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 5500.0
+    }
+  ],
+  "deploy_cost": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 2888.3333333333335
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 2452.5
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 1565.0
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 2888.3333333333335
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 2452.5
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 1565.0
+    }
+  ],
+  "labour": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 31.3
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 40.016666666666666
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 50.15
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 31.3
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 40.016666666666666
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 50.15
+    }
+  ],
+  "equipment": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 9.033333333333333
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 5.616666666666667
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 2.416666666666667
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 9.033333333333333
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 5.616666666666667
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 2.416666666666667
+    }
+  ],
+  "supply": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 20.166666666666668
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 33.4
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 11.133333333333333
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 20.166666666666668
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 33.4
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 11.133333333333333
+    }
+  ],
+  "upper_bound": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 6.483333333333334
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 6.383333333333334
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 7.383333333333334
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 6.483333333333334
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 6.383333333333334
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 7.383333333333334
+    }
+  ],
+  "life_score": {
+    "Drainage": 65.0,
+    "Barrier": 55.0,
+    "Warning": 90.0
+  },
+  "property_score": {
+    "Drainage": 85.0,
+    "Barrier": 90.0,
+    "Warning": 35.0
+  },
+  "recovery_score": {
+    "Drainage": 75.0,
+    "Barrier": 65.0,
+    "Warning": 80.0
+  },
+  "alpha": [
+    {
+      "scenario": "Moderate",
+      "intervention": "Drainage",
+      "value": 0.9
+    },
+    {
+      "scenario": "Moderate",
+      "intervention": "Barrier",
+      "value": 0.85
+    },
+    {
+      "scenario": "Moderate",
+      "intervention": "Warning",
+      "value": 0.9
+    },
+    {
+      "scenario": "Severe",
+      "intervention": "Drainage",
+      "value": 1.0
+    },
+    {
+      "scenario": "Severe",
+      "intervention": "Barrier",
+      "value": 1.0
+    },
+    {
+      "scenario": "Severe",
+      "intervention": "Warning",
+      "value": 1.0
+    },
+    {
+      "scenario": "Extreme",
+      "intervention": "Drainage",
+      "value": 0.95
+    },
+    {
+      "scenario": "Extreme",
+      "intervention": "Barrier",
+      "value": 1.1
+    },
+    {
+      "scenario": "Extreme",
+      "intervention": "Warning",
+      "value": 1.15
+    }
+  ],
+  "beta": {
+    "Tai O1": 1.1,
+    "Tai O2": 0.9
+  },
+  "benefit": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "value": 75.21433333333334
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "value": 68.495625
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "value": 75.24183333333335
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "value": 61.53900000000001
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "value": 56.041875000000005
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "value": 61.56150000000001
+    }
+  ]
+}

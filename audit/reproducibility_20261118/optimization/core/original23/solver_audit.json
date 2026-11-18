@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "legacy_baseline_rp",
+    "status": "OPTIMAL",
+    "objective": 686.0078260869566,
+    "runtime": 0.02542901039123535,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ws_Moderate",
+    "status": "OPTIMAL",
+    "objective": 787.5450000000001,
+    "runtime": 0.0015289783477783203,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ws_Severe",
+    "status": "OPTIMAL",
+    "objective": 637.45,
+    "runtime": 0.012942075729370117,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ws_Extreme",
+    "status": "OPTIMAL",
+    "objective": 590.645,
+    "runtime": 0.00263214111328125,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ev",
+    "status": "OPTIMAL",
+    "objective": 693.9732608695654,
+    "runtime": 0.0029768943786621094,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_eev",
+    "status": "OPTIMAL",
+    "objective": 686.0078260869566,
+    "runtime": 0.0014450550079345703,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_rp",
+    "status": "OPTIMAL",
+    "objective": 616.0825000000001,
+    "runtime": 0.012686967849731445,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ws_Moderate",
+    "status": "OPTIMAL",
+    "objective": 661.815,
+    "runtime": 0.0027730464935302734,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ws_Severe",
+    "status": "OPTIMAL",
+    "objective": 632.5,
+    "runtime": 0.0032739639282226562,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ws_Extreme",
+    "status": "OPTIMAL",
+    "objective": 533.9125,
+    "runtime": 0.004862070083618164,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ev",
+    "status": "OPTIMAL",
+    "objective": 621.3923913043479,
+    "runtime": 0.00374603271484375,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_eev",
+    "status": "OPTIMAL",
+    "objective": 612.8446739130436,
+    "runtime": 0.0007870197296142578,
+    "validation_passed": true
+  }
+]

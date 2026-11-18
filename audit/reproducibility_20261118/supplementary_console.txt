@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/reproduce_supplementary.py", line 73, in <module>
+    main()
+  File "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/reproduce_supplementary.py", line 50, in main
+    results, rows = module.audit_saved_specs(qs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/peer_review_validation_20261105_v2/code/verify_independent.py", line 367, in audit_saved_specs
+    inventory.append({"tag": tag, "kind": kind, "path": str(artifact.relative_to(BASE)),
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 682, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: '/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/supplementary/runs/primary/solutions/f23_budget2000000_A1_access_O1_only.json' is not in the subpath of '/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/peer_review_validation_20261105_v2'

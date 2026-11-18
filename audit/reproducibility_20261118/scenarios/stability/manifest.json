@@ -1,0 +1,66 @@
+{
+  "seed": 20261103,
+  "configuration": {
+    "output": "audit/reproducibility_20261118/scenarios/stability",
+    "bootstrap": 3000,
+    "year_bootstrap": 2000,
+    "subsample": 1000,
+    "k_resamples": 500,
+    "seed": 20261103
+  },
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "PyYAML": "6.0.3",
+    "threadpoolctl": "3.7.0",
+    "markdown": "3.11.2",
+    "openpyxl": "3.1.5"
+  },
+  "input_and_code_sha256": {
+    "01_Data/Events/model_input.csv": "094bea5ff6b2f5d8d71b60d8fb62772c2af05a2de83eba21fccbffe176fd544d",
+    "01_Data/Events/Table_X_Flood_Scenario_Classification.xlsx": "4a83aacede099605e11a70ed331dc40324027b432b9526853ff3802d5638ad4e",
+    "01_Data/Events/reference_scenarios.csv": "eabdd9adc40a1ac79f84fd4c503bf14a63d3d02a425db93a7d94c800a79ee9c0",
+    "01_Data/Events/reference_indicators.csv": "cc60afcaf39ba77c89164e968220f26e46f78ddc75dce7cfad9339e9b486197f",
+    "01_Data/Events/reference_events.csv": "a49e6167624156bb25826d54f53bc002242c66b0ec29beffbf0c49ce64adb91f",
+    "01_Data/Events/Table_X_CRITIC_Weights_of_Hazard_Indicators.xlsx": "419815b04796007390f4dac6381efa0f0a1be4a066075658febc00bd4a99db9f",
+    "01_Data/Events/event_metadata.csv": "a6c3361f9bd29c46fca2219640a742e0c6fc5d16b2e9c657342604ef9f15e274",
+    "03_Experiments/Scenario_Stability/code/gen_fig01.py": "1c4f1c56f3b98a84f3c3d7228b7be916c66fed72c330d8541909296038fec8c5",
+    "03_Experiments/Scenario_Stability/code/verify_results.py": "2ae19d4c085c991fdffacd8d66a837cffa4894c8223a3e77f2f8972c88a01141",
+    "03_Experiments/Scenario_Stability/code/gen_fig05.py": "7b8c5344594cec64b7164340dbb3ab9308d85f8681e9c49b80e947a28f36b1d4",
+    "03_Experiments/Scenario_Stability/code/run_analysis.py": "45c69035a603c85a098adfee7cc0e5c9ab083fb2cc54f25fa5239368f834b88e",
+    "03_Experiments/Scenario_Stability/code/gen_fig04.py": "7cf29a22439a681aed641fde2aaac89ff8485a2f9f84c3d48725bbe6276b1d21",
+    "03_Experiments/Scenario_Stability/code/gen_fig10.py": "a18ca463d16bae3df11d80cb0ef3214011b284f35352f3c26b83a5ee9b99d4c8",
+    "03_Experiments/Scenario_Stability/code/plot_figures.py": "b5634dde1b20bbc412587ab3978b61f8739a8ab6b3b815d78915a8d279bd9820",
+    "03_Experiments/Scenario_Stability/code/build_report.py": "d39a71df038fce8326efc0724b31b77fae27f1cf2b47bdc683ea3de64458e1b6",
+    "03_Experiments/Scenario_Stability/code/compare_runs.py": "c915e5461e5609af2f1c23af4e74dcb04943c4c91712137969e03542e250e562",
+    "03_Experiments/Scenario_Stability/code/gen_fig09.py": "4e9cb97f8ef81f10262a19aa5138e332f23c16031a4240050947c40b23a7f830",
+    "03_Experiments/Scenario_Stability/code/gen_fig08.py": "7cf8103446361e6c5666cdf24a6080c24a638667856021d40767f6bd2a848b1e",
+    "03_Experiments/Scenario_Stability/code/gen_fig07.py": "d9a9bd3c84ff398695e80d46942b5ae2ca5b15ec9459f5c14efda59d6f00e7be",
+    "03_Experiments/Scenario_Stability/code/gen_fig03.py": "6d6908e6c71abd647661c13519fad8bf694f1a85d9456a65214480e67434250a",
+    "03_Experiments/Scenario_Stability/code/gen_fig02.py": "3e3d3b85886d3b1f0c0d6670d22b0211fa7cd7590fe68dcb7607be32d532f1f3",
+    "03_Experiments/Scenario_Stability/code/gen_fig06.py": "d9f85ce0b5b232f9449f6dade39f6dbcc4dae437cd6277f2428cf91876abbb47",
+    "03_Experiments/Scenario_Stability/分析方案.md": "4ebfbc18afa4bb7e1167a4d7258c9e74c530198798c8761a7c374dcd55741c62"
+  },
+  "source_files_sha256": {
+    "05_Code/Scenario_Pipeline/src/crisp_data_layer/pipeline.py": "0994fb6d7b59b5b31e0ee0b15fd1a0473140ad0580ea19daa9c83767e2962a0f",
+    "05_Code/Scenario_Pipeline/src/crisp_data_layer/config.py": "d313908847dbbaa82e982b46b72d56dc35a6249a2655c0162924654fcd4530ff"
+  },
+  "algorithm": {
+    "k": 3,
+    "n_init": 50,
+    "max_iter": 300,
+    "random_state": 42,
+    "algorithm": "lloyd",
+    "ddof": 0,
+    "projection_clipping": false,
+    "quantiles": [
+      0.025,
+      0.975
+    ]
+  }
+}

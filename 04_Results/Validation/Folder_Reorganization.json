@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "backup": "/Users/yehaoming/Desktop/climate_Devin_Archive/20261104_cleanup/before_cleanup.tar.gz",
+  "backup_regular_files_verified": 49895,
+  "retired_source_files_verified_before_removal": true,
+  "current_root": "/Users/yehaoming/Desktop/climate_Devin",
+  "one_workspace_environment": true,
+  "one_current_input_workbook": true,
+  "one_current_optimization_result_set": true
+}

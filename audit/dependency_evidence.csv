@@ -1,0 +1,16 @@
+distribution,recorded_pin,import_name,observed_metadata_version,matches,metadata_source,lock_evidence,fresh_install_checked
+gurobipy,13.0.2,gurobipy,13.0.2,true,inherited system metadata,requirements-lock.txt,false
+numpy,2.5.4,numpy,2.5.4,true,original .venv metadata,requirements-lock.txt,false
+pandas,2.3.3,pandas,2.3.3,true,original .venv metadata,requirements-lock.txt,false
+scipy,1.18.1,scipy,1.18.1,true,original .venv metadata,requirements-lock.txt,false
+scikit-learn,1.9.1,sklearn,1.9.1,true,original .venv metadata,requirements-lock.txt,false
+matplotlib,3.11.2,matplotlib,3.11.2,true,original .venv metadata,requirements-lock.txt,false
+openpyxl,3.1.5,openpyxl,3.1.5,true,original .venv metadata,requirements-lock.txt,false
+PyYAML,6.0.3,yaml,6.0.3,true,original .venv metadata,requirements-lock.txt,false
+pytest,8.4.2,pytest,8.4.2,true,original .venv metadata,requirements-lock.txt,false
+threadpoolctl,3.7.0,threadpoolctl,3.7.0,true,original .venv metadata,requirements-lock.txt,false
+shapely,2.2.0,shapely,2.2.0,true,original .venv metadata,requirements-lock.txt,false
+pyproj,3.8.0,pyproj,3.8.0,true,original .venv metadata,requirements-lock.txt,false
+pypdf,6.15.0,pypdf,6.15.0,true,original .venv metadata,requirements-lock.txt,false
+reportlab,4.5.1,reportlab,4.5.1,true,original .venv metadata,requirements-lock.txt,false
+Markdown,3.11.2,markdown,3.11.2,true,original .venv metadata,requirements-lock.txt,false

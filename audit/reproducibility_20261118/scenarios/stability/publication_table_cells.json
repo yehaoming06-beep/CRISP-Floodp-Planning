@@ -1,0 +1,94 @@
+{
+  "Table_X_CRITIC_Weights_of_Hazard_Indicators.xlsx": {
+    "CRITIC Weights": [
+      [
+        "Table X. CRITIC Weights of Hazard Indicators",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Hazard Indicator",
+        "Symbol",
+        "CRITIC Weight",
+        "Description"
+      ],
+      [
+        "Rainfall",
+        "R",
+        "0.43408132518112047",
+        "Maximum rainfall intensity during the flood event"
+      ],
+      [
+        "Maximum Sea Level",
+        "W",
+        "0.3352294655633418",
+        "Observed maximum sea level condition during the event"
+      ],
+      [
+        "Storm Surge",
+        "S",
+        "0.23068920925553774",
+        "Additional sea level rise caused by storm effects"
+      ]
+    ]
+  },
+  "Table_X_Flood_Scenario_Classification.xlsx": {
+    "Table X": [
+      [
+        "Table X. Flood Scenario Classification and Representative Hazard Conditions",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Scenario",
+        "Number of Events (N_s)",
+        "Probability (P_s)",
+        "Representative Rainfall (mm)",
+        "Representative Maximum Sea Level (mCD)",
+        "Representative Storm Surge (m)"
+      ],
+      [
+        "Moderate",
+        "9",
+        "0.391304347826087",
+        "57.97",
+        "2.71",
+        "0.591"
+      ],
+      [
+        "Severe",
+        "9",
+        "0.391304347826087",
+        "118.81",
+        "3.01",
+        "0.704"
+      ],
+      [
+        "Extreme",
+        "5",
+        "0.21739130434782608",
+        "220.68",
+        "3.486",
+        "1.474"
+      ]
+    ]
+  }
+}

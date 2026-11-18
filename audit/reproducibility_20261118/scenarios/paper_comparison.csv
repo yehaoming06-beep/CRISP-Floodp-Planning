@@ -1,0 +1,83 @@
+table,dataset,row,field,paper_printed,recomputed,signed_error,absolute_error,rounding_tolerance,status
+4,original23,Moderate,event_count,9,9.0,0.0,0.0,0.0,PASS
+4,original23,Moderate,cluster_center_mu,0.169727,0.16972654593445513,-4.540655448581621e-07,4.540655448581621e-07,5e-07,PASS
+4,original23,Moderate,representative_rainfall,57.966667,57.96666666666667,-3.3333333249174757e-07,3.3333333249174757e-07,5e-07,PASS
+4,original23,Moderate,representative_sea_level,2.710000,2.71,0.0,0.0,5e-07,PASS
+4,original23,Moderate,representative_storm_surge,0.591111,0.5911111111111111,1.1111111108963456e-07,1.1111111108963456e-07,5e-07,PASS
+4,original23,Moderate,probability_exact_fraction,0.391304347826087,0.391304347826087,0.0,0.0,1e-15,PASS
+4,original23,Moderate,probability_printed,0.391304,0.391304347826087,3.4782608698824546e-07,3.4782608698824546e-07,5e-07,PASS
+4,original23,Severe,event_count,9,9.0,0.0,0.0,0.0,PASS
+4,original23,Severe,cluster_center_mu,0.325838,0.3258382375944078,2.3759440775927843e-07,2.3759440775927843e-07,5e-07,PASS
+4,original23,Severe,representative_rainfall,118.811111,118.8111111111111,1.1111110609363095e-07,1.1111110609363095e-07,5e-07,PASS
+4,original23,Severe,representative_sea_level,3.010000,3.01,0.0,0.0,5e-07,PASS
+4,original23,Severe,representative_storm_surge,0.704444,0.7044444444444445,4.4444444458058285e-07,4.4444444458058285e-07,5e-07,PASS
+4,original23,Severe,probability_exact_fraction,0.391304347826087,0.391304347826087,0.0,0.0,1e-15,PASS
+4,original23,Severe,probability_printed,0.391304,0.391304347826087,3.4782608698824546e-07,3.4782608698824546e-07,5e-07,PASS
+4,original23,Extreme,event_count,5,5.0,0.0,0.0,0.0,PASS
+4,original23,Extreme,cluster_center_mu,0.644543,0.6445434818998124,4.81899812387887e-07,4.81899812387887e-07,5e-07,PASS
+4,original23,Extreme,representative_rainfall,220.680000,220.68,0.0,0.0,5e-07,PASS
+4,original23,Extreme,representative_sea_level,3.486000,3.4859999999999998,-4.440892098500626e-16,4.440892098500626e-16,5e-07,PASS
+4,original23,Extreme,representative_storm_surge,1.474000,1.474,0.0,0.0,5e-07,PASS
+4,original23,Extreme,probability_exact_fraction,0.21739130434782608,0.21739130434782608,0.0,0.0,1e-15,PASS
+4,original23,Extreme,probability_printed,0.217391,0.21739130434782608,3.043478260800203e-07,3.043478260800203e-07,5e-07,PASS
+12,reconstructed60,Moderate,event_count,35,35.0,0.0,0.0,0.0,PASS
+12,reconstructed60,Moderate,cluster_center_mu,0.186370,0.18637037910845683,3.7910845682165295e-07,3.7910845682165295e-07,5e-07,PASS
+12,reconstructed60,Moderate,representative_rainfall,37.171429,37.17142857142857,-4.28571432564695e-07,4.28571432564695e-07,5e-07,PASS
+12,reconstructed60,Moderate,representative_sea_level,2.515429,2.515428571428571,-4.285714290119813e-07,4.285714290119813e-07,5e-07,PASS
+12,reconstructed60,Moderate,representative_storm_surge,0.363429,0.36342857142857143,-4.285714285678921e-07,4.285714285678921e-07,5e-07,PASS
+12,reconstructed60,Moderate,probability_exact_fraction,0.5833333333333334,0.5833333333333334,0.0,0.0,1e-15,PASS
+12,reconstructed60,Moderate,probability_printed,0.583333,0.5833333333333334,3.33333333379926e-07,3.33333333379926e-07,5e-07,PASS
+12,reconstructed60,Severe,event_count,19,19.0,0.0,0.0,0.0,PASS
+12,reconstructed60,Severe,cluster_center_mu,0.358758,0.3587581257352102,1.2573521018799383e-07,1.2573521018799383e-07,5e-07,PASS
+12,reconstructed60,Severe,representative_rainfall,122.026316,122.02631578947368,-2.1052630927442806e-07,2.1052630927442806e-07,5e-07,PASS
+12,reconstructed60,Severe,representative_sea_level,2.788947,2.7889473684210526,3.6842105277656856e-07,3.6842105277656856e-07,5e-07,PASS
+12,reconstructed60,Severe,representative_storm_surge,0.557895,0.5578947368421052,-2.6315789480868546e-07,2.6315789480868546e-07,5e-07,PASS
+12,reconstructed60,Severe,probability_exact_fraction,0.31666666666666665,0.31666666666666665,0.0,0.0,1e-15,PASS
+12,reconstructed60,Severe,probability_printed,0.316667,0.31666666666666665,-3.3333333332441484e-07,3.3333333332441484e-07,5e-07,PASS
+12,reconstructed60,Extreme,event_count,6,6.0,0.0,0.0,0.0,PASS
+12,reconstructed60,Extreme,cluster_center_mu,0.651715,0.6517147725186704,-2.2748132966210477e-07,2.2748132966210477e-07,5e-07,PASS
+12,reconstructed60,Extreme,representative_rainfall,222.316667,222.3166666666667,-3.3333330407003814e-07,3.3333330407003814e-07,5e-07,PASS
+12,reconstructed60,Extreme,representative_sea_level,3.390000,3.39,0.0,0.0,5e-07,PASS
+12,reconstructed60,Extreme,representative_storm_surge,1.321667,1.3216666666666665,-3.33333333379926e-07,3.33333333379926e-07,5e-07,PASS
+12,reconstructed60,Extreme,probability_exact_fraction,0.1,0.1,0.0,0.0,1e-15,PASS
+12,reconstructed60,Extreme,probability_printed,0.100000,0.1,0.0,0.0,5e-07,PASS
+11,original23,"Original historical sample, frozen",N,23,23.0,0.0,0.0,0.0,PASS
+11,original23,"Original historical sample, frozen",weight_rainfall,0.434081,0.4340813251811204,3.2518112041968195e-07,3.2518112041968195e-07,5e-07,PASS
+11,original23,"Original historical sample, frozen",weight_sea_level,0.335229,0.3352294655633418,4.6556334182268344e-07,4.6556334182268344e-07,5e-07,PASS
+11,original23,"Original historical sample, frozen",weight_storm_surge,0.230689,0.23068920925553774,2.0925553773087913e-07,2.0925553773087913e-07,5e-07,PASS
+11,original23,Moderate,count,9,9.0,0.0,0.0,0.0,PASS
+11,original23,Severe,count,9,9.0,0.0,0.0,0.0,PASS
+11,original23,Extreme,count,5,5.0,0.0,0.0,0.0,PASS
+11,original23,Moderate,frequency_percent,39.13,39.130434782608695,0.0004347826086927853,0.0004347826086927853,0.005,PASS
+11,original23,Severe,frequency_percent,39.13,39.130434782608695,0.0004347826086927853,0.0004347826086927853,0.005,PASS
+11,original23,Extreme,frequency_percent,21.74,21.73913043478261,-0.0008695652173891233,0.0008695652173891233,0.005,PASS
+11,original23_new_rules,"Original identities, new screening rules",N,23,23.0,0.0,0.0,0.0,PASS
+11,original23_new_rules,"Original identities, new screening rules",weight_rainfall,0.434081,0.4340813251811204,3.2518112041968195e-07,3.2518112041968195e-07,5e-07,PASS
+11,original23_new_rules,"Original identities, new screening rules",weight_sea_level,0.335229,0.3352294655633418,4.6556334182268344e-07,4.6556334182268344e-07,5e-07,PASS
+11,original23_new_rules,"Original identities, new screening rules",weight_storm_surge,0.230689,0.23068920925553774,2.0925553773087913e-07,2.0925553773087913e-07,5e-07,PASS
+11,original23_new_rules,Moderate,count,9,9.0,0.0,0.0,0.0,PASS
+11,original23_new_rules,Severe,count,9,9.0,0.0,0.0,0.0,PASS
+11,original23_new_rules,Extreme,count,5,5.0,0.0,0.0,0.0,PASS
+11,original23_new_rules,Moderate,frequency_percent,39.13,39.130434782608695,0.0004347826086927853,0.0004347826086927853,0.005,PASS
+11,original23_new_rules,Severe,frequency_percent,39.13,39.130434782608695,0.0004347826086927853,0.0004347826086927853,0.005,PASS
+11,original23_new_rules,Extreme,frequency_percent,21.74,21.73913043478261,-0.0008695652173891233,0.0008695652173891233,0.005,PASS
+11,reconstructed60,"Reconstructed analyzable sample, full refit",N,60,60.0,0.0,0.0,0.0,PASS
+11,reconstructed60,"Reconstructed analyzable sample, full refit",weight_rainfall,0.487217,0.48721699591759327,-4.082406745986589e-09,4.082406745986589e-09,5e-07,PASS
+11,reconstructed60,"Reconstructed analyzable sample, full refit",weight_sea_level,0.286080,0.28608032271153494,3.227115349391241e-07,3.227115349391241e-07,5e-07,PASS
+11,reconstructed60,"Reconstructed analyzable sample, full refit",weight_storm_surge,0.226703,0.22670268137087188,-3.1862912810987076e-07,3.1862912810987076e-07,5e-07,PASS
+11,reconstructed60,Moderate,count,35,35.0,0.0,0.0,0.0,PASS
+11,reconstructed60,Severe,count,19,19.0,0.0,0.0,0.0,PASS
+11,reconstructed60,Extreme,count,6,6.0,0.0,0.0,0.0,PASS
+11,reconstructed60,Moderate,frequency_percent,58.33,58.333333333333336,0.003333333333337407,0.003333333333337407,0.005,PASS
+11,reconstructed60,Severe,frequency_percent,31.67,31.666666666666664,-0.003333333333337407,0.003333333333337407,0.005,PASS
+11,reconstructed60,Extreme,frequency_percent,10.00,10.0,0.0,0.0,0.005,PASS
+11,reconstructed60_fixed_preprocessing,"Same 60, frozen 23-event preprocessing and thresholds",N,60,60.0,0.0,0.0,0.0,PASS
+11,reconstructed60_fixed_preprocessing,"Same 60, frozen 23-event preprocessing and thresholds",weight_rainfall,0.434081,0.4340813251811204,3.2518112041968195e-07,3.2518112041968195e-07,5e-07,PASS
+11,reconstructed60_fixed_preprocessing,"Same 60, frozen 23-event preprocessing and thresholds",weight_sea_level,0.335229,0.3352294655633418,4.6556334182268344e-07,4.6556334182268344e-07,5e-07,PASS
+11,reconstructed60_fixed_preprocessing,"Same 60, frozen 23-event preprocessing and thresholds",weight_storm_surge,0.230689,0.23068920925553774,2.0925553773087913e-07,2.0925553773087913e-07,5e-07,PASS
+11,reconstructed60_fixed_preprocessing,Moderate,count,43,43.0,0.0,0.0,0.0,PASS
+11,reconstructed60_fixed_preprocessing,Severe,count,12,12.0,0.0,0.0,0.0,PASS
+11,reconstructed60_fixed_preprocessing,Extreme,count,5,5.0,0.0,0.0,0.0,PASS
+11,reconstructed60_fixed_preprocessing,Moderate,frequency_percent,71.67,71.66666666666667,-0.0033333333333303017,0.0033333333333303017,0.005,PASS
+11,reconstructed60_fixed_preprocessing,Severe,frequency_percent,20.00,20.0,0.0,0.0,0.005,PASS
+11,reconstructed60_fixed_preprocessing,Extreme,frequency_percent,8.33,8.333333333333332,0.003333333333332078,0.003333333333332078,0.005,PASS

@@ -1,0 +1,24 @@
+{
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "executable": "/Users/yehaoming/Desktop/climate_Devin/.venv/bin/python",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0",
+    "PyYAML": "6.0.3"
+  },
+  "environment_type": "Existing original research environment reused, not a clean installation",
+  "command": "/Users/yehaoming/Desktop/climate_Devin/.venv/bin/python audit/reproducibility_20261118/scenarios/reproduce_scenarios.py",
+  "configuration": {
+    "critic_ddof": 0,
+    "k": 3,
+    "random_state": 42,
+    "n_init": 50,
+    "max_iter": 300,
+    "algorithm": "lloyd",
+    "representative_statistic": "mean",
+    "independent_algorithm": "scalar CRITIC and exhaustive global one-dimensional three-segment SSE minimization"
+  }
+}

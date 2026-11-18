@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05 Asia/Shanghai",
+  "status": "PASS_WITH_OPEN_RESEARCH_RISKS",
+  "CI01_fully_closed": false,
+  "new_experiments_run": 0,
+  "original_files_checked": 969,
+  "original_files_changed": 0,
+  "word_pages": 30,
+  "markdown_word_blocks": 262,
+  "tables": 20,
+  "figures": 7,
+  "numbered_equation_groups": 18,
+  "outputs": [
+    {
+      "path": "/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/Revised_Manuscript_EN_v2.md",
+      "bytes": 103453,
+      "sha256": "d245173c74145e3fc64afdf6c6a7f3d5974e092db42c499a74ec8fc668b050d1"
+    },
+    {
+      "path": "/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/Revised_Manuscript_EN_v2.docx",
+      "bytes": 1089209,
+      "sha256": "28f6f9748bc2b57024eb804b17148d7baedc32a0b5dfe767178d65baba7956e9"
+    },
+    {
+      "path": "/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/CI01_Integration_Log.md",
+      "bytes": 13134,
+      "sha256": "f0958d578e885f183edb79d34a674abeee56f021f82520a555fce5e1f67a5e48"
+    },
+    {
+      "path": "/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/New_Results_Verification.md",
+      "bytes": 17701,
+      "sha256": "944f29afb6b13e772e5c02a471dbf37ac723415abeaafd52bbf2380c3b969e7a"
+    },
+    {
+      "path": "/Users/yehaoming/Desktop/climate_Devin/manuscript_revision/Remaining_Research_Risks.md",
+      "bytes": 13169,
+      "sha256": "1d66cab0ee11f950bb8e5b30633123726f4cf72649fb2b2e2cee5a4a2749c08c"
+    }
+  ]
+}

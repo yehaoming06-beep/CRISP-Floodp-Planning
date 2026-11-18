@@ -1,0 +1,67 @@
+{
+  "started": "2026-11-04T12:56:18.383332+08:00",
+  "python": "3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "source_sha256": {
+    "01_Data/CRISP_Master_Data.xlsx": "e6b93f8bb0e7b886226d27068e8cfeeebfaa92e668eb25f77ee3b1d35083794e",
+    "02_Model/crisp_parameters.py": "1c457d7702ce64a4d177bc705c33c264a55ece551054c4d64a11faafc6fbdeda",
+    "02_Model/crisp_model.py": "fea431900f292f319c13dc18c8e3f17048da0c871d233ce6d52e46f964b4ca69",
+    "03_Experiments/Optimization/code/run_experiments.py": "d9e02f0eb386760871e3bf0b95046e046d073669355165ebe853b17808093ae7",
+    "03_Experiments/Optimization/code/experiment_design.py": "2692c82c394abd5adde987f300ff216f44da0fa76b15de7473de8efdf3673b0b",
+    "03_Experiments/Experiment_Protocol.json": "d19e32b49c3345ec9e9c28c0af4af38191961ab0699ae15541f7121cd7ae9952"
+  },
+  "settings": {
+    "registered_before_execution": "2026-11-04",
+    "fleet_capacity_grid_new_purchase_limits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      20
+    ],
+    "existing_stock_grid": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "purchase_price_multipliers": [
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2
+    ],
+    "joint_draws": 200,
+    "joint_seed": 20261103,
+    "joint_interpretation": "Paired hypothetical parameter stress tests, not confidence intervals or observed sampling uncertainty",
+    "legacy_capacity_cases": 21,
+    "previous_priority_cases": 491,
+    "hard_timeout_seconds": 1800,
+    "input_workbook": "01_Data/CRISP_Master_Data.xlsx",
+    "interpretation": "Conditional method-validation instance; original CU and score coefficients remain illustrative",
+    "primary_case": {
+      "existing_stock": 0,
+      "capital_budget_hkd": 2000000,
+      "purchase_price_hkd": 1000000,
+      "accessible_locations": [
+        "Tai O1",
+        "Tai O2"
+      ]
+    },
+    "evidence": {
+      "purchase_price_hkd": "Approximate 2025 equipment procurement reference",
+      "source_url": "https://www.news.gov.hk/chi/2025/08/20250812/20250812_155549_205.html",
+      "resident_population_2021": {
+        "Tai O1": 825,
+        "Tai O2": 2853
+      },
+      "population_use": "Context only, not exposure or calibrated beta"
+    }
+  }
+}

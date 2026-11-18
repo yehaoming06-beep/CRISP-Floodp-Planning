@@ -1,0 +1,10 @@
+{
+  "status": "PASS_RECOGNIZABLE_SECRET_PATTERNS",
+  "snapshot_selected_files": 3437,
+  "snapshot_selected_bytes": 67845243,
+  "all_selected_file_bytes_scanned": true,
+  "archive_member_scan": "16,717 members separately reviewed by independent agent; current archive hashes unchanged",
+  "findings": [],
+  "limitations": "Not an exhaustive secret detector; historical username/workspace paths remain; official HKO contact email is intentional",
+  "no_staged_files": true
+}

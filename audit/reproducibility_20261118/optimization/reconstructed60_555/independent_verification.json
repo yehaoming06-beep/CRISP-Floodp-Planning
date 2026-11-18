@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_solver": "HiGHS through scipy.optimize.milp",
+  "independent_RP_optima_verified": 555,
+  "max_objective_difference": 1.648215516070195e-06,
+  "all_saved_models_feasibility_and_objectives_reconstructed": true,
+  "EEV_readiness_and_procurement_fixed": true,
+  "repeated_run_configurations_matched": 555,
+  "current_source_hashes_match": true,
+  "independent_verifier_source_sha256": "7cfbea7b1365168bf07ca8b687004348027a7990f1e302fcde4c3b7c8ab481ab",
+  "elapsed_seconds": 16.535047250334173
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-18",
+  "scope": "All inline relative-file Markdown destinations in imported original .md files; no web/fragment truth check. Copied historical text is not rewritten.",
+  "documents": 85,
+  "counts": {
+    "resolves_locally": 248,
+    "outside_repository": 194,
+    "pre_existing_or_historical_unresolved": 35
+  },
+  "unresolved_total": 229,
+  "list": "audit/archival_link_review.csv"
+}

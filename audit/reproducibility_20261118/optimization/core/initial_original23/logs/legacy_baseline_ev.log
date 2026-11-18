@@ -1,0 +1,152 @@
+
+Gurobi 13.0.2 (mac64[arm]) logging started Wed Nov 18 09:32:46 2026
+
+Set parameter LogFile to value "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/optimization/core/original23/logs/legacy_baseline_ev.log"
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 27.0.0 26A434)
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  60
+FeasibilityTol  1e-08
+IntFeasTol  1e-08
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 11 rows, 12 columns and 42 nonzeros (Max)
+Model fingerprint: 0x849db98d
+Model has 6 linear objective coefficients
+Variable types: 0 continuous, 12 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [1e+00, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e+01, 3e+04]
+
+
+---------------------------------------------------------------------------
+Multi-objectives: starting optimization (max) with 4 objectives... 
+---------------------------------------------------------------------------
+
+Multi-objectives: applying initial presolve...
+---------------------------------------------------------------------------
+
+Presolve time: 0.00s
+Presolved: 11 rows, 12 columns, 42 nonzeros
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 1 (benefit) ...
+---------------------------------------------------------------------------
+
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+Presolved: 11 rows, 12 columns, 42 nonzeros
+Variable types: 0 continuous, 12 integer (6 binary)
+
+Root relaxation: objective 7.229534e+02, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  722.95344    0    2   -0.00000  722.95344      -     -    0s
+H    0     0                     615.8361957  722.95344  17.4%     -    0s
+H    0     0                     693.9732609  722.95344  4.18%     -    0s
+     0     0  719.11196    0    4  693.97326  719.11196  3.62%     -    0s
+     0     0  706.93447    0    7  693.97326  706.93447  1.87%     -    0s
+     0     0  702.37614    0    5  693.97326  702.37614  1.21%     -    0s
+     0     0  700.80444    0    7  693.97326  700.80444  0.98%     -    0s
+     0     0  700.78073    0    7  693.97326  700.78073  0.98%     -    0s
+     0     0  696.77722    0    7  693.97326  696.77722  0.40%     -    0s
+     0     0  694.36189    0    7  693.97326  694.36189  0.06%     -    0s
+
+Cutting planes:
+  Cover: 1
+  Implied bound: 1
+  MIR: 3
+  StrongCG: 3
+
+Explored 1 nodes (40 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 3: 693.973 615.836 -0 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 6.939732608696e+02, best bound 6.939732608696e+02, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 2 (minimum_readiness_) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -14000
+
+Presolve time: 0.00s
+Presolved: 12 rows, 12 columns, 48 nonzeros
+Variable types: 0 continuous, 12 integer (6 binary)
+
+Root relaxation: objective -1.022565e+04, 12 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -10225.653    0    4 -14000.000 -10225.653  27.0%     -    0s
+     0     0     cutoff    0      -14000.000 -14000.000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 1
+  MIR: 1
+  Flow cover: 1
+
+Explored 1 nodes (16 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -14000 
+No other solutions better than -14000
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -1.400000000000e+04, best bound -1.400000000000e+04, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 3 (deterministic_read) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -5
+
+Presolve removed 13 rows and 12 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -5 
+No other solutions better than -5
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -5.000000000000e+00, best bound -5.000000000000e+00, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 4  ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -0
+
+Presolve removed 14 rows and 12 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+
+---------------------------------------------------------------------------
+Multi-objectives: solved in 0.00 seconds (0.00 work units), solution count 3
+

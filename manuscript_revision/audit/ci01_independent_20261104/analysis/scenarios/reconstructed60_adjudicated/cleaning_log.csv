@@ -1,0 +1,9 @@
+metric,value,detail
+input_rows,60,Rows read from source
+duplicate_rows_removed,0,error
+invalid_numeric_event_window_max_daily_rainfall_mm,0,Non-numeric or infinite values converted to missing
+invalid_numeric_maximum_sea_level_mCD,0,Non-numeric or infinite values converted to missing
+invalid_numeric_maximum_storm_surge_m,0,Non-numeric or infinite values converted to missing
+rows_removed_for_missing_indicators,0,drop
+indicator_cells_imputed,0,drop
+clean_rows,60,Rows entering analysis

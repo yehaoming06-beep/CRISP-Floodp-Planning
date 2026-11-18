@@ -1,0 +1,264 @@
+{
+  "y": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "n": 2,
+  "drainage_each_location_each_scenario": 2,
+  "replicated_validation": {
+    "max_constraint_or_bound_violation": 0.0,
+    "max_integrality_error": 0.0,
+    "objective_reconstructed": 277.40000000000003
+  },
+  "all_replicated_rows": [
+    {
+      "constraint": "readiness",
+      "lhs": 17000.0,
+      "lower": null,
+      "upper": 20000.0
+    },
+    {
+      "constraint": "capital",
+      "lhs": 2000000.0,
+      "lower": null,
+      "upper": 2000000.0
+    },
+    {
+      "constraint": "Moderate/operating_budget",
+      "lhs": 10400.0,
+      "lower": null,
+      "upper": 30000.0
+    },
+    {
+      "constraint": "Moderate/labour_capacity",
+      "lhs": 112.0,
+      "lower": null,
+      "upper": 400.0
+    },
+    {
+      "constraint": "Moderate/equipment_capacity",
+      "lhs": 32.0,
+      "lower": null,
+      "upper": 60.0
+    },
+    {
+      "constraint": "Moderate/supply_capacity",
+      "lhs": 72.0,
+      "lower": null,
+      "upper": 220.0
+    },
+    {
+      "constraint": "Moderate/Tai O1/Drainage/link",
+      "lhs": -5.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O1/Barrier/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O1/Warning/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O2/Drainage/link",
+      "lhs": -5.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O2/Barrier/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O2/Warning/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O1/replicated",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Moderate/Tai O2/replicated",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/operating_budget",
+      "lhs": 12400.0,
+      "lower": null,
+      "upper": 30000.0
+    },
+    {
+      "constraint": "Severe/labour_capacity",
+      "lhs": 136.0,
+      "lower": null,
+      "upper": 400.0
+    },
+    {
+      "constraint": "Severe/equipment_capacity",
+      "lhs": 40.0,
+      "lower": null,
+      "upper": 60.0
+    },
+    {
+      "constraint": "Severe/supply_capacity",
+      "lhs": 88.0,
+      "lower": null,
+      "upper": 220.0
+    },
+    {
+      "constraint": "Severe/Tai O1/Drainage/link",
+      "lhs": -4.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O1/Barrier/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O1/Warning/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O2/Drainage/link",
+      "lhs": -4.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O2/Barrier/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O2/Warning/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O1/replicated",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/Tai O2/replicated",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/operating_budget",
+      "lhs": 15600.0,
+      "lower": null,
+      "upper": 30000.0
+    },
+    {
+      "constraint": "Extreme/labour_capacity",
+      "lhs": 168.0,
+      "lower": null,
+      "upper": 400.0
+    },
+    {
+      "constraint": "Extreme/equipment_capacity",
+      "lhs": 48.0,
+      "lower": null,
+      "upper": 60.0
+    },
+    {
+      "constraint": "Extreme/supply_capacity",
+      "lhs": 108.0,
+      "lower": null,
+      "upper": 220.0
+    },
+    {
+      "constraint": "Extreme/Tai O1/Drainage/link",
+      "lhs": -3.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O1/Barrier/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O1/Warning/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O2/Drainage/link",
+      "lhs": -3.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O2/Barrier/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O2/Warning/link",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O1/replicated",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/Tai O2/replicated",
+      "lhs": 0.0,
+      "lower": null,
+      "upper": 0.0
+    }
+  ],
+  "shared_violations": [
+    {
+      "constraint": "Moderate/shared",
+      "lhs": 2.0,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Severe/shared",
+      "lhs": 2.0,
+      "upper": 0.0
+    },
+    {
+      "constraint": "Extreme/shared",
+      "lhs": 2.0,
+      "upper": 0.0
+    }
+  ]
+}

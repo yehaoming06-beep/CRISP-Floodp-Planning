@@ -1,0 +1,125 @@
+[
+  {
+    "method": "leave_one_year_out",
+    "total": 9,
+    "valid": 9,
+    "interpretation": "conditional empirical sensitivity; percentile ranges are not confidence intervals or annual-risk estimates",
+    "w_R_p025_median_p975": [
+      0.4514064545600602,
+      0.487427926329711,
+      0.5123915950148817
+    ],
+    "w_W_p025_median_p975": [
+      0.2577560913633776,
+      0.2845389678158664,
+      0.3093698429658218
+    ],
+    "w_S_p025_median_p975": [
+      0.2159607377042611,
+      0.2268591319343842,
+      0.2754817625331877
+    ],
+    "ARI_projection_to_main_p025_median_p975": [
+      0.719293093379373,
+      0.9735041806928005,
+      1.0
+    ],
+    "freq_Moderate_p025_median_p975": [
+      0.5033655705996132,
+      0.5714285714285714,
+      0.656969696969697
+    ],
+    "freq_Severe_p025_median_p975": [
+      0.2737373737373737,
+      0.32142857142857145,
+      0.40263056092843325
+    ],
+    "freq_Extreme_p025_median_p975": [
+      0.05898989898989899,
+      0.10714285714285714,
+      0.12222222222222222
+    ]
+  },
+  {
+    "method": "overlap_episode_bootstrap",
+    "total": 1000,
+    "valid": 1000,
+    "interpretation": "conditional empirical sensitivity; percentile ranges are not confidence intervals or annual-risk estimates",
+    "w_R_p025_median_p975": [
+      0.3857802158162804,
+      0.47893095503439553,
+      0.5607709789682228
+    ],
+    "w_W_p025_median_p975": [
+      0.22592635418202062,
+      0.2799390104166591,
+      0.3437024510560183
+    ],
+    "w_S_p025_median_p975": [
+      0.1931615094253839,
+      0.2356078536962255,
+      0.30712814793402676
+    ],
+    "ARI_projection_to_main_p025_median_p975": [
+      0.30639756233173726,
+      0.7187312344514026,
+      1.0
+    ],
+    "freq_Moderate_p025_median_p975": [
+      0.2757836990595611,
+      0.5689655172413793,
+      0.7420311645708036
+    ],
+    "freq_Severe_p025_median_p975": [
+      0.19291979949874685,
+      0.32857142857142857,
+      0.5264643463497451
+    ],
+    "freq_Extreme_p025_median_p975": [
+      0.03076923076923077,
+      0.08771929824561403,
+      0.25424499229583974
+    ]
+  },
+  {
+    "method": "year_block_bootstrap",
+    "total": 1000,
+    "valid": 1000,
+    "interpretation": "conditional empirical sensitivity; percentile ranges are not confidence intervals or annual-risk estimates",
+    "w_R_p025_median_p975": [
+      0.40781915564885945,
+      0.48194235529008245,
+      0.5468080744236011
+    ],
+    "w_W_p025_median_p975": [
+      0.22908835656641502,
+      0.2789435153443768,
+      0.3413995640171375
+    ],
+    "w_S_p025_median_p975": [
+      0.19848993371604734,
+      0.2336965493359084,
+      0.3026490926425544
+    ],
+    "ARI_projection_to_main_p025_median_p975": [
+      0.5045789968836362,
+      0.7515660027824032,
+      1.0
+    ],
+    "freq_Moderate_p025_median_p975": [
+      0.39622641509433965,
+      0.6,
+      0.7719712015888778
+    ],
+    "freq_Severe_p025_median_p975": [
+      0.1784549689440994,
+      0.29603547209181014,
+      0.49021390374331547
+    ],
+    "freq_Extreme_p025_median_p975": [
+      0.031746031746031744,
+      0.0847457627118644,
+      0.20379979035639403
+    ]
+  }
+]

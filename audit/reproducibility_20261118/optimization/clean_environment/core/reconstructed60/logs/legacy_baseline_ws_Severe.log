@@ -1,0 +1,190 @@
+
+Gurobi 13.0.2 (mac64[arm]) logging started Wed Nov 18 09:35:46 2026
+
+Set parameter LogFile to value "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/optimization/clean_environment/core/reconstructed60/logs/legacy_baseline_ws_Severe.log"
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 27.0.0 26A434)
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  60
+FeasibilityTol  1e-08
+IntFeasTol  1e-08
+MIPGap  0
+MIPGapAbs  0
+LogToConsole  0
+Threads  1
+
+Optimize a model with 11 rows, 12 columns and 42 nonzeros (Max)
+Model fingerprint: 0x55901c7f
+Model has 6 linear objective coefficients
+Variable types: 0 continuous, 12 integer (6 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [1e+00, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [6e+01, 3e+04]
+
+
+---------------------------------------------------------------------------
+Multi-objectives: starting optimization (max) with 4 objectives... 
+---------------------------------------------------------------------------
+
+Multi-objectives: applying initial presolve...
+---------------------------------------------------------------------------
+
+Presolve time: 0.00s
+Presolved: 11 rows, 12 columns, 42 nonzeros
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 1 (benefit) ...
+---------------------------------------------------------------------------
+
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+Presolved: 11 rows, 12 columns, 42 nonzeros
+Variable types: 0 continuous, 12 integer (6 binary)
+
+Root relaxation: objective 7.259498e+02, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  725.94977    0    2   -0.00000  725.94977      -     -    0s
+H    0     0                     635.8000000  725.94977  14.2%     -    0s
+H    0     0                     637.4500000  725.94977  13.9%     -    0s
+     0     0  722.27049    0    6  637.45000  722.27049  13.3%     -    0s
+     0     0  712.87602    0    7  637.45000  712.87602  11.8%     -    0s
+     0     0  708.40735    0    8  637.45000  708.40735  11.1%     -    0s
+     0     0  702.11905    0    7  637.45000  702.11905  10.1%     -    0s
+     0     0  694.68375    0    9  637.45000  694.68375  8.98%     -    0s
+     0     0  693.85262    0   10  637.45000  693.85262  8.85%     -    0s
+     0     0  693.65054    0   12  637.45000  693.65054  8.82%     -    0s
+     0     0  693.57538    0   12  637.45000  693.57538  8.80%     -    0s
+     0     0  693.28653    0   10  637.45000  693.28653  8.76%     -    0s
+     0     0  693.02450    0   12  637.45000  693.02450  8.72%     -    0s
+     0     0  692.18908    0   12  637.45000  692.18908  8.59%     -    0s
+     0     0  690.20487    0    8  637.45000  690.20487  8.28%     -    0s
+     0     0  689.34182    0   12  637.45000  689.34182  8.14%     -    0s
+     0     0  688.72705    0   12  637.45000  688.72705  8.04%     -    0s
+     0     0  688.39176    0   12  637.45000  688.39176  7.99%     -    0s
+     0     0  688.33968    0   12  637.45000  688.33968  7.98%     -    0s
+     0     0  687.92403    0   10  637.45000  687.92403  7.92%     -    0s
+     0     0  686.92287    0   12  637.45000  686.92287  7.76%     -    0s
+     0     0  686.46156    0   12  637.45000  686.46156  7.69%     -    0s
+     0     0  686.43540    0   12  637.45000  686.43540  7.68%     -    0s
+     0     0  686.41367    0   12  637.45000  686.41367  7.68%     -    0s
+     0     0  685.68589    0   11  637.45000  685.68589  7.57%     -    0s
+     0     0  685.57370    0   12  637.45000  685.57370  7.55%     -    0s
+     0     0  684.52549    0   12  637.45000  684.52549  7.38%     -    0s
+     0     0  684.13992    0   12  637.45000  684.13992  7.32%     -    0s
+     0     0  683.72610    0   12  637.45000  683.72610  7.26%     -    0s
+     0     0  683.52628    0   12  637.45000  683.52628  7.23%     -    0s
+     0     0  683.48191    0   12  637.45000  683.48191  7.22%     -    0s
+     0     0  682.98252    0   12  637.45000  682.98252  7.14%     -    0s
+     0     0  682.77266    0   12  637.45000  682.77266  7.11%     -    0s
+     0     0  682.62785    0   12  637.45000  682.62785  7.09%     -    0s
+     0     0  682.50834    0   12  637.45000  682.50834  7.07%     -    0s
+     0     0  682.48258    0   12  637.45000  682.48258  7.06%     -    0s
+     0     0  682.42259    0   12  637.45000  682.42259  7.06%     -    0s
+     0     0  682.42259    0   12  637.45000  682.42259  7.06%     -    0s
+     0     2  677.97745    0   12  637.45000  677.97745  6.36%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 1
+  MIR: 9
+
+Explored 11 nodes (138 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 3: 637.45 635.8 -0 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 6.374500000000e+02, best bound 6.374500000000e+02, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 2 (minimum_readiness_) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -14000
+
+Presolve time: 0.00s
+Presolved: 12 rows, 12 columns, 48 nonzeros
+Variable types: 0 continuous, 12 integer (6 binary)
+
+Root relaxation: objective -7.463277e+03, 10 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -7463.2772    0    4 -14000.000 -7463.2772  46.7%     -    0s
+     0     0 -12169.900    0    6 -14000.000 -12169.900  13.1%     -    0s
+     0     0 -12419.606    0    8 -14000.000 -12419.606  11.3%     -    0s
+     0     0 -12769.663    0   10 -14000.000 -12769.663  8.79%     -    0s
+     0     0 -12882.365    0    8 -14000.000 -12882.365  7.98%     -    0s
+     0     0 -12898.575    0   10 -14000.000 -12898.575  7.87%     -    0s
+     0     0 -12922.149    0    8 -14000.000 -12922.149  7.70%     -    0s
+     0     0 -12926.634    0   10 -14000.000 -12926.634  7.67%     -    0s
+     0     0 -13086.760    0    5 -14000.000 -13086.760  6.52%     -    0s
+     0     0 -13193.909    0    7 -14000.000 -13193.909  5.76%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 5
+  Implied bound: 1
+  MIR: 3
+  StrongCG: 1
+  Flow cover: 2
+
+Explored 1 nodes (50 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -14000 
+No other solutions better than -14000
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -1.400000000000e+04, best bound -1.400000000000e+04, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 3 (deterministic_read) ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -5
+
+Presolve removed 13 rows and 12 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -5 
+No other solutions better than -5
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -5.000000000000e+00, best bound -5.000000000000e+00, gap 0.0000%
+---------------------------------------------------------------------------
+
+Multi-objectives: optimize objective 4  ...
+---------------------------------------------------------------------------
+
+Loaded user MIP start with objective -0
+
+Presolve removed 14 rows and 12 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 11 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+
+---------------------------------------------------------------------------
+Multi-objectives: solved in 0.01 seconds (0.01 work units), solution count 3
+

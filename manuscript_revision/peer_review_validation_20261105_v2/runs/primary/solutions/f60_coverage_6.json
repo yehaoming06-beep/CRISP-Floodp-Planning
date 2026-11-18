@@ -1,0 +1,24 @@
+{
+  "tag": "f60_coverage_6",
+  "parameter_id": "50bcba6c0e21db38816c",
+  "config": {
+    "stock": "shared",
+    "integer_n": true,
+    "existing_stock": 0,
+    "capital_budget_hkd": 2000000,
+    "purchase_price_hkd": 1000000,
+    "accessible_locations": [
+      "Tai O1",
+      "Tai O2"
+    ],
+    "coverage_each_location_each_scenario": 6
+  },
+  "fixed_policy": null,
+  "status_code": 3,
+  "status": "INFEASIBLE",
+  "runtime_seconds": 0.0002608299255371094,
+  "node_count": 0.0,
+  "solution_count": 0,
+  "objective": null,
+  "primary_value_from_solver": null
+}

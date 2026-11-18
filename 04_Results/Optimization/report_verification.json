@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "legacy_production_grid_matched": 21,
+  "ablation_monotonicity_and_Shapley_sum": true,
+  "joint_draws_per_mode": 200,
+  "all_555_records_in_report_data": 555
+}

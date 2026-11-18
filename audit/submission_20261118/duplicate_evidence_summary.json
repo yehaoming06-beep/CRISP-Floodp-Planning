@@ -1,0 +1,234 @@
+{
+  "scope": "Earlier candidate snapshot before .log exceptions; not a deletion list",
+  "duplicate_groups": 2797,
+  "duplicate_bytes": 71453887,
+  "top20": [
+    {
+      "bytes_each": 6338731,
+      "sha256": "a162075f54eb15867fcba08ede4f202ec7cc171e8865199ff851259fa2123cb1",
+      "copies": 3,
+      "duplicate_bytes": 12677462,
+      "paths": [
+        "04_Results/Scenario_Stability/tables/resample_runs.csv",
+        "audit/reproducibility_20261118/scenarios/stability/tables/resample_runs.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/tables/resample_runs.csv"
+      ]
+    },
+    {
+      "bytes_each": 8799624,
+      "sha256": "bc2729c59d80e9c58afe29ac7b4e3709e269710aba562bd307bc0ab6b5bfc344",
+      "copies": 2,
+      "duplicate_bytes": 8799624,
+      "paths": [
+        "audit/reproducibility_20261118/file_inventory_after.csv",
+        "audit/reproducibility_20261118/file_inventory_before.csv"
+      ]
+    },
+    {
+      "bytes_each": 2729236,
+      "sha256": "878bffaf3967c1acf0ce09b3af7ad14fdc53c3dd0c354353b980aa08cf78bf28",
+      "copies": 3,
+      "duplicate_bytes": 5458472,
+      "paths": [
+        "04_Results/Scenario_Stability/resample_indices.json",
+        "audit/reproducibility_20261118/scenarios/stability/resample_indices.json",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/resample_indices.json"
+      ]
+    },
+    {
+      "bytes_each": 1111297,
+      "sha256": "5b3e30cb542f87e90f89baf93abf072dc162461bf4295699c688f87c0eaef16b",
+      "copies": 3,
+      "duplicate_bytes": 2222594,
+      "paths": [
+        "04_Results/Scenario_Stability/event_projections.npz",
+        "audit/reproducibility_20261118/scenarios/stability/event_projections.npz",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/event_projections.npz"
+      ]
+    },
+    {
+      "bytes_each": 546422,
+      "sha256": "63e20faf3fdd9e4ca488a7e6cbf90f64274c6fb9b77f9a5699d0853f5948af38",
+      "copies": 2,
+      "duplicate_bytes": 546422,
+      "paths": [
+        "04_Results/Optimization/report_data.json",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/report_data.json"
+      ]
+    },
+    {
+      "bytes_each": 217754,
+      "sha256": "39462aaf9bbfcf7a7cfdc9f82caf0c34a10e14ac2166111de04b9bf4ab637060",
+      "copies": 3,
+      "duplicate_bytes": 435508,
+      "paths": [
+        "audit/reproducibility_20261118/optimization/reconstructed60_555/Original555_vs_Reconstructed.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/backend_probability60/Original555_vs_Reconstructed.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/backend_probability60_replay/Original555_vs_Reconstructed.csv"
+      ]
+    },
+    {
+      "bytes_each": 366315,
+      "sha256": "fb457fbf8da4c259714cf1502b7b0d87c96e8a90e57ba010eb7bc56e1d4df2fc",
+      "copies": 2,
+      "duplicate_bytes": 366315,
+      "paths": [
+        "04_Results/Scenario_Stability/figures/05_event_membership.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/figures/05_event_membership.png"
+      ]
+    },
+    {
+      "bytes_each": 302124,
+      "sha256": "4144d341445f8fc66dcda3897ab5efb3da2a259ecdfe563a1a1825c829029fa4",
+      "copies": 2,
+      "duplicate_bytes": 302124,
+      "paths": [
+        "04_Results/Optimization/solver_audit.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/solver_audit.csv"
+      ]
+    },
+    {
+      "bytes_each": 146207,
+      "sha256": "ff3862f80b9f2f12ab1b5c4240a70f8d2dda2f7917cbe60fd73e68f787b990e9",
+      "copies": 3,
+      "duplicate_bytes": 292414,
+      "paths": [
+        "04_Results/Optimization/figures/fig01_inventory.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/figures/fig01_inventory.png",
+        "manuscript_revision/figures/Figure_2_Inventory.png"
+      ]
+    },
+    {
+      "bytes_each": 139412,
+      "sha256": "01f091a0afd888da31bb2388eee29b34d518ffe1b775786ae128f796c7fa31e0",
+      "copies": 3,
+      "duplicate_bytes": 278824,
+      "paths": [
+        "04_Results/Optimization/figures/fig06_bounds.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/figures/fig06_bounds.png",
+        "manuscript_revision/figures/Figure_7_Bounds.png"
+      ]
+    },
+    {
+      "bytes_each": 128950,
+      "sha256": "b98f7294ab21d9746aad5de1459a96d7e3088994a5bc95c753e0ce6aae48dfdd",
+      "copies": 3,
+      "duplicate_bytes": 257900,
+      "paths": [
+        "04_Results/Optimization/figures/fig02_spatial.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/figures/fig02_spatial.png",
+        "manuscript_revision/figures/Figure_3_Spatial.png"
+      ]
+    },
+    {
+      "bytes_each": 128673,
+      "sha256": "fecf0ca2681ded84890957794f0db058a9589966ae6d6b92c0a0bada91695162",
+      "copies": 3,
+      "duplicate_bytes": 257346,
+      "paths": [
+        "audit/reproducibility_20261118/optimization/reconstructed60_555/summary.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/backend_probability60/summary.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/backend_probability60_replay/summary.csv"
+      ]
+    },
+    {
+      "bytes_each": 128486,
+      "sha256": "31cd3d64788a4b8656cf2ea86a2ba3cd457ed5221accdb52dc774111af1a403c",
+      "copies": 3,
+      "duplicate_bytes": 256972,
+      "paths": [
+        "04_Results/Optimization/summary.csv",
+        "audit/reproducibility_20261118/optimization/original23_555/summary.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/summary.csv"
+      ]
+    },
+    {
+      "bytes_each": 123797,
+      "sha256": "f9936e70e319ee40c175f53b9f0013047660199e25bc04e014f706e4090f5dd0",
+      "copies": 3,
+      "duplicate_bytes": 247594,
+      "paths": [
+        "04_Results/Optimization/figures/fig04_oat.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/figures/fig04_oat.png",
+        "manuscript_revision/figures/Figure_5_OAT.png"
+      ]
+    },
+    {
+      "bytes_each": 94364,
+      "sha256": "56b19a057b4f99399b794c58b036cecd1ede1a397bc46a99591d40670afe1203",
+      "copies": 3,
+      "duplicate_bytes": 188728,
+      "paths": [
+        "04_Results/Optimization/figures/fig05_uncertainty.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/figures/fig05_uncertainty.png",
+        "manuscript_revision/figures/Figure_6_Uncertainty.png"
+      ]
+    },
+    {
+      "bytes_each": 93386,
+      "sha256": "0c743378b3abc49d78c946fd4ee7df3601788851c8efdbd24a06d6f958fcb8f3",
+      "copies": 3,
+      "duplicate_bytes": 186772,
+      "paths": [
+        "04_Results/Scenario_Stability/tables/k_bootstrap_runs.csv",
+        "audit/reproducibility_20261118/scenarios/stability/tables/k_bootstrap_runs.csv",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/tables/k_bootstrap_runs.csv"
+      ]
+    },
+    {
+      "bytes_each": 152411,
+      "sha256": "92c06d4fe4e30e381ff65d2ef34520ed79dadf688c97df92b1a1c55592f51c92",
+      "copies": 2,
+      "duplicate_bytes": 152411,
+      "paths": [
+        "04_Results/Scenario_Stability/figures/06_coassignment.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Scenario_Stability/figures/06_coassignment.png"
+      ]
+    },
+    {
+      "bytes_each": 66756,
+      "sha256": "29564bf42a517be1142b2bc35eb0fa10b78e602bd92ac130290fee8eaaf26f3b",
+      "copies": 3,
+      "duplicate_bytes": 133512,
+      "paths": [
+        "04_Results/Optimization/figures/fig03_ablation.png",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/figures/fig03_ablation.png",
+        "manuscript_revision/figures/Figure_4_Ablation.png"
+      ]
+    },
+    {
+      "bytes_each": 15923,
+      "sha256": "9f012ea5ff037bdb66af706c9325feb68f74c46a771ea1506fe6a8f4c06a1d83",
+      "copies": 9,
+      "duplicate_bytes": 127384,
+      "paths": [
+        "04_Results/Optimization/baseline_inputs.json",
+        "audit/reproducibility_20261118/optimization/clean_environment/core/original23/inputs_from_workbook.json",
+        "audit/reproducibility_20261118/optimization/core/initial_original23/inputs_from_workbook.json",
+        "audit/reproducibility_20261118/optimization/core/original23/inputs_from_workbook.json",
+        "audit/reproducibility_20261118/optimization/original23_555/baseline_inputs.json",
+        "audit/reproducibility_20261118/supplementary/runs/primary/parameters/7e7a1836e62ac8715fa8.json",
+        "manuscript_revision/audit/ci01_independent_20261104/snapshots/04_Results/Optimization/baseline_inputs.json",
+        "manuscript_revision/peer_review_validation_20261105_v2/runs/primary/parameters/7e7a1836e62ac8715fa8.json",
+        "manuscript_revision/peer_review_validation_20261105_v2/snapshots/04_Results/Optimization/baseline_inputs.json"
+      ]
+    },
+    {
+      "bytes_each": 15910,
+      "sha256": "6b99be099194e65334839d4bc034ea7a6b5ad23bddd3889d077a3b6389394515",
+      "copies": 9,
+      "duplicate_bytes": 127280,
+      "paths": [
+        "audit/reproducibility_20261118/optimization/clean_environment/core/reconstructed60/inputs_from_workbook.json",
+        "audit/reproducibility_20261118/optimization/core/initial_reconstructed60/inputs_from_workbook.json",
+        "audit/reproducibility_20261118/optimization/core/reconstructed60/inputs_from_workbook.json",
+        "audit/reproducibility_20261118/optimization/reconstructed60_555/inputs.json",
+        "audit/reproducibility_20261118/supplementary/runs/primary/parameters/50bcba6c0e21db38816c.json",
+        "manuscript_revision/audit/ci01_independent_20261104/backend_probability60/inputs.json",
+        "manuscript_revision/audit/ci01_independent_20261104/backend_probability60_replay/inputs.json",
+        "manuscript_revision/peer_review_validation_20261105_v2/runs/primary/parameters/50bcba6c0e21db38816c.json",
+        "manuscript_revision/peer_review_validation_20261105_v2/snapshots/manuscript_revision/audit/ci01_independent_20261104/backend_probability60/inputs.json"
+      ]
+    }
+  ]
+}

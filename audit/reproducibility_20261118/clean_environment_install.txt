@@ -1,0 +1,3 @@
+Could not fetch URL https://pypi.org/simple/gurobipy/: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/gurobipy/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)'))) - skipping
+ERROR: Could not find a version that satisfies the requirement gurobipy==13.0.2 (from versions: none)
+ERROR: No matching distribution found for gurobipy==13.0.2

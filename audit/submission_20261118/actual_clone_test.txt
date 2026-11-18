@@ -1,0 +1,8 @@
+Cloning into '/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/committed-clone'...
+done.
+
+Tracked files:
+.gitignore
+README.md
+
+Core input exists: False

@@ -1,0 +1,28 @@
+[
+  {
+    "candidate_id": "TC2017_06",
+    "warning_group_id": 201706,
+    "ssdb_record_ids": "354",
+    "all_four_fields_match": false,
+    "Shek_Pik_W_mCD": 2.48,
+    "Shek_Pik_S_m": 0.29,
+    "W_peak_hkt": "2017-09-24 06:42",
+    "S_peak_hkt": "2017-09-24 04:28",
+    "INCOMPLETE_flags": "N",
+    "time_basis": "Hong Kong Standard Time, explicitly stated in stormsurgedb.htm",
+    "source_url": "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_storm.js"
+  },
+  {
+    "candidate_id": "TC2024_03",
+    "warning_group_id": 202403,
+    "ssdb_record_ids": "393",
+    "all_four_fields_match": false,
+    "Shek_Pik_W_mCD": 2.52,
+    "Shek_Pik_S_m": 0.57,
+    "W_peak_hkt": "2024-09-05 10:42",
+    "S_peak_hkt": "2024-09-06 01:10",
+    "INCOMPLETE_flags": "N",
+    "time_basis": "Hong Kong Standard Time, explicitly stated in stormsurgedb.htm",
+    "source_url": "https://www.hko.gov.hk/wservice/tsheet/pms/ssdb_storm.js"
+  }
+]

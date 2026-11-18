@@ -1,0 +1,10 @@
+{
+  "probabilities": {
+    "Moderate": 0.5833333333333334,
+    "Severe": 0.31666666666666665,
+    "Extreme": 0.1
+  },
+  "dataset": "reconstructed60_adjudicated",
+  "N": 60,
+  "interpretation": "conditional frequencies of eligible attributable numeric cases after explicit source-conflict QC; scenario-specific resource/benefit coefficients held fixed; hypothetical optimization sensitivity only"
+}

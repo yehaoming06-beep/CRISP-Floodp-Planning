@@ -1,0 +1,1 @@
+{"gurobi_version": [13, 0, 2], "restricted_license_id_zero": true, "license_credentials_supplied": false}

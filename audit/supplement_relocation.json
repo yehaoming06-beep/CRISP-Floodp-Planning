@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-18",
+  "source": "manuscript_revision/Supplementary_Methods_and_Results.md",
+  "reading_copy": "supplementary/Supplementary_Methods_and_Results.md",
+  "source_sha256": "b5913966d2061b1e681ee72ffb553fc348a4088b9fedc8730c3d11abf7113641",
+  "reading_copy_sha256": "a8212932368491f729ec791e077aa804ab71fb42bbf301d39cc9b5f9142a9267",
+  "change": "Only relative Markdown link targets are prefixed for repository navigation; scientific text, numbers, captions, headings and provenance wording are unchanged."
+}

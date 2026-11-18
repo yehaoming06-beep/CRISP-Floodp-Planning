@@ -1,0 +1,2312 @@
+{
+  "config": {
+    "id": "legacy_baseline",
+    "experiment": "legacy_baseline"
+  },
+  "parameters": {
+    "probabilities": {
+      "Moderate": 0.5833333333333334,
+      "Severe": 0.31666666666666665,
+      "Extreme": 0.1
+    },
+    "setup_budget": 20000.0,
+    "operating_budget": {
+      "Moderate": 30000.0,
+      "Severe": 30000.0,
+      "Extreme": 30000.0
+    },
+    "labour_capacity": {
+      "Moderate": 400.0,
+      "Severe": 400.0,
+      "Extreme": 400.0
+    },
+    "equipment_capacity": {
+      "Moderate": 60.0,
+      "Severe": 60.0,
+      "Extreme": 60.0
+    },
+    "supply_capacity": {
+      "Moderate": 220.0,
+      "Severe": 220.0,
+      "Extreme": 220.0
+    },
+    "benefit_weights": {
+      "w_L": 0.5,
+      "w_P": 0.3,
+      "w_R": 0.2
+    },
+    "setup_cost": [
+      {
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 8500.0
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 7500.0
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 5500.0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 8500.0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 7500.0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 5500.0
+      }
+    ],
+    "deploy_cost": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 2600.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 2200.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 1400.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 2600.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 2200.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 1400.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 3100.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 2650.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 1700.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 3100.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 2650.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 1700.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 3900.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 3300.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 2100.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 3900.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 3300.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 2100.0
+      }
+    ],
+    "labour": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 28.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 36.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 45.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 28.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 36.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 45.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 34.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 43.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 54.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 34.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 43.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 54.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 42.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 54.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 68.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 42.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 54.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 68.0
+      }
+    ],
+    "equipment": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 8.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 5.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 2.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 8.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 5.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 2.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 10.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 6.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 3.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 10.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 6.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 3.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 12.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 8.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 3.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 12.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 8.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 3.0
+      }
+    ],
+    "supply": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 18.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 30.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 10.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 18.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 30.0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 10.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 22.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 36.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 12.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 22.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 36.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 12.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 27.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 45.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 15.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 27.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 45.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 15.0
+      }
+    ],
+    "upper_bound": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 7
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 7
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 8
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 7
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 7
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 8
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 6
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 6
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 7
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 6
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 6
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 7
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 5
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 4
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 5
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 5
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 4
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 5
+      }
+    ],
+    "life_score": {
+      "Drainage": 65.0,
+      "Barrier": 55.0,
+      "Warning": 90.0
+    },
+    "property_score": {
+      "Drainage": 85.0,
+      "Barrier": 90.0,
+      "Warning": 35.0
+    },
+    "recovery_score": {
+      "Drainage": 75.0,
+      "Barrier": 65.0,
+      "Warning": 80.0
+    },
+    "alpha": [
+      {
+        "scenario": "Moderate",
+        "intervention": "Drainage",
+        "value": 0.9
+      },
+      {
+        "scenario": "Moderate",
+        "intervention": "Barrier",
+        "value": 0.85
+      },
+      {
+        "scenario": "Moderate",
+        "intervention": "Warning",
+        "value": 0.9
+      },
+      {
+        "scenario": "Severe",
+        "intervention": "Drainage",
+        "value": 1.0
+      },
+      {
+        "scenario": "Severe",
+        "intervention": "Barrier",
+        "value": 1.0
+      },
+      {
+        "scenario": "Severe",
+        "intervention": "Warning",
+        "value": 1.0
+      },
+      {
+        "scenario": "Extreme",
+        "intervention": "Drainage",
+        "value": 0.95
+      },
+      {
+        "scenario": "Extreme",
+        "intervention": "Barrier",
+        "value": 1.1
+      },
+      {
+        "scenario": "Extreme",
+        "intervention": "Warning",
+        "value": 1.15
+      }
+    ],
+    "beta": {
+      "Tai O1": 1.1,
+      "Tai O2": 0.9
+    },
+    "benefit": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 72.27000000000001
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 63.112500000000004
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 70.78500000000001
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 59.13
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 51.6375
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 57.915000000000006
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 80.30000000000001
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 74.25
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 78.65
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 65.7
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 60.75
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 64.35000000000001
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "value": 76.285
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "value": 81.67500000000001
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "value": 90.4475
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "value": 62.415
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "value": 66.825
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "value": 74.0025
+      }
+    ]
+  },
+  "fleet": null,
+  "summary": {
+    "id": "legacy_baseline",
+    "experiment": "legacy_baseline",
+    "factor": "",
+    "level": "",
+    "u_mode": "derived",
+    "rp": 720.3249166666668,
+    "ws": 720.3249166666667,
+    "ev": 677.094,
+    "eev": 720.3249166666668,
+    "vss": 0.0,
+    "evpi": -1.1368683772161603e-13,
+    "plan": "Tai O1/Drainage;Tai O1/Warning",
+    "new_pumps": 0,
+    "capital_used_hkd": null,
+    "setup_used": 14000.0,
+    "baseline_policy_feasible": true,
+    "baseline_policy_value": 720.3249166666668,
+    "regret": 0.0,
+    "checks_passed": true
+  },
+  "rp": {
+    "status": "OPTIMAL",
+    "feasible": true,
+    "objective": 720.3249166666668,
+    "new_pumps": 0,
+    "capital_used_hkd": null,
+    "plan": "Tai O1/Drainage;Tai O1/Warning",
+    "setup_used": 14000.0,
+    "y": [
+      {
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "y": 1
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "y": 1
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "y": 0
+      }
+    ],
+    "x": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 6
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 5
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 5
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 3
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 3
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 4
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      }
+    ],
+    "resources": [
+      {
+        "scenario": "First Stage",
+        "resource": "readiness_CU",
+        "used": 14000.0,
+        "capacity": 20000.0,
+        "slack": 6000.0,
+        "utilization": 0.7
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "deploy_cost",
+        "used": 22600.0,
+        "capacity": 30000.0,
+        "slack": 7400.0,
+        "utilization": 0.7533333333333333
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "labour",
+        "used": 393.0,
+        "capacity": 400.0,
+        "slack": 7.0,
+        "utilization": 0.9825
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "equipment",
+        "used": 58.0,
+        "capacity": 60.0,
+        "slack": 2.0,
+        "utilization": 0.9666666666666667
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "supply",
+        "used": 158.0,
+        "capacity": 220.0,
+        "slack": 62.0,
+        "utilization": 0.7181818181818181
+      },
+      {
+        "scenario": "Severe",
+        "resource": "deploy_cost",
+        "used": 20600.0,
+        "capacity": 30000.0,
+        "slack": 9400.0,
+        "utilization": 0.6866666666666666
+      },
+      {
+        "scenario": "Severe",
+        "resource": "labour",
+        "used": 332.0,
+        "capacity": 400.0,
+        "slack": 68.0,
+        "utilization": 0.83
+      },
+      {
+        "scenario": "Severe",
+        "resource": "equipment",
+        "used": 59.0,
+        "capacity": 60.0,
+        "slack": 1.0,
+        "utilization": 0.9833333333333333
+      },
+      {
+        "scenario": "Severe",
+        "resource": "supply",
+        "used": 146.0,
+        "capacity": 220.0,
+        "slack": 74.0,
+        "utilization": 0.6636363636363637
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "deploy_cost",
+        "used": 20100.0,
+        "capacity": 30000.0,
+        "slack": 9900.0,
+        "utilization": 0.67
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "labour",
+        "used": 398.0,
+        "capacity": 400.0,
+        "slack": 2.0,
+        "utilization": 0.995
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "equipment",
+        "used": 48.0,
+        "capacity": 60.0,
+        "slack": 12.0,
+        "utilization": 0.8
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "supply",
+        "used": 141.0,
+        "capacity": 220.0,
+        "slack": 79.0,
+        "utilization": 0.6409090909090909
+      }
+    ],
+    "location_scenarios": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "probability": 0.5833333333333334,
+        "packages": 11,
+        "pumps": 6,
+        "benefit": 787.5450000000001
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "probability": 0.5833333333333334,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "probability": 0.31666666666666665,
+        "packages": 8,
+        "pumps": 5,
+        "benefit": 637.45
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "probability": 0.31666666666666665,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "probability": 0.1,
+        "packages": 7,
+        "pumps": 3,
+        "benefit": 590.645
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "probability": 0.1,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      }
+    ],
+    "validation_passed": true,
+    "runtime": 0.0164639949798584
+  },
+  "ws": {
+    "Moderate": {
+      "status": "OPTIMAL",
+      "feasible": true,
+      "objective": 787.5450000000001,
+      "new_pumps": 0,
+      "capital_used_hkd": null,
+      "plan": "Tai O1/Drainage;Tai O1/Warning",
+      "setup_used": 14000.0,
+      "y": [
+        {
+          "location": "Tai O1",
+          "intervention": "Drainage",
+          "y": 1
+        },
+        {
+          "location": "Tai O1",
+          "intervention": "Barrier",
+          "y": 0
+        },
+        {
+          "location": "Tai O1",
+          "intervention": "Warning",
+          "y": 1
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Drainage",
+          "y": 0
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Barrier",
+          "y": 0
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Warning",
+          "y": 0
+        }
+      ],
+      "x": [
+        {
+          "scenario": "Moderate",
+          "location": "Tai O1",
+          "intervention": "Drainage",
+          "x": 6
+        },
+        {
+          "scenario": "Moderate",
+          "location": "Tai O1",
+          "intervention": "Barrier",
+          "x": 0
+        },
+        {
+          "scenario": "Moderate",
+          "location": "Tai O1",
+          "intervention": "Warning",
+          "x": 5
+        },
+        {
+          "scenario": "Moderate",
+          "location": "Tai O2",
+          "intervention": "Drainage",
+          "x": 0
+        },
+        {
+          "scenario": "Moderate",
+          "location": "Tai O2",
+          "intervention": "Barrier",
+          "x": 0
+        },
+        {
+          "scenario": "Moderate",
+          "location": "Tai O2",
+          "intervention": "Warning",
+          "x": 0
+        }
+      ],
+      "resources": [
+        {
+          "scenario": "First Stage",
+          "resource": "readiness_CU",
+          "used": 14000.0,
+          "capacity": 20000.0,
+          "slack": 6000.0,
+          "utilization": 0.7
+        },
+        {
+          "scenario": "Moderate",
+          "resource": "deploy_cost",
+          "used": 22600.0,
+          "capacity": 30000.0,
+          "slack": 7400.0,
+          "utilization": 0.7533333333333333
+        },
+        {
+          "scenario": "Moderate",
+          "resource": "labour",
+          "used": 393.0,
+          "capacity": 400.0,
+          "slack": 7.0,
+          "utilization": 0.9825
+        },
+        {
+          "scenario": "Moderate",
+          "resource": "equipment",
+          "used": 58.0,
+          "capacity": 60.0,
+          "slack": 2.0,
+          "utilization": 0.9666666666666667
+        },
+        {
+          "scenario": "Moderate",
+          "resource": "supply",
+          "used": 158.0,
+          "capacity": 220.0,
+          "slack": 62.0,
+          "utilization": 0.7181818181818181
+        }
+      ],
+      "location_scenarios": [
+        {
+          "scenario": "Moderate",
+          "location": "Tai O1",
+          "probability": 1.0,
+          "packages": 11,
+          "pumps": 6,
+          "benefit": 787.5450000000001
+        },
+        {
+          "scenario": "Moderate",
+          "location": "Tai O2",
+          "probability": 1.0,
+          "packages": 0,
+          "pumps": 0,
+          "benefit": 0.0
+        }
+      ],
+      "validation_passed": true,
+      "runtime": 0.001338958740234375
+    },
+    "Severe": {
+      "status": "OPTIMAL",
+      "feasible": true,
+      "objective": 637.45,
+      "new_pumps": 0,
+      "capital_used_hkd": null,
+      "plan": "Tai O1/Drainage;Tai O1/Warning",
+      "setup_used": 14000.0,
+      "y": [
+        {
+          "location": "Tai O1",
+          "intervention": "Drainage",
+          "y": 1
+        },
+        {
+          "location": "Tai O1",
+          "intervention": "Barrier",
+          "y": 0
+        },
+        {
+          "location": "Tai O1",
+          "intervention": "Warning",
+          "y": 1
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Drainage",
+          "y": 0
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Barrier",
+          "y": 0
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Warning",
+          "y": 0
+        }
+      ],
+      "x": [
+        {
+          "scenario": "Severe",
+          "location": "Tai O1",
+          "intervention": "Drainage",
+          "x": 5
+        },
+        {
+          "scenario": "Severe",
+          "location": "Tai O1",
+          "intervention": "Barrier",
+          "x": 0
+        },
+        {
+          "scenario": "Severe",
+          "location": "Tai O1",
+          "intervention": "Warning",
+          "x": 3
+        },
+        {
+          "scenario": "Severe",
+          "location": "Tai O2",
+          "intervention": "Drainage",
+          "x": 0
+        },
+        {
+          "scenario": "Severe",
+          "location": "Tai O2",
+          "intervention": "Barrier",
+          "x": 0
+        },
+        {
+          "scenario": "Severe",
+          "location": "Tai O2",
+          "intervention": "Warning",
+          "x": 0
+        }
+      ],
+      "resources": [
+        {
+          "scenario": "First Stage",
+          "resource": "readiness_CU",
+          "used": 14000.0,
+          "capacity": 20000.0,
+          "slack": 6000.0,
+          "utilization": 0.7
+        },
+        {
+          "scenario": "Severe",
+          "resource": "deploy_cost",
+          "used": 20600.0,
+          "capacity": 30000.0,
+          "slack": 9400.0,
+          "utilization": 0.6866666666666666
+        },
+        {
+          "scenario": "Severe",
+          "resource": "labour",
+          "used": 332.0,
+          "capacity": 400.0,
+          "slack": 68.0,
+          "utilization": 0.83
+        },
+        {
+          "scenario": "Severe",
+          "resource": "equipment",
+          "used": 59.0,
+          "capacity": 60.0,
+          "slack": 1.0,
+          "utilization": 0.9833333333333333
+        },
+        {
+          "scenario": "Severe",
+          "resource": "supply",
+          "used": 146.0,
+          "capacity": 220.0,
+          "slack": 74.0,
+          "utilization": 0.6636363636363637
+        }
+      ],
+      "location_scenarios": [
+        {
+          "scenario": "Severe",
+          "location": "Tai O1",
+          "probability": 1.0,
+          "packages": 8,
+          "pumps": 5,
+          "benefit": 637.45
+        },
+        {
+          "scenario": "Severe",
+          "location": "Tai O2",
+          "probability": 1.0,
+          "packages": 0,
+          "pumps": 0,
+          "benefit": 0.0
+        }
+      ],
+      "validation_passed": true,
+      "runtime": 0.011915922164916992
+    },
+    "Extreme": {
+      "status": "OPTIMAL",
+      "feasible": true,
+      "objective": 590.645,
+      "new_pumps": 0,
+      "capital_used_hkd": null,
+      "plan": "Tai O1/Drainage;Tai O1/Warning",
+      "setup_used": 14000.0,
+      "y": [
+        {
+          "location": "Tai O1",
+          "intervention": "Drainage",
+          "y": 1
+        },
+        {
+          "location": "Tai O1",
+          "intervention": "Barrier",
+          "y": 0
+        },
+        {
+          "location": "Tai O1",
+          "intervention": "Warning",
+          "y": 1
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Drainage",
+          "y": 0
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Barrier",
+          "y": 0
+        },
+        {
+          "location": "Tai O2",
+          "intervention": "Warning",
+          "y": 0
+        }
+      ],
+      "x": [
+        {
+          "scenario": "Extreme",
+          "location": "Tai O1",
+          "intervention": "Drainage",
+          "x": 3
+        },
+        {
+          "scenario": "Extreme",
+          "location": "Tai O1",
+          "intervention": "Barrier",
+          "x": 0
+        },
+        {
+          "scenario": "Extreme",
+          "location": "Tai O1",
+          "intervention": "Warning",
+          "x": 4
+        },
+        {
+          "scenario": "Extreme",
+          "location": "Tai O2",
+          "intervention": "Drainage",
+          "x": 0
+        },
+        {
+          "scenario": "Extreme",
+          "location": "Tai O2",
+          "intervention": "Barrier",
+          "x": 0
+        },
+        {
+          "scenario": "Extreme",
+          "location": "Tai O2",
+          "intervention": "Warning",
+          "x": 0
+        }
+      ],
+      "resources": [
+        {
+          "scenario": "First Stage",
+          "resource": "readiness_CU",
+          "used": 14000.0,
+          "capacity": 20000.0,
+          "slack": 6000.0,
+          "utilization": 0.7
+        },
+        {
+          "scenario": "Extreme",
+          "resource": "deploy_cost",
+          "used": 20100.0,
+          "capacity": 30000.0,
+          "slack": 9900.0,
+          "utilization": 0.67
+        },
+        {
+          "scenario": "Extreme",
+          "resource": "labour",
+          "used": 398.0,
+          "capacity": 400.0,
+          "slack": 2.0,
+          "utilization": 0.995
+        },
+        {
+          "scenario": "Extreme",
+          "resource": "equipment",
+          "used": 48.0,
+          "capacity": 60.0,
+          "slack": 12.0,
+          "utilization": 0.8
+        },
+        {
+          "scenario": "Extreme",
+          "resource": "supply",
+          "used": 141.0,
+          "capacity": 220.0,
+          "slack": 79.0,
+          "utilization": 0.6409090909090909
+        }
+      ],
+      "location_scenarios": [
+        {
+          "scenario": "Extreme",
+          "location": "Tai O1",
+          "probability": 1.0,
+          "packages": 7,
+          "pumps": 3,
+          "benefit": 590.645
+        },
+        {
+          "scenario": "Extreme",
+          "location": "Tai O2",
+          "probability": 1.0,
+          "packages": 0,
+          "pumps": 0,
+          "benefit": 0.0
+        }
+      ],
+      "validation_passed": true,
+      "runtime": 0.0024671554565429688
+    }
+  },
+  "ev": {
+    "status": "OPTIMAL",
+    "feasible": true,
+    "objective": 677.094,
+    "new_pumps": 0,
+    "capital_used_hkd": null,
+    "plan": "Tai O1/Drainage;Tai O1/Warning",
+    "setup_used": 14000.0,
+    "y": [
+      {
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "y": 1
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "y": 1
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "y": 0
+      }
+    ],
+    "x": [
+      {
+        "scenario": "EV",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 3
+      },
+      {
+        "scenario": "EV",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "EV",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 6
+      },
+      {
+        "scenario": "EV",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "EV",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "EV",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      }
+    ],
+    "resources": [
+      {
+        "scenario": "First Stage",
+        "resource": "readiness_CU",
+        "used": 14000.0,
+        "capacity": 20000.0,
+        "slack": 6000.0,
+        "utilization": 0.7
+      },
+      {
+        "scenario": "EV",
+        "resource": "deploy_cost",
+        "used": 18055.0,
+        "capacity": 30000.0,
+        "slack": 11945.0,
+        "utilization": 0.6018333333333333
+      },
+      {
+        "scenario": "EV",
+        "resource": "labour",
+        "used": 394.79999999999995,
+        "capacity": 400.0,
+        "slack": 5.2000000000000455,
+        "utilization": 0.9869999999999999
+      },
+      {
+        "scenario": "EV",
+        "resource": "equipment",
+        "used": 41.6,
+        "capacity": 60.0,
+        "slack": 18.4,
+        "utilization": 0.6933333333333334
+      },
+      {
+        "scenario": "EV",
+        "resource": "supply",
+        "used": 127.3,
+        "capacity": 220.0,
+        "slack": 92.7,
+        "utilization": 0.5786363636363636
+      }
+    ],
+    "location_scenarios": [
+      {
+        "scenario": "EV",
+        "location": "Tai O1",
+        "probability": 1.0,
+        "packages": 9,
+        "pumps": 3,
+        "benefit": 677.094
+      },
+      {
+        "scenario": "EV",
+        "location": "Tai O2",
+        "probability": 1.0,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      }
+    ],
+    "validation_passed": true,
+    "runtime": 0.008852958679199219
+  },
+  "eev": {
+    "status": "OPTIMAL",
+    "feasible": true,
+    "objective": 720.3249166666668,
+    "new_pumps": 0,
+    "capital_used_hkd": null,
+    "plan": "Tai O1/Drainage;Tai O1/Warning",
+    "setup_used": 14000.0,
+    "y": [
+      {
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "y": 1
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "y": 1
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "y": 0
+      }
+    ],
+    "x": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 6
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 5
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 5
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 3
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 3
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 4
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      }
+    ],
+    "resources": [
+      {
+        "scenario": "First Stage",
+        "resource": "readiness_CU",
+        "used": 14000.0,
+        "capacity": 20000.0,
+        "slack": 6000.0,
+        "utilization": 0.7
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "deploy_cost",
+        "used": 22600.0,
+        "capacity": 30000.0,
+        "slack": 7400.0,
+        "utilization": 0.7533333333333333
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "labour",
+        "used": 393.0,
+        "capacity": 400.0,
+        "slack": 7.0,
+        "utilization": 0.9825
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "equipment",
+        "used": 58.0,
+        "capacity": 60.0,
+        "slack": 2.0,
+        "utilization": 0.9666666666666667
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "supply",
+        "used": 158.0,
+        "capacity": 220.0,
+        "slack": 62.0,
+        "utilization": 0.7181818181818181
+      },
+      {
+        "scenario": "Severe",
+        "resource": "deploy_cost",
+        "used": 20600.0,
+        "capacity": 30000.0,
+        "slack": 9400.0,
+        "utilization": 0.6866666666666666
+      },
+      {
+        "scenario": "Severe",
+        "resource": "labour",
+        "used": 332.0,
+        "capacity": 400.0,
+        "slack": 68.0,
+        "utilization": 0.83
+      },
+      {
+        "scenario": "Severe",
+        "resource": "equipment",
+        "used": 59.0,
+        "capacity": 60.0,
+        "slack": 1.0,
+        "utilization": 0.9833333333333333
+      },
+      {
+        "scenario": "Severe",
+        "resource": "supply",
+        "used": 146.0,
+        "capacity": 220.0,
+        "slack": 74.0,
+        "utilization": 0.6636363636363637
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "deploy_cost",
+        "used": 20100.0,
+        "capacity": 30000.0,
+        "slack": 9900.0,
+        "utilization": 0.67
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "labour",
+        "used": 398.0,
+        "capacity": 400.0,
+        "slack": 2.0,
+        "utilization": 0.995
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "equipment",
+        "used": 48.0,
+        "capacity": 60.0,
+        "slack": 12.0,
+        "utilization": 0.8
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "supply",
+        "used": 141.0,
+        "capacity": 220.0,
+        "slack": 79.0,
+        "utilization": 0.6409090909090909
+      }
+    ],
+    "location_scenarios": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "probability": 0.5833333333333334,
+        "packages": 11,
+        "pumps": 6,
+        "benefit": 787.5450000000001
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "probability": 0.5833333333333334,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "probability": 0.31666666666666665,
+        "packages": 8,
+        "pumps": 5,
+        "benefit": 637.45
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "probability": 0.31666666666666665,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "probability": 0.1,
+        "packages": 7,
+        "pumps": 3,
+        "benefit": 590.645
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "probability": 0.1,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      }
+    ],
+    "validation_passed": true,
+    "runtime": 0.0013089179992675781
+  },
+  "fixed_baseline": {
+    "status": "OPTIMAL",
+    "feasible": true,
+    "objective": 720.3249166666668,
+    "new_pumps": 0,
+    "capital_used_hkd": null,
+    "plan": "Tai O1/Drainage;Tai O1/Warning",
+    "setup_used": 14000.0,
+    "y": [
+      {
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "y": 1
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "y": 1
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "y": 0
+      },
+      {
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "y": 0
+      }
+    ],
+    "x": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 6
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 5
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 5
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 3
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Drainage",
+        "x": 3
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "intervention": "Warning",
+        "x": 4
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Drainage",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Barrier",
+        "x": 0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "intervention": "Warning",
+        "x": 0
+      }
+    ],
+    "resources": [
+      {
+        "scenario": "First Stage",
+        "resource": "readiness_CU",
+        "used": 14000.0,
+        "capacity": 20000.0,
+        "slack": 6000.0,
+        "utilization": 0.7
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "deploy_cost",
+        "used": 22600.0,
+        "capacity": 30000.0,
+        "slack": 7400.0,
+        "utilization": 0.7533333333333333
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "labour",
+        "used": 393.0,
+        "capacity": 400.0,
+        "slack": 7.0,
+        "utilization": 0.9825
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "equipment",
+        "used": 58.0,
+        "capacity": 60.0,
+        "slack": 2.0,
+        "utilization": 0.9666666666666667
+      },
+      {
+        "scenario": "Moderate",
+        "resource": "supply",
+        "used": 158.0,
+        "capacity": 220.0,
+        "slack": 62.0,
+        "utilization": 0.7181818181818181
+      },
+      {
+        "scenario": "Severe",
+        "resource": "deploy_cost",
+        "used": 20600.0,
+        "capacity": 30000.0,
+        "slack": 9400.0,
+        "utilization": 0.6866666666666666
+      },
+      {
+        "scenario": "Severe",
+        "resource": "labour",
+        "used": 332.0,
+        "capacity": 400.0,
+        "slack": 68.0,
+        "utilization": 0.83
+      },
+      {
+        "scenario": "Severe",
+        "resource": "equipment",
+        "used": 59.0,
+        "capacity": 60.0,
+        "slack": 1.0,
+        "utilization": 0.9833333333333333
+      },
+      {
+        "scenario": "Severe",
+        "resource": "supply",
+        "used": 146.0,
+        "capacity": 220.0,
+        "slack": 74.0,
+        "utilization": 0.6636363636363637
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "deploy_cost",
+        "used": 20100.0,
+        "capacity": 30000.0,
+        "slack": 9900.0,
+        "utilization": 0.67
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "labour",
+        "used": 398.0,
+        "capacity": 400.0,
+        "slack": 2.0,
+        "utilization": 0.995
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "equipment",
+        "used": 48.0,
+        "capacity": 60.0,
+        "slack": 12.0,
+        "utilization": 0.8
+      },
+      {
+        "scenario": "Extreme",
+        "resource": "supply",
+        "used": 141.0,
+        "capacity": 220.0,
+        "slack": 79.0,
+        "utilization": 0.6409090909090909
+      }
+    ],
+    "location_scenarios": [
+      {
+        "scenario": "Moderate",
+        "location": "Tai O1",
+        "probability": 0.5833333333333334,
+        "packages": 11,
+        "pumps": 6,
+        "benefit": 787.5450000000001
+      },
+      {
+        "scenario": "Moderate",
+        "location": "Tai O2",
+        "probability": 0.5833333333333334,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O1",
+        "probability": 0.31666666666666665,
+        "packages": 8,
+        "pumps": 5,
+        "benefit": 637.45
+      },
+      {
+        "scenario": "Severe",
+        "location": "Tai O2",
+        "probability": 0.31666666666666665,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O1",
+        "probability": 0.1,
+        "packages": 7,
+        "pumps": 3,
+        "benefit": 590.645
+      },
+      {
+        "scenario": "Extreme",
+        "location": "Tai O2",
+        "probability": 0.1,
+        "packages": 0,
+        "pumps": 0,
+        "benefit": 0.0
+      }
+    ],
+    "validation_passed": true,
+    "runtime": 0.0164639949798584
+  }
+}

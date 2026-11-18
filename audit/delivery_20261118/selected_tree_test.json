@@ -1,0 +1,103 @@
+{
+  "status": "PASS_EXPORTED_SELECTED_TREE",
+  "scope": "Final selected scientific file tree exported without ignored materials; not an actual committed clone",
+  "exported_files": 3421,
+  "export_location": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-delivery-selected-x0952xsy/checkout",
+  "environment": "Reused the previously freshly installed isolated Python 3.12 environment; no new installation this pass",
+  "python": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv/bin/python",
+  "steps": [
+    {
+      "name": "environment",
+      "command": [
+        "python",
+        "-I",
+        "-c",
+        "import sys,site,json;print(json.dumps({\"python\":sys.version,\"prefix\":sys.prefix,\"user_site_enabled\":site.ENABLE_USER_SITE}))"
+      ],
+      "exit_code": 0,
+      "seconds": 0.041,
+      "log": "selected_tree_environment.txt"
+    },
+    {
+      "name": "pip_check",
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "seconds": 0.23,
+      "log": "selected_tree_pip_check.txt"
+    },
+    {
+      "name": "all",
+      "command": [
+        "python",
+        "-I",
+        "src/reproduce_submission.py",
+        "all",
+        "--output",
+        "results/reproductions/delivery_selection_test"
+      ],
+      "exit_code": 0,
+      "seconds": 81.863,
+      "log": "selected_tree_all.txt"
+    },
+    {
+      "name": "paper48",
+      "command": [
+        "python",
+        "-I",
+        "audit/submission_20261118/check_fresh_core_tables.py",
+        "--core-metrics",
+        "results/reproductions/delivery_selection_test/core/core_metrics.csv",
+        "--output",
+        "results/reproductions/delivery_selection_test/paper48"
+      ],
+      "exit_code": 0,
+      "seconds": 0.041,
+      "log": "selected_tree_paper48.txt"
+    },
+    {
+      "name": "software_tests",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "05_Code/Scenario_Pipeline/tests"
+      ],
+      "exit_code": 0,
+      "seconds": 1.385,
+      "log": "selected_tree_software_tests.txt"
+    },
+    {
+      "name": "all_existing_software_tests",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "05_Code/Scenario_Pipeline/tests",
+        "03_Experiments/Optimization/code/test_mobile_model.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.106,
+      "log": "selected_tree_all_software_tests.txt"
+    }
+  ],
+  "guard_canary_passed": true,
+  "actual_github_clone": "NOT_RUN_UNCOMMITTED_AND_REMOTE_AUTH_UNAVAILABLE",
+  "scientific_source_hashes_still_match": true,
+  "blocked_workspace_reads_during_execution": 0,
+  "isolation_scope": "Python file access guard only; not OS isolation of native libraries",
+  "test_command_note": "Software tests also set repository-relative PYTHONPATH=05_Code/Scenario_Pipeline/src",
+  "not_covered": [
+    "Official archive to input rebuild",
+    "Full historical CI01/v2 guards",
+    "Other operating systems",
+    "Remote push or real clone of future commit"
+  ],
+  "existing_software_tests_passed": 17
+}

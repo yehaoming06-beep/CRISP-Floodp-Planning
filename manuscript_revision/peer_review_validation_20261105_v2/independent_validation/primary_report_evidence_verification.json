@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "primary_witness_sha256": "6f7a7a16ac7fedce35753989af8a6e1d54fcd0066cbb870db4f7df06c653155e",
+  "primary_component_summary_sha256": "4774568bccf8ea7c9749d55568aad5458ee6025d31f6d76a2dba6fd0464ea275",
+  "witness_scenarios_checked": 3,
+  "witness_resource_rows_checked": 12,
+  "access_branch_rows_checked": 8,
+  "both_access_branches_reference_F3": true,
+  "access_branches_not_assumed_nested": true,
+  "additional_optimization_performed": false
+}

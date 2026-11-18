@@ -1,0 +1,589 @@
+{
+  "date": "2026-11-04",
+  "status": "COMPUTATIONAL_CONSISTENCY_PASS_WITH_PROVENANCE_GAPS",
+  "scope": "Retained-artifact consistency checks; no new optimization experiments or field validation",
+  "optimization_workbook_CSV_JSON_rows_reconciled": 555,
+  "run_source_hashes_matched": 6,
+  "information_value_identities_checked": 555,
+  "rainfall_records_recomputed_from_local_archives": 23,
+  "rainfall_checks": [
+    {
+      "event_id": "E001",
+      "station_code": "R11",
+      "archive_max_daily": 117.0,
+      "model_max_daily": 117.0,
+      "archive_window_total": 149.0,
+      "metadata_window_total": 149.0,
+      "archive_event_day": 30.5,
+      "metadata_event_day": 30.5,
+      "daily_values": [
+        0.0,
+        0.0,
+        30.5,
+        117.0,
+        1.5
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E002",
+      "station_code": "R11",
+      "archive_max_daily": 13.5,
+      "model_max_daily": 13.5,
+      "archive_window_total": 16.0,
+      "metadata_window_total": 16.0,
+      "archive_event_day": 13.5,
+      "metadata_event_day": 13.5,
+      "daily_values": [
+        0.0,
+        1.0,
+        13.5,
+        1.5,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E003",
+      "station_code": "R11",
+      "archive_max_daily": 86.0,
+      "model_max_daily": 86.0,
+      "archive_window_total": 115.5,
+      "metadata_window_total": 115.5,
+      "archive_event_day": 86.0,
+      "metadata_event_day": 86.0,
+      "daily_values": [
+        0.0,
+        29.0,
+        86.0,
+        0.5,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E004",
+      "station_code": "HKA",
+      "archive_max_daily": 136.2,
+      "model_max_daily": 136.2,
+      "archive_window_total": 164.39999999999998,
+      "metadata_window_total": 164.4,
+      "archive_event_day": 136.2,
+      "metadata_event_day": 136.2,
+      "daily_values": [
+        0.0,
+        2.5,
+        136.2,
+        25.7,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E005",
+      "station_code": "R11",
+      "archive_max_daily": 45.0,
+      "model_max_daily": 45.0,
+      "archive_window_total": 100.0,
+      "metadata_window_total": 100.0,
+      "archive_event_day": 45.0,
+      "metadata_event_day": 45.0,
+      "daily_values": [
+        0.0,
+        1.0,
+        45.0,
+        32.0,
+        22.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E006",
+      "station_code": "R11",
+      "archive_max_daily": 277.5,
+      "model_max_daily": 277.5,
+      "archive_window_total": 281.0,
+      "metadata_window_total": 281.0,
+      "archive_event_day": 277.5,
+      "metadata_event_day": 277.5,
+      "daily_values": [
+        0.0,
+        0.0,
+        277.5,
+        3.5,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E007",
+      "station_code": "HKA",
+      "archive_max_daily": 104.8,
+      "model_max_daily": 104.8,
+      "archive_window_total": 258.5,
+      "metadata_window_total": 258.5,
+      "archive_event_day": 99.2,
+      "metadata_event_day": 99.2,
+      "daily_values": [
+        0.0,
+        8.8,
+        99.2,
+        104.8,
+        45.7
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E008",
+      "station_code": "R11",
+      "archive_max_daily": 96.5,
+      "model_max_daily": 96.5,
+      "archive_window_total": 144.5,
+      "metadata_window_total": 144.5,
+      "archive_event_day": 96.5,
+      "metadata_event_day": 96.5,
+      "daily_values": [
+        0.0,
+        48.0,
+        96.5,
+        0.0,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E009",
+      "station_code": "R11",
+      "archive_max_daily": 23.0,
+      "model_max_daily": 23.0,
+      "archive_window_total": 23.5,
+      "metadata_window_total": 23.5,
+      "archive_event_day": 23.0,
+      "metadata_event_day": 23.0,
+      "daily_values": [
+        0.0,
+        0.0,
+        23.0,
+        0.5,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E010",
+      "station_code": "R11",
+      "archive_max_daily": 230.5,
+      "model_max_daily": 230.5,
+      "archive_window_total": 495.0,
+      "metadata_window_total": 495.0,
+      "archive_event_day": 135.0,
+      "metadata_event_day": 135.0,
+      "daily_values": [
+        40.5,
+        230.5,
+        135.0,
+        89.0,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E011",
+      "station_code": "R11",
+      "archive_max_daily": 149.5,
+      "model_max_daily": 149.5,
+      "archive_window_total": 159.5,
+      "metadata_window_total": 159.5,
+      "archive_event_day": 149.5,
+      "metadata_event_day": 149.5,
+      "daily_values": [
+        0.0,
+        0.5,
+        149.5,
+        5.0,
+        4.5
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E012",
+      "station_code": "R11",
+      "archive_max_daily": 122.5,
+      "model_max_daily": 122.5,
+      "archive_window_total": 195.0,
+      "metadata_window_total": 195.0,
+      "archive_event_day": 122.5,
+      "metadata_event_day": 122.5,
+      "daily_values": [
+        32.0,
+        39.5,
+        122.5,
+        0.0,
+        1.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E013",
+      "station_code": "R12",
+      "archive_max_daily": 42.0,
+      "model_max_daily": 42.0,
+      "archive_window_total": 47.5,
+      "metadata_window_total": 47.5,
+      "archive_event_day": 42.0,
+      "metadata_event_day": 42.0,
+      "daily_values": [
+        0.0,
+        5.0,
+        42.0,
+        0.5,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E014",
+      "station_code": "R11",
+      "archive_max_daily": 43.0,
+      "model_max_daily": 43.0,
+      "archive_window_total": 91.5,
+      "metadata_window_total": 91.5,
+      "archive_event_day": 32.5,
+      "metadata_event_day": 32.5,
+      "daily_values": [
+        0.0,
+        11.5,
+        32.5,
+        43.0,
+        4.5
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E015",
+      "station_code": "R11",
+      "archive_max_daily": 73.0,
+      "model_max_daily": 73.0,
+      "archive_window_total": 131.5,
+      "metadata_window_total": 131.5,
+      "archive_event_day": 73.0,
+      "metadata_event_day": 73.0,
+      "daily_values": [
+        18.5,
+        18.0,
+        73.0,
+        11.0,
+        11.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E016",
+      "station_code": "R11",
+      "archive_max_daily": 105.0,
+      "model_max_daily": 105.0,
+      "archive_window_total": 204.5,
+      "metadata_window_total": 204.5,
+      "archive_event_day": 97.5,
+      "metadata_event_day": 97.5,
+      "daily_values": [
+        0.0,
+        2.0,
+        97.5,
+        105.0,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E017",
+      "station_code": "HKA",
+      "archive_max_daily": 351.9,
+      "model_max_daily": 351.9,
+      "archive_window_total": 406.79999999999995,
+      "metadata_window_total": 406.8,
+      "archive_event_day": 42.7,
+      "metadata_event_day": 42.7,
+      "daily_values": [
+        0.1,
+        9.8,
+        42.7,
+        351.9,
+        2.3
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E018",
+      "station_code": "R11",
+      "archive_max_daily": 80.0,
+      "model_max_daily": 80.0,
+      "archive_window_total": 157.0,
+      "metadata_window_total": 157.0,
+      "archive_event_day": 16.5,
+      "metadata_event_day": 16.5,
+      "daily_values": [
+        26.0,
+        0.0,
+        16.5,
+        80.0,
+        34.5
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E019",
+      "station_code": "R11",
+      "archive_max_daily": 22.0,
+      "model_max_daily": 22.0,
+      "archive_window_total": 44.0,
+      "metadata_window_total": 44.0,
+      "archive_event_day": 22.0,
+      "metadata_event_day": 22.0,
+      "daily_values": [
+        0.0,
+        14.0,
+        22.0,
+        8.0,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E020",
+      "station_code": "R11",
+      "archive_max_daily": 77.0,
+      "model_max_daily": 77.0,
+      "archive_window_total": 103.5,
+      "metadata_window_total": 103.5,
+      "archive_event_day": 0.0,
+      "metadata_event_day": 0.0,
+      "daily_values": [
+        0.0,
+        3.0,
+        0.0,
+        23.5,
+        77.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E021",
+      "station_code": "R11",
+      "archive_max_daily": 138.5,
+      "model_max_daily": 138.5,
+      "archive_window_total": 216.5,
+      "metadata_window_total": 216.5,
+      "archive_event_day": 138.5,
+      "metadata_event_day": 138.5,
+      "daily_values": [
+        6.5,
+        5.5,
+        138.5,
+        55.0,
+        11.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E022",
+      "station_code": "R11",
+      "archive_max_daily": 121.5,
+      "model_max_daily": 121.5,
+      "archive_window_total": 157.0,
+      "metadata_window_total": 157.0,
+      "archive_event_day": 121.5,
+      "metadata_event_day": 121.5,
+      "daily_values": [
+        0.0,
+        26.5,
+        121.5,
+        4.5,
+        4.5
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    },
+    {
+      "event_id": "E023",
+      "station_code": "R11",
+      "archive_max_daily": 238.5,
+      "model_max_daily": 238.5,
+      "archive_window_total": 255.5,
+      "metadata_window_total": 255.5,
+      "archive_event_day": 238.5,
+      "metadata_event_day": 238.5,
+      "daily_values": [
+        0.0,
+        2.5,
+        238.5,
+        14.5,
+        0.0
+      ],
+      "flags": [],
+      "matches": {
+        "maximum_daily": true,
+        "window_total": true,
+        "event_day": true
+      },
+      "match": true
+    }
+  ],
+  "rainfall_max_daily_matches": 23,
+  "rainfall_discrepancies": [],
+  "critic_weights": [
+    0.4340813251811205,
+    0.3352294655633418,
+    0.23068920925553768
+  ],
+  "max_H_difference": 1.1102230246251565e-16,
+  "global_K3_SSE": 0.14697273325203236,
+  "K3_counts": [
+    9,
+    9,
+    5
+  ],
+  "census_units_cross_checked": 4,
+  "unchanged_original_files_checked": 972,
+  "original_file_changes": [],
+  "live_tide_checks": {
+    "E003": "Hato 3.91 mCD and 1.54 m agree with official table",
+    "E006": "Mangkhut 3.89 mCD and 2.34 m agree with official table",
+    "E021": "Registered Wipha URL returned HTTP 404; values not verified"
+  },
+  "unverified": "Full event sampling frame, station substitution rationale and remaining individual tide values",
+  "saved_solution_configurations_reconstructed": 555,
+  "nonempty_contiguous_K3_partitions": 231,
+  "resolved_report_text_error": "Scenario report says 253 cuts; current code and independent enumeration have 231. SSE and labels unchanged."
+}

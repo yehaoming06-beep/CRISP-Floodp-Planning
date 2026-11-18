@@ -1,0 +1,962 @@
+{
+  "snapshots": [
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "complete": true,
+      "total_bytes": 11345671,
+      "path": "sources/pdf/HKO_MWS201709.pdf",
+      "sha256": "a972e1a4665f378d3b5d4accfdd3ed576430651247c26d937a2eff90e14c52b4"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "complete": true,
+      "total_bytes": 37623864,
+      "path": "sources/pdf/HKO_MWS202409.pdf",
+      "sha256": "19b9a7d3edab199b5b7324a1f71ca9d6bf5f03fe651db1e750c81e4203c28d27"
+    }
+  ],
+  "attempts": [
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 0,
+      "end": 1048575,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:44.152452+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "0",
+        "1048575",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "f0fe86b18b253d770531a79219523fba341dde77f645f9f22b38c3672dd68be2"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 6291456,
+      "end": 7340031,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.075512+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "6291456",
+        "7340031",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "98affc63b23908fdb9b761b865b534778dc32094f4ecec50708f62da0c7beb06"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 5242880,
+      "end": 6291455,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.074842+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "5242880",
+        "6291455",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "e6afa183dd5fbb8ceabe7f45ea8d021b9fcc990222eb1a821909fe93f782b4aa"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 1048576,
+      "end": 2097151,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.065469+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "1048576",
+        "2097151",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "aefc76065b1e263981413f783b8767f6326fb17304604a98e1602516b9fec497"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 2097152,
+      "end": 3145727,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.065747+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "2097152",
+        "3145727",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "1906345296b59f52d8a4879de736a6982f0963cef0d467615d403002998e3a4a"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 3145728,
+      "end": 4194303,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.065965+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "3145728",
+        "4194303",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "1d93b47eb41648bceb3fb169090ec37a99ebbf532a5cc898f16d2693129eb31f"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 9437184,
+      "end": 10485759,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.742291+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "9437184",
+        "10485759",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "ce4335912aedce1f0cfe09037ecd9b2b4ac99e85efd040723034919ff8107986"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 10485760,
+      "end": 11345670,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.858881+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "10485760",
+        "11345670",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 859911,
+      "sha256": "a1958c201623dcd15133f0b892876f8dff2f47a44d3feb22ad067710b8f0b0ef"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 8388608,
+      "end": 9437183,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.709240+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "8388608",
+        "9437183",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "21db20303c159e89e9d2e25b68be1399fd93809b882942aca1e1560bf7eb8978"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 7340032,
+      "end": 8388607,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.673933+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "7340032",
+        "8388607",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "ca3e17831d4e6fc8b9bd0b66af514307a09973ed7abc88e7fd8be3ef12a0177a"
+    },
+    {
+      "name": "HKO_MWS201709",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws201709.pdf",
+      "start": 4194304,
+      "end": 5242879,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:45.069388+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "4194304",
+        "5242879",
+        "11345671"
+      ],
+      "last_modified": "Fri, 22 Nov 2019 06:43:43 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "e530e58087cf64477a7fbdaec47a945c754c62f088965cec3183b378d80d7820"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 0,
+      "end": 1048575,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:47.567132+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "0",
+        "1048575",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "2c7bcb0ba724f600e20d4c33ce42a87d723e699c574660f52364150007f6622b"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 4194304,
+      "end": 5242879,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.239832+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "4194304",
+        "5242879",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "a6fb77fdf70865328f089f3563d7b3a4ee24af63873e9d1c287acb80794dc8f6"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 6291456,
+      "end": 7340031,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.243929+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "6291456",
+        "7340031",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "ced36a2141ab382ffcde7ce6bd8ef16ae1163f9ff1e7b70137dd5a5cd9b1d7a9"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 2097152,
+      "end": 3145727,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.239590+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "2097152",
+        "3145727",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "e804f80c55e6192b90b7d9a8a548bbb20979e8b7440b9e2965fc6145cae21fd0"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 5242880,
+      "end": 6291455,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.243456+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "5242880",
+        "6291455",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "6f5edc111f4a14683035a85e8295c6fe38b10a3a75b3e221002d768249f16f7b"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 3145728,
+      "end": 4194303,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.239698+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "3145728",
+        "4194303",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "7bdd2401d8d533faad6044bdbbd3139924cf594a7fe6bc21755ff7907a9c31ff"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 8388608,
+      "end": 9437183,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.893583+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "8388608",
+        "9437183",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "422658d70fe10708e04322c6ad64a4e9cb6a25f16f151b3085140e063b7d02c5"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 7340032,
+      "end": 8388607,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.843298+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "7340032",
+        "8388607",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "33c5acd170bb13dbc5a1a3d25a2498a1b3b9dd2e341ed5b5c4c5c6aa4968e69e"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 9437184,
+      "end": 10485759,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.957381+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "9437184",
+        "10485759",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "ab2058b36114512e4edee6aa8975cbf4528eeb51e4c209a7411eb9107a27df98"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 1048576,
+      "end": 2097151,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.239422+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "1048576",
+        "2097151",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "7706f838b1b51bf17aeb8e80a542383254775e11d24ad708c207d5411b921768"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 11534336,
+      "end": 12582911,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:49.106158+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "11534336",
+        "12582911",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "31c9ed9b35934b65d8d24a14a9be9559a7c671ccbf34daf6cf986eb853c9e07e"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 13631488,
+      "end": 14680063,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:49.506923+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "13631488",
+        "14680063",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "11e35f81acaaabf725c26fcf0c356c889876d37fdbb9bde0bb0392ac9b81b65b"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 14680064,
+      "end": 15728639,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:49.609692+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "14680064",
+        "15728639",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "dd601a276d99cfb64ed575213dc23b8b57cee1657c6ce4eb03bf93c2da3ef91b"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 12582912,
+      "end": 13631487,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:49.497272+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "12582912",
+        "13631487",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "a23f760642504e013332014c106ea4d02b8898885f917a72be3ddfe72a1c4f16"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 16777216,
+      "end": 17825791,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:49.836393+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "16777216",
+        "17825791",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "18770a4365c6bf8b9324b03e8fc46f6c0bc8bdd5fabdc7eed387ad88284a5cbf"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 15728640,
+      "end": 16777215,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:49.808219+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "15728640",
+        "16777215",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "310d36a717518f5623722a5fe2c9703a933ec1833f0cb4a166750b281f068645"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 10485760,
+      "end": 11534335,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:48.967034+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "10485760",
+        "11534335",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "1ecd6ff0d603dc6765d75a6472d29ea0882c8d747cd1fb9bbb04e74ecc7651e6"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 17825792,
+      "end": 18874367,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.149103+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "17825792",
+        "18874367",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "2f068b187497913a8a564fa02e1d7f4d5093c8f3eb36bd94557d2ee15e531f30"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 19922944,
+      "end": 20971519,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.422851+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "19922944",
+        "20971519",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "4b204861812ce624f1320c6998857a790f4b7920d5ab764409e223242da4f077"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 18874368,
+      "end": 19922943,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.287308+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "18874368",
+        "19922943",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "654ee824608539d248e587313b8c3284e0802a7950a6e7739104ac691b73f042"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 20971520,
+      "end": 22020095,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.459851+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "20971520",
+        "22020095",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "fc14eb2638a01e63a5236098e67541518d65c46077628aefe0d8712399c73392"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 23068672,
+      "end": 24117247,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.808071+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "23068672",
+        "24117247",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "f88bc7d9aa74635bb8a68b9720a2e299a14cd0ddc7f2b3a8e072308e9246c5f7"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 22020096,
+      "end": 23068671,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.476258+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "22020096",
+        "23068671",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "8017add3936185996ca097974013ef4100bf3c1f2fc1bdd659a3c2627d9fc21e"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 26214400,
+      "end": 27262975,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.056786+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "26214400",
+        "27262975",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "0064029b609b95e4d1d93f010fd7ed5dedc1a06653d253592bf9da59249dddcd"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 25165824,
+      "end": 26214399,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.035563+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "25165824",
+        "26214399",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "645c44f211b9e6334c9f2e8a68c69512033269f0a507be494942ad7cff27ec34"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 24117248,
+      "end": 25165823,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:50.821881+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "24117248",
+        "25165823",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "4d148c37fe99fb4fc1de6f51cd766d2dda5949323ae2e965b9c7c59073614541"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 27262976,
+      "end": 28311551,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.083352+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "27262976",
+        "28311551",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "683bb79eb6ab7d9a0b9778f39b95c339b3a728aeb1f4fdb43110e3aa26801549"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 29360128,
+      "end": 30408703,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.479787+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "29360128",
+        "30408703",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "ae5b6d5d9c9addc78992f2832a1786c194f1a656755f13e265ffcf5724d477c2"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 28311552,
+      "end": 29360127,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.471716+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "28311552",
+        "29360127",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "896b4f67d1c267d837acc8c33fefa5c42fae04f33a2811a3558176b81a75d9a3"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 32505856,
+      "end": 33554431,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.847874+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "32505856",
+        "33554431",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "b8823c80ce5b23c16eae25ab8d9c079b00e991d3ff76a07a380fa50a7581780a"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 30408704,
+      "end": 31457279,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.719767+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "30408704",
+        "31457279",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "a5bf7ee2fed725effadc8e60d23edb67f8c283fa3089008c8468556bc79ca70a"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 33554432,
+      "end": 34603007,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.848049+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "33554432",
+        "34603007",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "543284a7bc9c4338a15c047c149fe39243d6c63bf5b183c4bf2fa1ea2cb76897"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 31457280,
+      "end": 32505855,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:51.741878+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "31457280",
+        "32505855",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "74d96481f089c3758d3b6362c4ac5806b21ca4b842604b4afd38c30a91e9ebea"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 34603008,
+      "end": 35651583,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:52.087995+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "34603008",
+        "35651583",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "8dea61bd4ea0d4ee7897265f07ca089e474e1e4b49fac9d3378e44d2b63e6dfe"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 36700160,
+      "end": 37623863,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:52.473087+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "36700160",
+        "37623863",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 923704,
+      "sha256": "8085a6104dbc5e5607ac41f7cf5528b5abc1d58d4c5093707f2b5820c99e8c0d"
+    },
+    {
+      "name": "HKO_MWS202409",
+      "url": "https://www.hko.gov.hk/en/publica/mws/files/mws202409.pdf",
+      "start": 35651584,
+      "end": 36700159,
+      "attempt": 1,
+      "retrieved_utc": "2026-11-04T11:32:52.431469+00:00",
+      "http_status": "206",
+      "returncode": 0,
+      "stderr": "",
+      "content_range": [
+        "35651584",
+        "36700159",
+        "37623864"
+      ],
+      "last_modified": "Tue, 11 Mar 2025 03:25:02 GMT",
+      "status": "VALID_RANGE",
+      "bytes": 1048576,
+      "sha256": "226fa39663f75055059a1254302fd18921c37ff4ce01166dd67a39c810df2cb8"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/optimization/run_core.py", line 15, in <module>
+    manifest={'python':sys.version,'platform':platform.platform(),'executable':sys.executable,'packages':{n:md.version(n) for n in ['gurobipy','numpy','pandas','scipy','openpyxl']},'input_sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest() for path in paths},'source':'actual master workbook, not saved baseline_inputs/solutions','scope':'conditional method validation; illustrative resource/cost/benefit coefficients held fixed','settings':settings}
+                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/yehaoming/Desktop/CRISP-Floodp-Planning/audit/reproducibility_20261118/optimization/clean_environment/independent_enumeration.py'

@@ -1,0 +1,412 @@
+{
+  "scope": "Git tracked + untracked, excluding ignored files; snapshot while submission packaging proceeds",
+  "locations_without_values": {
+    "private_key": [],
+    "github_token": [],
+    "openai_style_key": [],
+    "aws_access_id": [],
+    "secret_assignment": [],
+    "license_credential_assignment": [],
+    "cookie_header": [
+      {
+        "path": "manuscript_revision/audit/ci01_independent_20261104/logs/network_probe_headers.txt",
+        "count": 1,
+        "lines": [
+          8
+        ]
+      }
+    ],
+    "email": [
+      {
+        "path": "audit/reproducibility_20261118/paper_inventory/manuscript_extract.json",
+        "count": 8,
+        "lines": [
+          31,
+          31,
+          31,
+          31,
+          1715,
+          1715,
+          1715,
+          1715
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/paper_inventory/manuscript_extract.txt",
+        "count": 4,
+        "lines": [
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      {
+        "path": "manuscript_revision/Revised_Manuscript_EN.md",
+        "count": 4,
+        "lines": [
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      {
+        "path": "manuscript_revision/Revised_Manuscript_EN_v2.md",
+        "count": 4,
+        "lines": [
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      {
+        "path": "manuscript_revision/Revised_Manuscript_EN_v3.md",
+        "count": 4,
+        "lines": [
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      {
+        "path": "manuscript_revision/audit/ci01_independent_20261104/snapshots/manuscript_revision/Revised_Manuscript_EN.md",
+        "count": 4,
+        "lines": [
+          13,
+          13,
+          13,
+          13
+        ]
+      },
+      {
+        "path": "manuscript_revision/audit/fixes_20261104/manuscript.anchored.md",
+        "count": 4,
+        "lines": [
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "path": "manuscript_revision/audit/fixes_20261104/manuscript.anchored.md.block-manifest.json",
+        "count": 2,
+        "lines": [
+          38,
+          38
+        ]
+      },
+      {
+        "path": "manuscript_revision/audit/fixes_20261104/manuscript.rev1.anchored.md",
+        "count": 4,
+        "lines": [
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "path": "manuscript_revision/audit/fixes_20261104/manuscript.rev1.anchored.md.block-manifest.json",
+        "count": 2,
+        "lines": [
+          38,
+          38
+        ]
+      },
+      {
+        "path": "manuscript_revision/audit/fixes_20261104/manuscript.rev2.anchored.md",
+        "count": 4,
+        "lines": [
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "path": "manuscript_revision/peer_review_validation_20261105_v2/snapshots/manuscript_revision/Revised_Manuscript_EN_v2.md",
+        "count": 4,
+        "lines": [
+          13,
+          13,
+          13,
+          13
+        ]
+      }
+    ],
+    "local_path": [
+      {
+        "path": "04_Results/Scenario_Stability/manifest.json",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "04_Results/Validation/Folder_Reorganization.json",
+        "count": 2,
+        "lines": [
+          3,
+          6
+        ]
+      },
+      {
+        "path": "04_Results/Validation/\u6587\u4ef6\u5939\u6574\u7406\u8bb0\u5f55.md",
+        "count": 1,
+        "lines": [
+          9
+        ]
+      },
+      {
+        "path": "REPRODUCIBILITY_AUDIT.md",
+        "count": 1,
+        "lines": [
+          3
+        ]
+      },
+      {
+        "path": "audit/Data_Rights_and_Access.md",
+        "count": 1,
+        "lines": [
+          3
+        ]
+      },
+      {
+        "path": "audit/Dependency_Evidence.md",
+        "count": 1,
+        "lines": [
+          3
+        ]
+      },
+      {
+        "path": "audit/Repository_Organization_Report.md",
+        "count": 1,
+        "lines": [
+          24
+        ]
+      },
+      {
+        "path": "audit/archival_link_review.csv",
+        "count": 194,
+        "lines": [
+          56,
+          93,
+          94,
+          95,
+          96,
+          97,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/build_audit_report.py",
+        "count": 1,
+        "lines": [
+          55
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/check_preservation.py",
+        "count": 1,
+        "lines": [
+          14
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/clean_environment_install_system_ca.txt",
+        "count": 34,
+        "lines": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/environment.json",
+        "count": 4,
+        "lines": [
+          3,
+          5,
+          17,
+          29
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/environment_console.txt",
+        "count": 4,
+        "lines": [
+          3,
+          5,
+          17,
+          29
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/environment_final.json",
+        "count": 6,
+        "lines": [
+          3,
+          5,
+          17,
+          29,
+          46,
+          77
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/environment_with_system_ca.json",
+        "count": 5,
+        "lines": [
+          3,
+          5,
+          17,
+          29,
+          46
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/legacy_baseline_eev.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/legacy_baseline_ev.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/legacy_baseline_rp.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/legacy_baseline_ws_Extreme.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/legacy_baseline_ws_Moderate.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/legacy_baseline_ws_Severe.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/mobile_baseline_eev.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/mobile_baseline_ev.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/mobile_baseline_rp.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/mobile_baseline_ws_Extreme.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/mobile_baseline_ws_Moderate.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/original23/logs/mobile_baseline_ws_Severe.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/reconstructed60/logs/legacy_baseline_eev.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/reconstructed60/logs/legacy_baseline_ev.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      },
+      {
+        "path": "audit/reproducibility_20261118/optimization/clean_environment/core/reconstructed60/logs/legacy_baseline_rp.log",
+        "count": 1,
+        "lines": [
+          4
+        ]
+      }
+    ]
+  },
+  "local_path_total_files": 10212,
+  "local_path_total_matches": 11356,
+  "local_path_locations_truncated": true,
+  "note": "Historical local-path samples are truncated; no matched credential, cookie, email address, or local absolute path value is stored."
+}

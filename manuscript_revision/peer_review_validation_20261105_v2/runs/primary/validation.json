@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "solves": 500,
+  "optimal": 498,
+  "infeasible_expected": 2,
+  "ev_specs": 8,
+  "enumerated_policies": 416,
+  "all_primary_ev_optima": 20,
+  "component_cases": 24,
+  "coverage_cases": 8,
+  "frozen_baseline_metrics_matched": 24,
+  "old_files_unchanged": true,
+  "elapsed_seconds": 4.824738207971677,
+  "empirical_validation": false
+}

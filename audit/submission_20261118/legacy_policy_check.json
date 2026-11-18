@@ -1,0 +1,16 @@
+{
+  "status": "FAIL",
+  "kind": "Legacy organization policy intentionally disallows all logs and six previously held numerical inputs",
+  "error_counts": {
+    "git_safety": 19744,
+    "git_policy": 6
+  },
+  "non_policy_errors": [],
+  "import_integrity": {
+    "listed": 12914,
+    "verified": 12914
+  },
+  "source_before_sha256": "dd7141988f4f9b2329c6b404c7558901abfd3d99db90add0e09604f77b26f1c5",
+  "full_failure_retained_locally": ".local-review/submission_policy/legacy_policy_failure.json",
+  "next_step": "Explicit submission-policy mode applies reviewed minimal-input and execution-log exceptions; it does not grant redistribution rights."
+}

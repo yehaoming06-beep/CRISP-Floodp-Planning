@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "hypothetical_policy_under_frozen_inputs": true,
+  "not_an_optimal_policy_claim": true,
+  "scenarios": [
+    {
+      "scenario": "Moderate",
+      "ready_sites": [
+        "Tai O1/Drainage",
+        "Tai O2/Drainage"
+      ],
+      "setup_used_CU": 17000.0,
+      "n": 2,
+      "capital_used_HKD": 2000000,
+      "deploy_each_location": 2,
+      "resource_checks": [
+        {
+          "row": "operating_budget",
+          "used": 10400.0,
+          "capacity": 30000.0
+        },
+        {
+          "row": "labour_capacity",
+          "used": 112.0,
+          "capacity": 400.0
+        },
+        {
+          "row": "equipment_capacity",
+          "used": 32.0,
+          "capacity": 60.0
+        },
+        {
+          "row": "supply_capacity",
+          "used": 72.0,
+          "capacity": 220.0
+        }
+      ],
+      "replicated_stock_each_site_rhs": 2,
+      "replicated_feasible": true,
+      "shared_total_used": 4,
+      "shared_rhs": 2,
+      "shared_feasible": false
+    },
+    {
+      "scenario": "Severe",
+      "ready_sites": [
+        "Tai O1/Drainage",
+        "Tai O2/Drainage"
+      ],
+      "setup_used_CU": 17000.0,
+      "n": 2,
+      "capital_used_HKD": 2000000,
+      "deploy_each_location": 2,
+      "resource_checks": [
+        {
+          "row": "operating_budget",
+          "used": 12400.0,
+          "capacity": 30000.0
+        },
+        {
+          "row": "labour_capacity",
+          "used": 136.0,
+          "capacity": 400.0
+        },
+        {
+          "row": "equipment_capacity",
+          "used": 40.0,
+          "capacity": 60.0
+        },
+        {
+          "row": "supply_capacity",
+          "used": 88.0,
+          "capacity": 220.0
+        }
+      ],
+      "replicated_stock_each_site_rhs": 2,
+      "replicated_feasible": true,
+      "shared_total_used": 4,
+      "shared_rhs": 2,
+      "shared_feasible": false
+    },
+    {
+      "scenario": "Extreme",
+      "ready_sites": [
+        "Tai O1/Drainage",
+        "Tai O2/Drainage"
+      ],
+      "setup_used_CU": 17000.0,
+      "n": 2,
+      "capital_used_HKD": 2000000,
+      "deploy_each_location": 2,
+      "resource_checks": [
+        {
+          "row": "operating_budget",
+          "used": 15600.0,
+          "capacity": 30000.0
+        },
+        {
+          "row": "labour_capacity",
+          "used": 168.0,
+          "capacity": 400.0
+        },
+        {
+          "row": "equipment_capacity",
+          "used": 48.0,
+          "capacity": 60.0
+        },
+        {
+          "row": "supply_capacity",
+          "used": 108.0,
+          "capacity": 220.0
+        }
+      ],
+      "replicated_stock_each_site_rhs": 2,
+      "replicated_feasible": true,
+      "shared_total_used": 4,
+      "shared_rhs": 2,
+      "shared_feasible": false
+    }
+  ]
+}

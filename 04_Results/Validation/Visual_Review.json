@@ -1,0 +1,19 @@
+{
+  "figures": {
+    "fig02_spatial.png": true,
+    "fig03_ablation.png": true,
+    "fig05_uncertainty.png": true,
+    "fig06_bounds.png": true,
+    "fig04_oat.png": true,
+    "fig01_inventory.png": true
+  },
+  "result_workbook_sheets": {
+    "fleet.png": true,
+    "assumptions.png": true,
+    "bounds.png": true,
+    "all.png": true,
+    "summary.png": true,
+    "deployment.png": true
+  },
+  "review": "All reused rendered PNGs are byte-identical to the previously visually reviewed artifacts; all eight master workbook sheets were reviewed separately."
+}

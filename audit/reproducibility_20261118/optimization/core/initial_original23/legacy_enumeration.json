@@ -1,0 +1,39 @@
+{
+  "rp": 686.0078260869566,
+  "ws": 686.0078260869566,
+  "ev": 693.9732608695654,
+  "eev": 686.0078260869566,
+  "vss": 0.0,
+  "evpi": 0.0,
+  "rp_policy": [
+    0,
+    5
+  ],
+  "ev_policy": [
+    0,
+    5
+  ],
+  "rp_plan": "Tai O1/Drainage;Tai O1/Warning",
+  "ev_optimal_first_stage_policies": [
+    {
+      "n": 0,
+      "mask": 5,
+      "eev": 686.0078260869566
+    },
+    {
+      "n": 0,
+      "mask": 37,
+      "eev": 686.0078260869566
+    }
+  ],
+  "eev_optimal_policy_range": [
+    686.0078260869566,
+    686.0078260869566
+  ],
+  "counters": {
+    "first_stage_policies": 26,
+    "recourse_vectors_considered": 9616,
+    "recourse_vectors_feasible": 4526
+  },
+  "method": "exhaustive finite enumeration; original model builder and saved outputs not imported"
+}

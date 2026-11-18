@@ -1,0 +1,51 @@
+{
+  "status": "OPTIMAL",
+  "status_code": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective": 686.0078260869604,
+  "solution": [
+    1.0,
+    0.0,
+    1.0,
+    -0.0,
+    -1.8783948211823547e-14,
+    -2.7923806250944948e-14,
+    6.000000000000005,
+    1.2510326143891148e-13,
+    5.000000000000055,
+    0.0,
+    0.0,
+    -1.3961903125472475e-13,
+    4.999999999999955,
+    0.0,
+    2.999999999999746,
+    0.0,
+    0.0,
+    3.109888987107979e-13,
+    3.000000000000218,
+    -0.0,
+    4.0,
+    0.0,
+    0.0,
+    0.0,
+    6.5
+  ],
+  "validation": {
+    "max_constraint_or_bound_violation": 5.064555424674125e-13,
+    "max_integrality_error": 3.109888987107979e-13,
+    "objective_reconstructed": 686.0078260869604
+  },
+  "primary_mip_dual_bound": 686.0078260869604,
+  "primary_mip_gap": 0.0,
+  "tag": "f23_budget6500000_F2_shared_continuous",
+  "saved_objective": 686.0078260869566,
+  "absolute_objective_error": 3.865352482534945e-12,
+  "saved_solution_validation": {
+    "max_constraint_or_bound_violation": 0.0,
+    "max_integrality_error": 0.0,
+    "objective_reconstructed": 686.0078260869566
+  },
+  "all_y_and_n_fixed": false,
+  "log_multiobjective_solved": true,
+  "log_presolve_all_fixed": false
+}

@@ -1,0 +1,170 @@
+{
+  "tag": "f23_mobile_A_enum_12_1_ev",
+  "parameter_id": "7774d41bef138dba0f48",
+  "config": {
+    "stock": "shared",
+    "integer_n": true,
+    "existing_stock": 0,
+    "capital_budget_hkd": 2000000,
+    "purchase_price_hkd": 1000000,
+    "accessible_locations": [
+      "Tai O1",
+      "Tai O2"
+    ],
+    "coverage_each_location_each_scenario": 0
+  },
+  "fixed_policy": {
+    "y": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "n": 1
+  },
+  "status_code": 2,
+  "status": "OPTIMAL",
+  "runtime_seconds": 0.0005431175231933594,
+  "node_count": 0.0,
+  "solution_count": 1,
+  "objective": 531.2373913043479,
+  "primary_value_from_solver": 531.2373913043479,
+  "policy": {
+    "y": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "n": 1.0
+  },
+  "plan": "Tai O1/Warning;Tai O2/Drainage",
+  "x": [
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Drainage",
+      "x": 0
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Barrier",
+      "x": 0
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O1",
+      "intervention": "Warning",
+      "x": 6
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Drainage",
+      "x": 1
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Barrier",
+      "x": 0
+    },
+    {
+      "scenario": "EV",
+      "location": "Tai O2",
+      "intervention": "Warning",
+      "x": 0
+    }
+  ],
+  "residuals": [
+    {
+      "constraint": "readiness",
+      "lhs": 14000.0,
+      "rhs": 20000.0,
+      "slack": 6000.0
+    },
+    {
+      "constraint": "capital",
+      "lhs": 1000000.0,
+      "rhs": 2000000,
+      "slack": 1000000.0
+    },
+    {
+      "constraint": "EV/operating_budget",
+      "lhs": 13095.652173913046,
+      "rhs": 30000.0,
+      "slack": 16904.347826086952
+    },
+    {
+      "constraint": "EV/labour_capacity",
+      "lhs": 354.52173913043475,
+      "rhs": 400.0,
+      "slack": 45.47826086956525
+    },
+    {
+      "constraint": "EV/equipment_capacity",
+      "lhs": 25.304347826086957,
+      "rhs": 60.0,
+      "slack": 34.69565217391305
+    },
+    {
+      "constraint": "EV/supply_capacity",
+      "lhs": 92.73913043478261,
+      "rhs": 220.0,
+      "slack": 127.26086956521739
+    },
+    {
+      "constraint": "link/EV/Tai O1/Drainage",
+      "lhs": 0,
+      "rhs": 0.0,
+      "slack": 0.0
+    },
+    {
+      "constraint": "link/EV/Tai O1/Barrier",
+      "lhs": 0,
+      "rhs": 0.0,
+      "slack": 0.0
+    },
+    {
+      "constraint": "link/EV/Tai O1/Warning",
+      "lhs": 6,
+      "rhs": 6.9565217391304355,
+      "slack": 0.9565217391304355
+    },
+    {
+      "constraint": "link/EV/Tai O2/Drainage",
+      "lhs": 1,
+      "rhs": 6.173913043478262,
+      "slack": 5.173913043478262
+    },
+    {
+      "constraint": "link/EV/Tai O2/Barrier",
+      "lhs": 0,
+      "rhs": 0.0,
+      "slack": 0.0
+    },
+    {
+      "constraint": "link/EV/Tai O2/Warning",
+      "lhs": 0,
+      "rhs": 0.0,
+      "slack": 0.0
+    },
+    {
+      "constraint": "shared/EV",
+      "lhs": 1,
+      "rhs": 1.0,
+      "slack": 0.0
+    }
+  ],
+  "validation": {
+    "max_constraint_violation": 0,
+    "max_integrality_error": 0.0,
+    "objective_reconstruction_error": 0.0,
+    "fixed_stage_preserved": true
+  }
+}

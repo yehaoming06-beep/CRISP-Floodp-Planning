@@ -1,0 +1,140 @@
+[
+  {
+    "page": 1,
+    "characters": 3989,
+    "head": "1\nCRISP An auditable case study of stochastic flood \nresponse planning in Tai O\nHaoming Ye\u00b9, Ha",
+    "tail": " in 2021. \nPopulation provides geographic context; it does not calibrate the score or identify residents protected. The "
+  },
+  {
+    "page": 2,
+    "characters": 4154,
+    "head": "2\nhistorically selected 23 records remain a frozen computational reference. A separately define",
+    "tail": "e precedents \nestablish the preparedness/recourse structure within which CRISP counts pumps and fixes every first-stage "
+  },
+  {
+    "page": 3,
+    "characters": 4147,
+    "head": "3\nvariable during EEV evaluation. Those accounting requirements are implementation discipline, ",
+    "tail": "KO issued any local \ntropical-cyclone warning during 1 January 2017\u201331 December 2025, Hong Kong time (UTC+8), including "
+  },
+  {
+    "page": 4,
+    "characters": 4044,
+    "head": "4\nSignal 1 and unnamed depressions [21]. Repeated warning periods for one cyclone are merged by",
+    "tail": "d composite score h[t] are\n\u03c3k= \u221a 1T \u2211t=1\nT\n ( ztk- \u00afzk)2,  Ck= \u03c3k\u2211l  (1- rkl),  wk= Ck\u2211l  Cl .   (2)\nht=\u2211k  wkztk.   (3)"
+  },
+  {
+    "page": 5,
+    "characters": 2488,
+    "head": "5\nCRITIC weights reflect variation and correlation within the selected observations [11]. They ",
+    "tail": "d readiness budget Illustrative CU; CU\nc[s,j,i], B[s] Deployment expense and operating budget CU per deployment unit; CU"
+  },
+  {
+    "page": 6,
+    "characters": 2464,
+    "head": "6\nSymbol Definition and domain Unit\na[r,s,j,i], R[r,s] Requirement and capacity for resource r ",
+    "tail": "equirement \nchanges. The implementation adds 10 \u00b9  before flooring to prevent floating-point rounding below an exact \u207b \u2070"
+  },
+  {
+    "page": 7,
+    "characters": 3120,
+    "head": "7\ninteger. A resource-derived bound is a mathematical consequence of the resource rows, rather ",
+    "tail": "17)\nReoptimizing procurement after the event would not evaluate the stated ex ante policy. For this \nmaximization model,"
+  },
+  {
+    "page": 8,
+    "characters": 4240,
+    "head": "8\nVSS= RP - EEV ,    EVPI= WS- RP ,    WS\u2265RP\u2265EEV .   (18)\nThe EV objective belongs to the artif",
+    "tail": "class membership and \nrepresentative R/W/S while leaving response coefficients unchanged, the replay attaches new label "
+  },
+  {
+    "page": 9,
+    "characters": 3484,
+    "head": "9\nfrequencies to the old illustrative response tables. It is explicitly a partial frequency sen",
+    "tail": "icit temporal simplification. Census polygons are also distinct from contemporary coastlines \nand inundation footprints."
+  },
+  {
+    "page": 10,
+    "characters": 2445,
+    "head": "10\nFigure 1. Census-aligned Tai O research sectors. Tai O1 comprises complete unit 94404S, and ",
+    "tail": "difference was found. \nTC2021_02_E and TC2021_02_W are distinct depressions with a common warning and inseparable event "
+  },
+  {
+    "page": 11,
+    "characters": 3919,
+    "head": "11\nsummary [23]; copying that summary into two analyzable observations would duplicate unresolv",
+    "tail": "el migration separately, preserving the distinction between historical \nreference results and retrospective sensitivity."
+  },
+  {
+    "page": 12,
+    "characters": 3364,
+    "head": "12\nTable 4. Frozen three-scenario summary.\nScenario Events Conditional frequency Centroid h Mea",
+    "tail": "define K-means classes. They identify possible future operational \nextensions without changing the reviewed experiments."
+  },
+  {
+    "page": 13,
+    "characters": 3954,
+    "head": "13\n5 Results\nThe frozen reference retains 9/23, 9/23 and 5/23 before explicitly stated perturba",
+    "tail": "other comparison \ncolumns evaluate those original scenarios. The legacy and inventory rows have different feasible sets."
+  },
+  {
+    "page": 14,
+    "characters": 2874,
+    "head": "14\nTable 7. Inventory-baseline RP deployment in Tai O1.\nScenario Pumps Barrier packages Warning",
+    "tail": "al \nequivalence, and the B comparison does not validate every configuration or higher procurement limit in the \nA suite."
+  },
+  {
+    "page": 15,
+    "characters": 3093,
+    "head": "15\nFigure 2 retains the frozen 23-event procurement results under A. RP remains 616.082500 at l",
+    "tail": "r procurement no larger \nthan n, with unchanged readiness, deployment and score. Capital use cannot increase. F2 and F3 "
+  },
+  {
+    "page": 16,
+    "characters": 3139,
+    "head": "16\nconsequently have identical projected (y, x) feasible sets in the present formulation. This ",
+    "tail": "e exact count ratios. \nFor the frozen projection, 25 records have at least one indicator below the old Min-Max minimum; "
+  },
+  {
+    "page": 17,
+    "characters": 3752,
+    "head": "17\nextrapolated normalized values are retained without clipping. ARI between the two classifica",
+    "tail": " m for W and 0.55 m for S. On \nthe original 23 identities alone, using Tai O produces counts 10/11/2 and CRITIC weights "
+  },
+  {
+    "page": 18,
+    "characters": 3307,
+    "head": "18\n0.380832/0.392037/0.227132. Spatial-proxy choice thus materially affects scenario constructi",
+    "tail": " HKD welfare \nchanges or proof that the larger sample produces a better real policy. Updated class-representative R/W/S "
+  },
+  {
+    "page": 19,
+    "characters": 4083,
+    "head": "19\nvalues do not enter the resource, cost or benefit tables. Full observation-to-decision uncer",
+    "tail": "tside the response scores. Independent optima \nacross hypothetical parameter draws do not define a single robust policy."
+  },
+  {
+    "page": 20,
+    "characters": 4486,
+    "head": "20\n6.3 Event frames spatial proxies and conditional frequencies\nReconstruction strengthens trac",
+    "tail": "seline readiness policy or its zero procurement. \nThese conditional score changes do not estimate real damage reduction."
+  },
+  {
+    "page": 21,
+    "characters": 4045,
+    "head": "21\nA/B conventions yield the same baseline EV-optimal sets and VSS ranges while differing for s",
+    "tail": "location and \ndistribution in disaster management. International Journal of Production Economics, 126(1), 76\u201384. Source."
+  },
+  {
+    "page": 22,
+    "characters": 3660,
+    "head": "22\n[5] Ye, C., Gao, J., Nachabe, M., Charkhgard, H., Zhang, Y., and Zhang, Q. (2025). Optimizat",
+    "tail": "annual reports and monthly summaries; archived in the \nCI-01 source manifest on 4 November 2026. Database; warning data."
+  },
+  {
+    "page": 23,
+    "characters": 2473,
+    "head": "23\n[22] Hong Kong Observatory. (n.d.). Storm Surge Records. Sea levels in m above Chart Datum, ",
+    "tail": " \nS13 records source-reading limits. Main-text Figures 1 and 2 and supplementary figures retain the frozen \nimage files."
+  }
+]

@@ -1,0 +1,277 @@
+{
+  "status": "PASS",
+  "paper_comparisons": 82,
+  "paper_failures": 0,
+  "pipeline_crosschecks": [
+    {
+      "dataset": "original23",
+      "max_weight_abs_error": 5.551115123125783e-17,
+      "max_score_abs_error": 1.1102230246251565e-16,
+      "label_disagreements": 0,
+      "kmeans_sse": 0.1469727332520324,
+      "independent_global_sse": 0.14697273325203236,
+      "global_sse_abs_error": 2.7755575615628914e-17,
+      "status": "PASS"
+    },
+    {
+      "dataset": "original23_new_rules",
+      "max_weight_abs_error": 5.551115123125783e-17,
+      "max_score_abs_error": 1.1102230246251565e-16,
+      "label_disagreements": 0,
+      "kmeans_sse": 0.1469727332520324,
+      "independent_global_sse": 0.14697273325203236,
+      "global_sse_abs_error": 2.7755575615628914e-17,
+      "status": "PASS"
+    },
+    {
+      "dataset": "reconstructed60",
+      "max_weight_abs_error": 1.1102230246251565e-16,
+      "max_score_abs_error": 1.1102230246251565e-16,
+      "label_disagreements": 0,
+      "kmeans_sse": 0.2604940259980461,
+      "independent_global_sse": 0.26049402599804616,
+      "global_sse_abs_error": 5.551115123125783e-17,
+      "status": "PASS"
+    }
+  ],
+  "fits": {
+    "original23": {
+      "name": "original23",
+      "N": 23,
+      "minima": [
+        13.5,
+        2.38,
+        0.22
+      ],
+      "ranges": [
+        338.4,
+        1.5300000000000002,
+        2.1199999999999997
+      ],
+      "weights": [
+        0.4340813251811204,
+        0.3352294655633418,
+        0.23068920925553774
+      ],
+      "centers": [
+        0.16972654593445513,
+        0.3258382375944078,
+        0.6445434818998124
+      ],
+      "thresholds": [
+        0.24778239176443145,
+        0.48519085974711007
+      ],
+      "counts": [
+        9,
+        9,
+        5
+      ],
+      "frequencies": [
+        0.391304347826087,
+        0.391304347826087,
+        0.21739130434782608
+      ],
+      "global_sse": 0.14697273325203236,
+      "evaluated_partitions": 231,
+      "summary": [
+        {
+          "scenario": "Moderate",
+          "event_count": 9,
+          "probability": 0.391304347826087,
+          "cluster_center_mu": 0.16972654593445513,
+          "representative_rainfall": 57.96666666666667,
+          "representative_sea_level": 2.71,
+          "representative_storm_surge": 0.5911111111111111
+        },
+        {
+          "scenario": "Severe",
+          "event_count": 9,
+          "probability": 0.391304347826087,
+          "cluster_center_mu": 0.3258382375944078,
+          "representative_rainfall": 118.8111111111111,
+          "representative_sea_level": 3.01,
+          "representative_storm_surge": 0.7044444444444445
+        },
+        {
+          "scenario": "Extreme",
+          "event_count": 5,
+          "probability": 0.21739130434782608,
+          "cluster_center_mu": 0.6445434818998124,
+          "representative_rainfall": 220.68,
+          "representative_sea_level": 3.4859999999999998,
+          "representative_storm_surge": 1.474
+        }
+      ]
+    },
+    "original23_new_rules": {
+      "name": "original23_new_rules",
+      "N": 23,
+      "minima": [
+        13.5,
+        2.38,
+        0.22
+      ],
+      "ranges": [
+        338.4,
+        1.5300000000000002,
+        2.1199999999999997
+      ],
+      "weights": [
+        0.4340813251811204,
+        0.3352294655633418,
+        0.23068920925553774
+      ],
+      "centers": [
+        0.16972654593445513,
+        0.3258382375944078,
+        0.6445434818998124
+      ],
+      "thresholds": [
+        0.24778239176443145,
+        0.48519085974711007
+      ],
+      "counts": [
+        9,
+        9,
+        5
+      ],
+      "frequencies": [
+        0.391304347826087,
+        0.391304347826087,
+        0.21739130434782608
+      ],
+      "global_sse": 0.14697273325203236,
+      "evaluated_partitions": 231,
+      "summary": [
+        {
+          "scenario": "Moderate",
+          "event_count": 9,
+          "probability": 0.391304347826087,
+          "cluster_center_mu": 0.16972654593445513,
+          "representative_rainfall": 57.96666666666667,
+          "representative_sea_level": 2.71,
+          "representative_storm_surge": 0.5911111111111111
+        },
+        {
+          "scenario": "Severe",
+          "event_count": 9,
+          "probability": 0.391304347826087,
+          "cluster_center_mu": 0.3258382375944078,
+          "representative_rainfall": 118.8111111111111,
+          "representative_sea_level": 3.01,
+          "representative_storm_surge": 0.7044444444444445
+        },
+        {
+          "scenario": "Extreme",
+          "event_count": 5,
+          "probability": 0.21739130434782608,
+          "cluster_center_mu": 0.6445434818998124,
+          "representative_rainfall": 220.68,
+          "representative_sea_level": 3.4859999999999998,
+          "representative_storm_surge": 1.474
+        }
+      ]
+    },
+    "reconstructed60": {
+      "name": "reconstructed60",
+      "N": 60,
+      "minima": [
+        0.0,
+        1.71,
+        0.06
+      ],
+      "ranges": [
+        351.9,
+        2.2,
+        2.28
+      ],
+      "weights": [
+        0.48721699591759327,
+        0.28608032271153494,
+        0.22670268137087188
+      ],
+      "centers": [
+        0.18637037910845683,
+        0.3587581257352102,
+        0.6517147725186704
+      ],
+      "thresholds": [
+        0.2725642524218335,
+        0.5052364491269403
+      ],
+      "counts": [
+        35,
+        19,
+        6
+      ],
+      "frequencies": [
+        0.5833333333333334,
+        0.31666666666666665,
+        0.1
+      ],
+      "global_sse": 0.26049402599804616,
+      "evaluated_partitions": 1711,
+      "summary": [
+        {
+          "scenario": "Moderate",
+          "event_count": 35,
+          "probability": 0.5833333333333334,
+          "cluster_center_mu": 0.18637037910845683,
+          "representative_rainfall": 37.17142857142857,
+          "representative_sea_level": 2.515428571428571,
+          "representative_storm_surge": 0.36342857142857143
+        },
+        {
+          "scenario": "Severe",
+          "event_count": 19,
+          "probability": 0.31666666666666665,
+          "cluster_center_mu": 0.3587581257352102,
+          "representative_rainfall": 122.02631578947368,
+          "representative_sea_level": 2.7889473684210526,
+          "representative_storm_surge": 0.5578947368421052
+        },
+        {
+          "scenario": "Extreme",
+          "event_count": 6,
+          "probability": 0.1,
+          "cluster_center_mu": 0.6517147725186704,
+          "representative_rainfall": 222.3166666666667,
+          "representative_sea_level": 3.39,
+          "representative_storm_surge": 1.3216666666666665
+        }
+      ]
+    },
+    "reconstructed60_fixed_preprocessing": {
+      "N": 60,
+      "weights": [
+        0.4340813251811204,
+        0.3352294655633418,
+        0.23068920925553774
+      ],
+      "counts": [
+        43,
+        12,
+        5
+      ],
+      "frequencies": [
+        0.7166666666666667,
+        0.2,
+        0.08333333333333333
+      ]
+    }
+  },
+  "original23_label_changes": 6,
+  "pending_identities": [
+    "TC2017_06",
+    "TC2021_02_E",
+    "TC2021_02_W"
+  ],
+  "input60_matches_inclusion_ledger_exactly": true,
+  "original23_new_screening_input_identical": true,
+  "limits": [
+    "Source reconstruction from archived HKO records was not rerun in this scenario calculation.",
+    "Three pending identities are retained unresolved.",
+    "Existing original research environment reused; clean-install portability is a separate check."
+  ]
+}

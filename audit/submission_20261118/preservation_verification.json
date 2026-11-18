@@ -1,0 +1,18 @@
+{
+  "historical_audit_manifest_records": 16187,
+  "historical_manifest_mismatches": [
+    {
+      "path": "README.md",
+      "old_sha256": "0e273ccec52cf75deb6b5894ddb431fc79951a20c07193aaf611a6ec6a2dcf0a",
+      "new_sha256": "b6a0ffff77efb3bc38e37ef4e150a019aa7bb800fe35670369c5d9656c12e271",
+      "disposition": "Intentional submission documentation update"
+    }
+  ],
+  "all_historical_scientific_audit_artifacts_unchanged": true,
+  "original_research_files_checked": 27549,
+  "original_research_changes": [],
+  "final_paper_sha256": "4e12f7849d0b2ca7dd0d156c987a9e90f8b651880c79b74e10f14bffbab4ca37",
+  "final_paper_unchanged": true,
+  "git_head_unchanged": true,
+  "git_actual_index_unchanged": true
+}

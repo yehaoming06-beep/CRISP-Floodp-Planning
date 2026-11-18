@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "scope": "Package integrity, source syntax, selected links, section structure, archived table counts and Git candidate hygiene; no research code executed",
+  "audited_at_utc": "2026-11-18T01:59:20.851217+00:00",
+  "checks": {
+    "import_integrity": {
+      "listed": 12914,
+      "verified": 12914
+    },
+    "python_syntax": {
+      "parsed_without_execution": 134
+    },
+    "local_links": {
+      "documents": 11,
+      "local_targets_checked": 237
+    },
+    "supplement": {
+      "section_headings": [
+        [
+          "S1",
+          "Scope and evidence versions"
+        ],
+        [
+          "S2",
+          "EV conventions and complete baseline policy comparisons"
+        ],
+        [
+          "S3",
+          "Controlled model components"
+        ],
+        [
+          "S4",
+          "Hypothetical minimum geographic coverage"
+        ],
+        [
+          "S5",
+          "Frozen spatial heterogeneity"
+        ],
+        [
+          "S6",
+          "Frozen intervention subsets and one factor perturbations"
+        ],
+        [
+          "S7",
+          "Frozen joint parameter stress tests"
+        ],
+        [
+          "S8",
+          "Frozen legacy bounds and capacity grids"
+        ],
+        [
+          "S9",
+          "Detailed procurement and inventory sensitivity"
+        ],
+        [
+          "S10",
+          "Original event data and source ledger"
+        ],
+        [
+          "S11",
+          "Scenario dependent illustrative requirements"
+        ],
+        [
+          "S12",
+          "Reconstructed local warning frame and provenance"
+        ],
+        [
+          "S13",
+          "Verification scope and source-reading boundaries"
+        ]
+      ],
+      "text_unchanged_except_link_destinations": true
+    },
+    "experiment_counts": {
+      "04_Results/Optimization/summary.csv": {
+        "expected": 555,
+        "observed": 555
+      },
+      "04_Results/Optimization/solver_audit.csv": {
+        "expected": 3875,
+        "observed": 3875
+      },
+      "manuscript_revision/audit/ci01_independent_20261104/backend_probability60/summary.csv": {
+        "expected": 555,
+        "observed": 555
+      },
+      "manuscript_revision/audit/ci01_independent_20261104/backend_probability60/solver_audit.csv": {
+        "expected": 3888,
+        "observed": 3888
+      },
+      "manuscript_revision/peer_review_validation_20261105_v2/runs/primary/solver_audit.csv": {
+        "expected": 500,
+        "observed": 500,
+        "status_counts": {
+          "OPTIMAL": 498,
+          "INFEASIBLE": 2
+        }
+      },
+      "manuscript_revision/peer_review_validation_20261105_v2/runs/primary/ev_all_policy_trials.csv": {
+        "expected": 416,
+        "observed": 416
+      },
+      "manuscript_revision/peer_review_validation_20261105_v2/runs/primary/component_summary.csv": {
+        "expected": 24,
+        "observed": 24
+      },
+      "manuscript_revision/peer_review_validation_20261105_v2/runs/primary/coverage_summary.csv": {
+        "expected": 8,
+        "observed": 8
+      }
+    },
+    "git_safety": {
+      "candidate_files": 29800,
+      "submission_policy": true,
+      "credential_scan": "Recognizable token patterns in UTF-8-like candidate files <=5 MiB; not an exhaustive secret detector"
+    }
+  },
+  "errors": [],
+  "advisories": [
+    {
+      "check": "submission_policy",
+      "detail": "Six reviewed numerical inputs and numerical audit execution logs are candidates. This is not redistribution clearance; THIRD_PARTY_NOTICES and the submission checklist still apply."
+    },
+    {
+      "check": "historical_workspace_guard",
+      "path": "manuscript_revision/peer_review_validation_20261105_v2/frozen_manifest_before.json",
+      "original_paths": 21678,
+      "absent_in_organized_package": 11893,
+      "present_with_different_hash": 2,
+      "present_with_matching_hash": 9783,
+      "detail": "Archived whole-workspace guard was not reexecuted; subset integrity does not establish historical guard completeness or numerical reproducibility."
+    }
+  ]
+}

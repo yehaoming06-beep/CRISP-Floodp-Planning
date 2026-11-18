@@ -218,3 +218,120 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CRISP local review and redistribution holds (2026-11-18)
+.DS_Store
+.AppleDouble/
+._*
+.local-review/
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+gurobi.lic
+# Minimal numerical inputs are submission candidates; raw third-party archives remain held.
+# Candidate inclusion is not publication or a blanket redistribution license.
+/01_Data/*
+!/01_Data/CRISP_Master_Data.xlsx
+!/01_Data/Events/
+/01_Data/Events/*
+!/01_Data/Events/model_input.csv
+!/01_Data/Events/event_metadata.csv
+!/01_Data/Controls/
+/01_Data/Controls/*
+!/01_Data/Controls/capacity_bound_reference.json
+!/01_Data/Controls/pre_cleanup_metrics.json
+!/01_Data/Controls/pre_cleanup_report_verification.json
+**/snapshots/01_Data/
+Sources/
+sources/
+# Vendor helper provenance/license must be confirmed before redistribution.
+**/code/vendor/
+# General native logs and compressed archives remain local; numerical audit logs have an exception below.
+*.zip
+# Manuscript distribution and map-specific permissions require separate author review.
+*.docx
+**/Study_Area/
+Figure_1_Study_Area.*
+# New reproduction outputs are not the frozen evidence.
+/04_Results/Reproductions/
+/manuscript_revision/audit/ci01_independent_20261104/backend_probability60_reproduction_*/
+
+# Submission packaging: response headers, redundant copies and newly generated runs.
+*.headers
+/audit/reproducibility_20261118/reconstruction/stage/
+/results/reproductions/
+!audit/reproducibility_20261118/**/*.log
+/manuscript_revision/audit/ci01_independent_20261104/logs/network_probe_headers.txt
+!audit/submission_20261118/clean_run/**/*.log
+
+# CRISP formal delivery selection (2026-11-18)
+# Full evidence below is preserved byte-for-byte in results/evidence/*.tar.gz.
+/audit/submission_20261118/clean_run/
+/04_Results/Optimization/solutions/*
+!/04_Results/Optimization/solutions/legacy_baseline.json
+!/04_Results/Optimization/solutions/mobile_baseline.json
+/manuscript_revision/audit/ci01_independent_20261104/backend_probability60/solutions/*
+!/manuscript_revision/audit/ci01_independent_20261104/backend_probability60/solutions/legacy_baseline.json
+!/manuscript_revision/audit/ci01_independent_20261104/backend_probability60/solutions/mobile_baseline.json
+/audit/reproducibility_20261118/optimization/original23_555/ev_tie_audit/
+/audit/reproducibility_20261118/optimization/reconstructed60_555/ev_tie_audit/
+
+# Optional earlier execution copies: summaries and verification records stay in Git.
+/audit/reproducibility_20261118/optimization/original23_555/logs/
+/audit/reproducibility_20261118/optimization/original23_555/solutions/
+/audit/reproducibility_20261118/optimization/reconstructed60_555/logs/
+/audit/reproducibility_20261118/optimization/reconstructed60_555/solutions/
+/manuscript_revision/audit/ci01_independent_20261104/snapshots/
+/manuscript_revision/audit/ci01_independent_20261104/backend_probability60_replay/
+/audit/reproducibility_20261118/scenarios/stability/tables/
+/audit/reproducibility_20261118/scenarios/stability/figures/
+
+# Historical workspace-wide inventories and earlier packaging lists are local audit material.
+/audit/source_inventory.csv
+/audit/git_change_list.csv
+/audit/reproducibility_20261118/file_inventory_before.csv
+/audit/reproducibility_20261118/file_inventory_after.csv
+/audit/reproducibility_20261118/preservation_before.json
+/audit/reproducibility_20261118/preservation_after.json
+/audit/submission_20261118/tested_candidate_manifest.json
+/audit/submission_20261118/tested_final_candidate_manifest.json
+/audit/submission_20261118/git_submission_files.tsv
+/audit/submission_20261118/final_package_summary.json
+/manuscript_revision/v3_audit/frozen_manifest_before.json
+
+# Manuscript drafts/extractions and editing histories are outside the computational delivery.
+# They contain author contact metadata; the Final Paper remains untouched locally.
+/manuscript_revision/Revised_Manuscript_EN*.md
+/manuscript_revision/audit/fixes_20261104/
+/manuscript_revision/merge_work/
+/audit/reproducibility_20261118/paper_inventory/manuscript_extract.json
+/audit/reproducibility_20261118/paper_inventory/manuscript_extract.txt
+/manuscript_revision/peer_review_validation_20261105_v2/snapshots/manuscript_revision/Revised_Manuscript_EN_v2.md
+
+# Exact numerical workbook required by the v2 snapshot runner; same SHA as root input.
+!/manuscript_revision/peer_review_validation_20261105_v2/snapshots/01_Data/
+/manuscript_revision/peer_review_validation_20261105_v2/snapshots/01_Data/*
+!/manuscript_revision/peer_review_validation_20261105_v2/snapshots/01_Data/CRISP_Master_Data.xlsx
+
+# Common local credential/database/session artifacts, including extension variants.
+*.p12
+*.pfx
+*.lic
+.netrc
+.npmrc
+cookies*.txt
+*.sqlite
+*.sqlite3
+node_modules/
+.venv*/
+/target/
+
+# Complete prior supplementary rerun is retained in the checked evidence archive.
+/audit/reproducibility_20261118/supplementary/
+/audit/reproducibility_20261118/paper_inventory/source_to_repository_inventory.csv
+/audit/reproducibility_20261118/paper_inventory/original_only_files.csv
+/audit/reproducibility_20261118/scenarios/stability/resample_indices.json

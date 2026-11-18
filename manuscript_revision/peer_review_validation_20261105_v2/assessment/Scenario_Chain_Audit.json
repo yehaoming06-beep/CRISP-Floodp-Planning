@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "audit_type": "existing-evidence consistency, not new clustering experiment",
+  "only_changed_backend_parameter_field": [
+    "probabilities"
+  ],
+  "unchanged_backend_fields": [
+    "setup_budget",
+    "operating_budget",
+    "labour_capacity",
+    "equipment_capacity",
+    "supply_capacity",
+    "benefit_weights",
+    "setup_cost",
+    "deploy_cost",
+    "labour",
+    "equipment",
+    "supply",
+    "upper_bound",
+    "life_score",
+    "property_score",
+    "recovery_score",
+    "alpha",
+    "beta",
+    "benefit"
+  ],
+  "old_frequencies": {
+    "Moderate": 0.391304347826087,
+    "Severe": 0.391304347826087,
+    "Extreme": 0.21739130434782608
+  },
+  "new_frequencies": {
+    "Moderate": 0.5833333333333334,
+    "Severe": 0.31666666666666665,
+    "Extreme": 0.1
+  },
+  "old_class_counts": [
+    9,
+    9,
+    5
+  ],
+  "new_class_counts": [
+    35,
+    19,
+    6
+  ],
+  "changed_original_labels": [
+    "E001",
+    "E004",
+    "E005",
+    "E010",
+    "E013",
+    "E014"
+  ],
+  "fixed_old_projection_counts": [
+    43,
+    12,
+    5
+  ],
+  "old_representatives": [
+    [
+      57.96666666666667,
+      2.71,
+      0.5911111111111111
+    ],
+    [
+      118.8111111111111,
+      3.01,
+      0.7044444444444445
+    ],
+    [
+      220.68,
+      3.4859999999999998,
+      1.474
+    ]
+  ],
+  "new_representatives": [
+    [
+      37.17142857142857,
+      2.515428571428571,
+      0.36342857142857143
+    ],
+    [
+      122.02631578947368,
+      2.7889473684210526,
+      0.5578947368421052
+    ],
+    [
+      222.3166666666667,
+      3.39,
+      1.3216666666666665
+    ]
+  ],
+  "old_thresholds": [
+    0.24778239176443145,
+    0.48519085974711007
+  ],
+  "new_thresholds": [
+    0.27256425242183346,
+    0.5052364491269402
+  ],
+  "empirical_response_recalibration": false,
+  "full_observation_to_decision_propagation": false,
+  "source_sha256": {
+    "04_Results/Optimization/baseline_inputs.json": "9f012ea5ff037bdb66af706c9325feb68f74c46a771ea1506fe6a8f4c06a1d83",
+    "manuscript_revision/audit/ci01_independent_20261104/backend_probability60/inputs.json": "6b99be099194e65334839d4bc034ea7a6b5ad23bddd3889d077a3b6389394515",
+    "manuscript_revision/audit/ci01_independent_20261104/analysis/scenario_impact.json": "93babce937e7c950b794240f42fc2de827eaf4582857915c01f98343d457b31b",
+    "manuscript_revision/audit/ci01_independent_20261104/analysis/Original23_Label_Migration.csv": "4ff84e9a328f40cff0005fc4f341f5547fde6e893cad61e9d34fd46938101edd",
+    "manuscript_revision/audit/ci01_independent_20261104/code/run_backend.py": "dcccea702942e114134f5efbd936bb255498a7af0c706c602dbd210d9db33de1"
+  }
+}

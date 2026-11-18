@@ -1,0 +1,56 @@
+{
+  "status": "PASS_CANDIDATE_TREE_ONLY",
+  "actual_committed_clone": "BLOCKED_MISSING_UNCOMMITTED_SCIENTIFIC_FILES",
+  "fresh_environment": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv",
+  "fresh_pyvenv_cfg": "home = /Library/Frameworks/Python.framework/Versions/3.12/bin\ninclude-system-site-packages = false\nversion = 3.12.8\nexecutable = /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12\ncommand = /Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12 -m venv /var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/venv\n",
+  "user_site_enabled": false,
+  "user_workspace_reads_blocked": true,
+  "blocked_read_attempts": 0,
+  "scope_of_guard": "Python file access; not OS isolation of native libraries",
+  "solver": "gurobipy 13.0.2; default restricted license (LicenseID zero), no external credentials",
+  "candidate_tree_final": "/var/folders/63/_93zr4n96qqf58fvm9plk4b40000gn/T/crisp-submission-clean-h_fiwr7k/candidate-final",
+  "scenario_counts": {
+    "original23": [
+      9,
+      9,
+      5
+    ],
+    "reconstructed60": [
+      35,
+      19,
+      6
+    ]
+  },
+  "scenario_paper_cells": 82,
+  "core_configurations": 4,
+  "core_metric_checks": 24,
+  "core_max_enumeration_difference": 1.1368683772161603e-13,
+  "suite23": {
+    "configurations": 555,
+    "solver_runs": 3875,
+    "independent_RP": 555,
+    "max_highs_difference": 3.5839774454871076e-06
+  },
+  "suite60": {
+    "configurations": 555,
+    "solver_runs": 3888,
+    "independent_RP": 555,
+    "max_highs_difference": 1.648215516070195e-06
+  },
+  "software_tests": {
+    "passed": 17,
+    "warnings": "One joblib CPU-count warning because minimal PATH omitted sysctl; logical CPU fallback, not test failure"
+  },
+  "archived_output_files": 8964,
+  "all_archived_hashes_match": true,
+  "input_data_source": "Candidate Git tree only; no hidden research files",
+  "not_covered": [
+    "Raw source archive reconstruction in clean tree",
+    "Full stability/v2 historical workspace guards",
+    "Fresh PDF extraction/QC/field validation",
+    "Other operating systems"
+  ],
+  "core_paper_cells": 48,
+  "total_paper_cells": 130,
+  "paper_comparison_status": "PASS"
+}

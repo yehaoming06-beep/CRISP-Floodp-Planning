@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "reviewer_task": "readiness_audit",
+  "method": "Viewed each original-detail page PNG with tools.view_image; actual visual review, not inferred from text extraction.",
+  "render_directory": "render_v3_01",
+  "pages": [
+    {
+      "page": 17,
+      "status": "PASS",
+      "finding": "Tables 12 and 13 complete and legible; prose and source notes within margins.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    },
+    {
+      "page": 18,
+      "status": "PASS",
+      "finding": "Table 14 complete with all 12 metric rows, readable signs and decimals; surrounding prose clean.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    },
+    {
+      "page": 19,
+      "status": "PASS",
+      "finding": "Discussion headings, paragraphs, superscripts and citations readable.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    },
+    {
+      "page": 20,
+      "status": "PASS",
+      "finding": "Discussion, CI statuses and Conclusion readable without clipping or overlap.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    },
+    {
+      "page": 21,
+      "status": "PASS",
+      "finding": "Conclusion, all author-declaration TODOs, and references 1\u20134 intact and readable.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    },
+    {
+      "page": 22,
+      "status": "PASS",
+      "finding": "References 5\u201321 legible; corrected Supplementary S10 references visible.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    },
+    {
+      "page": 23,
+      "status": "PASS",
+      "finding": "References 22\u201330 and Supplementary Materials note intact and legible.",
+      "clipping": false,
+      "overlap": false,
+      "missing_glyphs": false
+    }
+  ],
+  "final_render_directory": "render_v3_final",
+  "final_render_page_equivalence": {
+    "17": true,
+    "18": true,
+    "19": true,
+    "20": true,
+    "21": true,
+    "22": true,
+    "23": true
+  },
+  "delivery_render_directory": "render_v3_delivery",
+  "delivery_render_page_equivalence": {
+    "17": true,
+    "18": true,
+    "19": true,
+    "20": true,
+    "21": true,
+    "22": true,
+    "23": true
+  }
+}

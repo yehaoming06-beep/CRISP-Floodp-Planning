@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "date_time": "2026-11-05T17:32:40.465981+08:00",
+  "required_reports": [
+    "Peer_Review_Issues.md",
+    "EV_Convention_Sensitivity.md",
+    "Controlled_Model_Ablation.md",
+    "Methodological_Contribution_Matrix.md",
+    "Revised_Experiment_Recommendations.md"
+  ],
+  "table_numeric_cells_checked": 130,
+  "local_report_links_checked": 41,
+  "broken_links": [],
+  "original_scientific_files_hashed": 21678,
+  "changed_or_missing_original_files": [],
+  "v1_results_read_or_used": false,
+  "primary_solver_calls": 500,
+  "independent_solver_calls": 936,
+  "primary_optimal": 498,
+  "primary_expected_infeasible": 2,
+  "max_cross_solver_objective_error": 1.3073986337985843e-11,
+  "all_execution_gate_code_hashes_match": true,
+  "post_result_review": "PASS",
+  "empirical_calibration": false,
+  "delivery_checker_prior_parse_errors": 2,
+  "delivery_checker_errors_resolved_without_result_changes": true,
+  "CI-01": "PARTIALLY RESOLVED / NOT FULLY CLOSED",
+  "CI-06": "OPEN"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "REPRODUCIBLE",
+  "comparison": "second full run, same locked environment and seeds",
+  "csv_files_byte_identical": 20,
+  "csv_names": [
+    "baseline_events.csv",
+    "baseline_scenarios.csv",
+    "baseline_weights.csv",
+    "competing_partitions.csv",
+    "correlations.csv",
+    "event_bootstrap_coassignment.csv",
+    "event_membership_stability.csv",
+    "failed_runs.csv",
+    "fixed_preprocess_coassignment.csv",
+    "initialization_runs.csv",
+    "k_bootstrap_runs.csv",
+    "k_diagnostics.csv",
+    "leave_one_event_coassignment.csv",
+    "leave_one_year_coassignment.csv",
+    "resample_runs.csv",
+    "resample_summary.csv",
+    "subsample80_coassignment.csv",
+    "weight_rank_frequencies.csv",
+    "year_bootstrap_coassignment.csv",
+    "year_counts.csv"
+  ],
+  "npz_arrays_exact": 18,
+  "structured_json_files_identical": 4,
+  "graphics_and_environment_metadata_excluded": true
+}

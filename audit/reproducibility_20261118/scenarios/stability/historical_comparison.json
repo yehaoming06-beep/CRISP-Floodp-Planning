@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "compared_tables": 20,
+  "max_absolute_error": 0,
+  "fresh_indices_equal_historical": true,
+  "numerical_tolerance": 1e-10
+}

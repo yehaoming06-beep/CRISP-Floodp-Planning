@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "paper_cells": 48,
+  "max_abs_error": 4.2028988644915444e-07,
+  "reference_role": "Paper comparison only; not used to construct scientific inputs"
+}

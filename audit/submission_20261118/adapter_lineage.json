@@ -1,0 +1,13 @@
+{
+  "original_sources": {
+    "audit/reproducibility_20261118/scenarios/reproduce_scenarios.py": "c0792c0c44cf7ea40e5fd21ad509e18817b6c72a5d3331b499a6ba7bf9cd9e4d",
+    "audit/reproducibility_20261118/optimization/run_frequency60_555.py": "a11a0d955a6298a112d12464384e5ffa09320118e14a265f057546d860800ae0",
+    "audit/reproducibility_20261118/optimization/verify_frequency60.py": "f0806f7aeddb0f7435e35bf3fc059acbd4c99ee3739f08da88162b0131266665"
+  },
+  "changes": [
+    "Repository-relative roots only; no original-workspace witness reads",
+    "Scenario comparisons read archived manuscript table transcription instead of requiring DOCX",
+    "Fresh 60 scenario counts and new destination are explicit CLI arguments",
+    "No historical integrity guard was reset or fabricated; frozen designs/models unchanged"
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "tag": "legacy_baseline_rp",
+    "status": "OPTIMAL",
+    "objective": 720.3249166666668,
+    "runtime": 0.020388126373291016,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ws_Moderate",
+    "status": "OPTIMAL",
+    "objective": 787.5450000000001,
+    "runtime": 0.0015769004821777344,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ws_Severe",
+    "status": "OPTIMAL",
+    "objective": 637.45,
+    "runtime": 0.014625072479248047,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ws_Extreme",
+    "status": "OPTIMAL",
+    "objective": 590.645,
+    "runtime": 0.002691984176635742,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_ev",
+    "status": "OPTIMAL",
+    "objective": 677.094,
+    "runtime": 0.010587930679321289,
+    "validation_passed": true
+  },
+  {
+    "tag": "legacy_baseline_eev",
+    "status": "OPTIMAL",
+    "objective": 720.3249166666668,
+    "runtime": 0.0014541149139404297,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_rp",
+    "status": "OPTIMAL",
+    "objective": 634.5166666666668,
+    "runtime": 0.019387006759643555,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ws_Moderate",
+    "status": "OPTIMAL",
+    "objective": 661.815,
+    "runtime": 0.0030050277709960938,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ws_Severe",
+    "status": "OPTIMAL",
+    "objective": 632.5,
+    "runtime": 0.003535032272338867,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ws_Extreme",
+    "status": "OPTIMAL",
+    "objective": 533.9125,
+    "runtime": 0.005199909210205078,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_ev",
+    "status": "OPTIMAL",
+    "objective": 601.9071666666667,
+    "runtime": 0.011096000671386719,
+    "validation_passed": true
+  },
+  {
+    "tag": "mobile_baseline_eev",
+    "status": "OPTIMAL",
+    "objective": 600.2030833333334,
+    "runtime": 0.0007269382476806641,
+    "validation_passed": true
+  }
+]

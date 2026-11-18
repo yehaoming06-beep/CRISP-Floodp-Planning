@@ -1,0 +1,65 @@
+{
+  "date_local": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "scope": "source and residual-risk review of existing results; no new experiment",
+  "candidate_audit": {
+    "rows": 63,
+    "statuses": {
+      "INCLUDE": 60,
+      "PENDING_DATA": 3
+    },
+    "include_stations": {
+      "R11": 54,
+      "HKA": 4,
+      "R12": 2
+    },
+    "pending": [
+      {
+        "candidate_id": "TC2017_06",
+        "event_name": "Tropical Depression unnamed",
+        "decision_reason": "PENDING_SOURCE_CONFLICT"
+      },
+      {
+        "candidate_id": "TC2021_02_E",
+        "event_name": "Tropical Depression E (5-6 July 2021)",
+        "decision_reason": "PENDING_COMPOUND_ATTRIBUTION"
+      },
+      {
+        "candidate_id": "TC2021_02_W",
+        "event_name": "Tropical Depression W (5-8 July 2021)",
+        "decision_reason": "PENDING_COMPOUND_ATTRIBUTION"
+      }
+    ]
+  },
+  "cached_source_sha256": {
+    "sources/web/HKO_tc.dat": "5ee757dae390bf1eca268557921768983dc99120ee9275b7e5d532e6f3c45c9d",
+    "sources/web/HKO_2021_section3_2rpt.html": "68c2152248c3fc833ce53aaefa463a827c50129f5a86c4e37b66c43dd6c453be",
+    "sources/web/HKO_2017_table363.html": "075c4c964b1788eb91b188ca3cb4d3e6154765f9632aad864d1c60cb986f77f3",
+    "sources/web/HKO_2024_table334.html": "12adc21712340075b10584c9f218cd7800fc1717676db591e61e9aac54450322",
+    "sources/web/HKO_ssdb_storm.js": "6a7790b87081811deaa0eaf1dc96b6d80fa234851e47893f03bd102e21be88ec",
+    "sources/web/HKO_ssdb_station.js": "4cefdb1c08be70d46bf582b985d3c0d89dbb5f28c6bc3ea716942a83d968f555",
+    "sources/web/HKO_daily_R11_2025.htm": "347eb605218a9c9db46eee3aa6b187cb2b557c261d1ba8e6e1527d55f81aa11c",
+    "Screening_Protocol.md": "ef5df9a3df8ef2ddd993833b61d4407e9bd80d3f97afef93c08dcebf5d008c3a"
+  },
+  "selected_live_page_checks": [
+    {
+      "url": "https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml",
+      "result": "readable; historical warning database context, not flood census"
+    },
+    {
+      "url": "https://www.hko.gov.hk/en/publica/tc/tc2021/section3_2rpt.html",
+      "result": "readable; two depressions share signal No.1, 6-7 July 2021"
+    },
+    {
+      "url": "https://www.hko.gov.hk/en/publica/tc/tc2017/table363.html",
+      "result": "readable; Shek Pik W2.23, S0.26, peak times agree with retained annual table"
+    },
+    {
+      "url": "https://www.hko.gov.hk/en/publica/tc/tc2024/table334.html",
+      "result": "readable; Shek Pik W2.52 5Sep10:42, S0.57 5Sep01:10 agree with retained annual table"
+    }
+  ],
+  "fresh_full_database_download": false,
+  "instrument_calibration_verified": false,
+  "CI01_fully_closed": false
+}

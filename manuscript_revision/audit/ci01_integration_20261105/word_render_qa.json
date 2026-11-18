@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "date": "2026-11-05 Asia/Shanghai",
+  "markdown_sha256": "d245173c74145e3fc64afdf6c6a7f3d5974e092db42c499a74ec8fc668b050d1",
+  "docx_sha256": "28f6f9748bc2b57024eb804b17148d7baedc32a0b5dfe767178d65baba7956e9",
+  "page_count": 30,
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "inspection_detail": "original page PNGs (viewer resized to fit display)",
+  "native_numbered_equation_groups": 18,
+  "native_equation_objects": 19,
+  "tables": 20,
+  "figures": 7,
+  "table_C1_caption_style": "Caption",
+  "prose_table_sync": "262 of 262 blocks identical after defined Markdown formatting conversion",
+  "findings": {
+    "clipping": false,
+    "overlap": false,
+    "missing_glyphs": false,
+    "broken_table_rows": false,
+    "orphan_captions": false,
+    "equations_intact": true,
+    "table_headers_repeat": true,
+    "long_ranges_readable": true
+  },
+  "layout_observations": [
+    {
+      "page": 9,
+      "note": "Lower-page whitespace precedes Figure 1 on page 10; retained figure and caption stay together."
+    },
+    {
+      "page": 17,
+      "note": "Lower-page whitespace precedes Figure 5 on page 18; retained figure and caption stay together."
+    }
+  ],
+  "reviewers": {
+    "pages_1_15": "word_sync/visual_first_half",
+    "pages_16_30": "word_sync"
+  },
+  "render_method": "canonical documents render_docx.py with bundled Python and bundled override/soffice; no desktop LibreOffice",
+  "source_modified": false
+}

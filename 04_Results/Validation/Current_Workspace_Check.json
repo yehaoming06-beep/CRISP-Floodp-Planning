@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "original_numeric_workbook_cells_preserved": 386,
+  "current_master_sheets": 8,
+  "current_result_sheets": 6,
+  "optimized_configurations_reproduced": 555,
+  "independent_solver_RP_checks": 555,
+  "source_archives_hash_verified": 23,
+  "scenario_resample_rows_verified": 9032,
+  "original_manuscript_preserved": true,
+  "two_valid_nonoverlapping_sectors": true,
+  "broken_local_markdown_links": [],
+  "optimization_mechanism_tests": 7,
+  "scenario_pipeline_tests": 10
+}
